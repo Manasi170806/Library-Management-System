@@ -1,0 +1,2017 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "isAvailable": true,
+      "isbn": [
+        "1001"
+      ],
+      "rent": 8,
+      "genre": "Gothic Fiction",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isAvailable": true,
+      "isbn": [
+        "1002",
+        "1002A"
+      ],
+      "rent": 6,
+      "genre": "Romance",
+      "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "isAvailable": false,
+      "isbn": [
+        "1003",
+        "1003B",
+        "1003C"
+      ],
+      "rent": 7,
+      "genre": "Dystopian",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327144697i/3744438.jpg"
+    },
+    {
+      "id": "4",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isAvailable": true,
+      "isbn": [
+        "1004"
+      ],
+      "rent": 5,
+      "genre": "Southern Gothic",
+      "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isAvailable": true,
+      "isbn": [
+        "1005",
+        "1005S"
+      ],
+      "rent": 6,
+      "genre": "Tragedy",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "isAvailable": false,
+      "isbn": [
+        "1006"
+      ],
+      "rent": 9,
+      "genre": "Adventure",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg"
+    },
+    {
+      "id": "7",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "isAvailable": true,
+      "isbn": [
+        "1007",
+        "1007V"
+      ],
+      "rent": 10,
+      "genre": "Historical Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "isAvailable": true,
+      "isbn": [
+        "1008"
+      ],
+      "rent": 8,
+      "genre": "Psychological Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "isAvailable": true,
+      "isbn": [
+        "1009",
+        "1009H"
+      ],
+      "rent": 7,
+      "genre": "Epic Poetry",
+      "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "isAvailable": false,
+      "isbn": [
+        "1010"
+      ],
+      "rent": 12,
+      "genre": "Modernist",
+      "cover": "https://m.media-amazon.com/images/I/7104w1aKFmL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "11",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "isAvailable": true,
+      "isbn": [
+        "1011",
+        "1011D"
+      ],
+      "rent": 9,
+      "genre": "Epic Poetry",
+      "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "isAvailable": true,
+      "isbn": [
+        "1012"
+      ],
+      "rent": 7,
+      "genre": "Picaresque",
+      "cover": "https://m.media-amazon.com/images/I/61NlxaWjCYL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "13",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "isAvailable": true,
+      "isbn": [
+        "1013",
+        "1013V"
+      ],
+      "rent": 10,
+      "genre": "Philosophical Fiction",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625583826/brothers-karamazov-9781625583826_hr.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "isAvailable": false,
+      "isbn": [
+        "1014"
+      ],
+      "rent": 6,
+      "genre": "Gothic Fiction",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/tagged_assets/cvr9781471141638/9781471141638_hr.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "isAvailable": true,
+      "isbn": [
+        "1015"
+      ],
+      "rent": 7,
+      "genre": "Realism",
+      "cover": "https://m.media-amazon.com/images/I/810LeMHV6RL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "16",
+      "title": "The Iliad",
+      "author": "Homer",
+      "isAvailable": true,
+      "isbn": [
+        "1016",
+        "1016H"
+      ],
+      "rent": 8,
+      "genre": "Epic Poetry",
+      "cover": "https://m.media-amazon.com/images/I/71XGV6a9MHL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "17",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "isAvailable": true,
+      "isbn": [
+        "1017"
+      ],
+      "rent": 6,
+      "genre": "Gothic Fiction",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587534/the-picture-of-dorian-gray-9781625587534_hr.jpg"
+    },
+    {
+      "id": "18",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "isAvailable": false,
+      "isbn": [
+        "1018",
+        "1018M"
+      ],
+      "rent": 9,
+      "genre": "Magical Realism",
+      "cover": "https://m.media-amazon.com/images/I/81oAEEwxBWL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "19",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "isAvailable": true,
+      "isbn": [
+        "1019"
+      ],
+      "rent": 8,
+      "genre": "Realist Novel",
+      "cover": "https://m.media-amazon.com/images/I/A1OuCNw4uAL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "20",
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "isAvailable": true,
+      "isbn": [
+        "1020",
+        "1020V"
+      ],
+      "rent": 12,
+      "genre": "Historical Fiction",
+      "cover": "https://m.media-amazon.com/images/I/81Q+WJYEukL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "21",
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "isAvailable": true,
+      "isbn": [
+        "1021"
+      ],
+      "rent": 9,
+      "genre": "Adventure",
+      "cover": "https://m.media-amazon.com/images/I/71p79S8YxcL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "22",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "isAvailable": false,
+      "isbn": [
+        "1022",
+        "1022B"
+      ],
+      "rent": 6,
+      "genre": "Gothic Fiction",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587091/jane-eyre-9781625587091_hr.jpg"
+    },
+    {
+      "id": "23",
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "isAvailable": true,
+      "isbn": [
+        "1023"
+      ],
+      "rent": 7,
+      "genre": "Existential Fiction",
+      "cover": "https://m.media-amazon.com/images/I/81o9ksvNh8L._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "24",
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "isAvailable": true,
+      "isbn": [
+        "1024",
+        "1024D"
+      ],
+      "rent": 5,
+      "genre": "Bildungsroman",
+      "cover": "https://m.media-amazon.com/images/I/81elBAS5LcL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "25",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isAvailable": true,
+      "isbn": [
+        "1025"
+      ],
+      "rent": 8,
+      "genre": "Dystopian",
+      "cover": "https://m.media-amazon.com/images/I/81IpKyby3OL.jpg"
+    },
+    {
+      "id": "26",
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "isAvailable": false,
+      "isbn": [
+        "1026",
+        "1026E"
+      ],
+      "rent": 7,
+      "genre": "Realist Novel",
+      "cover": "https://m.media-amazon.com/images/I/81V+uoQjj1L.jpg"
+    },
+    {
+      "id": "27",
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "isAvailable": true,
+      "isbn": [
+        "1027"
+      ],
+      "rent": 15,
+      "genre": "Modernist",
+      "cover": "https://m.media-amazon.com/images/I/81C26Y6ikJL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "28",
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "isAvailable": true,
+      "isbn": [
+        "1028"
+      ],
+      "rent": 9,
+      "genre": "Absurdist Fiction",
+      "cover": "https://m.media-amazon.com/images/I/81W5L5F0ThL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "29",
+      "title": "The Sound and the Fury",
+      "author": "William Faulkner",
+      "isAvailable": true,
+      "isbn": [
+        "1029",
+        "1029F"
+      ],
+      "rent": 10,
+      "genre": "Southern Gothic",
+      "cover": "https://m.media-amazon.com/images/I/71cHDC2EA7L._UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "30",
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "isAvailable": false,
+      "isbn": [
+        "1030"
+      ],
+      "rent": 5,
+      "genre": "Tragedy",
+      "cover": "https://m.media-amazon.com/images/I/81ZTRJyMbTS._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "31",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isAvailable": true,
+      "isbn": [
+        "1031"
+      ],
+      "rent": 6,
+      "genre": "Bildungsroman",
+      "cover": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg"
+    },
+    {
+      "id": "32",
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "isAvailable": true,
+      "isbn": [
+        "1032",
+        "1032M"
+      ],
+      "rent": 8,
+      "genre": "Magical Realism",
+      "cover": "https://m.media-amazon.com/images/I/81eerT6DQFL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "33",
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "isAvailable": true,
+      "isbn": [
+        "1033"
+      ],
+      "rent": 7,
+      "genre": "Adventure",
+      "cover": "https://m.media-amazon.com/images/I/71B2HtDDTwL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "34",
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "isAvailable": false,
+      "isbn": [
+        "1034"
+      ],
+      "rent": 6,
+      "genre": "Realist Novel",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg"
+    },
+    {
+      "id": "35",
+      "title": "Lolita",
+      "author": "Vladimir Nabokov",
+      "isAvailable": true,
+      "isbn": [
+        "1035",
+        "1035N"
+      ],
+      "rent": 9,
+      "genre": "Psychological Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71dfSg9HdoL._UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "36",
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "isAvailable": true,
+      "isbn": [
+        "1036"
+      ],
+      "rent": 7,
+      "genre": "Modernist",
+      "cover": "https://m.media-amazon.com/images/I/716xrJJXkJL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "37",
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "isAvailable": true,
+      "isbn": [
+        "1037",
+        "1037H"
+      ],
+      "rent": 8,
+      "genre": "Satire",
+      "cover": "https://m.media-amazon.com/images/I/51dzcv5yG5L._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "38",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isAvailable": false,
+      "isbn": [
+        "1038"
+      ],
+      "rent": 5,
+      "genre": "Fantasy",
+      "cover": "https://m.media-amazon.com/images/I/91ZX8zNpwZL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "39",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "isAvailable": true,
+      "isbn": [
+        "1039"
+      ],
+      "rent": 7,
+      "genre": "Dystopian",
+      "cover": "https://m.media-amazon.com/images/I/715y6JcmQZL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "40",
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "isAvailable": true,
+      "isbn": [
+        "1040",
+        "1040V"
+      ],
+      "rent": 8,
+      "genre": "Satire",
+      "cover": "https://m.media-amazon.com/images/I/91Jn9wb6ffL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "41",
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "isAvailable": true,
+      "isbn": [
+        "1041"
+      ],
+      "rent": 7,
+      "genre": "Psychological Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71xz5j-4RSL.jpg"
+    },
+    {
+      "id": "42",
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "isAvailable": false,
+      "isbn": [
+        "1042",
+        "1042A"
+      ],
+      "rent": 9,
+      "genre": "Dystopian",
+      "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "43",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "isAvailable": true,
+      "isbn": [
+        "1043"
+      ],
+      "rent": 12,
+      "genre": "Fantasy",
+      "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "44",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "isAvailable": true,
+      "isbn": [
+        "1044"
+      ],
+      "rent": 9,
+      "genre": "Adventure",
+      "cover": "https://m.media-amazon.com/images/I/91xNmlf86yL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "45",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "isAvailable": true,
+      "isbn": [
+        "1045",
+        "1045S"
+      ],
+      "rent": 7,
+      "genre": "Gothic Fiction",
+      "cover": "https://m.media-amazon.com/images/I/91wOUFZCE+L._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "46",
+      "title": "The Metamorphosis",
+      "author": "Franz Kafka",
+      "isAvailable": false,
+      "isbn": [
+        "1046"
+      ],
+      "rent": 6,
+      "genre": "Absurdist Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71FMg0PJhVL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "47",
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "isAvailable": true,
+      "isbn": [
+        "1047"
+      ],
+      "rent": 5,
+      "genre": "Tragedy",
+      "cover": "https://m.media-amazon.com/images/I/51MIjeQtWAL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "48",
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "isAvailable": true,
+      "isbn": [
+        "1048",
+        "1048H"
+      ],
+      "rent": 6,
+      "genre": "Historical Fiction",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627939911/the-scarlet-letter-9781627939911_hr.jpg"
+    },
+    {
+      "id": "49",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "isAvailable": true,
+      "isbn": [
+        "1049"
+      ],
+      "rent": 7,
+      "genre": "Historical Fiction",
+      "cover": "https://m.media-amazon.com/images/I/91EirnRPMcL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "50",
+      "title": "Native Son",
+      "author": "Richard Wright",
+      "isAvailable": true,
+      "isbn": [
+        "1050"
+      ],
+      "rent": 8,
+      "genre": "Social Realism",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627788308i/15622.jpg"
+    },
+    {
+      "id": "51",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "isAvailable": true,
+      "isbn": [
+        "1051"
+      ],
+      "rent": 9,
+      "genre": "Psychological Thriller",
+      "cover": "https://rukminim2.flixcart.com/image/704/844/xif0q/book/r/a/f/the-silent-patient-original-imahafbn8agewgfp.jpeg?q=90&crop=false"
+    },
+    {
+      "id": "52",
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "isAvailable": true,
+      "isbn": [
+        "1052",
+        "1052A"
+      ],
+      "rent": 7,
+      "genre": "Mystery",
+      "cover": "https://m.media-amazon.com/images/I/713HP+eMeWL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "53",
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "isAvailable": false,
+      "isbn": [
+        "1053",
+        "1053B",
+        "1053C"
+      ],
+      "rent": 8,
+      "genre": "Fantasy",
+      "cover": "https://m.media-amazon.com/images/I/81J6APjwxlL.jpg"
+    },
+    {
+      "id": "54",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "isAvailable": true,
+      "isbn": [
+        "1054"
+      ],
+      "rent": 10,
+      "genre": "Science Fiction",
+      "cover": "https://m.media-amazon.com/images/I/91ENQs2KLAL._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "55",
+      "title": "Malibu Rising",
+      "author": "Taylor Jenkins Reid",
+      "isAvailable": true,
+      "isbn": [
+        "1055",
+        "1055S"
+      ],
+      "rent": 6,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=Malibu+Rising"
+    },
+    {
+      "id": "56",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "isAvailable": false,
+      "isbn": [
+        "1056"
+      ],
+      "rent": 8,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=Evelyn+Hugo"
+    },
+    {
+      "id": "57",
+      "title": "The Vanishing Half",
+      "author": "Brit Bennett",
+      "isAvailable": true,
+      "isbn": [
+        "1057",
+        "1057V"
+      ],
+      "rent": 7,
+      "genre": "Literary Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Vanishing+Half"
+    },
+    {
+      "id": "58",
+      "title": "Klara and the Sun",
+      "author": "Kazuo Ishiguro",
+      "isAvailable": true,
+      "isbn": [
+        "1058"
+      ],
+      "rent": 9,
+      "genre": "Science Fiction",
+      "cover": "https://placehold.co/300x450?text=Klara+and+the+Sun"
+    },
+    {
+      "id": "59",
+      "title": "The Push",
+      "author": "Ashley Audrain",
+      "isAvailable": true,
+      "isbn": [
+        "1059",
+        "1059H"
+      ],
+      "rent": 7,
+      "genre": "Psychological Thriller",
+      "cover": "https://placehold.co/300x450?text=The+Push"
+    },
+    {
+      "id": "60",
+      "title": "Matrix",
+      "author": "Lauren Groff",
+      "isAvailable": false,
+      "isbn": [
+        "1060"
+      ],
+      "rent": 8,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=Matrix"
+    },
+    {
+      "id": "61",
+      "title": "Cloud Cuckoo Land",
+      "author": "Anthony Doerr",
+      "isAvailable": true,
+      "isbn": [
+        "1061",
+        "1061D"
+      ],
+      "rent": 10,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=Cloud+Cuckoo+Land"
+    },
+    {
+      "id": "62",
+      "title": "Beautiful World, Where Are You",
+      "author": "Sally Rooney",
+      "isAvailable": true,
+      "isbn": [
+        "1062"
+      ],
+      "rent": 6,
+      "genre": "Literary Fiction",
+      "cover": "https://placehold.co/300x450?text=Beautiful+World"
+    },
+    {
+      "id": "63",
+      "title": "The Lincoln Highway",
+      "author": "Amor Towles",
+      "isAvailable": true,
+      "isbn": [
+        "1063",
+        "1063V"
+      ],
+      "rent": 8,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Lincoln+Highway"
+    },
+    {
+      "id": "64",
+      "title": "Harlem Shuffle",
+      "author": "Colson Whitehead",
+      "isAvailable": false,
+      "isbn": [
+        "1064"
+      ],
+      "rent": 7,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=Harlem+Shuffle"
+    },
+    {
+      "id": "65",
+      "title": "The Paris Apartment",
+      "author": "Lucy Foley",
+      "isAvailable": true,
+      "isbn": [
+        "1065"
+      ],
+      "rent": 7,
+      "genre": "Mystery",
+      "cover": "https://placehold.co/300x450?text=The+Paris+Apartment"
+    },
+    {
+      "id": "66",
+      "title": "The Last Thing He Told Me",
+      "author": "Laura Dave",
+      "isAvailable": true,
+      "isbn": [
+        "1066",
+        "1066D"
+      ],
+      "rent": 6,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=The+Last+Thing"
+    },
+    {
+      "id": "67",
+      "title": "Once Upon a Time in Hollywood",
+      "author": "Quentin Tarantino",
+      "isAvailable": true,
+      "isbn": [
+        "1067"
+      ],
+      "rent": 9,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=Once+Upon+a+Time"
+    },
+    {
+      "id": "68",
+      "title": "The Maid",
+      "author": "Nita Prose",
+      "isAvailable": false,
+      "isbn": [
+        "1068",
+        "1068M"
+      ],
+      "rent": 7,
+      "genre": "Mystery",
+      "cover": "https://placehold.co/300x450?text=The+Maid"
+    },
+    {
+      "id": "69",
+      "title": "The House in the Cerulean Sea",
+      "author": "TJ Klune",
+      "isAvailable": true,
+      "isbn": [
+        "1069"
+      ],
+      "rent": 8,
+      "genre": "Fantasy",
+      "cover": "https://placehold.co/300x450?text=Cerulean+Sea"
+    },
+    {
+      "id": "70",
+      "title": "The Invisible Life of Addie LaRue",
+      "author": "V.E. Schwab",
+      "isAvailable": true,
+      "isbn": [
+        "1070",
+        "1070V"
+      ],
+      "rent": 9,
+      "genre": "Fantasy",
+      "cover": "https://placehold.co/300x450?text=Addie+LaRue"
+    },
+    {
+      "id": "71",
+      "title": "The Four Winds",
+      "author": "Kristin Hannah",
+      "isAvailable": true,
+      "isbn": [
+        "1071"
+      ],
+      "rent": 7,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Four+Winds"
+    },
+    {
+      "id": "72",
+      "title": "The Sanatorium",
+      "author": "Sarah Pearse",
+      "isAvailable": false,
+      "isbn": [
+        "1072",
+        "1072P"
+      ],
+      "rent": 8,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=The+Sanatorium"
+    },
+    {
+      "id": "73",
+      "title": "One Last Stop",
+      "author": "Casey McQuiston",
+      "isAvailable": true,
+      "isbn": [
+        "1073"
+      ],
+      "rent": 6,
+      "genre": "Romance",
+      "cover": "https://placehold.co/300x450?text=One+Last+Stop"
+    },
+    {
+      "id": "74",
+      "title": "Razorblade Tears",
+      "author": "S.A. Cosby",
+      "isAvailable": true,
+      "isbn": [
+        "1074",
+        "1074C"
+      ],
+      "rent": 8,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=Razorblade+Tears"
+    },
+    {
+      "id": "75",
+      "title": "The Rose Code",
+      "author": "Kate Quinn",
+      "isAvailable": true,
+      "isbn": [
+        "1075"
+      ],
+      "rent": 7,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Rose+Code"
+    },
+    {
+      "id": "76",
+      "title": "We Were Never Here",
+      "author": "Andrea Bartz",
+      "isAvailable": false,
+      "isbn": [
+        "1076"
+      ],
+      "rent": 7,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=We+Were+Never+Here"
+    },
+    {
+      "id": "77",
+      "title": "The People We Meet on Vacation",
+      "author": "Emily Henry",
+      "isAvailable": true,
+      "isbn": [
+        "1077",
+        "1077H"
+      ],
+      "rent": 6,
+      "genre": "Romance",
+      "cover": "https://placehold.co/300x450?text=The+People+We+Meet"
+    },
+    {
+      "id": "78",
+      "title": "The Soulmate Equation",
+      "author": "Christina Lauren",
+      "isAvailable": true,
+      "isbn": [
+        "1078"
+      ],
+      "rent": 7,
+      "genre": "Romance",
+      "cover": "https://placehold.co/300x450?text=The+Soulmate+Equation"
+    },
+    {
+      "id": "79",
+      "title": "The Personal Librarian",
+      "author": "Marie Benedict",
+      "isAvailable": true,
+      "isbn": [
+        "1079",
+        "1079V"
+      ],
+      "rent": 8,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Personal+Librarian"
+    },
+    {
+      "id": "80",
+      "title": "The Husbands",
+      "author": "Chandler Baker",
+      "isAvailable": false,
+      "isbn": [
+        "1080"
+      ],
+      "rent": 7,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=The+Husbands"
+    },
+    {
+      "id": "81",
+      "title": "The Guncle",
+      "author": "Steven Rowley",
+      "isAvailable": true,
+      "isbn": [
+        "1081"
+      ],
+      "rent": 6,
+      "genre": "Contemporary Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Guncle"
+    },
+    {
+      "id": "82",
+      "title": "Rock Paper Scissors",
+      "author": "Alice Feeney",
+      "isAvailable": true,
+      "isbn": [
+        "1082",
+        "1082F"
+      ],
+      "rent": 8,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=Rock+Paper+Scissors"
+    },
+    {
+      "id": "83",
+      "title": "Billy Summers",
+      "author": "Stephen King",
+      "isAvailable": true,
+      "isbn": [
+        "1083"
+      ],
+      "rent": 9,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=Billy+Summers"
+    },
+    {
+      "id": "84",
+      "title": "The Reading List",
+      "author": "Sara Nisha Adams",
+      "isAvailable": false,
+      "isbn": [
+        "1084"
+      ],
+      "rent": 6,
+      "genre": "Contemporary Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Reading+List"
+    },
+    {
+      "id": "85",
+      "title": "The Secret Keeper of Jaipur",
+      "author": "Alka Joshi",
+      "isAvailable": true,
+      "isbn": [
+        "1085",
+        "1085J"
+      ],
+      "rent": 7,
+      "genre": "Historical Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Secret+Keeper"
+    },
+    {
+      "id": "86",
+      "title": "The Survivors",
+      "author": "Jane Harper",
+      "isAvailable": true,
+      "isbn": [
+        "1086"
+      ],
+      "rent": 8,
+      "genre": "Mystery",
+      "cover": "https://placehold.co/300x450?text=The+Survivors"
+    },
+    {
+      "id": "87",
+      "title": "The Final Girl Support Group",
+      "author": "Grady Hendrix",
+      "isAvailable": true,
+      "isbn": [
+        "1087",
+        "1087H"
+      ],
+      "rent": 7,
+      "genre": "Horror",
+      "cover": "https://placehold.co/300x450?text=Final+Girl+Support"
+    },
+    {
+      "id": "88",
+      "title": "The Living End",
+      "author": "Adam Sternbergh",
+      "isAvailable": false,
+      "isbn": [
+        "1088"
+      ],
+      "rent": 6,
+      "genre": "Dystopian",
+      "cover": "https://placehold.co/300x450?text=The+Living+End"
+    },
+    {
+      "id": "89",
+      "title": "The Therapist",
+      "author": "B.A. Paris",
+      "isAvailable": true,
+      "isbn": [
+        "1089"
+      ],
+      "rent": 7,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=The+Therapist"
+    },
+    {
+      "id": "90",
+      "title": "For Your Own Good",
+      "author": "Samantha Downing",
+      "isAvailable": true,
+      "isbn": [
+        "1090",
+        "1090D"
+      ],
+      "rent": 8,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=For+Your+Own+Good"
+    },
+    {
+      "id": "91",
+      "title": "The Road Trip",
+      "author": "Beth O'Leary",
+      "isAvailable": true,
+      "isbn": [
+        "1091"
+      ],
+      "rent": 6,
+      "genre": "Romance",
+      "cover": "https://placehold.co/300x450?text=The+Road+Trip"
+    },
+    {
+      "id": "92",
+      "title": "The Code Breaker",
+      "author": "Walter Isaacson",
+      "isAvailable": false,
+      "isbn": [
+        "1092"
+      ],
+      "rent": 9,
+      "genre": "Biography",
+      "cover": "https://placehold.co/300x450?text=The+Code+Breaker"
+    },
+    {
+      "id": "93",
+      "title": "The Plot",
+      "author": "Jean Hanff Korelitz",
+      "isAvailable": true,
+      "isbn": [
+        "1093",
+        "1093J"
+      ],
+      "rent": 8,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=The+Plot"
+    },
+    {
+      "id": "94",
+      "title": "The Island of Missing Trees",
+      "author": "Elif Shafak",
+      "isAvailable": true,
+      "isbn": [
+        "1094"
+      ],
+      "rent": 7,
+      "genre": "Literary Fiction",
+      "cover": "https://placehold.co/300x450?text=The+Island"
+    },
+    {
+      "id": "95",
+      "title": "The Appeal",
+      "author": "Janice Hallett",
+      "isAvailable": true,
+      "isbn": [
+        "1095",
+        "1095H"
+      ],
+      "rent": 7,
+      "genre": "Mystery",
+      "cover": "https://placehold.co/300x450?text=The+Appeal"
+    },
+    {
+      "id": "96",
+      "title": "Legends of the North Cascades",
+      "author": "Jonathan Evison",
+      "isAvailable": false,
+      "isbn": [
+        "1096"
+      ],
+      "rent": 6,
+      "genre": "Literary Fiction",
+      "cover": "https://placehold.co/300x450?text=Legends+Cascades"
+    },
+    {
+      "id": "97",
+      "title": "My Heart is a Chainsaw",
+      "author": "Stephen Graham Jones",
+      "isAvailable": true,
+      "isbn": [
+        "1097"
+      ],
+      "rent": 8,
+      "genre": "Horror",
+      "cover": "https://placehold.co/300x450?text=Chainsaw"
+    },
+    {
+      "id": "98",
+      "title": "The Collective",
+      "author": "Alison Gaylin",
+      "isAvailable": true,
+      "isbn": [
+        "1098",
+        "1098G"
+      ],
+      "rent": 7,
+      "genre": "Thriller",
+      "cover": "https://placehold.co/300x450?text=The+Collective"
+    },
+    {
+      "id": "99",
+      "title": "Ghosts",
+      "author": "Dolly Alderton",
+      "isAvailable": true,
+      "isbn": [
+        "1099"
+      ],
+      "rent": 6,
+      "genre": "Contemporary Fiction",
+      "cover": "https://placehold.co/300x450?text=Ghosts"
+    },
+    {
+      "id": "100",
+      "title": "We Are the Brennans",
+      "author": "Tracey Lange",
+      "isAvailable": true,
+      "isbn": [
+        "1100",
+        "1100L"
+      ],
+      "rent": 7,
+      "genre": "Literary Fiction",
+      "cover": "https://placehold.co/300x450?text=We+Are+the+Brennans"
+    }
+  ],
+  "member": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Maple St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "234-567-8901",
+      "address": "456 Oak St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "phone": "345-678-9012",
+      "address": "789 Pine St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "4",
+      "name": "Diana Prince",
+      "email": "diana.prince@example.com",
+      "phone": "456-789-0123",
+      "address": "321 Birch St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "5",
+      "name": "Edward Elric",
+      "email": "edward.elric@example.com",
+      "phone": "567-890-1234",
+      "address": "654 Cedar St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "6",
+      "name": "Fiona Gallagher",
+      "email": "fiona.gallagher@example.com",
+      "phone": "678-901-2345",
+      "address": "987 Elm St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "7",
+      "name": "George Washington",
+      "email": "george.washington@example.com",
+      "phone": "789-012-3456",
+      "address": "135 Willow St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "8",
+      "name": "Hannah Montana",
+      "email": "hannah.montana@example.com",
+      "phone": "890-123-4567",
+      "address": "246 Maple St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "9",
+      "name": "Ian Malcolm",
+      "email": "ian.malcolm@example.com",
+      "phone": "901-234-5678",
+      "address": "357 Oak St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "10",
+      "name": "Jack Sparrow",
+      "email": "jack.sparrow@example.com",
+      "phone": "012-345-6789",
+      "address": "468 Pine St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "11",
+      "name": "Katherine Johnson",
+      "email": "katherine.johnson@example.com",
+      "phone": "123-456-7891",
+      "address": "579 Birch St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "12",
+      "name": "Leonardo DiCaprio",
+      "email": "leonardo.dicaprio@example.com",
+      "phone": "234-567-8902",
+      "address": "680 Cedar St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "13",
+      "name": "Mia Wallace",
+      "email": "mia.wallace@example.com",
+      "phone": "345-678-9013",
+      "address": "791 Elm St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "14",
+      "name": "Nathan Drake",
+      "email": "nathan.drake@example.com",
+      "phone": "456-789-0124",
+      "address": "802 Willow St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "15",
+      "name": "Olivia Pope",
+      "email": "olivia.pope@example.com",
+      "phone": "567-890-1235",
+      "address": "913 Maple St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "16",
+      "name": "Peter Parker",
+      "email": "peter.parker@example.com",
+      "phone": "678-901-2346",
+      "address": "024 Oak St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "17",
+      "name": "Quinn Fabray",
+      "email": "quinn.fabray@example.com",
+      "phone": "789-012-3457",
+      "address": "135 Pine St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "18",
+      "name": "Rick Grimes",
+      "email": "rick.grimes@example.com",
+      "phone": "890-123-4568",
+      "address": "246 Birch St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "19",
+      "name": "Samantha Carter",
+      "email": "samantha.carter@example.com",
+      "phone": "901-234-5679",
+      "address": "357 Cedar St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "20",
+      "name": "Tony Stark",
+      "email": "tony.stark@example.com",
+      "phone": "012-345-6780",
+      "address": "468 Elm St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "21",
+      "name": "Uma Thurman",
+      "email": "uma.thurman@example.com",
+      "phone": "123-456-7892",
+      "address": "579 Willow St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "22",
+      "name": "Victor Frankenstein",
+      "email": "victor.frankenstein@example.com",
+      "phone": "234-567-8903",
+      "address": "680 Maple St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "23",
+      "name": "Wanda Maximoff",
+      "email": "wanda.maximoff@example.com",
+      "phone": "345-678-9014",
+      "address": "791 Oak St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "24",
+      "name": "Xena Warrior",
+      "email": "xena.warrior@example.com",
+      "phone": "456-789-0125",
+      "address": "802 Pine St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "25",
+      "name": "Yoda",
+      "email": "yoda@example.com",
+      "phone": "567-890-1236",
+      "address": "913 Birch St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "26",
+      "name": "Zorro",
+      "email": "zorro@example.com",
+      "phone": "678-901-2347",
+      "address": "024 Cedar St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "27",
+      "name": "Albus Dumbledore",
+      "email": "albus.dumbledore@example.com",
+      "phone": "789-012-3458",
+      "address": "135 Elm St, Springfield, IL",
+      "membershipType": "Public"
+    },
+    {
+      "id": "28",
+      "name": "Bruce Wayne",
+      "email": "bruce.wayne@example.com",
+      "phone": "890-123-4569",
+      "address": "246 Willow St, Springfield, IL",
+      "membershipType": "Student"
+    },
+    {
+      "id": "29",
+      "name": "Clark Kent",
+      "email": "clark.kent@example.com",
+      "phone": "901-234-5670",
+      "address": "357 Maple St, Springfield, IL",
+      "membershipType": "Faculty"
+    },
+    {
+      "id": "30",
+      "name": "Darth Vader",
+      "email": "darth.vader@example.com",
+      "phone": "012-345-6781",
+      "address": "468 Oak St, Springfield, IL",
+      "membershipType": "Public"
+    }
+  ],
+  "issue ": [
+    {
+      "id": "1",
+      "bookId": "1",
+      "memberId": "1",
+      "issueDate": "2023-10-01",
+      "dueDate": "2023-10-15",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "2",
+      "bookId": "2",
+      "memberId": "2",
+      "issueDate": "2023-10-05",
+      "dueDate": "2023-10-19",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "3",
+      "bookId": "3",
+      "memberId": "3",
+      "issueDate": "2023-10-10",
+      "dueDate": "2023-10-24",
+      "returnDate": "2023-10-20",
+      "status": "Returned"
+    },
+    {
+      "id": "4",
+      "bookId": "4",
+      "memberId": "4",
+      "issueDate": "2023-10-12",
+      "dueDate": "2023-10-26",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "5",
+      "bookId": "5",
+      "memberId": "5",
+      "issueDate": "2023-10-15",
+      "dueDate": "2023-10-29",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "6",
+      "bookId": "6",
+      "memberId": "6",
+      "issueDate": "2023-10-20",
+      "dueDate": "2023-11-03",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "7",
+      "bookId": "7",
+      "memberId": "7",
+      "issueDate": "2023-10-22",
+      "dueDate": "2023-11-05",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "8",
+      "bookId": "8",
+      "memberId": "8",
+      "issueDate": "2023-10-25",
+      "dueDate": "2023-11-08",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "9",
+      "bookId": "9",
+      "memberId": "9",
+      "issueDate": "2023-10-28",
+      "dueDate": "2023-11-11",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "10",
+      "bookId": "10",
+      "memberId": "10",
+      "issueDate": "2023-10-30",
+      "dueDate": "2023-11-13",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "11",
+      "bookId": "11",
+      "memberId": "11",
+      "issueDate": "2023-10-01",
+      "dueDate": "2023-10-15",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "12",
+      "bookId": "12",
+      "memberId": "12",
+      "issueDate": "2023-10-05",
+      "dueDate": "2023-10-19",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "13",
+      "bookId": "13",
+      "memberId": "13",
+      "issueDate": "2023-10-10",
+      "dueDate": "2023-10-24",
+      "returnDate": "2023-10-20",
+      "status": "Returned"
+    },
+    {
+      "id": "14",
+      "bookId": "14",
+      "memberId": "14",
+      "issueDate": "2023-10-12",
+      "dueDate": "2023-10-26",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "15",
+      "bookId": "15",
+      "memberId": "15",
+      "issueDate": "2023-10-15",
+      "dueDate": "2023-10-29",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "16",
+      "bookId": "16",
+      "memberId": "16",
+      "issueDate": "2023-10-20",
+      "dueDate": "2023-11-03",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "17",
+      "bookId": "17",
+      "memberId": "17",
+      "issueDate": "2023-10-22",
+      "dueDate": "2023-11-05",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "18",
+      "bookId": "18",
+      "memberId": "18",
+      "issueDate": "2023-10-25",
+      "dueDate": "2023-11-08",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "19",
+      "bookId": "19",
+      "memberId": "19",
+      "issueDate": "2023-10-28",
+      "dueDate": "2023-11-11",
+      "returnDate": null,
+      "status": "Issued"
+    },
+    {
+      "id": "20",
+      "bookId": "20",
+      "memberId": "20",
+      "issueDate": "2023-10-30",
+      "dueDate": "2023-11-13",
+      "returnDate": null,
+      "status": "Issued"
+    }
+  ],
+  "fines": [
+    {
+      "id": "1",
+      "memberId": "1",
+      "bookId": "1",
+      "issueDate": "2023-10-01",
+      "dueDate": "2023-10-15",
+      "returnDate": "2023-10-20",
+      "fineAmount": 5.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "2",
+      "memberId": "2",
+      "bookId": "2",
+      "issueDate": "2023-10-05",
+      "dueDate": "2023-10-19",
+      "returnDate": "2023-10-22",
+      "fineAmount": 3.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "3",
+      "memberId": "3",
+      "bookId": "3",
+      "issueDate": "2023-10-10",
+      "dueDate": "2023-10-24",
+      "returnDate": "2023-10-20",
+      "fineAmount": 0.00,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": "4",
+      "memberId": "4",
+      "bookId": "4",
+      "issueDate": "2023-10-12",
+      "dueDate": "2023-10-26",
+      "returnDate": "2023-10-30",
+      "fineAmount": 2.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "5",
+      "memberId": "5",
+      "bookId": "5",
+      "issueDate": "2023-10-15",
+      "dueDate": "2023-10-29",
+      "returnDate": "2023-10-31",
+      "fineAmount": 1.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "6",
+      "memberId": "6",
+      "bookId": "6",
+      "issueDate": "2023-10-20",
+      "dueDate": "2023-11-03",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "7",
+      "memberId": "7",
+      "bookId": "7",
+      "issueDate": "2023-10-22",
+      "dueDate": "2023-11-05",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "8",
+      "memberId": "8",
+      "bookId": "8",
+      "issueDate": "2023-10-25",
+      "dueDate": "2023-11-08",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "9",
+      "memberId": "9",
+      "bookId": "9",
+      "issueDate": "2023-10-28",
+      "dueDate": "2023-11-11",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "10",
+      "memberId": "10",
+      "bookId": "10",
+      "issueDate": "2023-10-30",
+      "dueDate": "2023-11-13",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "11",
+      "memberId": "11",
+      "bookId": "11",
+      "issueDate": "2023-10-01",
+      "dueDate": "2023-10-15",
+      "returnDate": "2023-10-16",
+      "fineAmount": 1.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "12",
+      "memberId": "12",
+      "bookId": "12",
+      "issueDate": "2023-10-05",
+      "dueDate": "2023-10-19",
+      "returnDate": "2023-10-20",
+      "fineAmount": 2.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "13",
+      "memberId": "13",
+      "bookId": "13",
+      "issueDate": "2023-10-10",
+      "dueDate": "2023-10-24",
+      "returnDate": "2023-10-25",
+      "fineAmount": 1.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "14",
+      "memberId": "14",
+      "bookId": "14",
+      "issueDate": "2023-10-12",
+      "dueDate": "2023-10-26",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "15",
+      "memberId": "15",
+      "bookId": "15",
+      "issueDate": "2023-10-15",
+      "dueDate": "2023-10-29",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "16",
+      "memberId": "16",
+      "bookId": "16",
+      "issueDate": "2023-10-20",
+      "dueDate": "2023-11-03",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "17",
+      "memberId": "17",
+      "bookId": "17",
+      "issueDate": "2023-10-22",
+      "dueDate": "2023-11-05",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "18",
+      "memberId": "18",
+      "bookId": "18",
+      "issueDate": "2023-10-25",
+      "dueDate": "2023-11-08",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "19",
+      "memberId": "19",
+      "bookId": "19",
+      "issueDate": "2023-10-28",
+      "dueDate": "2023-11-11",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "id": "20",
+      "memberId": "20",
+      "bookId": "20",
+      "issueDate": "2023-10-30",
+      "dueDate": "2023-11-13",
+      "returnDate": null,
+      "fineAmount": 0.00,
+      "paymentStatus": "Unpaid"
+    }
+  ],
+  "reservation": [
+    {
+      "id": "1",
+      "memberId": "1",
+      "bookId": "2",
+      "reservationDate": "2023-10-01",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "memberId": "2",
+      "bookId": "3",
+      "reservationDate": "2023-10-05",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "memberId": "3",
+      "bookId": "4",
+      "reservationDate": "2023-10-10",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "memberId": "4",
+      "bookId": "5",
+      "reservationDate": "2023-10-12",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "memberId": "5",
+      "bookId": "6",
+      "reservationDate": "2023-10-15",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "memberId": "6",
+      "bookId": "7",
+      "reservationDate": "2023-10-20",
+      "status": "Active"
+    },
+    {
+      "id": "7",
+      "memberId": "7",
+      "bookId": "8",
+      "reservationDate": "2023-10-22",
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "memberId": "8",
+      "bookId": "9",
+      "reservationDate": "2023-10-25",
+      "status": "Active"
+    },
+    {
+      "id": "9",
+      "memberId": "9",
+      "bookId": "10",
+      "reservationDate": "2023-10-28",
+      "status": "Active"
+    },
+    {
+      "id": "10",
+      "memberId": "10",
+      "bookId": "11",
+      "reservationDate": "2023-10-30",
+      "status": "Active"
+    },
+    {
+      "id": "11",
+      "memberId": "11",
+      "bookId": "12",
+      "reservationDate": "2023-10-01",
+      "status": "Active"
+    },
+    {
+      "id": "12",
+      "memberId": "12",
+      "bookId": "13",
+      "reservationDate": "2023-10-05",
+      "status": "Active"
+    },
+    {
+      "id": "13",
+      "memberId": "13",
+      "bookId": "14",
+      "reservationDate": "2023-10-10",
+      "status": "Active"
+    },
+    {
+      "id": "14",
+      "memberId": "14",
+      "bookId": "15",
+      "reservationDate": "2023-10-12",
+      "status": "Active"
+    },
+    {
+      "id": "15",
+      "memberId": "15",
+      "bookId": "16",
+      "reservationDate": "2023-10-15",
+      "status": "Active"
+    },
+    {
+      "id": "16",
+      "memberId": "16",
+      "bookId": "17",
+      "reservationDate": "2023-10-20",
+      "status": "Active"
+    },
+    {
+      "id": "17",
+      "memberId": "17",
+      "bookId": "18",
+      "reservationDate": "2023-10-22",
+      "status": "Active"
+    },
+    {
+      "id": "18",
+      "memberId": "18",
+      "bookId": "19",
+      "reservationDate": "2023-10-25",
+      "status": "Active"
+    },
+    {
+      "id": "19",
+      "memberId": "19",
+      "bookId": "20",
+      "reservationDate": "2023-10-28",
+      "status": "Active"
+    },
+    {
+      "id": "20",
+      "memberId": "20",
+      "bookId": "21",
+      "reservationDate": "2023-10-30",
+      "status": "Active"
+    }
+  ]
+}
