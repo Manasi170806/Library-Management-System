@@ -15,10 +15,7 @@ const BookList = () => {
   }, [status, dispatch]);
 
   return (
-    <div className="p-6">
-      {status === "loading" && <p>⏳ Loading books...</p>}
-      {status === "failed" && <p>❌ Failed to load books</p>}
-
+    
       <table className="w-full border border-gray-200 shadow-lg rounded-xl overflow-hidden">
         <thead className="bg-gray-100">
           <tr>
@@ -75,7 +72,7 @@ const BookList = () => {
           )}
         </tbody>
       </table>
-    </div>
+    
   );
 };
 
