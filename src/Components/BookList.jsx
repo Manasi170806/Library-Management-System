@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectBooks } from "../features/booksSlice";
+import { selectBooks } from "../features/booksSlice.js";
 
 const BookList = () => {
   // Redux store se books le rahe hain
