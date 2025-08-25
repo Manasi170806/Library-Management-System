@@ -1,11 +1,8 @@
-import React from 'react'
+import { configureStore } from "@reduxjs/toolkit";
+import booksReducer from "../features/booksSlice";
 
-function store() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default store
+export const store = configureStore({
+  reducer: {
+    books: booksReducer,
+  },
+});

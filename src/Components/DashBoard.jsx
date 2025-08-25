@@ -5,6 +5,7 @@ function DashBoard() {
     <div>
       {/* all Components wraped here */}
        <h2>Home.</h2>
+       
 
        {/* <div className="box" style={{height:"800px",width:"100%",
         backgroundColor:"pink"
