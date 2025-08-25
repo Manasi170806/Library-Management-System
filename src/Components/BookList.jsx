@@ -1,13 +1,24 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { selectBooks } from "../features/booksSlice.js";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { selectBooks, fetchBooks } from "../features/booksSlice";
 
 const BookList = () => {
-  // Redux store se books le rahe hain
+  const dispatch = useDispatch();
   const books = useSelector(selectBooks) || [];
+  const status = useSelector((state) => state.books.status);
+
+  // API call jab component load ho
+  useEffect(() => {
+    if (status === "idle") {
+      dispatch(fetchBooks());
+    }
+  }, [status, dispatch]);
 
   return (
     <div className="p-6">
+      {status === "loading" && <p>⏳ Loading books...</p>}
+      {status === "failed" && <p>❌ Failed to load books</p>}
+
       <table className="w-full border border-gray-200 shadow-lg rounded-xl overflow-hidden">
         <thead className="bg-gray-100">
           <tr>
@@ -20,12 +31,10 @@ const BookList = () => {
             <th className="p-3 text-left">Details</th>
           </tr>
         </thead>
-
         <tbody>
           {books.length > 0 ? (
             books.map((book) => (
               <tr key={book.id} className="border-t hover:bg-gray-50 transition">
-                {/* Book Cover */}
                 <td className="p-3">
                   <img
                     src={book.cover}
@@ -33,22 +42,12 @@ const BookList = () => {
                     className="w-16 h-20 object-cover rounded-md shadow-sm"
                   />
                 </td>
-
-                {/* Title */}
                 <td className="p-3 font-semibold">{book.title}</td>
-
-                {/* Author */}
                 <td className="p-3">{book.author}</td>
-
-                {/* Genre */}
                 <td className="p-3">{book.genre}</td>
-
-                {/* Availability (ISBN count) */}
                 <td className="p-3">
                   {book.isbn?.length ?? 0}/{book.isbn?.length ?? 0}
                 </td>
-
-                {/* Status */}
                 <td className="p-3">
                   <span
                     className={`px-3 py-1 rounded-full text-sm font-medium ${
@@ -60,8 +59,6 @@ const BookList = () => {
                     {book.isAvailable ? "Available" : "Not Available"}
                   </span>
                 </td>
-
-                {/* Details Button */}
                 <td className="p-3">
                   <button className="text-blue-500 hover:underline">
                     View
