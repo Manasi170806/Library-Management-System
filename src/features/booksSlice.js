@@ -4,7 +4,7 @@ import axios from "axios";
 
 // Async Thunk for fetching books from json-server
 export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
-  const response = await axios.get(" http://localhost:3000/books"); // <-- yaha API hit hoga
+  const response = await axios.get(" http://localhost:3000/books");
   return response.data;
 });
 
