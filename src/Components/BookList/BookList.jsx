@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { selectBooks, fetchBooks } from "../features/booksSlice";
+import { selectBooks, fetchBooks } from "../../features/booksSlice";
 
 const BookList = () => {
   const dispatch = useDispatch();
@@ -26,8 +26,8 @@ const BookList = () => {
             <th className="p-3 text-left">Book Title</th>
             <th className="p-3 text-left">Author</th>
             <th className="p-3 text-left">Genre</th>
-            <th className="p-3 text-left">Availability</th>
             <th className="p-3 text-left">Status</th>
+            <th className="p-3 text-left">Availability</th>
             <th className="p-3 text-left">Details</th>
           </tr>
         </thead>
@@ -60,7 +60,7 @@ const BookList = () => {
                   </span>
                 </td>
                 <td className="p-3">
-                  <button className="text-blue-500 hover:underline">
+                  <button className="text-blue-500 hover:underline" onClick={() => console.log(book.id)}>
                     View
                   </button>
                 </td>
