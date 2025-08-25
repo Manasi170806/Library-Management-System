@@ -1,78 +1,110 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { selectBooks, fetchBooks } from "../../features/booksSlice";
+import "./BookList.css";
 
 const BookList = () => {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks) || [];
-  const status = useSelector((state) => state.books.status);
+  const status = useSelector((s) => s.books.status);
+  const error = useSelector((s) => s.books.error);
 
-  // API call jab component load ho
   useEffect(() => {
-    if (status === "idle") {
-      dispatch(fetchBooks());
-    }
+    if (status === "idle") dispatch(fetchBooks());
   }, [status, dispatch]);
 
   return (
-    
-      <table className="w-full border border-gray-200 shadow-lg rounded-xl overflow-hidden">
-        <thead className="bg-gray-100">
-          <tr>
-            <th className="p-3 text-left">Book Cover</th>
-            <th className="p-3 text-left">Book Title</th>
-            <th className="p-3 text-left">Author</th>
-            <th className="p-3 text-left">Genre</th>
-            <th className="p-3 text-left">Status</th>
-            <th className="p-3 text-left">Availability</th>
-            <th className="p-3 text-left">Details</th>
-          </tr>
-        </thead>
-        <tbody>
-          {books.length > 0 ? (
-            books.map((book) => (
-              <tr key={book.id} className="border-t hover:bg-gray-50 transition">
-                <td className="p-3">
-                  <img
-                    src={book.cover}
-                    alt={book.title}
-                    className="w-16 h-20 object-cover rounded-md shadow-sm"
-                  />
-                </td>
-                <td className="p-3 font-semibold">{book.title}</td>
-                <td className="p-3">{book.author}</td>
-                <td className="p-3">{book.genre}</td>
-                <td className="p-3">
-                  {book.isbn?.length ?? 0}/{book.isbn?.length ?? 0}
-                </td>
-                <td className="p-3">
-                  <span
-                    className={`px-3 py-1 rounded-full text-sm font-medium ${
-                      book.isAvailable
-                        ? "bg-green-100 text-green-700"
-                        : "bg-red-100 text-red-700"
-                    }`}
-                  >
-                    {book.isAvailable ? "Available" : "Not Available"}
-                  </span>
-                </td>
-                <td className="p-3">
-                  <button className="text-blue-500 hover:underline" onClick={() => console.log(book.id)}>
-                    View
-                  </button>
-                </td>
+    <div className="books-card">
+      <div className="books-card__header">
+        <h2> Book Library</h2>
+        <span className="pill pill--muted">{books.length} items</span>
+      </div>
+
+      {status === "loading" && (
+        <div className="skeleton">Loading books…</div>
+      )}
+      {status === "failed" && (
+        <div className="error">Failed to load: {error}</div>
+      )}
+
+      {status === "succeeded" && (
+        <div className="table-responsive">
+          <table className="books-table">
+            <thead>
+              <tr>
+                <th>Book Cover</th>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Status</th>
+                <th>Availability</th>
+                <th>Details</th>
               </tr>
-            ))
-          ) : (
-            <tr>
-              <td colSpan="7" className="text-center p-6 text-gray-500">
-                📚 No books available
-              </td>
-            </tr>
-          )}
-        </tbody>
-      </table>
-    
+            </thead>
+
+            <tbody>
+              {books.length > 0 ? (
+                books.map((book) => {
+                  const total = book.isbn?.length ?? 0;
+                  const available = book.isAvailable ? total : 0; // if not available show 0/x
+                  const pct = total ? Math.round((available / total) * 100) : 0;
+
+                  return (
+                    <tr key={book.id}>
+                      <td className="cover">
+                        <img src={book.cover} alt={book.title} />
+                      </td>
+                      <td className="title">
+                        <div className="title__text">{book.title}</div>
+                        
+                      </td>
+                      <td>{book.author}</td>
+                      <td>
+                        <span className="pill">{book.genre}</span>
+                      </td>
+                      <td>
+                        <span
+                          className={`chip ${
+                            book.isAvailable ? "chip--green" : "chip--red"
+                          }`}
+                        >
+                          {book.isAvailable ? "Available" : "Not Available"}
+                        </span>
+                      </td>
+                      <td>
+                        <div className="meter" aria-label="availability">
+                          <div
+                            className="meter__bar"
+                            style={{ width: `${pct}%` }}
+                          />
+                        </div>
+                        <div className="muted">
+                          {available}/{total}
+                        </div>
+                      </td>
+                      <td>
+                        <button
+                          className="btn-link"
+                          onClick={() => console.log("View:", book.id)}
+                        >
+                          View
+                        </button>
+                      </td>
+                    </tr>
+                  );
+                })
+              ) : (
+                <tr>
+                  <td colSpan="7" className="empty">
+                    📭 No books available
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
   );
 };
 

@@ -1,10 +1,16 @@
-// src/features/booksSlice.js
+
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// Async Thunk for fetching books from json-server
 export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
-  const response = await axios.get("http://localhost:3000/books"); 
+
+  const response = await axios.get("http://localhost:3000/books");
+  return response.data;
+});
+
+export const fetchMembers = createAsyncThunk("books/fetchMembers", async () => {
+
+  const response = await axios.get("http://localhost:3000/members");
   return response.data;
 });
 
@@ -29,10 +35,23 @@ const booksSlice = createSlice({
         state.status = "failed";
         state.error = action.error.message;
       });
+  
+      builder
+      .addCase(fetchMembers.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(fetchMembers.fulfilled, (state, action) => {
+        state.status = "succeeded";
+        state.list = action.payload;
+      })
+      .addCase(fetchMembers.rejected, (state, action) => {
+        state.status = "failed";
+        state.error = action.error.message;
+      });
   },
 });
 
-// Selector
+
 export const selectBooks = (state) => state.books.list;
 
 export default booksSlice.reducer;

@@ -1,10 +1,9 @@
-import { useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import DashBoard from "./Components/DashBoard/DashBoard";
-import BookList from "./Components/BookList/BookList";   // ✅ sahi import
-import Members from "./Components/Members";
+import BookList from "./Components/BookList/BookList";
+import MemberList from "./Components/Members";
 
 function App() {
   return (
@@ -18,15 +17,10 @@ function App() {
       <div className="routes-container">
         <Routes>
           <Route path="/" element={<DashBoard />} />
-          <Route path="/books" element={<BookList />} />   {/* ✅ BookList route */}
-          <Route path="/members" element={<Members />} />
+          <Route path="/books" element={<BookList />} />
+          <Route path="/members" element={<MemberList />} />
         </Routes>
       </div>
-
-
-
-      {/* Book Library Title + BookList */}
-      
     </div>
   );
 }
