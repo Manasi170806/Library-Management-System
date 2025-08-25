@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import { Route, Routes } from "react-router-dom";
-import DashBoard from "./Components/DashBoard";
-import BookList from "./Components/BookList";   // ✅ sahi import
+import DashBoard from "./Components/DashBoard/DashBoard";
+import BookList from "./Components/BookList/BookList";   // ✅ sahi import
 import Members from "./Components/Members";
 
 function App() {
