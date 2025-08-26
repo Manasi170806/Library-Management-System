@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../App.css";
 import { GoHome } from "react-icons/go";
 import { PiBooksLight } from "react-icons/pi";
 import { TiGroup } from "react-icons/ti";
