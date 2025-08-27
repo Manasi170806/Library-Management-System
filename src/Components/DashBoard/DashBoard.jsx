@@ -1,45 +1,56 @@
-import React from 'react'
+import React from "react";
+import "../DashBoard/DashBoard.css";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  selectBooks,
+  selectIssued,
+  selectReserved,
+  selectFines,
+  fetchBooks,
+  issuedBooks,
+  reservedBooks,
+  fines,
+} from "../../features/booksSlice";
 
 function DashBoard() {
+  const dispatch = useDispatch();
+  const books = useSelector(selectBooks);
+  const issued = useSelector(selectIssued);
+  const reserved = useSelector(selectReserved);
+  const bookFines = useSelector(selectFines);
+
+  const pendingFinesOfBook =
+    bookFines?.filter((fine) => fine.paymentStatus === "Unpaid")?.length || 0;
+
+  const overView = [
+    { name: "Total Books", value: books.length },
+    { name: "Issued Books", value: issued.length },
+    { name: "Reserved Books", value: reserved.length },
+    { name: "Pending Fines", value: pendingFinesOfBook },
+  ];
+  // console.log({ books, issued, reserved, bookFines  // To check whether count is fetch or not});
+
+  useEffect(() => {
+    dispatch(fetchBooks());
+    dispatch(issuedBooks());
+    dispatch(reservedBooks());
+    dispatch(fines());
+  }, [dispatch]);
   return (
     <div>
       {/* all Components wraped here */}
-       <h2>Home.</h2>
-       
 
-       {/* <div className="box" style={{height:"800px",width:"100%",
-        backgroundColor:"pink"
-       }}>1</div> */}
+      <div className="overview-container">
+        {overView.map((el, i) => (
+          <div className="overview-section" key={i}>
+            <h2>{el.value}</h2>
+            <p>{el.name}</p>
+          </div>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
 
-export default DashBoard
-
-
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import './Dashboard.css'; // Styling के लिए CSS file
-
-// const Dashboard = () => {
-//   return (
-//     <div className="dashboard-container">
-//       <div className="sidebar">
-//         <div className="sidebar-logo">Logo.</div>
-//         <nav className="nav-links">
-//           <Link to="/" className="nav-item home">Home.</Link>
-//           <Link to="/books" className="nav-item">books</Link>
-//           <Link to="/members" className="nav-item">members</Link>
-//         </nav>
-//       </div>
-//       <div className="main-content">
-//         <div className="header">Home.</div>
-//         <div className="content-area">
-//           {/* Here you can add content for the Home page */}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Dashboard;
+export default DashBoard;

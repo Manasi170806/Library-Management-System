@@ -1,57 +1,113 @@
-
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
-
   const response = await axios.get("http://localhost:3000/books");
   return response.data;
 });
 
-export const fetchMembers = createAsyncThunk("books/fetchMembers", async () => {
+export const issuedBooks = createAsyncThunk("books/issuedBooks", async () => {
+  const response = await axios.get("http://localhost:3000/issued");
+  return response.data;
+});
 
-  const response = await axios.get("http://localhost:3000/members");
+export const reservedBooks = createAsyncThunk(
+  "books/reservedBooks",
+  async () => {
+    const response = await axios.get("http://localhost:3000/reservation");
+    return response.data;
+  }
+);
+
+export const fines = createAsyncThunk("books/finesBooks", async () => {
+  const response = await axios.get("http://localhost:3000/fines");
   return response.data;
 });
 
 const booksSlice = createSlice({
   name: "books",
   initialState: {
-    list: [],
-    status: "idle",
-    error: null,
+    total: [],
+    issued: [],
+    reservation: [],
+    fines: [],
+    status: {
+      total: "idle",
+      issue: "idle",
+      reservation: "idle",
+      fines: "idle",
+    },
+    error: {
+      total: null,
+      issue: null,
+      reservation: null,
+      fines: null,
+    },
   },
   reducers: {},
+
   extraReducers: (builder) => {
+    // total books
     builder
       .addCase(fetchBooks.pending, (state) => {
-        state.status = "loading";
+        state.status.total = "loading";
       })
       .addCase(fetchBooks.fulfilled, (state, action) => {
-        state.status = "succeeded";
-        state.list = action.payload;
+        state.status.total = "succeeded";
+        state.total = action.payload;
       })
       .addCase(fetchBooks.rejected, (state, action) => {
-        state.status = "failed";
+        state.status.total = "failed";
+        state.error.total = action.error.message;
+      });
+
+    // issued
+    builder
+      .addCase(issuedBooks.pending, (state) => {
+        state.status.issue = "loading";
+      })
+      .addCase(issuedBooks.fulfilled, (state, action) => {
+        state.status.issue = "succeeded";
+        state.issued = action.payload;
+      })
+      .addCase(issuedBooks.rejected, (state, action) => {
+        state.status.issue = "failed";
         state.error = action.error.message;
       });
-  
-      builder
-      .addCase(fetchMembers.pending, (state) => {
-        state.status = "loading";
+
+    // reservation
+    builder
+      .addCase(reservedBooks.pending, (state) => {
+        state.status.reservation = "loading";
       })
-      .addCase(fetchMembers.fulfilled, (state, action) => {
-        state.status = "succeeded";
-        state.list = action.payload;
+      .addCase(reservedBooks.fulfilled, (state, action) => {
+        state.status.reservation = "succeeded";
+        state.reservation = action.payload;
       })
-      .addCase(fetchMembers.rejected, (state, action) => {
-        state.status = "failed";
-        state.error = action.error.message;
+      .addCase(reservedBooks.rejected, (state, action) => {
+        state.status.reservation = "failed";
+        state.error.reservation = action.error.message;
+      });
+
+    // fines
+    builder
+      .addCase(fines.pending, (state) => {
+        state.status.fines = "loading";
+      })
+      .addCase(fines.fulfilled, (state, action) => {
+        state.status.fines = "succeeded";
+        state.fines = action.payload;
+      })
+      .addCase(fines.rejected, (state, action) => {
+        state.status.fines = "failed";
+        state.error.fines = action.error.message;
       });
   },
 });
 
-
-export const selectBooks = (state) => state.books.list;
+export const selectBooks = (state) => state.books.total;
+export const selectIssued = (state) => state.books.issued;
+export const selectReserved = (state) => state.books.reservation;
+export const selectFines = (state) => state.books.fines;
 
 export default booksSlice.reducer;

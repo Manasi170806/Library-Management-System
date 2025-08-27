@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overview-container {
+  display: flex;
+}
+
+.overview-section {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  transition: 0.5s ease;
+  font-family: "Encode Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.overview-section h2 {
+  font-size: 35px;
+}
+
+.overview-section p {
+  font-size: 18px;
+}
+
+.overview-section:hover {
+  height: 160px;
+  padding: 10px;
+  color: #36a4ea;
+}

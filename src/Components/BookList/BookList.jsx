@@ -6,8 +6,8 @@ import "./BookList.css";
 const BookList = () => {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks) || [];
-  const status = useSelector((s) => s.books.status);
-  const error = useSelector((s) => s.books.error);
+  const status = useSelector((s) => s.books.status.total);
+  const error = useSelector((s) => s.books.error.total);
 
   useEffect(() => {
     if (status === "idle") dispatch(fetchBooks());
@@ -20,9 +20,7 @@ const BookList = () => {
         <span className="pill pill--muted">{books.length} items</span>
       </div>
 
-      {status === "loading" && (
-        <div className="skeleton">Loading books…</div>
-      )}
+      {status === "loading" && <div className="skeleton">Loading books…</div>}
       {status === "failed" && (
         <div className="error">Failed to load: {error}</div>
       )}
@@ -56,7 +54,6 @@ const BookList = () => {
                       </td>
                       <td className="title">
                         <div className="title__text">{book.title}</div>
-                        
                       </td>
                       <td>{book.author}</td>
                       <td>
