@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+
+// import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import axios from "axios";
+
+
+
+export const fetchMembers = createAsyncThunk("members/fetchMembers", async () => {
+  const response = await axios.get("http://localhost:3000/members");
+  return response.data;
+});
+
+
+
+builder
+  .addCase(fetchMembers.pending, (state) => {
+    state.status = "loading";
+  })
+  .addCase(fetchMembers.fulfilled, (state, action) => {
+    state.status = "succeeded";
+    state.list = action.payload;
+  })
+  .addCase(fetchMembers.rejected, (state, action) => {
+    state.status = "failed";
+    state.error = action.error.message;
+  });
+
+=======
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
@@ -109,5 +137,5 @@ export const selectBooks = (state) => state.books.total;
 export const selectIssued = (state) => state.books.issued;
 export const selectReserved = (state) => state.books.reservation;
 export const selectFines = (state) => state.books.fines;
+>>>>>>> eeb12a4c4bde1d3ade75d386c66401f272db618b
 
-export default booksSlice.reducer;

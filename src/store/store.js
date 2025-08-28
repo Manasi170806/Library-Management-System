@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import booksReducer from "../features/booksSlice";
+// import booksReducer from "../features/booksSlice";
 import membersReducer from "../features/memberSlice";
 // import navigationReducer from "../features/navigationSlice";
 
@@ -7,7 +7,7 @@ import membersReducer from "../features/memberSlice";
 
 export const store = configureStore({
   reducer: {
-    books: booksReducer,
+    // books: booksReducer,
     members: membersReducer,
     // navigation: navigationReducer
   },
