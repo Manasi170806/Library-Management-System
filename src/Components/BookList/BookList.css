@@ -1,164 +1,91 @@
-*
-{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-.books-card{
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  box-shadow:var(--shadow);
-  padding:16px 16px 8px;
+.books-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 20px auto;
+  width: 100%;
+  
 }
 
-.books-card__header{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  justify-content:space-between;
-  margin-bottom:12px;
-}
-.books-card__header h2{
-  font-size:20px;
-  margin:0;
+.books-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
-.table-responsive{
-  overflow:auto;
-  border-radius:12px;
+.books-card__header h2 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-/* table */
-.books-table{
-  width:100%;
-  border-collapse:separate;
-  border-spacing:0;
-  min-width:880px;
-}
-.books-table thead th{
-  position:sticky;
-  top:0;
-  background:#f3f4f6;
-  color:#111827;
-  text-align:left;
-  font-weight:700;
-  padding:12px 14px;
-  border-bottom:1px solid var(--line);
-}
-.books-table tbody td{
-  padding:12px 14px;
-  border-bottom:1px solid var(--line);
-  vertical-align:middle;
-}
-.books-table tbody tr:hover{
-  background:#fafafa;
+.table-responsive {
+  overflow-x: auto;
 }
 
-/* cells */
-.cover img{
-  width:52px;
-  height:68px;
-  object-fit:cover;
-  border-radius:8px;
-  box-shadow:0 2px 8px rgba(0,0,0,.08);
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.title__text{ font-weight:600; }
-.title__sub{ color:var(--muted); font-size:12px; }
-
-.pill{
-  background:var(--pill);
-  color:#4338ca;
-  padding:4px 10px;
-  border-radius:999px;
-  font-size:12px;
-  font-weight:600;
-  display:inline-block;
+.books-table thead th {
+  background: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
 }
 
-.pill--muted{
-  background:#f3f4f6;
-  color:var(--muted);
+.books-table tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
 }
 
-/* status chips */
-.chip{
-  padding:6px 10px;
-  border-radius:999px;
-  font-size:12px;
-  font-weight:700;
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-}
-.chip--green{
-  background:rgba(16,185,129,.12);
-  color:var(--chip-green);
-}
-.chip--red{
-  background:rgba(239,68,68,.12);
-  color:var(--chip-red);
+.books-table tbody tr:hover {
+  background: #f9f9f9;
 }
 
-/* availability bar */
-.meter{
-  width:140px;
-  height:8px;
-  background:#f3f4f6;
-  border-radius:999px;
-  overflow:hidden;
-  margin-bottom:6px;
-}
-.meter__bar{
-  height:100%;
-  background:linear-gradient(90deg,#60a5fa,#34d399);
+/* Cover image */
+.cover img {
+  width: 50px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
-/* actions */
-.btn-link{
-  background:none;
-  border:none;
-  color:#2563eb;
-  font-weight:600;
-  cursor:pointer;
-  padding:4px 0;
-}
-.btn-link:hover{ text-decoration:underline; }
-
-.muted{ color:var(--muted); font-size:12px; }
-.empty{
-  text-align:center;
-  color:var(--muted);
-  padding:28px 0;
+/* Availability Status */
+.status-green {
+  color: green;
+  font-weight: bold;
 }
 
-/* states */
-.skeleton{
-  background:linear-gradient(90deg,#f3f4f6 25%,#e5e7eb 37%,#f3f4f6 63%);
-  background-size:400% 100%;
-  animation:shine 1.2s infinite;
-  border-radius:12px;
-  padding:14px;
-  color:#374151;
-  margin:8px 0;
-}
-@keyframes shine{
-  0%{background-position:100% 50%}
-  100%{background-position:0 50%}
-}
-.error{
-  padding:12px;
-  border:1px solid rgba(239,68,68,.3);
-  background:rgba(239,68,68,.06);
-  color:#991b1b;
-  border-radius:12px;
-  margin-bottom:8px;
+.status-red {
+  color: red;
+  font-weight: bold;
 }
 
-/* mobile tweaks */
-@media (max-width: 640px){
-  .books-card{ padding:12px; }
-  .books-table{ min-width:720px; } /* keep horizontal scroll tidy */
+/* Buttons */
+.btn-link {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Empty message */
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: gray;
 }
