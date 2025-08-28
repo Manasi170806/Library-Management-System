@@ -1,0 +1,92 @@
+/* ===========================
+   Members Table Styling
+   =========================== */
+
+.members-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.members-container h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table */
+.members-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px; /* row gap */
+  font-size: 15px;
+}
+
+/* Table Header */
+.members-table thead {
+  background: #f4f4f4;
+}
+
+.members-table th {
+  padding: 12px 15px;
+  text-align: center;
+  font-weight: 600;
+  color: #444;
+  border-radius: 8px;
+}
+
+/* Table Rows */
+.members-table td {
+  padding: 14px 15px;
+  background: #fff;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  /* border-radius: 8px; */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Row hover effect */
+.members-table tr:hover td {
+  background: #fafafa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.2s;
+}
+
+/* Status */
+.status-available {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.status-not {
+  color: #c62828;
+  font-weight: 600;
+}
+
+/* Availability */
+.availability {
+  font-weight: 500;
+  color: #555;
+}
+
+/* Buttons or Links */
+.members-table a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.members-table a:hover {
+  text-decoration: underline;
+}
+
+/* Empty / Error State */
+.empty, .error {
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  color: #777;
+}

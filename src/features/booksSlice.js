@@ -6,6 +6,8 @@ export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
   return response.data;
 });
 
+
+
 export const issuedBooks = createAsyncThunk("books/issuedBooks", async () => {
   const response = await axios.get("http://localhost:3000/issued");
   return response.data;
@@ -47,7 +49,7 @@ const booksSlice = createSlice({
   reducers: {},
 
   extraReducers: (builder) => {
-    // total books
+    
     builder
       .addCase(fetchBooks.pending, (state) => {
         state.status.total = "loading";
@@ -59,7 +61,7 @@ const booksSlice = createSlice({
       .addCase(fetchBooks.rejected, (state, action) => {
         state.status.total = "failed";
         state.error.total = action.error.message;
-      });
+      }); 
 
     // issued
     builder
@@ -109,5 +111,6 @@ export const selectBooks = (state) => state.books.total;
 export const selectIssued = (state) => state.books.issued;
 export const selectReserved = (state) => state.books.reservation;
 export const selectFines = (state) => state.books.fines;
+
 
 export default booksSlice.reducer;

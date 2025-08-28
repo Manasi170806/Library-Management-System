@@ -1,17 +1,17 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// ✅ Members ko fetch karne ka thunk
-export const fetchMembers = createAsyncThunk("members/fetchMembers", async () => {
-  const response = await axios.get("http://localhost:3000/member"); 
-  return response.data;
+// ✅ Members fetch karne ka thunk
+export const fetchMembers = createAsyncThunk("members/fetch", async () => {
+  const res = await axios.get("http://localhost:3000/member");
+  return res.data;
 });
 
-const membersSlice = createSlice({
+const memberSlice = createSlice({
   name: "members",
   initialState: {
     list: [],
-    status: "idle",
+    status: "idle", // idle | loading | succeeded | failed
     error: null,
   },
   reducers: {},
@@ -31,7 +31,7 @@ const membersSlice = createSlice({
   },
 });
 
-// ✅ Selector export
+// ✅ Selector
 export const selectMembers = (state) => state.members.list;
 
-export default membersSlice.reducer;
+export default memberSlice.reducer;

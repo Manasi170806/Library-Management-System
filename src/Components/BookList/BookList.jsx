@@ -1,13 +1,15 @@
 import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { selectBooks, fetchBooks } from "../../features/booksSlice";
+ import { useSelector, useDispatch } from "react-redux";
+ import { selectBooks, fetchBooks } from "../../features/booksSlice";
 import "./BookList.css";
+
 
 const BookList = () => {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks) || [];
   const status = useSelector((s) => s.books.status.total);
   const error = useSelector((s) => s.books.error.total);
+
 
   useEffect(() => {
     if (status === "idle") dispatch(fetchBooks());
@@ -37,6 +39,7 @@ const BookList = () => {
                 <th>Status</th>
                 <th>Availability</th>
                 <th>Details</th>
+                <th>Delete</th>
               </tr>
             </thead>
 
@@ -46,6 +49,7 @@ const BookList = () => {
                   const total = book.isbn?.length ?? 0;
                   const available = book.isAvailable ? total : 0; // if not available show 0/x
                   const pct = total ? Math.round((available / total) * 100) : 0;
+
 
                   return (
                     <tr key={book.id}>
@@ -85,6 +89,11 @@ const BookList = () => {
                           onClick={() => console.log("View:", book.id)}
                         >
                           View
+                        </button>
+                      </td>
+                      <td>
+                        <button className="btn-link" onClick={() => console.log("delete:", book.id)}>
+                          Delete
                         </button>
                       </td>
                     </tr>

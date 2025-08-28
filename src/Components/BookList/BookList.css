@@ -5,11 +5,11 @@
 }
 
 .books-card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   padding: 16px 16px 8px;
+  
 }
 
 .books-card__header {
@@ -46,7 +46,9 @@
 }
 
 .books-table tbody tr:hover {
-  background: #f9f9f9;
+  background: #faf3f3;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 /* Cover image */
@@ -75,14 +77,16 @@
   color: blue;
   cursor: pointer;
 }
-
-.btn-link:hover {
-  text-decoration: underline;
-}
-
 /* Empty message */
 .empty {
   text-align: center;
   padding: 20px;
   color: gray;
+}
+.btn-delete
+{
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
 }
