@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
  import { useSelector, useDispatch } from "react-redux";
  import { selectBooks, fetchBooks } from "../../features/booksSlice";
 import "./BookList.css";
+import { Link } from "react-router-dom";
+import Description from "../Description-section/Description";
 
 
 const BookList = () => {
@@ -45,7 +47,7 @@ const BookList = () => {
 
             <tbody>
               {books.length > 0 ? (
-                books.map((book) => {
+                books.map((book, i) => {
                   const total = book.isbn?.length ?? 0;
                   const available = book.isAvailable ? total : 0; // if not available show 0/x
                   const pct = total ? Math.round((available / total) * 100) : 0;
@@ -84,12 +86,9 @@ const BookList = () => {
                         </div>
                       </td>
                       <td>
-                        <button
-                          className="btn-link"
-                          onClick={() => console.log("View:", book.id)}
-                        >
-                          View
-                        </button>
+                        <Link to={`/description/${book.id}`}>
+                          <button className="btn-link">View</button>
+                        </Link>
                       </td>
                       <td>
                         <button className="btn-link" onClick={() => console.log("delete:", book.id)}>

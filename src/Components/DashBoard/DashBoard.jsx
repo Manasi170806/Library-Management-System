@@ -56,7 +56,7 @@ function DashBoard() {
       <h2 style={{ fontSize: "30px", margin: "20px" }}>Popular Picks !</h2>
       <div className="popular-books">
         {popularBooks.map((el, i) => (
-          <div className="book-card">
+          <div className="book-card" key={i}>
             <div className="book-img">
               <img src={el.cover} alt="" />
             </div>
