@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overview-container {
+  display: flex;
+}
+
+.overview-section {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  transition: 0.5s ease;
+  font-family: "Encode Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.overview-section h3 {
+  font-size: 35px;
+}
+
+.overview-section p {
+  font-size: 18px;
+}
+
+.overview-section:hover {
+  height: 160px;
+  padding: 10px;
+  color: #36a4ea;
+}
+
+/* Popular books picks */
+
+.popular-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.book-card {
+  width: 180px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.book-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.book-card h2 {
+  font-size: 16px;
+  margin: 8px 0 4px;
+}
+
+.book-card p {
+  font-size: 12px;
+  color: #555;
+  margin: 0;
+}

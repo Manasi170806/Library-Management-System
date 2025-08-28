@@ -5,9 +5,10 @@
       "title": "Frankenstein",
       "author": "Mary Shelley",
       "isAvailable": true,
-      "isbn": ["100001", "100002", "100003", "100004", "100005"] ,
+      "isbn": ["100001", "100002", "100003", "100004", "100005"],
       "rent": 8,
       "genre": "Gothic Fiction",
+      "isPopular": true,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg"
     },
     {
@@ -18,6 +19,7 @@
       "isbn": ["100006", "100007", "100008", "100009", "100010", "100011"],
       "rent": 6,
       "genre": "Romance",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -25,9 +27,10 @@
       "title": "1984",
       "author": "George Orwell",
       "isAvailable": false,
-       "isbn": ["100012", "100013", "100014", "100015", "100016"],
+      "isbn": ["100012", "100013", "100014", "100015", "100016"],
       "rent": 7,
       "genre": "Dystopian",
+      "isPopular": true,
       "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327144697i/3744438.jpg"
     },
     {
@@ -38,6 +41,7 @@
       "isbn": ["100017", "100018", "100019", "100020", "100021", "100022"],
       "rent": 5,
       "genre": "Southern Gothic",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -48,6 +52,7 @@
       "isbn": ["100023", "100024", "100025", "100026", "100027"],
       "rent": 6,
       "genre": "Tragedy",
+      "isPopular": true,
       "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
     },
     {
@@ -55,9 +60,10 @@
       "title": "Moby Dick",
       "author": "Herman Melville",
       "isAvailable": false,
-      "isbn": ["100028", "100029", "100030", "100031", "100032", "100033"] ,
+      "isbn": ["100028", "100029", "100030", "100031", "100032", "100033"],
       "rent": 9,
       "genre": "Adventure",
+      "isPopular": false,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg"
     },
     {
@@ -68,6 +74,7 @@
       "isbn": ["100034", "100035", "100036", "100037", "100038"],
       "rent": 10,
       "genre": "Historical Fiction",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -78,6 +85,7 @@
       "isbn": ["100039", "100040", "100041", "100042", "100043", "100044"],
       "rent": 8,
       "genre": "Psychological Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg"
     },
     {
@@ -88,6 +96,7 @@
       "isbn": ["100045", "100046", "100047", "100048", "100049"],
       "rent": 7,
       "genre": "Epic Poetry",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -98,6 +107,7 @@
       "isbn": ["100050", "100051", "100052", "100053", "100054", "100055"],
       "rent": 12,
       "genre": "Modernist",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/7104w1aKFmL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -108,6 +118,7 @@
       "isbn": ["100056", "100057", "100058", "100059", "100060"],
       "rent": 9,
       "genre": "Epic Poetry",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg"
     },
     {
@@ -115,9 +126,10 @@
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
       "isAvailable": true,
-     "isbn": ["100061", "100062", "100063", "100064", "100065", "100066"],
+      "isbn": ["100061", "100062", "100063", "100064", "100065", "100066"],
       "rent": 7,
       "genre": "Picaresque",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/61NlxaWjCYL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -128,6 +140,7 @@
       "isbn": ["100067", "100068", "100069", "100070", "100071"],
       "rent": 10,
       "genre": "Philosophical Fiction",
+      "isPopular": false,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625583826/brothers-karamazov-9781625583826_hr.jpg"
     },
     {
@@ -135,9 +148,10 @@
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
       "isAvailable": false,
-      "isbn": ["100072", "100073", "100074", "100075", "100076", "100077"] ,
+      "isbn": ["100072", "100073", "100074", "100075", "100076", "100077"],
       "rent": 6,
       "genre": "Gothic Fiction",
+      "isPopular": false,
       "cover": "https://d28hgpri8am2if.cloudfront.net/tagged_assets/cvr9781471141638/9781471141638_hr.jpg"
     },
     {
@@ -145,9 +159,10 @@
       "title": "Madame Bovary",
       "author": "Gustave Flaubert",
       "isAvailable": true,
-     "isbn": ["100078", "100079", "100080", "100081", "100082"],
+      "isbn": ["100078", "100079", "100080", "100081", "100082"],
       "rent": 7,
       "genre": "Realism",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/810LeMHV6RL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -155,9 +170,10 @@
       "title": "The Iliad",
       "author": "Homer",
       "isAvailable": true,
-     "isbn": ["100083", "100084", "100085", "100086", "100087", "100088"],
+      "isbn": ["100083", "100084", "100085", "100086", "100087", "100088"],
       "rent": 8,
       "genre": "Epic Poetry",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71XGV6a9MHL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -168,6 +184,7 @@
       "isbn": ["100089", "100090", "100091", "100092", "100093"],
       "rent": 6,
       "genre": "Gothic Fiction",
+      "isPopular": false,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587534/the-picture-of-dorian-gray-9781625587534_hr.jpg"
     },
     {
@@ -175,9 +192,10 @@
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
       "isAvailable": false,
-     "isbn": ["100094", "100095", "100096", "100097", "100098", "100099"],
+      "isbn": ["100094", "100095", "100096", "100097", "100098", "100099"],
       "rent": 9,
       "genre": "Magical Realism",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81oAEEwxBWL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -188,6 +206,7 @@
       "isbn": ["100100", "100101", "100102", "100103", "100104"],
       "rent": 8,
       "genre": "Realist Novel",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/A1OuCNw4uAL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -198,6 +217,7 @@
       "isbn": ["100105", "100106", "100107", "100108", "100109", "100110"],
       "rent": 12,
       "genre": "Historical Fiction",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/81Q+WJYEukL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -205,9 +225,10 @@
       "title": "The Count of Monte Cristo",
       "author": "Alexandre Dumas",
       "isAvailable": true,
-      "isbn": ["100111", "100112", "100113", "100114", "100115"] ,
+      "isbn": ["100111", "100112", "100113", "100114", "100115"],
       "rent": 9,
       "genre": "Adventure",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71p79S8YxcL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -218,6 +239,7 @@
       "isbn": ["100116", "100117", "100118", "100119", "100120", "100121"],
       "rent": 6,
       "genre": "Gothic Fiction",
+      "isPopular": true,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587091/jane-eyre-9781625587091_hr.jpg"
     },
     {
@@ -228,6 +250,7 @@
       "isbn": ["100122", "100123", "100124", "100125", "100126"],
       "rent": 7,
       "genre": "Existential Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81o9ksvNh8L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -235,9 +258,10 @@
       "title": "Great Expectations",
       "author": "Charles Dickens",
       "isAvailable": true,
-     "isbn": ["100127", "100128", "100129", "100130", "100131", "100132"],
+      "isbn": ["100127", "100128", "100129", "100130", "100131", "100132"],
       "rent": 5,
       "genre": "Bildungsroman",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81elBAS5LcL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -248,6 +272,7 @@
       "isbn": ["100133", "100134", "100135", "100136", "100137"],
       "rent": 8,
       "genre": "Dystopian",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/81IpKyby3OL.jpg"
     },
     {
@@ -258,6 +283,7 @@
       "isbn": ["100138", "100139", "100140", "100141", "100142", "100143"],
       "rent": 7,
       "genre": "Realist Novel",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81V+uoQjj1L.jpg"
     },
     {
@@ -268,6 +294,7 @@
       "isbn": ["100144", "100145", "100146", "100147", "100148"],
       "rent": 15,
       "genre": "Modernist",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81C26Y6ikJL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -278,6 +305,7 @@
       "isbn": ["100149", "100150", "100151", "100152", "100153", "100154"],
       "rent": 9,
       "genre": "Absurdist Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81W5L5F0ThL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -288,6 +316,7 @@
       "isbn": ["100155", "100156", "100157", "100158", "100159"],
       "rent": 10,
       "genre": "Southern Gothic",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71cHDC2EA7L._UF894,1000_QL80_.jpg"
     },
     {
@@ -295,9 +324,10 @@
       "title": "Hamlet",
       "author": "William Shakespeare",
       "isAvailable": false,
-      "isbn": ["100160", "100161", "100162", "100163", "100164", "100165"] ,
+      "isbn": ["100160", "100161", "100162", "100163", "100164", "100165"],
       "rent": 5,
       "genre": "Tragedy",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81ZTRJyMbTS._UF1000,1000_QL80_.jpg"
     },
     {
@@ -305,9 +335,10 @@
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "isAvailable": true,
-     "isbn": ["100166", "100167", "100168", "100169", "100170"],
+      "isbn": ["100166", "100167", "100168", "100169", "100170"],
       "rent": 6,
       "genre": "Bildungsroman",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg"
     },
     {
@@ -318,6 +349,7 @@
       "isbn": ["100171", "100172", "100173", "100174", "100175", "100176"],
       "rent": 8,
       "genre": "Magical Realism",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81eerT6DQFL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -328,6 +360,7 @@
       "isbn": ["100177", "100178", "100179", "100180", "100181"],
       "rent": 7,
       "genre": "Adventure",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71B2HtDDTwL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -338,6 +371,7 @@
       "isbn": ["100182", "100183", "100184", "100185", "100186", "100187"],
       "rent": 6,
       "genre": "Realist Novel",
+      "isPopular": false,
       "cover": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg"
     },
     {
@@ -345,9 +379,10 @@
       "title": "Lolita",
       "author": "Vladimir Nabokov",
       "isAvailable": true,
-       "isbn": ["100188", "100189", "100190", "100191", "100192"],
+      "isbn": ["100188", "100189", "100190", "100191", "100192"],
       "rent": 9,
       "genre": "Psychological Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71dfSg9HdoL._UF894,1000_QL80_.jpg"
     },
     {
@@ -358,6 +393,7 @@
       "isbn": ["100193", "100194", "100195", "100196", "100197", "100198"],
       "rent": 7,
       "genre": "Modernist",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/716xrJJXkJL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -365,9 +401,10 @@
       "title": "Catch-22",
       "author": "Joseph Heller",
       "isAvailable": true,
-      "isbn": ["100199", "100200", "100201", "100202", "100203"] ,
+      "isbn": ["100199", "100200", "100201", "100202", "100203"],
       "rent": 8,
       "genre": "Satire",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/51dzcv5yG5L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -378,6 +415,7 @@
       "isbn": ["100204", "100205", "100206", "100207", "100208", "100209"],
       "rent": 5,
       "genre": "Fantasy",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/91ZX8zNpwZL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -385,9 +423,10 @@
       "title": "Fahrenheit 451",
       "author": "Ray Bradbury",
       "isAvailable": true,
-      "isbn": ["100210", "100211", "100212", "100213", "100214"] ,
+      "isbn": ["100210", "100211", "100212", "100213", "100214"],
       "rent": 7,
       "genre": "Dystopian",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/715y6JcmQZL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -395,9 +434,10 @@
       "title": "Slaughterhouse-Five",
       "author": "Kurt Vonnegut",
       "isAvailable": true,
-       "isbn": ["100215", "100216", "100217", "100218", "100219", "100220"],
+      "isbn": ["100215", "100216", "100217", "100218", "100219", "100220"],
       "rent": 8,
       "genre": "Satire",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/91Jn9wb6ffL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -405,9 +445,10 @@
       "title": "The Bell Jar",
       "author": "Sylvia Plath",
       "isAvailable": true,
-     "isbn": ["100221", "100222", "100223", "100224", "100225"],
+      "isbn": ["100221", "100222", "100223", "100224", "100225"],
       "rent": 7,
       "genre": "Psychological Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71xz5j-4RSL.jpg"
     },
     {
@@ -415,9 +456,10 @@
       "title": "The Handmaid's Tale",
       "author": "Margaret Atwood",
       "isAvailable": false,
-     "isbn": ["100226", "100227", "100228", "100229", "100230", "100231"],
+      "isbn": ["100226", "100227", "100228", "100229", "100230", "100231"],
       "rent": 9,
       "genre": "Dystopian",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -428,6 +470,7 @@
       "isbn": ["100232", "100233", "100234", "100235", "100236"],
       "rent": 12,
       "genre": "Fantasy",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -438,6 +481,7 @@
       "isbn": ["100237", "100238", "100239", "100240", "100241", "100242"],
       "rent": 9,
       "genre": "Adventure",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/91xNmlf86yL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -448,6 +492,7 @@
       "isbn": ["100243", "100244", "100245", "100246", "100247"],
       "rent": 7,
       "genre": "Gothic Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/91wOUFZCE+L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -458,6 +503,7 @@
       "isbn": ["100248", "100249", "100250", "100251", "100252", "100253"],
       "rent": 6,
       "genre": "Absurdist Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71FMg0PJhVL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -468,6 +514,7 @@
       "isbn": ["100254", "100255", "100256", "100257", "100258"],
       "rent": 5,
       "genre": "Tragedy",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/51MIjeQtWAL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -478,6 +525,7 @@
       "isbn": ["100259", "100260", "100261", "100262", "100263", "100264"],
       "rent": 6,
       "genre": "Historical Fiction",
+      "isPopular": true,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627939911/the-scarlet-letter-9781627939911_hr.jpg"
     },
     {
@@ -488,6 +536,7 @@
       "isbn": ["100265", "100266", "100267", "100268", "100269"],
       "rent": 7,
       "genre": "Historical Fiction",
+      "isPopular": true,
       "cover": "https://m.media-amazon.com/images/I/91EirnRPMcL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -498,6 +547,7 @@
       "isbn": ["100270", "100271", "100272", "100273", "100274", "100275"],
       "rent": 8,
       "genre": "Social Realism",
+      "isPopular": false,
       "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627788308i/15622.jpg"
     },
     {
@@ -505,9 +555,10 @@
       "title": "The Silent Patient",
       "author": "Alex Michaelides",
       "isAvailable": true,
-      "isbn": ["100276", "100277", "100278", "100279", "100280"] ,
+      "isbn": ["100276", "100277", "100278", "100279", "100280"],
       "rent": 9,
       "genre": "Psychological Thriller",
+      "isPopular": false,
       "cover": "https://rukminim2.flixcart.com/image/704/844/xif0q/book/r/a/f/the-silent-patient-original-imahafbn8agewgfp.jpeg?q=90&crop=false"
     },
     {
@@ -518,6 +569,7 @@
       "isbn": ["100281", "100282", "100283", "100284", "100285", "100286"],
       "rent": 7,
       "genre": "Mystery",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/713HP+eMeWL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -528,6 +580,7 @@
       "isbn": ["100287", "100288", "100289", "100290", "100291"],
       "rent": 8,
       "genre": "Fantasy",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81J6APjwxlL.jpg"
     },
     {
@@ -538,6 +591,7 @@
       "isbn": ["100292", "100293", "100294", "100295", "100296", "100297"],
       "rent": 10,
       "genre": "Science Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/91ENQs2KLAL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -548,6 +602,7 @@
       "isbn": ["100298", "100299", "100300", "100301", "100302"],
       "rent": 6,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/918yC6qUe7L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -558,6 +613,7 @@
       "isbn": ["100303", "100304", "100305", "100306", "100307", "100308"],
       "rent": 8,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71pIEVU3EeL._UF894,1000_QL80_.jpg"
     },
     {
@@ -568,6 +624,7 @@
       "isbn": ["100309", "100310", "100311", "100312", "100313"],
       "rent": 7,
       "genre": "Literary Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81IQ2IlSgfL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -575,9 +632,10 @@
       "title": "Klara and the Sun",
       "author": "Kazuo Ishiguro",
       "isAvailable": true,
-       "isbn": ["100314", "100315", "100316", "100317", "100318", "100319"] ,
+      "isbn": ["100314", "100315", "100316", "100317", "100318", "100319"],
       "rent": 9,
       "genre": "Science Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/61tqFlvlU3L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -588,6 +646,7 @@
       "isbn": ["100320", "100321", "100322", "100323", "100324"],
       "rent": 7,
       "genre": "Psychological Thriller",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81E6ZuCAr-L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -595,9 +654,10 @@
       "title": "Matrix",
       "author": "Lauren Groff",
       "isAvailable": false,
-     "isbn": ["100325", "100326", "100327", "100328", "100329", "100330"],
+      "isbn": ["100325", "100326", "100327", "100328", "100329", "100330"],
       "rent": 8,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71R4p7BzWAL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -608,6 +668,7 @@
       "isbn": ["100331", "100332", "100333", "100334", "100335"],
       "rent": 10,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81v9cQmwTEL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -618,6 +679,7 @@
       "isbn": ["100336", "100337", "100338", "100339", "100340", "100341"],
       "rent": 6,
       "genre": "Literary Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81SsxqwYwjL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -625,9 +687,10 @@
       "title": "The Lincoln Highway",
       "author": "Amor Towles",
       "isAvailable": true,
-      "isbn": ["100342", "100343", "100344", "100345", "100346"] ,
+      "isbn": ["100342", "100343", "100344", "100345", "100346"],
       "rent": 8,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81es7RW3zQL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -635,9 +698,10 @@
       "title": "Harlem Shuffle",
       "author": "Colson Whitehead",
       "isAvailable": false,
-     "isbn": ["100347", "100348", "100349", "100350", "100351", "100352"],
+      "isbn": ["100347", "100348", "100349", "100350", "100351", "100352"],
       "rent": 7,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3xBhlB8lCqFJS2Ury4PCl3cMkq1h2MDvoQ&s"
     },
     {
@@ -645,9 +709,10 @@
       "title": "The Paris Apartment",
       "author": "Lucy Foley",
       "isAvailable": true,
-       "isbn": ["100353", "100354", "100355", "100356", "100357"] ,
+      "isbn": ["100353", "100354", "100355", "100356", "100357"],
       "rent": 7,
       "genre": "Mystery",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/817JkWnWB3L._UF1000,1000_QL80_.jpg"
     },
     {
@@ -658,6 +723,7 @@
       "isbn": ["100358", "100359", "100360", "100361", "100362", "100363"],
       "rent": 6,
       "genre": "Thriller",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81oZM1zeKtL.jpg"
     },
     {
@@ -665,9 +731,10 @@
       "title": "Once Upon a Time in Hollywood",
       "author": "Quentin Tarantino",
       "isAvailable": true,
-      "isbn": ["100364", "100365", "100366", "100367", "100368"] ,
+      "isbn": ["100364", "100365", "100366", "100367", "100368"],
       "rent": 9,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81IL4J6ZVIL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -678,6 +745,7 @@
       "isbn": ["100369", "100370", "100371", "100372", "100373", "100374"],
       "rent": 7,
       "genre": "Mystery",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71gwIWqzCPL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -685,9 +753,10 @@
       "title": "The House in the Cerulean Sea",
       "author": "TJ Klune",
       "isAvailable": true,
-      "isbn": ["100375", "100376", "100377", "100378", "100379"] ,
+      "isbn": ["100375", "100376", "100377", "100378", "100379"],
       "rent": 8,
       "genre": "Fantasy",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/71bgrXZvbuS._UF1000,1000_QL80_.jpg"
     },
     {
@@ -698,6 +767,7 @@
       "isbn": ["100380", "100381", "100382", "100383", "100384", "100385"],
       "rent": 9,
       "genre": "Fantasy",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/813s9Q0mszL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -708,6 +778,7 @@
       "isbn": ["100386", "100387", "100388", "100389", "100390", "100391"],
       "rent": 7,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/81BvTRnoBoL.jpg"
     },
     {
@@ -718,6 +789,7 @@
       "isbn": ["100392", "100393", "100394", "100395", "100396", "100397"],
       "rent": 8,
       "genre": "Thriller",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/91zXBCFQSsL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -728,6 +800,7 @@
       "isbn": ["100398", "100399", "100400", "100401", "100402", "100403"],
       "rent": 6,
       "genre": "Romance",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/7125eYIFBxL.jpg"
     },
     {
@@ -738,6 +811,7 @@
       "isbn": ["100404", "100405", "100406", "100407", "100408", "100409"],
       "rent": 8,
       "genre": "Thriller",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/912xo84QXBL._UF1000,1000_QL80_.jpg"
     },
     {
@@ -748,6 +822,7 @@
       "isbn": ["100410", "100411", "100412", "100413", "100414", "100415"],
       "rent": 7,
       "genre": "Historical Fiction",
+      "isPopular": false,
       "cover": "https://m.media-amazon.com/images/I/91Nt5LU1auS._UF1000,1000_QL80_.jpg"
     }
   ],
@@ -993,7 +1068,7 @@
       "membershipType": "Public"
     }
   ],
-  "issue ": [
+  "issued": [
     {
       "id": "1",
       "bookId": "1",
@@ -1183,7 +1258,7 @@
       "issueDate": "2023-10-01",
       "dueDate": "2023-10-15",
       "returnDate": "2023-10-20",
-      "fineAmount": 5.00,
+      "fineAmount": 5.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1193,7 +1268,7 @@
       "issueDate": "2023-10-05",
       "dueDate": "2023-10-19",
       "returnDate": "2023-10-22",
-      "fineAmount": 3.00,
+      "fineAmount": 3.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1203,7 +1278,7 @@
       "issueDate": "2023-10-10",
       "dueDate": "2023-10-24",
       "returnDate": "2023-10-20",
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Paid"
     },
     {
@@ -1213,7 +1288,7 @@
       "issueDate": "2023-10-12",
       "dueDate": "2023-10-26",
       "returnDate": "2023-10-30",
-      "fineAmount": 2.00,
+      "fineAmount": 2.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1223,7 +1298,7 @@
       "issueDate": "2023-10-15",
       "dueDate": "2023-10-29",
       "returnDate": "2023-10-31",
-      "fineAmount": 1.00,
+      "fineAmount": 1.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1233,7 +1308,7 @@
       "issueDate": "2023-10-20",
       "dueDate": "2023-11-03",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1243,7 +1318,7 @@
       "issueDate": "2023-10-22",
       "dueDate": "2023-11-05",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1253,7 +1328,7 @@
       "issueDate": "2023-10-25",
       "dueDate": "2023-11-08",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1263,7 +1338,7 @@
       "issueDate": "2023-10-28",
       "dueDate": "2023-11-11",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1273,7 +1348,7 @@
       "issueDate": "2023-10-30",
       "dueDate": "2023-11-13",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1283,7 +1358,7 @@
       "issueDate": "2023-10-01",
       "dueDate": "2023-10-15",
       "returnDate": "2023-10-16",
-      "fineAmount": 1.00,
+      "fineAmount": 1.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1293,7 +1368,7 @@
       "issueDate": "2023-10-05",
       "dueDate": "2023-10-19",
       "returnDate": "2023-10-20",
-      "fineAmount": 2.00,
+      "fineAmount": 2.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1303,7 +1378,7 @@
       "issueDate": "2023-10-10",
       "dueDate": "2023-10-24",
       "returnDate": "2023-10-25",
-      "fineAmount": 1.00,
+      "fineAmount": 1.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1313,7 +1388,7 @@
       "issueDate": "2023-10-12",
       "dueDate": "2023-10-26",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1323,7 +1398,7 @@
       "issueDate": "2023-10-15",
       "dueDate": "2023-10-29",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1333,7 +1408,7 @@
       "issueDate": "2023-10-20",
       "dueDate": "2023-11-03",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1343,7 +1418,7 @@
       "issueDate": "2023-10-22",
       "dueDate": "2023-11-05",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1353,7 +1428,7 @@
       "issueDate": "2023-10-25",
       "dueDate": "2023-11-08",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1363,7 +1438,7 @@
       "issueDate": "2023-10-28",
       "dueDate": "2023-11-11",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     },
     {
@@ -1373,7 +1448,7 @@
       "issueDate": "2023-10-30",
       "dueDate": "2023-11-13",
       "returnDate": null,
-      "fineAmount": 0.00,
+      "fineAmount": 0.0,
       "paymentStatus": "Unpaid"
     }
   ],
