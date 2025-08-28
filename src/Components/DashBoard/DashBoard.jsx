@@ -23,6 +23,8 @@ function DashBoard() {
   const pendingFinesOfBook =
     bookFines?.filter((fine) => fine.paymentStatus === "Unpaid")?.length || 0;
 
+  const popularBooks = books?.filter((book) => book.isPopular);
+
   const overView = [
     { name: "Total Books", value: books.length },
     { name: "Issued Books", value: issued.length },
@@ -38,14 +40,28 @@ function DashBoard() {
     dispatch(fines());
   }, [dispatch]);
   return (
-    <div>
+    <div className="dashBoard">
       {/* all Components wraped here */}
 
       <div className="overview-container">
         {overView.map((el, i) => (
           <div className="overview-section" key={i}>
-            <h2>{el.value}</h2>
+            <h3>{el.value}</h3>
             <p>{el.name}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Popular books picks */}
+      <h2 style={{ fontSize: "30px", margin: "20px" }}>Popular Picks !</h2>
+      <div className="popular-books">
+        {popularBooks.map((el, i) => (
+          <div className="book-card">
+            <div className="book-img">
+              <img src={el.cover} alt="" />
+            </div>
+            <h2>{el.title}</h2>
+            <p>{el.author}</p>
           </div>
         ))}
       </div>
