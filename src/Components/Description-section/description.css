@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.description-card {
+  height: 450px;
+  width: 100%;
+  margin: 1rem 0;
+  background-color: rgb(127, 191, 255) !important;
+  display: flex;
+  align-items: center;
+}
+
+.description-card img {
+  height: 400px;
+  width: 30%;
+}
