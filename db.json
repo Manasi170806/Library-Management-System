@@ -9,6 +9,7 @@
       "rent": 8,
       "genre": "Gothic Fiction",
       "isPopular": true,
+      "rate": 4.3,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg",
       "description": "A scientist creates life, only to be haunted by the consequences of his ambition. This gothic classic explores themes of humanity, isolation, and morality."
     },
@@ -21,6 +22,7 @@
       "rent": 6,
       "genre": "Romance",
       "isPopular": true,
+      "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg",
       "description": "A witty tale of love and misunderstandings between Elizabeth Bennet and Mr. Darcy. It’s a timeless romance filled with charm, wit, and social commentary."
     },
@@ -33,6 +35,7 @@
       "rent": 7,
       "genre": "Dystopian",
       "isPopular": true,
+      "rate": 4.9,
       "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327144697i/3744438.jpg",
       "description": "A chilling vision of a totalitarian future ruled by surveillance and control. Orwell’s masterpiece warns against the dangers of oppression and lost freedom."
     },
@@ -45,6 +48,7 @@
       "rent": 5,
       "genre": "Southern Gothic",
       "isPopular": true,
+      "rate": 4.3,
       "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg",
       "description": "Through the eyes of young Scout Finch, the novel explores justice, race, and morality. It’s a moving story about empathy, kindness, and standing for truth."
     },
@@ -57,6 +61,7 @@
       "rent": 6,
       "genre": "Tragedy",
       "isPopular": true,
+      "rate": 4.5,
       "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
       "description": "Set in the Roaring Twenties, Gatsby chases love and the American Dream. A dazzling yet tragic tale of wealth, desire, and illusions of happiness."
     },
@@ -69,6 +74,7 @@
       "rent": 9,
       "genre": "Adventure",
       "isPopular": false,
+      "rate": 4.2,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg",
       "description": "Captain Ahab obsessively hunts the great white whale, Moby Dick. This epic sea adventure delves into fate, obsession, and the human spirit."
     },
@@ -81,6 +87,7 @@
       "rent": 10,
       "genre": "Historical Fiction",
       "isPopular": true,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg",
       "description": "A sweeping story of love, war, and destiny set in Napoleonic Russia. Tolstoy masterfully blends history with personal lives and moral struggles."
     },
@@ -93,6 +100,7 @@
       "rent": 8,
       "genre": "Psychological Fiction",
       "isPopular": false,
+      "rate": 4.3,
       "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg",
       "description": "A young man commits murder and struggles with guilt and redemption. Dostoevsky dives deep into morality, psychology, and the search for forgiveness."
     },
@@ -105,6 +113,7 @@
       "rent": 7,
       "genre": "Epic Poetry",
       "isPopular": false,
+      "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg",
       "description": "An epic journey of Odysseus as he strives to return home after the Trojan War. Full of gods, monsters, and trials, it’s a cornerstone of Greek literature."
     },
@@ -117,6 +126,7 @@
       "rent": 12,
       "genre": "Modernist",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/7104w1aKFmL._UF1000,1000_QL80_.jpg",
       "description": "A groundbreaking modernist novel following a single day in Dublin. Joyce’s stream-of-consciousness style captures the depth of everyday human life."
     },
@@ -129,6 +139,7 @@
       "rent": 9,
       "genre": "Epic Poetry",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg",
       "description": "An epic journey through Hell, Purgatory, and Paradise guided by reason and faith. Dante’s masterpiece reflects the human soul’s quest for salvation."
     },
@@ -141,6 +152,7 @@
       "rent": 7,
       "genre": "Picaresque",
       "isPopular": false,
+      "rate": 3.9,
       "cover": "https://m.media-amazon.com/images/I/61NlxaWjCYL._UF1000,1000_QL80_.jpg",
       "description": "A delusional knight sets out with his loyal squire to revive chivalry. This humorous yet profound novel questions reality, ideals, and human folly."
     },
@@ -153,6 +165,7 @@
       "rent": 10,
       "genre": "Philosophical Fiction",
       "isPopular": false,
+      "rate": 4.3,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625583826/brothers-karamazov-9781625583826_hr.jpg",
       "description": "A powerful story of faith, doubt, and family conflict among three brothers. Dostoevsky explores morality, free will, and the existence of God."
     },
@@ -165,6 +178,7 @@
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": false,
+      "rate": 4.5,
       "cover": "https://d28hgpri8am2if.cloudfront.net/tagged_assets/cvr9781471141638/9781471141638_hr.jpg",
       "description": "A haunting tale of passion, revenge, and obsession set on the Yorkshire moors. Brontë’s dark romance reveals the destructive power of love and hate."
     },
@@ -177,6 +191,7 @@
       "rent": 7,
       "genre": "Realism",
       "isPopular": false,
+      "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/810LeMHV6RL._UF1000,1000_QL80_.jpg",
       "description": "Emma Bovary seeks romance and excitement beyond her provincial life. Her desires lead to heartbreak, debt, and a tragic downfall."
     },
@@ -189,6 +204,7 @@
       "rent": 8,
       "genre": "Epic Poetry",
       "isPopular": false,
+      "rate": 4.6,
       "cover": "https://m.media-amazon.com/images/I/71XGV6a9MHL._UF1000,1000_QL80_.jpg",
       "description": "An ancient epic of the Trojan War focusing on Achilles’ rage and glory. It captures themes of honor, fate, and the tragedy of war."
     },
@@ -201,6 +217,7 @@
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": false,
+      "rate": 4.7,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587534/the-picture-of-dorian-gray-9781625587534_hr.jpg",
       "description": "Dorian Gray remains eternally young while his portrait bears the marks of corruption. Wilde’s novel explores vanity, morality, and the cost of desire."
     },
@@ -213,6 +230,7 @@
       "rent": 9,
       "genre": "Magical Realism",
       "isPopular": false,
+      "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/81oAEEwxBWL._UF1000,1000_QL80_.jpg",
       "description": "The saga of the Buendía family unfolds in the mythical town of Macondo. Márquez weaves magic and reality into a tale of fate, history, and solitude."
     },
@@ -225,6 +243,7 @@
       "rent": 8,
       "genre": "Realist Novel",
       "isPopular": true,
+      "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/A1OuCNw4uAL._UF1000,1000_QL80_.jpg",
       "description": "Anna seeks passion outside her marriage, leading to scandal and tragedy. Tolstoy’s masterpiece explores love, family, and the conflicts of society."
     },
@@ -237,6 +256,7 @@
       "rent": 12,
       "genre": "Historical Fiction",
       "isPopular": true,
+      "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/81Q+WJYEukL._UF1000,1000_QL80_.jpg",
       "description": "The story of Jean Valjean’s redemption set against revolutionary France. Hugo’s epic portrays justice, love, sacrifice, and the fight for freedom."
     },
@@ -249,6 +269,7 @@
       "rent": 9,
       "genre": "Adventure",
       "isPopular": false,
+      "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/71p79S8YxcL._UF1000,1000_QL80_.jpg",
       "description": "A man wrongly imprisoned escapes and seeks revenge against his betrayers. Dumas’ epic blends adventure, justice, and the triumph of resilience."
     },
@@ -261,6 +282,7 @@
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": true,
+      "rate": 4.2,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587091/jane-eyre-9781625587091_hr.jpg",
       "description": "Orphaned Jane Eyre rises from hardship to independence and love. Brontë’s classic combines romance, mystery, and a strong heroine’s voice."
     },
@@ -273,6 +295,7 @@
       "rent": 7,
       "genre": "Existential Fiction",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/81o9ksvNh8L._UF1000,1000_QL80_.jpg",
       "description": "Meursault, detached and indifferent, faces trial after an impulsive crime. Camus’ existential novel questions meaning, morality, and human freedom."
     },
@@ -285,6 +308,7 @@
       "rent": 5,
       "genre": "Bildungsroman",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/81elBAS5LcL._UF1000,1000_QL80_.jpg",
       "description": "Pip’s journey from poverty to gentlemanhood reveals ambition and disillusion. Dickens weaves themes of class, loyalty, and personal growth."
     },
@@ -297,6 +321,7 @@
       "rent": 8,
       "genre": "Dystopian",
       "isPopular": true,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/81IpKyby3OL.jpg",
       "description": "A futuristic society built on control, pleasure, and conformity emerges. Huxley’s dystopia warns of technology, consumerism, and lost individuality."
     },
@@ -309,6 +334,7 @@
       "rent": 7,
       "genre": "Realist Novel",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/81V+uoQjj1L.jpg",
       "description": "Set in a provincial English town, lives intertwine with ambition and duty. Eliot explores marriage, politics, and the search for meaning."
     },
@@ -321,6 +347,7 @@
       "rent": 15,
       "genre": "Modernist",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/81C26Y6ikJL._UF1000,1000_QL80_.jpg",
       "description": "Proust reflects on memory, time, and society in a monumental narrative. His masterpiece captures the fragility and beauty of human experience."
     },
@@ -333,6 +360,7 @@
       "rent": 9,
       "genre": "Absurdist Fiction",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/81W5L5F0ThL._UF1000,1000_QL80_.jpg",
       "description": "Josef K. is arrested without explanation and trapped in a surreal trial. Kafka’s novel portrays bureaucracy, helplessness, and existential dread."
     },
@@ -345,6 +373,7 @@
       "rent": 10,
       "genre": "Southern Gothic",
       "isPopular": false,
+      "rate": 3.9,
       "cover": "https://m.media-amazon.com/images/I/71cHDC2EA7L._UF894,1000_QL80_.jpg",
       "description": "The decline of the Compson family unfolds through fragmented perspectives. Faulkner’s modernist classic experiments with time, memory, and identity."
     },
@@ -357,6 +386,7 @@
       "rent": 5,
       "genre": "Tragedy",
       "isPopular": false,
+      "rate": 3.9,
       "cover": "https://m.media-amazon.com/images/I/81ZTRJyMbTS._UF1000,1000_QL80_.jpg",
       "description": "Prince Hamlet seeks revenge for his father’s murder, but doubt consumes him. Shakespeare’s tragedy explores betrayal, madness, and the nature of existence."
     },
@@ -369,6 +399,7 @@
       "rent": 6,
       "genre": "Bildungsroman",
       "isPopular": true,
+      "rate": 3.9,
       "cover": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg",
       "description": "Holden Caulfield narrates his struggles with alienation and identity. Salinger’s classic captures adolescent angst and the search for authenticity."
     },
@@ -381,6 +412,7 @@
       "rent": 8,
       "genre": "Magical Realism",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/81eerT6DQFL._UF1000,1000_QL80_.jpg",
       "description": "Sethe, haunted by her past as a runaway slave, confronts memory and loss. Morrison’s novel blends history, trauma, and the supernatural with poetic power."
     },
@@ -393,6 +425,7 @@
       "rent": 7,
       "genre": "Adventure",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/71B2HtDDTwL._UF1000,1000_QL80_.jpg",
       "description": "Marlow journeys into Africa in search of the mysterious Kurtz. Conrad exposes imperial greed, human corruption, and the darkness within."
     },
@@ -405,6 +438,7 @@
       "rent": 6,
       "genre": "Realist Novel",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg",
       "description": "The Joad family migrates west during the Great Depression, seeking survival. Steinbeck portrays resilience, poverty, and the fight for dignity."
     },
@@ -417,6 +451,7 @@
       "rent": 9,
       "genre": "Psychological Fiction",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/71dfSg9HdoL._UF894,1000_QL80_.jpg",
       "description": "Humbert Humbert’s obsession with young Dolores Haze drives a disturbing tale. Nabokov’s masterpiece blends unsettling themes with dazzling prose."
     },
@@ -429,6 +464,7 @@
       "rent": 7,
       "genre": "Modernist",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/716xrJJXkJL._UF1000,1000_QL80_.jpg",
       "description": "Disillusioned expatriates drift through post-war Europe in search of meaning. Hemingway captures the ‘Lost Generation’ with terse, powerful prose."
     },
@@ -441,6 +477,7 @@
       "rent": 8,
       "genre": "Satire",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/51dzcv5yG5L._UF1000,1000_QL80_.jpg",
       "description": "Yossarian battles bureaucracy and absurdity in World War II. Heller’s satirical novel exposes the madness of war and circular logic of survival."
     },
@@ -453,6 +490,7 @@
       "rent": 5,
       "genre": "Fantasy",
       "isPopular": true,
+      "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91ZX8zNpwZL._UF1000,1000_QL80_.jpg",
       "description": "Bilbo Baggins embarks on an adventure with dwarves to reclaim treasure. Tolkien’s beloved classic introduces Middle-earth with magic and courage."
     },
@@ -465,6 +503,7 @@
       "rent": 7,
       "genre": "Dystopian",
       "isPopular": true,
+      "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/715y6JcmQZL._UF1000,1000_QL80_.jpg",
       "description": "In a society where books are banned, firemen burn them. Bradbury warns of censorship, conformity, and the loss of independent thought."
     },
@@ -477,6 +516,7 @@
       "rent": 8,
       "genre": "Satire",
       "isPopular": false,
+      "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/91Jn9wb6ffL._UF1000,1000_QL80_.jpg",
       "description": "Billy Pilgrim becomes ‘unstuck in time’ after surviving WWII. Vonnegut’s darkly comic novel blends war, free will, and science fiction."
     },
@@ -489,6 +529,7 @@
       "rent": 7,
       "genre": "Psychological Fiction",
       "isPopular": false,
+      "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/71xz5j-4RSL.jpg",
       "description": "Esther Greenwood descends into depression while navigating societal expectations. Plath’s semi-autobiographical novel explores identity and mental health with piercing honesty."
     },
@@ -501,6 +542,7 @@
       "rent": 9,
       "genre": "Dystopian",
       "isPopular": false,
+      "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg",
       "description": "In the theocratic Republic of Gilead, women are stripped of rights. Offred tells a chilling story of control, resistance, and survival under oppression."
     },
@@ -513,6 +555,7 @@
       "rent": 12,
       "genre": "Fantasy",
       "isPopular": true,
+      "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg",
       "description": "Frodo Baggins undertakes a perilous quest to destroy the One Ring. Tolkien’s epic trilogy defines modern fantasy with themes of courage, friendship, and power."
     },
@@ -525,6 +568,7 @@
       "rent": 9,
       "genre": "Adventure",
       "isPopular": false,
+      "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/91xNmlf86yL._UF1000,1000_QL80_.jpg",
       "description": "Captain Ahab obsessively hunts the great white whale. Melville’s novel blends adventure, philosophy, and obsession in a sweeping maritime epic."
     },
@@ -537,6 +581,7 @@
       "rent": 7,
       "genre": "Gothic Fiction",
       "isPopular": false,
+      "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/91wOUFZCE+L._UF1000,1000_QL80_.jpg",
       "description": "Count Dracula’s attempt to expand his reign of terror is challenged by a group of determined individuals. Stoker’s Gothic classic blends horror, romance, and suspense."
     },
@@ -549,6 +594,7 @@
       "rent": 6,
       "genre": "Absurdist Fiction",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/71FMg0PJhVL._UF1000,1000_QL80_.jpg",
       "description": "Gregor Samsa wakes to find himself transformed into a giant insect. Kafka’s unsettling novella captures themes of alienation, guilt, and absurd existence."
     },
@@ -561,6 +607,7 @@
       "rent": 5,
       "genre": "Tragedy",
       "isPopular": false,
+      "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/51MIjeQtWAL._UF1000,1000_QL80_.jpg",
       "description": "George and Lennie chase the dream of a better life in Depression-era California. Steinbeck’s moving novella explores friendship, hardship, and fate."
     },
@@ -573,6 +620,7 @@
       "rent": 6,
       "genre": "Historical Fiction",
       "isPopular": true,
+      "rate": 4.7,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627939911/the-scarlet-letter-9781627939911_hr.jpg",
       "description": "Hester Prynne, condemned for adultery, wears the scarlet letter ‘A’. Hawthorne’s classic explores guilt, judgment, and resilience in Puritan New England."
     },
@@ -585,6 +633,7 @@
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": true,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/91EirnRPMcL._UF1000,1000_QL80_.jpg",
       "description": "Set during the French Revolution, this tale contrasts sacrifice and vengeance. Dickens portrays love and redemption against a backdrop of chaos and change."
     },
@@ -597,6 +646,7 @@
       "rent": 8,
       "genre": "Social Realism",
       "isPopular": false,
+      "rate": 4.2,
       "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627788308i/15622.jpg",
       "description": "Bigger Thomas’s life spirals after a tragic act in segregated Chicago. Wright’s novel exposes systemic racism, poverty, and the struggle for identity."
     },
@@ -609,6 +659,7 @@
       "rent": 9,
       "genre": "Psychological Thriller",
       "isPopular": false,
+      "rate": 4.3,
       "cover": "https://rukminim2.flixcart.com/image/704/844/xif0q/book/r/a/f/the-silent-patient-original-imahafbn8agewgfp.jpeg?q=90&crop=false",
       "description": "Alicia Berenson, a famous painter, shoots her husband and never speaks again. A psychotherapist becomes obsessed with unraveling her silence in this chilling thriller."
     },
@@ -621,6 +672,7 @@
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
+      "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/713HP+eMeWL._UF1000,1000_QL80_.jpg",
       "description": "Kya Clark, the 'Marsh Girl,' grows up isolated in the wilds of North Carolina. When a murder occurs, her life collides with mystery and survival."
     },
@@ -633,6 +685,7 @@
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
+      "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/81J6APjwxlL.jpg",
       "description": "Between life and death, Nora Seed discovers a library of infinite lives she could have lived. A moving story about regret, hope, and choice."
     },
@@ -645,6 +698,7 @@
       "rent": 10,
       "genre": "Science Fiction",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/91ENQs2KLAL._UF1000,1000_QL80_.jpg",
       "description": "A lone astronaut awakens on a spaceship with no memory. Earth’s fate depends on his mission in this gripping blend of science and survival."
     },
@@ -657,6 +711,7 @@
       "rent": 6,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.0,
       "cover": "https://m.media-amazon.com/images/I/918yC6qUe7L._UF1000,1000_QL80_.jpg",
       "description": "In 1980s Malibu, four famous siblings throw an unforgettable party. As the night spirals, secrets unravel in this story of fame and family."
     },
@@ -669,6 +724,7 @@
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/71pIEVU3EeL._UF894,1000_QL80_.jpg",
       "description": "A reclusive Hollywood icon recounts her scandalous life and seven marriages. Behind glamour lies a moving story of ambition, love, and identity."
     },
@@ -681,6 +737,7 @@
       "rent": 7,
       "genre": "Literary Fiction",
       "isPopular": false,
+      "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/81IQ2IlSgfL._UF1000,1000_QL80_.jpg",
       "description": "Twin sisters choose different paths—one living as Black, the other passing as white. Bennett explores race, family, and identity across generations."
     },
@@ -693,6 +750,7 @@
       "rent": 9,
       "genre": "Science Fiction",
       "isPopular": false,
+      "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/61tqFlvlU3L._UF1000,1000_QL80_.jpg",
       "description": "Klara, an Artificial Friend, observes humanity with innocent curiosity. Ishiguro’s novel asks profound questions about love, technology, and what it means to be human."
     },
@@ -705,6 +763,7 @@
       "rent": 7,
       "genre": "Psychological Thriller",
       "isPopular": false,
+      "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/81E6ZuCAr-L._UF1000,1000_QL80_.jpg",
       "description": "Blythe struggles with motherhood and her unsettling daughter. This tense psychological drama questions nature, nurture, and generational trauma."
     },
@@ -717,6 +776,7 @@
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/71R4p7BzWAL._UF1000,1000_QL80_.jpg",
       "description": "Inspired by the life of Marie de France, a 12th-century nun who builds a radical abbey. Groff crafts a powerful tale of devotion and leadership."
     },
@@ -729,6 +789,7 @@
       "rent": 10,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/81v9cQmwTEL._UF1000,1000_QL80_.jpg",
       "description": "Spanning centuries and continents, stories are tied together by an ancient text. Doerr celebrates the endurance of stories in times of crisis."
     },
@@ -741,6 +802,7 @@
       "rent": 6,
       "genre": "Literary Fiction",
       "isPopular": false,
+      "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/81SsxqwYwjL._UF1000,1000_QL80_.jpg",
       "description": "Two best friends navigate love, friendship, and disillusionment in modern Ireland. Rooney writes with intimacy and sharp emotional detail."
     },
@@ -753,6 +815,7 @@
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.6,
       "cover": "https://m.media-amazon.com/images/I/81es7RW3zQL._UF1000,1000_QL80_.jpg",
       "description": "A young man, fresh from a juvenile work farm, sets out across 1950s America. Towles spins a road trip full of adventure, hope, and discovery."
     },
@@ -765,6 +828,7 @@
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.6,
       "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3xBhlB8lCqFJS2Ury4PCl3cMkq1h2MDvoQ&s",
       "description": "Ray Carney, a furniture salesman in 1960s Harlem, balances family life with criminal schemes. Whitehead mixes crime caper with social commentary."
     },
@@ -777,6 +841,7 @@
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
+      "rate": 4.6,
       "cover": "https://m.media-amazon.com/images/I/817JkWnWB3L._UF1000,1000_QL80_.jpg",
       "description": "Jess arrives in Paris to stay with her brother—only to find him missing. A suspenseful locked-building mystery with dark secrets behind every door."
     },
@@ -789,6 +854,7 @@
       "rent": 6,
       "genre": "Thriller",
       "isPopular": false,
+      "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/81oZM1zeKtL.jpg",
       "description": "Before vanishing, Hannah’s husband leaves her a note: 'Protect her.' She must uncover the truth to safeguard her stepdaughter in this suspenseful drama."
     },
@@ -801,6 +867,7 @@
       "rent": 9,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/81IL4J6ZVIL._UF1000,1000_QL80_.jpg",
       "description": "Tarantino reimagines 1969 Hollywood with humor, violence, and nostalgia. A playful blend of real history and fictional storytelling."
     },
@@ -813,6 +880,7 @@
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
+      "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/71gwIWqzCPL._UF1000,1000_QL80_.jpg",
       "description": "Molly, a quirky hotel maid, discovers a guest dead in his room. Her unique perspective makes her both a suspect and the key to solving the crime."
     },
@@ -825,6 +893,7 @@
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
+      "rate": 4.3,
       "cover": "https://m.media-amazon.com/images/I/71bgrXZvbuS._UF1000,1000_QL80_.jpg",
       "description": "A caseworker inspects a mysterious orphanage filled with magical children. Klune delivers a heartwarming fantasy about acceptance, kindness, and chosen family."
     },
@@ -837,6 +906,7 @@
       "rent": 9,
       "genre": "Fantasy",
       "isPopular": false,
+      "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/813s9Q0mszL._UF1000,1000_QL80_.jpg",
       "description": "Addie LaRue makes a Faustian bargain to live forever—cursed to be forgotten by everyone she meets. A sweeping tale of love and memory across centuries."
     },
@@ -849,6 +919,7 @@
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.3,
       "cover": "https://m.media-amazon.com/images/I/81BvTRnoBoL.jpg",
       "description": "During the Dust Bowl era, Elsa Martinelli fights for her family’s survival. Hannah paints a vivid portrait of resilience in one of America’s darkest times."
     },
@@ -861,6 +932,7 @@
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/91zXBCFQSsL._UF1000,1000_QL80_.jpg",
       "description": "A luxury hotel in the Swiss Alps turns sinister when guests go missing. A chilling locked-room thriller full of secrets and tension."
     },
@@ -873,6 +945,7 @@
       "rent": 6,
       "genre": "Romance",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/7125eYIFBxL.jpg",
       "description": "August falls for Jane, a girl displaced in time and stuck on the subway. A witty, heartfelt romance blending mystery and magical realism."
     },
@@ -885,6 +958,7 @@
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
+      "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/912xo84QXBL._UF1000,1000_QL80_.jpg",
       "description": "Two ex-con fathers seek justice for their murdered sons. A gritty Southern noir about revenge, redemption, and confronting prejudice."
     },
@@ -897,11 +971,12 @@
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
+      "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91Nt5LU1auS._UF1000,1000_QL80_.jpg",
       "description": "Three women codebreakers at Bletchley Park risk everything during WWII. Quinn combines history, espionage, and sisterhood in this gripping novel."
     }
   ],
-  
+
   "member": [
     {
       "id": "1",
@@ -1234,7 +1309,6 @@
       "photo": "https://i.pravatar.cc/50?img=30"
     }
   ],
-
 
   "issued": [
     {
