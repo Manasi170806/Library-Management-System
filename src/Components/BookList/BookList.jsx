@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
- import { useSelector, useDispatch } from "react-redux";
- import { selectBooks, fetchBooks } from "../../features/booksSlice";
+import { useSelector, useDispatch } from "react-redux";
+import { selectBooks, fetchBooks, deleteBook } from "../../features/booksSlice";
 import "./BookList.css";
 import { Link } from "react-router-dom";
 import Description from "../Description-section/Description";
@@ -67,9 +67,8 @@ const BookList = () => {
                       </td>
                       <td>
                         <span
-                          className={`chip ${
-                            book.isAvailable ? "chip--green" : "chip--red"
-                          }`}
+                          className={`chip ${book.isAvailable ? "chip--green" : "chip--red"
+                            }`}
                         >
                           {book.isAvailable ? "Available" : "Not Available"}
                         </span>
@@ -88,11 +87,17 @@ const BookList = () => {
                       <td>
                         <Link to={`/description/${book.id}`}>
                           <button className="btn-link">View</button>
-                          
+
                         </Link>
                       </td>
                       <td>
-                        <button className="btn-del">Delete</button></td>
+                        <button
+                          className="btn-del"
+                          onClick={() => dispatch(deleteBook(book.id))}
+                        >
+                          Remove
+                        </button>
+                        </td>
                     </tr>
                   );
                 })

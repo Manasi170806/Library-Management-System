@@ -1,169 +1,6 @@
 {
   "books": [
     {
-      "id": "1",
-      "title": "Frankenstein",
-      "author": "Mary Shelley",
-      "isAvailable": true,
-      "isbn": ["100001", "100002", "100003", "100004", "100005"],
-      "rent": 8,
-      "genre": "Gothic Fiction",
-      "isPopular": true,
-      "rate": 4.3,
-      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg",
-      "description": "A scientist creates life, only to be haunted by the consequences of his ambition. This gothic classic explores themes of humanity, isolation, and morality."
-    },
-    {
-      "id": "2",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "isAvailable": true,
-      "isbn": ["100006", "100007", "100008", "100009", "100010", "100011"],
-      "rent": 6,
-      "genre": "Romance",
-      "isPopular": true,
-      "rate": 4.5,
-      "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg",
-      "description": "A witty tale of love and misunderstandings between Elizabeth Bennet and Mr. Darcy. It’s a timeless romance filled with charm, wit, and social commentary."
-    },
-    {
-      "id": "3",
-      "title": "1984",
-      "author": "George Orwell",
-      "isAvailable": false,
-      "isbn": ["100012", "100013", "100014", "100015", "100016"],
-      "rent": 7,
-      "genre": "Dystopian",
-      "isPopular": true,
-      "rate": 4.9,
-      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327144697i/3744438.jpg",
-      "description": "A chilling vision of a totalitarian future ruled by surveillance and control. Orwell’s masterpiece warns against the dangers of oppression and lost freedom."
-    },
-    {
-      "id": "4",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "isAvailable": true,
-      "isbn": ["100017", "100018", "100019", "100020", "100021", "100022"],
-      "rent": 5,
-      "genre": "Southern Gothic",
-      "isPopular": true,
-      "rate": 4.3,
-      "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg",
-      "description": "Through the eyes of young Scout Finch, the novel explores justice, race, and morality. It’s a moving story about empathy, kindness, and standing for truth."
-    },
-    {
-      "id": "5",
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "isAvailable": true,
-      "isbn": ["100023", "100024", "100025", "100026", "100027"],
-      "rent": 6,
-      "genre": "Tragedy",
-      "isPopular": true,
-      "rate": 4.5,
-      "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
-      "description": "Set in the Roaring Twenties, Gatsby chases love and the American Dream. A dazzling yet tragic tale of wealth, desire, and illusions of happiness."
-    },
-    {
-      "id": "6",
-      "title": "Moby Dick",
-      "author": "Herman Melville",
-      "isAvailable": false,
-      "isbn": ["100028", "100029", "100030", "100031", "100032", "100033"],
-      "rent": 9,
-      "genre": "Adventure",
-      "isPopular": false,
-      "rate": 4.2,
-      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg",
-      "description": "Captain Ahab obsessively hunts the great white whale, Moby Dick. This epic sea adventure delves into fate, obsession, and the human spirit."
-    },
-    {
-      "id": "7",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "isAvailable": true,
-      "isbn": ["100034", "100035", "100036", "100037", "100038"],
-      "rent": 10,
-      "genre": "Historical Fiction",
-      "isPopular": true,
-      "rate": 4.0,
-      "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg",
-      "description": "A sweeping story of love, war, and destiny set in Napoleonic Russia. Tolstoy masterfully blends history with personal lives and moral struggles."
-    },
-    {
-      "id": "8",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "isAvailable": true,
-      "isbn": ["100039", "100040", "100041", "100042", "100043", "100044"],
-      "rent": 8,
-      "genre": "Psychological Fiction",
-      "isPopular": false,
-      "rate": 4.3,
-      "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg",
-      "description": "A young man commits murder and struggles with guilt and redemption. Dostoevsky dives deep into morality, psychology, and the search for forgiveness."
-    },
-    {
-      "id": "9",
-      "title": "The Odyssey",
-      "author": "Homer",
-      "isAvailable": true,
-      "isbn": ["100045", "100046", "100047", "100048", "100049"],
-      "rent": 7,
-      "genre": "Epic Poetry",
-      "isPopular": false,
-      "rate": 4.9,
-      "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg",
-      "description": "An epic journey of Odysseus as he strives to return home after the Trojan War. Full of gods, monsters, and trials, it’s a cornerstone of Greek literature."
-    },
-    {
-      "id": "10",
-      "title": "Ulysses",
-      "author": "James Joyce",
-      "isAvailable": false,
-      "isbn": ["100050", "100051", "100052", "100053", "100054", "100055"],
-      "rent": 12,
-      "genre": "Modernist",
-      "isPopular": false,
-      "rate": 4.1,
-      "cover": "https://m.media-amazon.com/images/I/7104w1aKFmL._UF1000,1000_QL80_.jpg",
-      "description": "A groundbreaking modernist novel following a single day in Dublin. Joyce’s stream-of-consciousness style captures the depth of everyday human life."
-    },
-    {
-      "id": "11",
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "isAvailable": true,
-      "isbn": ["100056", "100057", "100058", "100059", "100060"],
-      "rent": 9,
-      "genre": "Epic Poetry",
-      "isPopular": false,
-      "rate": 4.1,
-      "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg",
-      "description": "An epic journey through Hell, Purgatory, and Paradise guided by reason and faith. Dante’s masterpiece reflects the human soul’s quest for salvation."
-    },
-    {
-      "id": "12",
-      "title": "Don Quixote",
-      "author": "Miguel de Cervantes",
-      "isAvailable": true,
-      "isbn": [
-        "100061",
-        "100062",
-        "100063",
-        "100064",
-        "100065",
-        "100066"
-      ],
-      "rent": 7,
-      "genre": "Picaresque",
-      "isPopular": false,
-      "rate": 3.9,
-      "cover": "https://m.media-amazon.com/images/I/61NlxaWjCYL._UF1000,1000_QL80_.jpg",
-      "description": "A delusional knight sets out with his loyal squire to revive chivalry. This humorous yet profound novel questions reality, ideals, and human folly."
-    },
-    {
       "id": "13",
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
@@ -373,7 +210,7 @@
       "rent": 7,
       "genre": "Existential Fiction",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81o9ksvNh8L._UF1000,1000_QL80_.jpg",
       "description": "Meursault, detached and indifferent, faces trial after an impulsive crime. Camus’ existential novel questions meaning, morality, and human freedom."
     },
@@ -393,7 +230,7 @@
       "rent": 5,
       "genre": "Bildungsroman",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81elBAS5LcL._UF1000,1000_QL80_.jpg",
       "description": "Pip’s journey from poverty to gentlemanhood reveals ambition and disillusion. Dickens weaves themes of class, loyalty, and personal growth."
     },
@@ -412,7 +249,7 @@
       "rent": 8,
       "genre": "Dystopian",
       "isPopular": true,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81IpKyby3OL.jpg",
       "description": "A futuristic society built on control, pleasure, and conformity emerges. Huxley’s dystopia warns of technology, consumerism, and lost individuality."
     },
@@ -549,7 +386,7 @@
       "rent": 8,
       "genre": "Magical Realism",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81eerT6DQFL._UF1000,1000_QL80_.jpg",
       "description": "Sethe, haunted by her past as a runaway slave, confronts memory and loss. Morrison’s novel blends history, trauma, and the supernatural with poetic power."
     },
@@ -568,7 +405,7 @@
       "rent": 7,
       "genre": "Adventure",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/71B2HtDDTwL._UF1000,1000_QL80_.jpg",
       "description": "Marlow journeys into Africa in search of the mysterious Kurtz. Conrad exposes imperial greed, human corruption, and the darkness within."
     },
@@ -588,7 +425,7 @@
       "rent": 6,
       "genre": "Realist Novel",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg",
       "description": "The Joad family migrates west during the Great Depression, seeking survival. Steinbeck portrays resilience, poverty, and the fight for dignity."
     },
@@ -607,7 +444,7 @@
       "rent": 9,
       "genre": "Psychological Fiction",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/71dfSg9HdoL._UF894,1000_QL80_.jpg",
       "description": "Humbert Humbert’s obsession with young Dolores Haze drives a disturbing tale. Nabokov’s masterpiece blends unsettling themes with dazzling prose."
     },
@@ -764,7 +601,7 @@
       "genre": "Fantasy",
       "isPopular": true,
       "rate": 4.7,
-      "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg",
+      "cover": "https://m.media-amazon.com/images/I/81j4C6j3dRL._UF1000,1000_QL80_.jpg",
       "description": "Frodo Baggins undertakes a perilous quest to destroy the One Ring. Tolkien’s epic trilogy defines modern fantasy with themes of courage, friendship, and power."
     },
     {
@@ -822,7 +659,7 @@
       "rent": 6,
       "genre": "Absurdist Fiction",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/71FMg0PJhVL._UF1000,1000_QL80_.jpg",
       "description": "Gregor Samsa wakes to find himself transformed into a giant insect. Kafka’s unsettling novella captures themes of alienation, guilt, and absurd existence."
     },
@@ -880,7 +717,7 @@
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": true,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/91EirnRPMcL._UF1000,1000_QL80_.jpg",
       "description": "Set during the French Revolution, this tale contrasts sacrifice and vengeance. Dickens portrays love and redemption against a backdrop of chaos and change."
     },
@@ -978,7 +815,7 @@
       "rent": 10,
       "genre": "Science Fiction",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/91ENQs2KLAL._UF1000,1000_QL80_.jpg",
       "description": "A lone astronaut awakens on a spaceship with no memory. Earth’s fate depends on his mission in this gripping blend of science and survival."
     },
@@ -997,7 +834,7 @@
       "rent": 6,
       "genre": "Historical Fiction",
       "isPopular": false,
-      "rate": 4.0,
+      "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/918yC6qUe7L._UF1000,1000_QL80_.jpg",
       "description": "In 1980s Malibu, four famous siblings throw an unforgettable party. As the night spirals, secrets unravel in this story of fame and family."
     },
@@ -1729,15 +1566,6 @@
   ],
   "issued": [
     {
-      "id": "12",
-      "bookId": "12",
-      "memberId": "12",
-      "issueDate": "2023-10-05",
-      "dueDate": "2023-10-19",
-      "returnDate": null,
-      "status": "Issued"
-    },
-    {
       "id": "13",
       "bookId": "13",
       "memberId": "13",
@@ -1811,16 +1639,6 @@
     }
   ],
   "fines": [
-    {
-      "id": "12",
-      "memberId": "12",
-      "bookId": "12",
-      "issueDate": "2023-10-05",
-      "dueDate": "2023-10-19",
-      "returnDate": "2023-10-20",
-      "fineAmount": 2,
-      "paymentStatus": "Unpaid"
-    },
     {
       "id": "13",
       "memberId": "13",
@@ -1903,13 +1721,6 @@
     }
   ],
   "reservation": [
-    {
-      "id": "11",
-      "memberId": "11",
-      "bookId": "12",
-      "reservationDate": "2023-10-01",
-      "status": "Active"
-    },
     {
       "id": "12",
       "memberId": "12",
