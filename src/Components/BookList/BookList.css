@@ -4,13 +4,11 @@
   box-sizing: border-box;
 }
 
-
 .books-card {
   background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 16px 16px 8px;
-  
 }
 
 .books-card__header {
@@ -42,6 +40,7 @@
 }
 
 .books-table tbody td {
+
   padding: 10px;
   border: 1px solid #ddd;
 }
@@ -84,8 +83,7 @@
   padding: 20px;
   color: gray;
 }
-.btn-del
-{
+.btn-delete {
   background: none;
   border: none;
   color: red;

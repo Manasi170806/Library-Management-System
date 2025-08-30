@@ -6,14 +6,104 @@
 
 .description-card {
   height: 450px;
-  width: 100%;
-  margin: 1rem 0;
-  background-color: rgb(127, 191, 255);
+  width: 90%;
+  margin: 2rem auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  /* align-items: center; */
+  padding: 0 20px;
+  gap: 3rem;
 }
 
 .description-card img {
   height: 400px;
   width: 30%;
+}
+
+.description-details {
+  height: 200px;
+  width: 80%;
+}
+
+.description-details h2 {
+  font-size: 30px;
+  color: rgb(26, 26, 26);
+}
+
+.description-details span {
+  margin-top: 50px;
+  color: grey;
+}
+
+.description-details p {
+  color: gray;
+  margin: 20px 0;
+  font-weight: 300;
+  word-spacing: 4px;
+}
+
+.description-details h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.availability {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white !important;
+  cursor: default;
+}
+
+.available {
+  background-color: #4caf50;
+}
+
+.unavailable {
+  background-color: crimson;
+}
+
+/* Table */
+/* book details */
+
+.book-details {
+  height: auto;
+  width: 100%;
+}
+.book-details table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.book-details thead th {
+  background: #2196f3;
+  color: white;
+  padding: 12px 22px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.book-details tbody td {
+  background: #f9f9f9;
+  padding: 10px 22px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.book-details tbody td:first-child {
+  font-weight: 600;
+}
+.book-details tbody tr:nth-child(even) td {
+  background: #f1f7ff;
+}
+
+.book-details tbody tr:last-child td {
+  border-bottom: none;
 }
