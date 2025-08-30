@@ -41,7 +41,7 @@ const BookList = () => {
                 <th>Status</th>
                 <th>Availability</th>
                 <th>Details</th>
-                <th>Delete</th>
+                <th>Remove</th>
               </tr>
             </thead>
 
@@ -88,13 +88,11 @@ const BookList = () => {
                       <td>
                         <Link to={`/description/${book.id}`}>
                           <button className="btn-link">View</button>
+                          
                         </Link>
                       </td>
                       <td>
-                        <button className="btn-link" onClick={() => console.log("delete:", book.id)}>
-                          Delete
-                        </button>
-                      </td>
+                        <button className="btn-del">Delete</button></td>
                     </tr>
                   );
                 })
