@@ -26,17 +26,25 @@ function Description() {
       <div className="description-card">
         <img src={book.cover} alt="" />
         <div className="description-details">
-          <h2>{book.title} </h2>
+          <div className="title-sec">
+            <h2>{book.title}</h2>
+            <button
+              className={`availability ${
+                book.isAvailable ? "available" : "unavailable"
+              }`}
+            >
+              {book.isAvailable ? "Available" : "Not Available"}
+            </button>
+          </div>
+
           <span>{book.author}</span>
           <p>{book.description}</p>
           <h4>$ {book.rent}</h4>
-          <button
-            className={`availability ${
-              book.isAvailable ? "available" : "unavailable"
-            }`}
-          >
-            {book.isAvailable ? "Available" : "Not Available"}
-          </button>
+
+          <div className="purchase-btns">
+            <button className="cart">Add to cart</button>
+            <button className="buyNow">Buy Now</button>
+          </div>
         </div>
       </div>
       {/* Book details - title, author, rate,price,gener,available */}

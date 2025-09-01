@@ -47,6 +47,10 @@
   margin: 10px 0;
   padding: 10px 15px;
   display: block;
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
 }
 
 .nav-data nav .navlink.active {

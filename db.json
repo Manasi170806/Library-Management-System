@@ -209,13 +209,7 @@
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
       "isAvailable": true,
-      "isbn": [
-        "100067",
-        "100068",
-        "100069",
-        "100070",
-        "100071"
-      ],
+      "isbn": ["100067", "100068", "100069", "100070", "100071"],
       "rent": 10,
       "genre": "Philosophical Fiction",
       "isPopular": false,
@@ -224,6 +218,7 @@
       "description": "The Brothers Karamazov is Dostoevsky’s final and most profound novel, a sweeping exploration of morality, justice, and faith. Centered on three brothers—Dmitri, Ivan, and Alyosha—the story dives deep into their struggles with guilt, spirituality, and the search for meaning in a world filled with suffering. The conflict with their father escalates into tragedy, exposing questions of free will, divine existence, and human responsibility. Through courtroom drama, philosophical debate, and raw emotion, Dostoevsky paints a timeless portrait of the human condition and its eternal quest for truth."
     },
     {
+<<<<<<< HEAD
       "id": "14",
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
@@ -244,17 +239,13 @@
       "description": "Wuthering Heights is a haunting tale of obsessive love, revenge, and the destructive power of passion set on the windswept Yorkshire moors. It tells the story of Heathcliff, an orphan consumed by bitterness, and Catherine Earnshaw, whose restless spirit and divided loyalties lead to a tragic love affair. Brontë captures the wildness of human emotions against the backdrop of isolation and unforgiving nature. The novel explores generational conflict, class divisions, and the thin line between love and cruelty, making it one of the most powerful gothic romances ever written."
     },
     {
+=======
+>>>>>>> 8ebaf652edfb94a78339a0577a8d22d3c8bde217
       "id": "15",
       "title": "Madame Bovary",
       "author": "Gustave Flaubert",
       "isAvailable": true,
-      "isbn": [
-        "100078",
-        "100079",
-        "100080",
-        "100081",
-        "100082"
-      ],
+      "isbn": ["100078", "100079", "100080", "100081", "100082"],
       "rent": 7,
       "genre": "Realism",
       "isPopular": false,
@@ -267,14 +258,7 @@
       "title": "The Iliad",
       "author": "Homer",
       "isAvailable": true,
-      "isbn": [
-        "100083",
-        "100084",
-        "100085",
-        "100086",
-        "100087",
-        "100088"
-      ],
+      "isbn": ["100083", "100084", "100085", "100086", "100087", "100088"],
       "rent": 8,
       "genre": "Epic Poetry",
       "isPopular": false,
@@ -287,13 +271,7 @@
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
       "isAvailable": true,
-      "isbn": [
-        "100089",
-        "100090",
-        "100091",
-        "100092",
-        "100093"
-      ],
+      "isbn": ["100089", "100090", "100091", "100092", "100093"],
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": false,
@@ -306,14 +284,7 @@
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
       "isAvailable": false,
-      "isbn": [
-        "100094",
-        "100095",
-        "100096",
-        "100097",
-        "100098",
-        "100099"
-      ],
+      "isbn": ["100094", "100095", "100096", "100097", "100098", "100099"],
       "rent": 9,
       "genre": "Magical Realism",
       "isPopular": false,
@@ -326,13 +297,7 @@
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
       "isAvailable": true,
-      "isbn": [
-        "100100",
-        "100101",
-        "100102",
-        "100103",
-        "100104"
-      ],
+      "isbn": ["100100", "100101", "100102", "100103", "100104"],
       "rent": 8,
       "genre": "Realist Novel",
       "isPopular": true,
@@ -345,14 +310,7 @@
       "title": "Les Misérables",
       "author": "Victor Hugo",
       "isAvailable": true,
-      "isbn": [
-        "100105",
-        "100106",
-        "100107",
-        "100108",
-        "100109",
-        "100110"
-      ],
+      "isbn": ["100105", "100106", "100107", "100108", "100109", "100110"],
       "rent": 12,
       "genre": "Historical Fiction",
       "isPopular": true,
@@ -365,13 +323,7 @@
       "title": "The Count of Monte Cristo",
       "author": "Alexandre Dumas",
       "isAvailable": true,
-      "isbn": [
-        "100111",
-        "100112",
-        "100113",
-        "100114",
-        "100115"
-      ],
+      "isbn": ["100111", "100112", "100113", "100114", "100115"],
       "rent": 9,
       "genre": "Adventure",
       "isPopular": false,
@@ -384,14 +336,7 @@
       "title": "Jane Eyre",
       "author": "Charlotte Brontë",
       "isAvailable": false,
-      "isbn": [
-        "100116",
-        "100117",
-        "100118",
-        "100119",
-        "100120",
-        "100121"
-      ],
+      "isbn": ["100116", "100117", "100118", "100119", "100120", "100121"],
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": true,
@@ -404,13 +349,7 @@
       "title": "The Stranger",
       "author": "Albert Camus",
       "isAvailable": true,
-      "isbn": [
-        "100122",
-        "100123",
-        "100124",
-        "100125",
-        "100126"
-      ],
+      "isbn": ["100122", "100123", "100124", "100125", "100126"],
       "rent": 7,
       "genre": "Existential Fiction",
       "isPopular": false,
@@ -423,14 +362,7 @@
       "title": "Great Expectations",
       "author": "Charles Dickens",
       "isAvailable": true,
-      "isbn": [
-        "100127",
-        "100128",
-        "100129",
-        "100130",
-        "100131",
-        "100132"
-      ],
+      "isbn": ["100127", "100128", "100129", "100130", "100131", "100132"],
       "rent": 5,
       "genre": "Bildungsroman",
       "isPopular": false,
@@ -443,13 +375,7 @@
       "title": "Brave New World",
       "author": "Aldous Huxley",
       "isAvailable": true,
-      "isbn": [
-        "100133",
-        "100134",
-        "100135",
-        "100136",
-        "100137"
-      ],
+      "isbn": ["100133", "100134", "100135", "100136", "100137"],
       "rent": 8,
       "genre": "Dystopian",
       "isPopular": true,
@@ -462,14 +388,7 @@
       "title": "Middlemarch",
       "author": "George Eliot",
       "isAvailable": false,
-      "isbn": [
-        "100138",
-        "100139",
-        "100140",
-        "100141",
-        "100142",
-        "100143"
-      ],
+      "isbn": ["100138", "100139", "100140", "100141", "100142", "100143"],
       "rent": 7,
       "genre": "Realist Novel",
       "isPopular": false,
@@ -482,13 +401,7 @@
       "title": "In Search of Lost Time",
       "author": "Marcel Proust",
       "isAvailable": true,
-      "isbn": [
-        "100144",
-        "100145",
-        "100146",
-        "100147",
-        "100148"
-      ],
+      "isbn": ["100144", "100145", "100146", "100147", "100148"],
       "rent": 15,
       "genre": "Modernist",
       "isPopular": false,
@@ -501,14 +414,7 @@
       "title": "The Trial",
       "author": "Franz Kafka",
       "isAvailable": true,
-      "isbn": [
-        "100149",
-        "100150",
-        "100151",
-        "100152",
-        "100153",
-        "100154"
-      ],
+      "isbn": ["100149", "100150", "100151", "100152", "100153", "100154"],
       "rent": 9,
       "genre": "Absurdist Fiction",
       "isPopular": false,
@@ -521,13 +427,7 @@
       "title": "The Sound and the Fury",
       "author": "William Faulkner",
       "isAvailable": true,
-      "isbn": [
-        "100155",
-        "100156",
-        "100157",
-        "100158",
-        "100159"
-      ],
+      "isbn": ["100155", "100156", "100157", "100158", "100159"],
       "rent": 10,
       "genre": "Southern Gothic",
       "isPopular": false,
@@ -540,14 +440,7 @@
       "title": "Hamlet",
       "author": "William Shakespeare",
       "isAvailable": false,
-      "isbn": [
-        "100160",
-        "100161",
-        "100162",
-        "100163",
-        "100164",
-        "100165"
-      ],
+      "isbn": ["100160", "100161", "100162", "100163", "100164", "100165"],
       "rent": 5,
       "genre": "Tragedy",
       "isPopular": false,
@@ -560,13 +453,7 @@
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "isAvailable": true,
-      "isbn": [
-        "100166",
-        "100167",
-        "100168",
-        "100169",
-        "100170"
-      ],
+      "isbn": ["100166", "100167", "100168", "100169", "100170"],
       "rent": 6,
       "genre": "Bildungsroman",
       "isPopular": true,
@@ -579,14 +466,7 @@
       "title": "Beloved",
       "author": "Toni Morrison",
       "isAvailable": true,
-      "isbn": [
-        "100171",
-        "100172",
-        "100173",
-        "100174",
-        "100175",
-        "100176"
-      ],
+      "isbn": ["100171", "100172", "100173", "100174", "100175", "100176"],
       "rent": 8,
       "genre": "Magical Realism",
       "isPopular": false,
@@ -599,13 +479,7 @@
       "title": "Heart of Darkness",
       "author": "Joseph Conrad",
       "isAvailable": true,
-      "isbn": [
-        "100177",
-        "100178",
-        "100179",
-        "100180",
-        "100181"
-      ],
+      "isbn": ["100177", "100178", "100179", "100180", "100181"],
       "rent": 7,
       "genre": "Adventure",
       "isPopular": false,
@@ -618,14 +492,7 @@
       "title": "The Grapes of Wrath",
       "author": "John Steinbeck",
       "isAvailable": false,
-      "isbn": [
-        "100182",
-        "100183",
-        "100184",
-        "100185",
-        "100186",
-        "100187"
-      ],
+      "isbn": ["100182", "100183", "100184", "100185", "100186", "100187"],
       "rent": 6,
       "genre": "Realist Novel",
       "isPopular": false,
@@ -638,13 +505,7 @@
       "title": "Lolita",
       "author": "Vladimir Nabokov",
       "isAvailable": true,
-      "isbn": [
-        "100188",
-        "100189",
-        "100190",
-        "100191",
-        "100192"
-      ],
+      "isbn": ["100188", "100189", "100190", "100191", "100192"],
       "rent": 9,
       "genre": "Psychological Fiction",
       "isPopular": false,
@@ -657,14 +518,7 @@
       "title": "The Sun Also Rises",
       "author": "Ernest Hemingway",
       "isAvailable": true,
-      "isbn": [
-        "100193",
-        "100194",
-        "100195",
-        "100196",
-        "100197",
-        "100198"
-      ],
+      "isbn": ["100193", "100194", "100195", "100196", "100197", "100198"],
       "rent": 7,
       "genre": "Modernist",
       "isPopular": false,
@@ -677,13 +531,7 @@
       "title": "Catch-22",
       "author": "Joseph Heller",
       "isAvailable": true,
-      "isbn": [
-        "100199",
-        "100200",
-        "100201",
-        "100202",
-        "100203"
-      ],
+      "isbn": ["100199", "100200", "100201", "100202", "100203"],
       "rent": 8,
       "genre": "Satire",
       "isPopular": false,
@@ -696,14 +544,7 @@
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "isAvailable": false,
-      "isbn": [
-        "100204",
-        "100205",
-        "100206",
-        "100207",
-        "100208",
-        "100209"
-      ],
+      "isbn": ["100204", "100205", "100206", "100207", "100208", "100209"],
       "rent": 5,
       "genre": "Fantasy",
       "isPopular": true,
@@ -716,13 +557,7 @@
       "title": "Fahrenheit 451",
       "author": "Ray Bradbury",
       "isAvailable": true,
-      "isbn": [
-        "100210",
-        "100211",
-        "100212",
-        "100213",
-        "100214"
-      ],
+      "isbn": ["100210", "100211", "100212", "100213", "100214"],
       "rent": 7,
       "genre": "Dystopian",
       "isPopular": true,
@@ -735,14 +570,7 @@
       "title": "Slaughterhouse-Five",
       "author": "Kurt Vonnegut",
       "isAvailable": true,
-      "isbn": [
-        "100215",
-        "100216",
-        "100217",
-        "100218",
-        "100219",
-        "100220"
-      ],
+      "isbn": ["100215", "100216", "100217", "100218", "100219", "100220"],
       "rent": 8,
       "genre": "Satire",
       "isPopular": false,
@@ -755,13 +583,7 @@
       "title": "The Bell Jar",
       "author": "Sylvia Plath",
       "isAvailable": true,
-      "isbn": [
-        "100221",
-        "100222",
-        "100223",
-        "100224",
-        "100225"
-      ],
+      "isbn": ["100221", "100222", "100223", "100224", "100225"],
       "rent": 7,
       "genre": "Psychological Fiction",
       "isPopular": false,
@@ -774,14 +596,7 @@
       "title": "The Handmaid's Tale",
       "author": "Margaret Atwood",
       "isAvailable": false,
-      "isbn": [
-        "100226",
-        "100227",
-        "100228",
-        "100229",
-        "100230",
-        "100231"
-      ],
+      "isbn": ["100226", "100227", "100228", "100229", "100230", "100231"],
       "rent": 9,
       "genre": "Dystopian",
       "isPopular": false,
@@ -794,13 +609,7 @@
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "isAvailable": true,
-      "isbn": [
-        "100232",
-        "100233",
-        "100234",
-        "100235",
-        "100236"
-      ],
+      "isbn": ["100232", "100233", "100234", "100235", "100236"],
       "rent": 12,
       "genre": "Fantasy",
       "isPopular": true,
@@ -813,14 +622,7 @@
       "title": "Moby Dick",
       "author": "Herman Melville",
       "isAvailable": true,
-      "isbn": [
-        "100237",
-        "100238",
-        "100239",
-        "100240",
-        "100241",
-        "100242"
-      ],
+      "isbn": ["100237", "100238", "100239", "100240", "100241", "100242"],
       "rent": 9,
       "genre": "Adventure",
       "isPopular": false,
@@ -833,13 +635,7 @@
       "title": "Dracula",
       "author": "Bram Stoker",
       "isAvailable": true,
-      "isbn": [
-        "100243",
-        "100244",
-        "100245",
-        "100246",
-        "100247"
-      ],
+      "isbn": ["100243", "100244", "100245", "100246", "100247"],
       "rent": 7,
       "genre": "Gothic Fiction",
       "isPopular": false,
@@ -852,14 +648,7 @@
       "title": "The Metamorphosis",
       "author": "Franz Kafka",
       "isAvailable": false,
-      "isbn": [
-        "100248",
-        "100249",
-        "100250",
-        "100251",
-        "100252",
-        "100253"
-      ],
+      "isbn": ["100248", "100249", "100250", "100251", "100252", "100253"],
       "rent": 6,
       "genre": "Absurdist Fiction",
       "isPopular": false,
@@ -872,13 +661,7 @@
       "title": "Of Mice and Men",
       "author": "John Steinbeck",
       "isAvailable": true,
-      "isbn": [
-        "100254",
-        "100255",
-        "100256",
-        "100257",
-        "100258"
-      ],
+      "isbn": ["100254", "100255", "100256", "100257", "100258"],
       "rent": 5,
       "genre": "Tragedy",
       "isPopular": false,
@@ -891,14 +674,7 @@
       "title": "The Scarlet Letter",
       "author": "Nathaniel Hawthorne",
       "isAvailable": true,
-      "isbn": [
-        "100259",
-        "100260",
-        "100261",
-        "100262",
-        "100263",
-        "100264"
-      ],
+      "isbn": ["100259", "100260", "100261", "100262", "100263", "100264"],
       "rent": 6,
       "genre": "Historical Fiction",
       "isPopular": true,
@@ -911,13 +687,7 @@
       "title": "A Tale of Two Cities",
       "author": "Charles Dickens",
       "isAvailable": true,
-      "isbn": [
-        "100265",
-        "100266",
-        "100267",
-        "100268",
-        "100269"
-      ],
+      "isbn": ["100265", "100266", "100267", "100268", "100269"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": true,
@@ -930,14 +700,7 @@
       "title": "Native Son",
       "author": "Richard Wright",
       "isAvailable": true,
-      "isbn": [
-        "100270",
-        "100271",
-        "100272",
-        "100273",
-        "100274",
-        "100275"
-      ],
+      "isbn": ["100270", "100271", "100272", "100273", "100274", "100275"],
       "rent": 8,
       "genre": "Social Realism",
       "isPopular": false,
@@ -950,13 +713,7 @@
       "title": "The Silent Patient",
       "author": "Alex Michaelides",
       "isAvailable": true,
-      "isbn": [
-        "100276",
-        "100277",
-        "100278",
-        "100279",
-        "100280"
-      ],
+      "isbn": ["100276", "100277", "100278", "100279", "100280"],
       "rent": 9,
       "genre": "Psychological Thriller",
       "isPopular": false,
@@ -969,14 +726,7 @@
       "title": "Where the Crawdads Sing",
       "author": "Delia Owens",
       "isAvailable": true,
-      "isbn": [
-        "100281",
-        "100282",
-        "100283",
-        "100284",
-        "100285",
-        "100286"
-      ],
+      "isbn": ["100281", "100282", "100283", "100284", "100285", "100286"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -989,13 +739,7 @@
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "isAvailable": false,
-      "isbn": [
-        "100287",
-        "100288",
-        "100289",
-        "100290",
-        "100291"
-      ],
+      "isbn": ["100287", "100288", "100289", "100290", "100291"],
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
@@ -1008,14 +752,7 @@
       "title": "Project Hail Mary",
       "author": "Andy Weir",
       "isAvailable": true,
-      "isbn": [
-        "100292",
-        "100293",
-        "100294",
-        "100295",
-        "100296",
-        "100297"
-      ],
+      "isbn": ["100292", "100293", "100294", "100295", "100296", "100297"],
       "rent": 10,
       "genre": "Science Fiction",
       "isPopular": false,
@@ -1028,13 +765,7 @@
       "title": "Malibu Rising",
       "author": "Taylor Jenkins Reid",
       "isAvailable": true,
-      "isbn": [
-        "100298",
-        "100299",
-        "100300",
-        "100301",
-        "100302"
-      ],
+      "isbn": ["100298", "100299", "100300", "100301", "100302"],
       "rent": 6,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1047,14 +778,7 @@
       "title": "The Seven Husbands of Evelyn Hugo",
       "author": "Taylor Jenkins Reid",
       "isAvailable": false,
-      "isbn": [
-        "100303",
-        "100304",
-        "100305",
-        "100306",
-        "100307",
-        "100308"
-      ],
+      "isbn": ["100303", "100304", "100305", "100306", "100307", "100308"],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1067,13 +791,7 @@
       "title": "The Vanishing Half",
       "author": "Brit Bennett",
       "isAvailable": true,
-      "isbn": [
-        "100309",
-        "100310",
-        "100311",
-        "100312",
-        "100313"
-      ],
+      "isbn": ["100309", "100310", "100311", "100312", "100313"],
       "rent": 7,
       "genre": "Literary Fiction",
       "isPopular": false,
@@ -1086,14 +804,7 @@
       "title": "Klara and the Sun",
       "author": "Kazuo Ishiguro",
       "isAvailable": true,
-      "isbn": [
-        "100314",
-        "100315",
-        "100316",
-        "100317",
-        "100318",
-        "100319"
-      ],
+      "isbn": ["100314", "100315", "100316", "100317", "100318", "100319"],
       "rent": 9,
       "genre": "Science Fiction",
       "isPopular": false,
@@ -1106,13 +817,7 @@
       "title": "The Push",
       "author": "Ashley Audrain",
       "isAvailable": true,
-      "isbn": [
-        "100320",
-        "100321",
-        "100322",
-        "100323",
-        "100324"
-      ],
+      "isbn": ["100320", "100321", "100322", "100323", "100324"],
       "rent": 7,
       "genre": "Psychological Thriller",
       "isPopular": false,
@@ -1125,14 +830,7 @@
       "title": "Matrix",
       "author": "Lauren Groff",
       "isAvailable": false,
-      "isbn": [
-        "100325",
-        "100326",
-        "100327",
-        "100328",
-        "100329",
-        "100330"
-      ],
+      "isbn": ["100325", "100326", "100327", "100328", "100329", "100330"],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1145,13 +843,7 @@
       "title": "Cloud Cuckoo Land",
       "author": "Anthony Doerr",
       "isAvailable": true,
-      "isbn": [
-        "100331",
-        "100332",
-        "100333",
-        "100334",
-        "100335"
-      ],
+      "isbn": ["100331", "100332", "100333", "100334", "100335"],
       "rent": 10,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1164,14 +856,7 @@
       "title": "Beautiful World, Where Are You",
       "author": "Sally Rooney",
       "isAvailable": true,
-      "isbn": [
-        "100336",
-        "100337",
-        "100338",
-        "100339",
-        "100340",
-        "100341"
-      ],
+      "isbn": ["100336", "100337", "100338", "100339", "100340", "100341"],
       "rent": 6,
       "genre": "Literary Fiction",
       "isPopular": false,
@@ -1184,13 +869,7 @@
       "title": "The Lincoln Highway",
       "author": "Amor Towles",
       "isAvailable": true,
-      "isbn": [
-        "100342",
-        "100343",
-        "100344",
-        "100345",
-        "100346"
-      ],
+      "isbn": ["100342", "100343", "100344", "100345", "100346"],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1203,14 +882,7 @@
       "title": "Harlem Shuffle",
       "author": "Colson Whitehead",
       "isAvailable": false,
-      "isbn": [
-        "100347",
-        "100348",
-        "100349",
-        "100350",
-        "100351",
-        "100352"
-      ],
+      "isbn": ["100347", "100348", "100349", "100350", "100351", "100352"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1223,13 +895,7 @@
       "title": "The Paris Apartment",
       "author": "Lucy Foley",
       "isAvailable": true,
-      "isbn": [
-        "100353",
-        "100354",
-        "100355",
-        "100356",
-        "100357"
-      ],
+      "isbn": ["100353", "100354", "100355", "100356", "100357"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -1242,14 +908,7 @@
       "title": "The Last Thing He Told Me",
       "author": "Laura Dave",
       "isAvailable": true,
-      "isbn": [
-        "100358",
-        "100359",
-        "100360",
-        "100361",
-        "100362",
-        "100363"
-      ],
+      "isbn": ["100358", "100359", "100360", "100361", "100362", "100363"],
       "rent": 6,
       "genre": "Thriller",
       "isPopular": false,
@@ -1262,13 +921,7 @@
       "title": "Once Upon a Time in Hollywood",
       "author": "Quentin Tarantino",
       "isAvailable": true,
-      "isbn": [
-        "100364",
-        "100365",
-        "100366",
-        "100367",
-        "100368"
-      ],
+      "isbn": ["100364", "100365", "100366", "100367", "100368"],
       "rent": 9,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1281,14 +934,7 @@
       "title": "The Maid",
       "author": "Nita Prose",
       "isAvailable": false,
-      "isbn": [
-        "100369",
-        "100370",
-        "100371",
-        "100372",
-        "100373",
-        "100374"
-      ],
+      "isbn": ["100369", "100370", "100371", "100372", "100373", "100374"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -1301,13 +947,7 @@
       "title": "The House in the Cerulean Sea",
       "author": "TJ Klune",
       "isAvailable": true,
-      "isbn": [
-        "100375",
-        "100376",
-        "100377",
-        "100378",
-        "100379"
-      ],
+      "isbn": ["100375", "100376", "100377", "100378", "100379"],
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
@@ -1320,14 +960,7 @@
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "isAvailable": true,
-      "isbn": [
-        "100380",
-        "100381",
-        "100382",
-        "100383",
-        "100384",
-        "100385"
-      ],
+      "isbn": ["100380", "100381", "100382", "100383", "100384", "100385"],
       "rent": 9,
       "genre": "Fantasy",
       "isPopular": false,
@@ -1340,14 +973,7 @@
       "title": "The Four Winds",
       "author": "Kristin Hannah",
       "isAvailable": true,
-      "isbn": [
-        "100386",
-        "100387",
-        "100388",
-        "100389",
-        "100390",
-        "100391"
-      ],
+      "isbn": ["100386", "100387", "100388", "100389", "100390", "100391"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1360,14 +986,7 @@
       "title": "The Sanatorium",
       "author": "Sarah Pearse",
       "isAvailable": false,
-      "isbn": [
-        "100392",
-        "100393",
-        "100394",
-        "100395",
-        "100396",
-        "100397"
-      ],
+      "isbn": ["100392", "100393", "100394", "100395", "100396", "100397"],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
@@ -1380,14 +999,7 @@
       "title": "One Last Stop",
       "author": "Casey McQuiston",
       "isAvailable": true,
-      "isbn": [
-        "100398",
-        "100399",
-        "100400",
-        "100401",
-        "100402",
-        "100403"
-      ],
+      "isbn": ["100398", "100399", "100400", "100401", "100402", "100403"],
       "rent": 6,
       "genre": "Romance",
       "isPopular": false,
@@ -1400,14 +1012,7 @@
       "title": "Razorblade Tears",
       "author": "S.A. Cosby",
       "isAvailable": true,
-      "isbn": [
-        "100404",
-        "100405",
-        "100406",
-        "100407",
-        "100408",
-        "100409"
-      ],
+      "isbn": ["100404", "100405", "100406", "100407", "100408", "100409"],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
@@ -1420,14 +1025,7 @@
       "title": "The Rose Code",
       "author": "Kate Quinn",
       "isAvailable": true,
-      "isbn": [
-        "100410",
-        "100411",
-        "100412",
-        "100413",
-        "100414",
-        "100415"
-      ],
+      "isbn": ["100410", "100411", "100412", "100413", "100414", "100415"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1780,7 +1378,7 @@
     },
     {
       "id": "14",
-      "bookId": "14",
+      "bookId": null,
       "memberId": "14",
       "issueDate": "2023-10-12",
       "dueDate": "2023-10-26",
@@ -1856,7 +1454,7 @@
     {
       "id": "14",
       "memberId": "14",
-      "bookId": "14",
+      "bookId": null,
       "issueDate": "2023-10-12",
       "dueDate": "2023-10-26",
       "returnDate": null,
@@ -1935,7 +1533,7 @@
     {
       "id": "13",
       "memberId": "13",
-      "bookId": "14",
+      "bookId": null,
       "reservationDate": "2023-10-10",
       "status": "Active"
     },
