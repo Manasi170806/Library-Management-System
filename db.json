@@ -1,6 +1,216 @@
 {
   "books": [
     {
+      "id": "1",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "isAvailable": true,
+      "isbn": [
+        "100001",
+        "100002",
+        "100003",
+        "100004",
+        "100005"
+      ],
+      "rent": 8,
+      "genre": "Gothic Fiction",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg",
+      "description": "Frankenstein by Mary Shelley is a Gothic classic about Victor Frankenstein, a scientist obsessed with defying nature. He creates a living creature from corpses, but horrified by its appearance, he abandons it. The rejected creature longs for love yet finds only cruelty, turning to vengeance. This story explores ambition, responsibility, and humanity’s fear of the unknown. Both terrifying and tragic, it raises timeless questions about science, morality, and what it means to be truly human."
+    },
+    {
+      "id": "2",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isAvailable": true,
+      "isbn": [
+        "100006",
+        "100007",
+        "100008",
+        "100009",
+        "100010",
+        "100011"
+      ],
+      "rent": 6,
+      "genre": "Romance",
+      "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg",
+      "description": "Jane Austen’s Pride and Prejudice is a witty romance exploring love, pride, and class in Regency England. The spirited Elizabeth Bennet clashes with the proud Mr. Darcy, whose aloofness masks deep integrity. Through family pressures, misunderstandings, and social expectations, they gradually learn humility, respect, and true affection. With sparkling dialogue and keen social insight, Austen critiques rigid class divisions while celebrating personal growth. This enduring classic continues to charm readers with its humor, wit, and timeless love story."
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "isAvailable": false,
+      "isbn": [
+        "100012",
+        "100013",
+        "100014",
+        "100015",
+        "100016"
+      ],
+      "rent": 7,
+      "genre": "Dystopian",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327144697i/3744438.jpg",
+      "description": "1984 by George Orwell is a powerful dystopian novel about life under absolute surveillance and control. In Oceania, Big Brother rules every thought and action, erasing truth and individuality. Winston Smith, a weary worker, dares to rebel through love and secret defiance, but betrayal and punishment are inevitable. The novel warns of propaganda, censorship, and authoritarian power. Its haunting vision remains relevant, reminding readers how fragile freedom is in the face of unchecked political control and manipulation."
+    },
+    {
+      "id": "4",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isAvailable": true,
+      "isbn": [
+        "100017",
+        "100018",
+        "100019",
+        "100020",
+        "100021",
+        "100022"
+      ],
+      "rent": 5,
+      "genre": "Southern Gothic",
+      "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg",
+      "description": "To Kill a Mockingbird by Harper Lee is a moving exploration of justice, morality, and prejudice in the American South. Seen through the innocent eyes of Scout Finch, the story follows her father Atticus, a principled lawyer defending a Black man accused of raping a white woman. While Scout learns about compassion and courage, the town reveals deep racial divisions. Blending childhood innocence with profound moral lessons, this timeless classic remains a powerful call for empathy and justice."
+    },
+    {
+      "id": "5",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isAvailable": true,
+      "isbn": [
+        "100023",
+        "100024",
+        "100025",
+        "100026",
+        "100027"
+      ],
+      "rent": 6,
+      "genre": "Tragedy",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      "description": "The Great Gatsby by F. Scott Fitzgerald is a Jazz Age masterpiece about wealth, illusion, and tragic love. Through narrator Nick Carraway, we discover the enigmatic millionaire Jay Gatsby, whose extravagant parties hide his obsession with Daisy Buchanan. Set against the glamour of the 1920s, Gatsby’s dream of rekindled love ends in heartbreak and death. The novel exposes the emptiness of material success and the corruption of the American Dream, making it one of literature’s greatest tragedies."
+    },
+    {
+      "id": "6",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "isAvailable": false,
+      "isbn": [
+        "100028",
+        "100029",
+        "100030",
+        "100031",
+        "100032",
+        "100033"
+      ],
+      "rent": 9,
+      "genre": "Adventure",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg",
+      "description": "Moby Dick by Herman Melville is an epic adventure of obsession and revenge at sea. Ishmael joins Captain Ahab aboard the whaling ship Pequod, only to witness Ahab’s relentless pursuit of the white whale that destroyed him. The voyage turns into a fatal struggle between man and nature, filled with peril and symbolism. Blending maritime detail, philosophy, and allegory, Melville creates a profound meditation on fate, obsession, and humanity’s place in the vast, indifferent universe of nature."
+    },
+    {
+      "id": "7",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "isAvailable": true,
+      "isbn": [
+        "100034",
+        "100035",
+        "100036",
+        "100037",
+        "100038"
+      ],
+      "rent": 10,
+      "genre": "Historical Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg",
+      "description": "War and Peace by Leo Tolstoy is a sweeping epic set during the Napoleonic Wars. Interweaving the lives of noble families, soldiers, and peasants, it portrays love, loss, and destiny against the backdrop of history. Characters like Pierre, Natasha, and Andrei struggle with faith, duty, and identity as war reshapes their lives. Combining human drama with historical detail, Tolstoy explores free will, philosophy, and the nature of history itself. This monumental work is a cornerstone of world literature."
+    },
+    {
+      "id": "8",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "isAvailable": true,
+      "isbn": [
+        "100039",
+        "100040",
+        "100041",
+        "100042",
+        "100043",
+        "100044"
+      ],
+      "rent": 8,
+      "genre": "Psychological Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg",
+      "description": "Crime and Punishment by Fyodor Dostoevsky is a psychological novel about guilt, morality, and redemption. Raskolnikov, a poor student, convinces himself that murdering a pawnbroker will serve a greater good. But his conscience torments him, leading to paranoia, suffering, and inner conflict. Through his journey, Dostoevsky explores questions of morality, justice, and human nature. With suspenseful storytelling and philosophical depth, this masterpiece remains a timeless study of the battle between sin, conscience, and the possibility of salvation."
+    },
+    {
+      "id": "9",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "isAvailable": true,
+      "isbn": [
+        "100045",
+        "100046",
+        "100047",
+        "100048",
+        "100049"
+      ],
+      "rent": 7,
+      "genre": "Epic Poetry",
+      "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg",
+      "description": "The Odyssey by Homer is a foundational epic poem of ancient Greece. It tells the story of Odysseus, who struggles for years to return home after the Trojan War. Facing gods, monsters, and perilous adventures, Odysseus must rely on wit, courage, and resilience. Meanwhile, his wife Penelope and son Telemachus await his return. The poem explores loyalty, perseverance, and the power of destiny. Rich with mythology and timeless themes, it remains one of literature’s greatest heroic journeys."
+    },
+    {
+      "id": "10",
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "isAvailable": false,
+      "isbn": [
+        "100050",
+        "100051",
+        "100052",
+        "100053",
+        "100054",
+        "100055"
+      ],
+      "rent": 12,
+      "genre": "Modernist",
+      "cover": "https://m.media-amazon.com/images/I/7104w1aKFmL._UF1000,1000_QL80_.jpg",
+      "description": "Ulysses by James Joyce is a revolutionary modernist novel set in Dublin, unfolding over a single day. It follows Leopold Bloom, Stephen Dedalus, and others in a narrative paralleling Homer’s Odyssey. Using stream-of-consciousness and experimental prose, Joyce captures ordinary moments with extraordinary depth. The novel explores identity, history, and human experience while pushing the boundaries of language. Though complex and challenging, Ulysses remains one of the most influential works of twentieth-century literature, redefining the art of storytelling."
+    },
+    {
+      "id": "11",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "isAvailable": true,
+      "isbn": [
+        "100056",
+        "100057",
+        "100058",
+        "100059",
+        "100060"
+      ],
+      "rent": 9,
+      "genre": "Epic Poetry",
+      "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg",
+      "description": "The Divine Comedy by Dante Alighieri is a monumental epic poem tracing the soul’s journey through Hell, Purgatory, and Heaven. Guided first by the poet Virgil and later by Beatrice, Dante encounters sinners, penitents, and the blessed, each revealing moral and spiritual truths. With vivid imagery and deep symbolism, the poem blends theology, philosophy, and politics. It explores justice, salvation, and the human quest for divine love, remaining one of the greatest achievements in world literature."
+    },
+    {
+      "id": "12",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "isAvailable": true,
+      "isbn": [
+        "100061",
+        "100062",
+        "100063",
+        "100064",
+        "100065",
+        "100066"
+      ],
+      "rent": 7,
+      "genre": "Picaresque",
+      "cover": "https://m.media-amazon.com/images/I/61NlxaWjCYL._UF1000,1000_QL80_.jpg",
+      "description": "Don Quixote by Miguel de Cervantes is a comic yet profound tale of imagination and reality. The aging nobleman Don Quixote, inspired by tales of knights, sets out on absurd adventures believing himself a hero. Accompanied by his loyal squire Sancho Panza, he battles windmills and faces ridicule, yet never loses faith in his ideals. Satirical yet deeply human, the novel questions madness, honor, and the power of dreams. Often considered the first modern novel, it shaped literature forever."
+    },
+    {
       "id": "13",
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
@@ -17,7 +227,7 @@
       "isPopular": false,
       "rate": 4.3,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625583826/brothers-karamazov-9781625583826_hr.jpg",
-      "description": "A powerful story of faith, doubt, and family conflict among three brothers. Dostoevsky explores morality, free will, and the existence of God."
+      "description": "The Brothers Karamazov is Dostoevsky’s final and most profound novel, a sweeping exploration of morality, justice, and faith. Centered on three brothers—Dmitri, Ivan, and Alyosha—the story dives deep into their struggles with guilt, spirituality, and the search for meaning in a world filled with suffering. The conflict with their father escalates into tragedy, exposing questions of free will, divine existence, and human responsibility. Through courtroom drama, philosophical debate, and raw emotion, Dostoevsky paints a timeless portrait of the human condition and its eternal quest for truth."
     },
     {
       "id": "14",
@@ -37,7 +247,7 @@
       "isPopular": false,
       "rate": 4.5,
       "cover": "https://d28hgpri8am2if.cloudfront.net/tagged_assets/cvr9781471141638/9781471141638_hr.jpg",
-      "description": "A haunting tale of passion, revenge, and obsession set on the Yorkshire moors. Brontë’s dark romance reveals the destructive power of love and hate."
+      "description": "Wuthering Heights is a haunting tale of obsessive love, revenge, and the destructive power of passion set on the windswept Yorkshire moors. It tells the story of Heathcliff, an orphan consumed by bitterness, and Catherine Earnshaw, whose restless spirit and divided loyalties lead to a tragic love affair. Brontë captures the wildness of human emotions against the backdrop of isolation and unforgiving nature. The novel explores generational conflict, class divisions, and the thin line between love and cruelty, making it one of the most powerful gothic romances ever written."
     },
     {
       "id": "15",
@@ -56,7 +266,7 @@
       "isPopular": false,
       "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/810LeMHV6RL._UF1000,1000_QL80_.jpg",
-      "description": "Emma Bovary seeks romance and excitement beyond her provincial life. Her desires lead to heartbreak, debt, and a tragic downfall."
+      "description": "Madame Bovary tells the tragic story of Emma Bovary, a young woman trapped in a dull provincial marriage who dreams of passion, luxury, and excitement. Longing for romance and refinement, she indulges in love affairs and reckless spending, only to find herself spiraling into debt, disillusionment, and despair. Flaubert’s masterpiece of realism critiques social expectations, materialism, and the emptiness of romantic idealism. With its precise prose and psychological depth, the novel remains one of the most influential works in literature, exposing the devastating consequences of unchecked desire."
     },
     {
       "id": "16",
@@ -76,7 +286,7 @@
       "isPopular": false,
       "rate": 4.6,
       "cover": "https://m.media-amazon.com/images/I/71XGV6a9MHL._UF1000,1000_QL80_.jpg",
-      "description": "An ancient epic of the Trojan War focusing on Achilles’ rage and glory. It captures themes of honor, fate, and the tragedy of war."
+      "description": "The Iliad is one of the greatest epic poems of ancient Greece, recounting the climactic battles of the Trojan War. Focusing on Achilles’ wrath after being dishonored, the story reveals the devastating consequences of pride, vengeance, and human fragility in the face of fate. It vividly portrays heroes, gods, and warriors clashing on the battlefield while also exploring themes of honor, mortality, and glory. Through its grand scope and poetic intensity, Homer’s masterpiece captures the timeless tragedy of war and the eternal human struggle for meaning and legacy."
     },
     {
       "id": "17",
@@ -95,7 +305,7 @@
       "isPopular": false,
       "rate": 4.7,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587534/the-picture-of-dorian-gray-9781625587534_hr.jpg",
-      "description": "Dorian Gray remains eternally young while his portrait bears the marks of corruption. Wilde’s novel explores vanity, morality, and the cost of desire."
+      "description": "The Picture of Dorian Gray tells the story of a young man whose beauty remains untainted while his portrait ages, recording every sin and moral corruption. As Dorian indulges in pleasure and decadence, his soul grows darker, hidden within the canvas that bears his truth. Wilde weaves a tale of vanity, morality, and the dangers of unchecked desire, blending gothic horror with sharp social commentary. This haunting novel challenges ideas of ethics and the human pursuit of eternal youth, revealing the devastating cost of selfish indulgence and corruption."
     },
     {
       "id": "18",
@@ -115,7 +325,7 @@
       "isPopular": false,
       "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/81oAEEwxBWL._UF1000,1000_QL80_.jpg",
-      "description": "The saga of the Buendía family unfolds in the mythical town of Macondo. Márquez weaves magic and reality into a tale of fate, history, and solitude."
+      "description": "One Hundred Years of Solitude is a landmark novel that tells the multigenerational saga of the Buendía family in the mythical town of Macondo. Márquez masterfully blends magical realism with political and social commentary, weaving a story of love, war, solitude, and destiny. From magical events to tragic cycles of history, the novel captures the rise and fall of a family and a nation. Its surreal beauty, lyrical prose, and universal themes of time, memory, and fate have made it a cornerstone of modern literature, celebrated worldwide."
     },
     {
       "id": "19",
@@ -134,7 +344,7 @@
       "isPopular": true,
       "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/A1OuCNw4uAL._UF1000,1000_QL80_.jpg",
-      "description": "Anna seeks passion outside her marriage, leading to scandal and tragedy. Tolstoy’s masterpiece explores love, family, and the conflicts of society."
+      "description": "Anna Karenina is Tolstoy’s sweeping masterpiece of love, betrayal, and tragedy set against the backdrop of Russian high society. The novel follows Anna’s passionate but doomed affair with Count Vronsky, which ultimately leads to scandal, heartbreak, and ruin. Interwoven with parallel stories of family, faith, and moral struggle, Tolstoy presents a rich portrait of human emotion and societal pressure. Through unforgettable characters and profound psychological insight, Anna Karenina explores the conflicts between personal happiness and social duty, cementing its place as one of literature’s greatest achievements."
     },
     {
       "id": "20",
@@ -154,7 +364,7 @@
       "isPopular": true,
       "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/81Q+WJYEukL._UF1000,1000_QL80_.jpg",
-      "description": "The story of Jean Valjean’s redemption set against revolutionary France. Hugo’s epic portrays justice, love, sacrifice, and the fight for freedom."
+      "description": "Les Misérables is Hugo’s monumental tale of justice, redemption, and revolution in 19th-century France. At its heart is Jean Valjean, an ex-convict who transforms his life through compassion and sacrifice while pursued by the relentless inspector Javert. Set against political turmoil and social inequality, the novel weaves together themes of love, poverty, and the fight for freedom. With its unforgettable characters, dramatic storytelling, and powerful moral vision, Les Misérables stands as a universal epic of human struggle, resilience, and the enduring hope for a brighter future."
     },
     {
       "id": "21",
@@ -173,7 +383,7 @@
       "isPopular": false,
       "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/71p79S8YxcL._UF1000,1000_QL80_.jpg",
-      "description": "A man wrongly imprisoned escapes and seeks revenge against his betrayers. Dumas’ epic blends adventure, justice, and the triumph of resilience."
+      "description": "The Count of Monte Cristo is a thrilling adventure of betrayal, imprisonment, and ultimate revenge. Wrongly accused and unjustly jailed, Edmond Dantès escapes after years of suffering and discovers a hidden treasure. Reborn as the mysterious Count, he carefully plots justice against those who wronged him, while grappling with questions of mercy and forgiveness. Dumas’ masterpiece combines suspense, romance, and moral reflection, offering readers an unforgettable journey through vengeance, resilience, and the pursuit of destiny. It remains one of the most captivating and enduring adventure tales ever written."
     },
     {
       "id": "22",
@@ -193,7 +403,7 @@
       "isPopular": true,
       "rate": 4.2,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587091/jane-eyre-9781625587091_hr.jpg",
-      "description": "Orphaned Jane Eyre rises from hardship to independence and love. Brontë’s classic combines romance, mystery, and a strong heroine’s voice."
+      "description": "Jane Eyre is the timeless story of an orphan who rises above hardship to find independence, love, and self-respect. Growing up amid cruelty and isolation, Jane develops a resilient spirit and a strong moral compass. Her journey leads her to Thornfield Hall and the mysterious Mr. Rochester, where passion and secrets collide. Charlotte Brontë blends romance, gothic suspense, and social critique into a deeply personal narrative. With its powerful heroine and themes of equality, identity, and perseverance, Jane Eyre remains a groundbreaking classic that continues to inspire readers."
     },
     {
       "id": "23",
@@ -212,7 +422,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81o9ksvNh8L._UF1000,1000_QL80_.jpg",
-      "description": "Meursault, detached and indifferent, faces trial after an impulsive crime. Camus’ existential novel questions meaning, morality, and human freedom."
+      "description": "The Stranger is Camus’ stark and unsettling exploration of alienation, freedom, and the absurd. It follows Meursault, a man detached from society who drifts through life with indifference until an impulsive act of violence leads to his trial. Through his cold narration, Camus presents a world without inherent meaning, where individuals must confront existence on their own terms. The novel challenges moral assumptions and highlights the tension between human reason and the chaos of life, making it a cornerstone of existentialist literature and philosophical reflection."
     },
     {
       "id": "24",
@@ -232,7 +442,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81elBAS5LcL._UF1000,1000_QL80_.jpg",
-      "description": "Pip’s journey from poverty to gentlemanhood reveals ambition and disillusion. Dickens weaves themes of class, loyalty, and personal growth."
+      "description": "Great Expectations is Dickens’ rich coming-of-age story about Pip, a poor orphan whose life changes when he mysteriously inherits wealth. As Pip strives to become a gentleman, he confronts illusions, ambitions, and disillusionment, learning painful lessons about love, loyalty, and humility. Along the way, he encounters unforgettable characters like Miss Havisham and the enigmatic Estella. Through humor, drama, and social critique, Dickens paints a vivid portrait of Victorian England while exploring universal themes of identity, class, and personal growth. The novel endures as one of his greatest works."
     },
     {
       "id": "25",
@@ -251,7 +461,7 @@
       "isPopular": true,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81IpKyby3OL.jpg",
-      "description": "A futuristic society built on control, pleasure, and conformity emerges. Huxley’s dystopia warns of technology, consumerism, and lost individuality."
+      "description": "Brave New World presents a chilling vision of a future society built on control, consumerism, and artificial happiness. In Huxley’s dystopia, individuality and freedom are sacrificed for stability, where humans are engineered, conditioned, and pacified by pleasure. The novel follows Bernard Marx and John the Savage, who clash with a system that values conformity over humanity. Through biting satire and prophetic imagination, Huxley warns of the dangers of technology, mass culture, and the loss of personal identity. It remains a deeply unsettling and thought-provoking classic."
     },
     {
       "id": "26",
@@ -271,7 +481,7 @@
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/81V+uoQjj1L.jpg",
-      "description": "Set in a provincial English town, lives intertwine with ambition and duty. Eliot explores marriage, politics, and the search for meaning."
+      "description": "Middlemarch is George Eliot’s panoramic study of provincial life, focusing on the intersecting stories of Dorothea Brooke, Dr. Lydgate, and others. Set in a fictional English town, the novel examines marriage, ambition, reform, and the limits of personal idealism within social expectation. Eliot’s nuanced psychology and moral seriousness illuminate how private choices ripple through community life. Combining social observation with philosophical reflection, Middlemarch remains celebrated for its realism, complexity, and compassion toward flawed human striving."
     },
     {
       "id": "27",
@@ -290,7 +500,7 @@
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/81C26Y6ikJL._UF1000,1000_QL80_.jpg",
-      "description": "Proust reflects on memory, time, and society in a monumental narrative. His masterpiece captures the fragility and beauty of human experience."
+      "description": "In Search of Lost Time is Marcel Proust’s monumental meditation on memory, art, and identity, told across an intricately detailed narrative. Through involuntary recollections—most famously the madeleine—Proust explores how past moments resurface to shape perception and self-understanding. The work examines love, jealousy, social life, and the passage of time with exquisite psychological insight and stylistic richness. By mining memory and sensation, Proust transforms intimate detail into universal reflection on how humans make meaning from memory."
     },
     {
       "id": "28",
@@ -310,7 +520,7 @@
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/81W5L5F0ThL._UF1000,1000_QL80_.jpg",
-      "description": "Josef K. is arrested without explanation and trapped in a surreal trial. Kafka’s novel portrays bureaucracy, helplessness, and existential dread."
+      "description": "The Trial follows Josef K., who is inexplicably arrested and forced to navigate a nightmarish legal system that never explains his offense. Kafka’s novel captures the alienation and helplessness of modern life, where opaque bureaucracy exerts crushing control and meaning dissolves. Through surreal encounters, absurd hearings, and obsessive procedural minutiae, the story becomes an allegory of guilt, power, and existential anxiety. Its unsettling mood, spare ironies, and bleak logic make The Trial a defining work of twentieth-century literature."
     },
     {
       "id": "29",
@@ -329,7 +539,7 @@
       "isPopular": false,
       "rate": 3.9,
       "cover": "https://m.media-amazon.com/images/I/71cHDC2EA7L._UF894,1000_QL80_.jpg",
-      "description": "The decline of the Compson family unfolds through fragmented perspectives. Faulkner’s modernist classic experiments with time, memory, and identity."
+      "description": "The Sound and the Fury portrays the disintegration of the Compson family through fragmented, stream-of-consciousness narratives that shift between time and perspective. Faulkner immerses readers in the interior lives of Benjy, Quentin, Jason, and Dilsey, revealing how memory, loss, and social change corrode dignity and hope. Its experimental structure demands close reading but rewards with intense emotional truth and a vivid sense of place in the American South. The novel is both a psychological study and a lament for vanished moral order."
     },
     {
       "id": "30",
@@ -349,7 +559,7 @@
       "isPopular": false,
       "rate": 3.9,
       "cover": "https://m.media-amazon.com/images/I/81ZTRJyMbTS._UF1000,1000_QL80_.jpg",
-      "description": "Prince Hamlet seeks revenge for his father’s murder, but doubt consumes him. Shakespeare’s tragedy explores betrayal, madness, and the nature of existence."
+      "description": "Hamlet is Shakespeare’s towering tragedy of revenge, doubt, and the human conscience. Prince Hamlet confronts moral corruption after his father’s murder and his mother’s hasty remarriage, vacillating between action and contemplation. Famous soliloquies probe life, death, and authenticity as Hamlet wrestles with madness, betrayal, and the complexities of justice. The play’s psychological depth, linguistic brilliance, and tragic resolution have secured its place as a perennial exploration of existential uncertainty and the tragic costs of indecision."
     },
     {
       "id": "31",
@@ -368,7 +578,7 @@
       "isPopular": true,
       "rate": 3.9,
       "cover": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg",
-      "description": "Holden Caulfield narrates his struggles with alienation and identity. Salinger’s classic captures adolescent angst and the search for authenticity."
+      "description": "The Catcher in the Rye follows Holden Caulfield’s candid, restless narration as he wanders New York City after being expelled from school. Holden’s critique of adult “phoniness” masks deep loneliness, grief, and an urgent desire to protect innocence—especially that of his sister Phoebe. Salinger’s voice captures adolescent bewilderment and the painful transition to adulthood. The novel’s frankness, humor, and vulnerability made it an emblem of youth alienation and a touchstone for readers confronting identity and belonging."
     },
     {
       "id": "32",
@@ -388,7 +598,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/81eerT6DQFL._UF1000,1000_QL80_.jpg",
-      "description": "Sethe, haunted by her past as a runaway slave, confronts memory and loss. Morrison’s novel blends history, trauma, and the supernatural with poetic power."
+      "description": "Beloved confronts the traumatic legacy of slavery through the story of Sethe, an escaped slave haunted by the past and by a mysterious childlike presence. Morrison fuses lyrical language, memory, and supernatural elements to explore motherhood, guilt, and the cost of freedom. The novel examines how history imprints itself on bodies and communities and asks how a people can heal when violence embeds itself across generations. Its emotional power and moral urgency make Beloved a modern American classic."
     },
     {
       "id": "33",
@@ -407,7 +617,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/71B2HtDDTwL._UF1000,1000_QL80_.jpg",
-      "description": "Marlow journeys into Africa in search of the mysterious Kurtz. Conrad exposes imperial greed, human corruption, and the darkness within."
+      "description": "Heart of Darkness follows Marlow’s river journey into the African interior where he seeks the enigmatic Kurtz. Conrad probes imperialism’s moral bankruptcy, revealing how power and greed corrupt human relations. The voyage becomes a descent into psychological darkness, exposing the thin veneer of civilization and the capacity for brutality. Through dense atmosphere and unsettling ambiguity, the novella interrogates who speaks for truth and how history and violence shape perception, leaving readers with haunting questions about empire and the human soul."
     },
     {
       "id": "34",
@@ -427,7 +637,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg",
-      "description": "The Joad family migrates west during the Great Depression, seeking survival. Steinbeck portrays resilience, poverty, and the fight for dignity."
+      "description": "The Grapes of Wrath chronicles the Joad family’s migration from Oklahoma to California during the Great Depression, depicting the crushing economic forces that uproot lives. Steinbeck combines stark realism with profound empathy to expose exploitation, inequality, and the resilience of ordinary people. Through encounters at camps and with fellow migrants, the novel probes community, dignity, and collective action. Its social conscience, memorable characters, and moral clarity made it an essential work of American protest literature and enduring testament to human endurance."
     },
     {
       "id": "35",
@@ -446,7 +656,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/71dfSg9HdoL._UF894,1000_QL80_.jpg",
-      "description": "Humbert Humbert’s obsession with young Dolores Haze drives a disturbing tale. Nabokov’s masterpiece blends unsettling themes with dazzling prose."
+      "description": "Lolita is Nabokov’s controversial, linguistically dazzling novel narrated by Humbert Humbert, whose obsessive desire for young Dolores Haze leads to betrayal and destruction. Nabokov juxtaposes morally troubling subject matter with exquisite prose, irony, and unreliable narration, forcing readers to confront seduction, manipulation, and the abuse of power. The book interrogates memory, artifice, and the ways language can both conceal and reveal truth. Its artistic daring and ethical complexity continue to provoke debate and uneasy admiration."
     },
     {
       "id": "36",
@@ -466,7 +676,7 @@
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/716xrJJXkJL._UF1000,1000_QL80_.jpg",
-      "description": "Disillusioned expatriates drift through post-war Europe in search of meaning. Hemingway captures the ‘Lost Generation’ with terse, powerful prose."
+      "description": "The Sun Also Rises follows a group of expatriates drifting through post-World War I Europe, searching for meaning amid aimlessness and disillusion. Jake Barnes, Lady Brett Ashley, and their circle pursue pleasure, bullfights, and drink to mask emotional wounds. Hemingway’s spare, understated prose captures fragmented lives and lost ideals of the ‘Lost Generation.’ The novel’s themes of resilience, sexual politics, and the search for authenticity make it a defining portrayal of its era."
     },
     {
       "id": "37",
@@ -485,7 +695,7 @@
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/51dzcv5yG5L._UF1000,1000_QL80_.jpg",
-      "description": "Yossarian battles bureaucracy and absurdity in World War II. Heller’s satirical novel exposes the madness of war and circular logic of survival."
+      "description": "Catch-22 is Joseph Heller’s darkly comic novel about World War II airmen trapped in absurd military logic. Centered on Yossarian, the book satirizes the circular, self-defeating reasoning—'Catch-22'—that prevents escape from danger. Heller blends surreal episodes, nonlinear narrative, and biting humor to critique bureaucracy, war, and institutional madness. Its memorable paradoxes and anti-war sentiment have entered the cultural lexicon, making the novel an enduring indictment of systems that value rules over human life."
     },
     {
       "id": "38",
@@ -505,7 +715,7 @@
       "isPopular": true,
       "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91ZX8zNpwZL._UF1000,1000_QL80_.jpg",
-      "description": "Bilbo Baggins embarks on an adventure with dwarves to reclaim treasure. Tolkien’s beloved classic introduces Middle-earth with magic and courage."
+      "description": "The Hobbit follows Bilbo Baggins, a reluctant hobbit who embarks on an unexpected adventure with dwarves to reclaim treasure from the dragon Smaug. Guided by Gandalf and learning bravery and cunning, Bilbo encounters trolls, elves, and the enigmatic Gollum—whose mysterious ring becomes pivotal. Tolkien mixes folk tale charm, songs, and epic stakes to introduce Middle-earth’s rich mythology. The story celebrates courage in ordinary people and the transformative power of small acts of heroism."
     },
     {
       "id": "39",
@@ -524,7 +734,7 @@
       "isPopular": true,
       "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/715y6JcmQZL._UF1000,1000_QL80_.jpg",
-      "description": "In a society where books are banned, firemen burn them. Bradbury warns of censorship, conformity, and the loss of independent thought."
+      "description": "Fahrenheit 451 imagines a future where books are banned and 'firemen' burn them to maintain social conformity. Guy Montag, a fireman, becomes disillusioned as he encounters ideas and people who spark curiosity and dissent. Bradbury’s novel critiques censorship, anti-intellectualism, and the numbing effects of mass entertainment. It champions the liberating power of literature, the necessity of critical thought, and the moral duty to preserve memory and dissent in the face of cultural oppression."
     },
     {
       "id": "40",
@@ -544,7 +754,7 @@
       "isPopular": false,
       "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/91Jn9wb6ffL._UF1000,1000_QL80_.jpg",
-      "description": "Billy Pilgrim becomes ‘unstuck in time’ after surviving WWII. Vonnegut’s darkly comic novel blends war, free will, and science fiction."
+      "description": "Slaughterhouse-Five blends science fiction, satire, and wartime testimony as Billy Pilgrim becomes unstuck in time after surviving WWII’s firebombing of Dresden. Vonnegut uses nonlinear episodes and dark humor to expose war’s absurdity, trauma, and the illusion of heroic narrative. Through repeated refrains and fatalistic resignation, the novel questions free will and the morality of conflict. Its humane irony and anti-war message offer a bleak yet compassionate meditation on suffering, memory, and survival."
     },
     {
       "id": "41",
@@ -563,7 +773,7 @@
       "isPopular": false,
       "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/71xz5j-4RSL.jpg",
-      "description": "Esther Greenwood descends into depression while navigating societal expectations. Plath’s semi-autobiographical novel explores identity and mental health with piercing honesty."
+      "description": "The Bell Jar is Sylvia Plath’s semi-autobiographical novel that charts Esther Greenwood’s descent into depression while navigating expectations of success and femininity in mid-20th-century America. Plath’s spare, lyrical prose renders mental illness with piercing immediacy and honesty, conveying the isolation, shame, and desperate hope of recovery. The novel remains a candid exploration of identity, societal pressure, and the fragility of the self, resonating strongly with readers grappling with mental health and the constraints of gender roles."
     },
     {
       "id": "42",
@@ -583,7 +793,7 @@
       "isPopular": false,
       "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/61su39k8NUL._UF1000,1000_QL80_.jpg",
-      "description": "In the theocratic Republic of Gilead, women are stripped of rights. Offred tells a chilling story of control, resistance, and survival under oppression."
+      "description": "The Handmaid’s Tale depicts the theocratic Republic of Gilead, where women are stripped of rights and forced into reproductive servitude. Told from the perspective of Offred, the novel combines intimate memory with present terror as she navigates surveillance, ritual, and resistance. Atwood examines gendered power, language’s control, and the fragility of rights under authoritarianism. Its chilling plausibility and moral clarity make the book a modern feminist classic and a stern warning about complacency toward oppression."
     },
     {
       "id": "43",
@@ -602,7 +812,7 @@
       "isPopular": true,
       "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/81j4C6j3dRL._UF1000,1000_QL80_.jpg",
-      "description": "Frodo Baggins undertakes a perilous quest to destroy the One Ring. Tolkien’s epic trilogy defines modern fantasy with themes of courage, friendship, and power."
+      "description": "The Lord of the Rings is Tolkien’s epic saga of Frodo Baggins and the Fellowship’s quest to destroy the One Ring and thwart Sauron’s domination. Spanning vast landscapes and cultures of Middle-earth, the trilogy weaves themes of courage, friendship, sacrifice, and the corrupting lure of power. Tolkien’s deep world-building, philological detail, and moral imagination create an enduring mythic tapestry in which small acts of mercy and bravery determine the fate of nations."
     },
     {
       "id": "44",
@@ -622,7 +832,7 @@
       "isPopular": false,
       "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/91xNmlf86yL._UF1000,1000_QL80_.jpg",
-      "description": "Captain Ahab obsessively hunts the great white whale. Melville’s novel blends adventure, philosophy, and obsession in a sweeping maritime epic."
+      "description": "Moby Dick is Herman Melville’s epic tale of obsession, narrated by Ishmael as Captain Ahab relentlessly pursues the eponymous white whale. The novel blends seafaring adventure with philosophical meditation, probing fate, revenge, and humanity’s fraught relationship with nature. Melville interweaves technical whaling detail, lyric reflection, and allegory to craft a vast, sometimes bewildering, masterpiece that examines the costs of monomaniacal pursuit and the tragic consequences when humans confront forces beyond comprehension."
     },
     {
       "id": "45",
@@ -641,7 +851,7 @@
       "isPopular": false,
       "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/91wOUFZCE+L._UF1000,1000_QL80_.jpg",
-      "description": "Count Dracula’s attempt to expand his reign of terror is challenged by a group of determined individuals. Stoker’s Gothic classic blends horror, romance, and suspense."
+      "description": "Dracula unfolds through journals and letters chronicling Count Dracula’s transfer from Transylvania to England and the friends who confront his vampiric menace. Stoker blends folklore, medical discourse, and Gothic atmosphere to explore fear of invasion, sexuality, and cultural anxiety. The ensemble of Van Helsing, Mina, and Jonathan Harker combine science, faith, and courage to resist darkness. Its suspenseful pacing, chilling imagery, and archetypal villain established the modern vampire myth and secured its place in horror literature."
     },
     {
       "id": "46",
@@ -661,7 +871,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/71FMg0PJhVL._UF1000,1000_QL80_.jpg",
-      "description": "Gregor Samsa wakes to find himself transformed into a giant insect. Kafka’s unsettling novella captures themes of alienation, guilt, and absurd existence."
+      "description": "Gregor Samsa, a traveling salesman, wakes up one morning to find himself transformed into a monstrous insect. As he struggles with his bizarre new form, his family’s love and tolerance turn to shame, fear, and rejection. Kafka’s disturbing novella explores alienation, the absurdity of existence, and the fragile ties between identity and humanity. Through Gregor’s decline, it questions society’s treatment of outsiders and challenges readers to reflect on empathy, survival, and human worth."
     },
     {
       "id": "47",
@@ -680,7 +890,7 @@
       "isPopular": false,
       "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/51MIjeQtWAL._UF1000,1000_QL80_.jpg",
-      "description": "George and Lennie chase the dream of a better life in Depression-era California. Steinbeck’s moving novella explores friendship, hardship, and fate."
+      "description": "Set during the Great Depression, Steinbeck’s novella follows George and Lennie, two displaced workers dreaming of owning land. Lennie’s childlike innocence and immense strength constantly create trouble, testing George’s loyalty and patience. Their friendship becomes a fragile beacon of hope in a cruel, unforgiving world. Through loneliness, dreams, and inevitable tragedy, Steinbeck portrays the deep human desire for companionship, dignity, and purpose. The story remains a poignant exploration of fate, sacrifice, and broken dreams."
     },
     {
       "id": "48",
@@ -700,7 +910,7 @@
       "isPopular": true,
       "rate": 4.7,
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627939911/the-scarlet-letter-9781627939911_hr.jpg",
-      "description": "Hester Prynne, condemned for adultery, wears the scarlet letter ‘A’. Hawthorne’s classic explores guilt, judgment, and resilience in Puritan New England."
+      "description": "In Puritan New England, Hester Prynne is publicly shamed and forced to wear the scarlet letter ‘A’ after committing adultery. With strength and dignity, she raises her daughter Pearl while facing judgment and isolation. Hawthorne weaves a tale of sin, guilt, and redemption, exposing the harsh rigidity of moral law. The novel examines hidden hypocrisy, the resilience of women, and the possibility of forgiveness in a society consumed by judgment and repression."
     },
     {
       "id": "49",
@@ -719,7 +929,7 @@
       "isPopular": true,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/91EirnRPMcL._UF1000,1000_QL80_.jpg",
-      "description": "Set during the French Revolution, this tale contrasts sacrifice and vengeance. Dickens portrays love and redemption against a backdrop of chaos and change."
+      "description": "Against the backdrop of the French Revolution, Dickens crafts a powerful story of love, sacrifice, and vengeance. Charles Darnay, an exiled aristocrat, and Sydney Carton, a disillusioned lawyer, become entangled in a tale of justice and redemption. With its famous opening lines, the novel contrasts violence and hope, despair and rebirth. Dickens portrays how individuals can embody both cruelty and heroism, reminding readers of the enduring power of sacrifice, loyalty, and the human spirit during times of upheaval."
     },
     {
       "id": "50",
@@ -739,7 +949,7 @@
       "isPopular": false,
       "rate": 4.2,
       "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627788308i/15622.jpg",
-      "description": "Bigger Thomas’s life spirals after a tragic act in segregated Chicago. Wright’s novel exposes systemic racism, poverty, and the struggle for identity."
+      "description": "Richard Wright’s groundbreaking novel follows Bigger Thomas, a young Black man trapped in the poverty and racial oppression of 1930s Chicago. After a desperate mistake leads to tragedy, Bigger’s life spirals into fear, guilt, and confrontation with systemic injustice. Through his story, Wright exposes the crushing effects of racism, inequality, and violence on individuals and communities. Native Son is a powerful exploration of identity, society’s prejudice, and the destructive cycle of poverty and alienation."
     },
     {
       "id": "51",
@@ -758,7 +968,7 @@
       "isPopular": false,
       "rate": 4.3,
       "cover": "https://rukminim2.flixcart.com/image/704/844/xif0q/book/r/a/f/the-silent-patient-original-imahafbn8agewgfp.jpeg?q=90&crop=false",
-      "description": "Alicia Berenson, a famous painter, shoots her husband and never speaks again. A psychotherapist becomes obsessed with unraveling her silence in this chilling thriller."
+      "description": "Alicia Berenson, a renowned painter, lives a seemingly perfect life until the night she shoots her husband and never speaks again. Her silence becomes a mystery that fascinates the world, and psychotherapist Theo Faber is determined to uncover the truth. As he delves deeper into Alicia’s mind, shocking secrets emerge about obsession, trauma, and betrayal. This tense psychological thriller explores the darkness of human emotions, the power of silence, and the thin line between love and madness."
     },
     {
       "id": "52",
@@ -778,7 +988,7 @@
       "isPopular": false,
       "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/713HP+eMeWL._UF1000,1000_QL80_.jpg",
-      "description": "Kya Clark, the 'Marsh Girl,' grows up isolated in the wilds of North Carolina. When a murder occurs, her life collides with mystery and survival."
+      "description": "Kya Clark, known as the 'Marsh Girl,' grows up in isolation in the wild marshes of North Carolina. Abandoned by her family, she learns to survive alone, drawing strength from nature. When a local man is found dead, suspicion falls on Kya, and her quiet life collides with mystery, prejudice, and survival. This hauntingly beautiful novel blends coming-of-age, romance, and suspense, while exploring themes of loneliness, resilience, and the human connection to the natural world."
     },
     {
       "id": "53",
@@ -797,7 +1007,7 @@
       "isPopular": false,
       "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/81J6APjwxlL.jpg",
-      "description": "Between life and death, Nora Seed discovers a library of infinite lives she could have lived. A moving story about regret, hope, and choice."
+      "description": "Between life and death lies a library, and every book offers a different version of Nora Seed’s life. Regretful and broken, Nora is given the chance to explore all the choices she could have made—lives filled with love, loss, and possibility. Through her journey, she begins to understand what truly matters. Matt Haig’s heartfelt novel is a moving reflection on regret, hope, and the courage to embrace life, making it a celebration of second chances."
     },
     {
       "id": "54",
@@ -817,7 +1027,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/91ENQs2KLAL._UF1000,1000_QL80_.jpg",
-      "description": "A lone astronaut awakens on a spaceship with no memory. Earth’s fate depends on his mission in this gripping blend of science and survival."
+      "description": "Ryland Grace awakens alone on a spaceship, with no memory of who he is or why he’s there. Slowly, he realizes he is humanity’s last hope to save Earth from extinction caused by a cosmic threat. His mission leads him to unexpected discoveries and an unlikely friendship in space. Andy Weir’s thrilling science-fiction adventure combines sharp humor, clever science, and emotional depth, offering a tale of survival, courage, and the resilience of the human spirit."
     },
     {
       "id": "55",
@@ -836,7 +1046,7 @@
       "isPopular": false,
       "rate": 4,
       "cover": "https://m.media-amazon.com/images/I/918yC6qUe7L._UF1000,1000_QL80_.jpg",
-      "description": "In 1980s Malibu, four famous siblings throw an unforgettable party. As the night spirals, secrets unravel in this story of fame and family."
+      "description": "Set in the summer of 1983, four famous siblings—children of rock legend Mick Riva—prepare to throw their annual Malibu party. As the night unfolds, secrets are revealed, relationships tested, and the glamour of fame collides with deep family wounds. Taylor Jenkins Reid paints a vivid portrait of ambition, love, and identity, showing how past choices shape the present. 'Malibu Rising' is a dazzling story of family ties, resilience, and one unforgettable night of transformation."
     },
     {
       "id": "56",
@@ -856,7 +1066,7 @@
       "isPopular": false,
       "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/71pIEVU3EeL._UF894,1000_QL80_.jpg",
-      "description": "A reclusive Hollywood icon recounts her scandalous life and seven marriages. Behind glamour lies a moving story of ambition, love, and identity."
+      "description": "Evelyn Hugo, a glamorous but reclusive Hollywood icon, decides to reveal the truth about her scandalous life and seven marriages. As she recounts her journey to a young journalist, layers of ambition, sacrifice, and forbidden love are unveiled. Behind the fame and fortune lies a story of identity, resilience, and longing for true connection. This compelling novel blends old Hollywood glitz with raw emotion, making it an unforgettable tale of love, secrets, and survival."
     },
     {
       "id": "57",
@@ -875,7 +1085,7 @@
       "isPopular": false,
       "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/81IQ2IlSgfL._UF1000,1000_QL80_.jpg",
-      "description": "Twin sisters choose different paths—one living as Black, the other passing as white. Bennett explores race, family, and identity across generations."
+      "description": "Twin sisters Desiree and Stella Vignes grow up inseparable in a small Southern Black community, but as adults, they take radically different paths. One embraces her identity, while the other passes as white, cutting ties with her past. Their choices ripple through future generations, exploring race, identity, and family legacy. Brit Bennett’s powerful novel examines how personal decisions shape not only individual lives but also entire communities, weaving a deeply moving and thought-provoking narrative."
     },
     {
       "id": "58",
@@ -895,7 +1105,7 @@
       "isPopular": false,
       "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/61tqFlvlU3L._UF1000,1000_QL80_.jpg",
-      "description": "Klara, an Artificial Friend, observes humanity with innocent curiosity. Ishiguro’s novel asks profound questions about love, technology, and what it means to be human."
+      "description": "Klara, an Artificial Friend designed to keep children company, observes the world with innocence and deep curiosity. As she learns about human emotions, love, and sacrifice, she questions what it means to be truly alive. Ishiguro blends science fiction with philosophical reflection, creating a tender yet unsettling story. Through Klara’s unique perspective, readers are invited to examine technology’s role in shaping humanity and the enduring power of compassion in a changing, uncertain future."
     },
     {
       "id": "59",
@@ -914,7 +1124,7 @@
       "isPopular": false,
       "rate": 4.9,
       "cover": "https://m.media-amazon.com/images/I/81E6ZuCAr-L._UF1000,1000_QL80_.jpg",
-      "description": "Blythe struggles with motherhood and her unsettling daughter. This tense psychological drama questions nature, nurture, and generational trauma."
+      "description": "Blythe Connor wants to be the mother she never had, but when her daughter Violet is born, she struggles to connect. As disturbing behaviors emerge, Blythe begins to question whether Violet is simply difficult or something darker. This chilling psychological thriller explores generational trauma, the complexities of motherhood, and the haunting fear of being unheard. Ashley Audrain crafts a raw, gripping tale of maternal doubt, fractured families, and the devastating weight of secrets left unspoken."
     },
     {
       "id": "60",
@@ -934,7 +1144,7 @@
       "isPopular": false,
       "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/71R4p7BzWAL._UF1000,1000_QL80_.jpg",
-      "description": "Inspired by the life of Marie de France, a 12th-century nun who builds a radical abbey. Groff crafts a powerful tale of devotion and leadership."
+      "description": "Set in the 12th century, 'Matrix' follows Marie de France, a cast-out noblewoman sent to live in an impoverished abbey. Rising from rejection, she transforms the abbey into a thriving community, reshaping the lives of women around her. Groff’s lyrical storytelling blends history and imagination, creating a portrait of spiritual devotion, leadership, and power. This is a bold, visionary novel about resilience, female solidarity, and the pursuit of purpose against the constraints of society."
     },
     {
       "id": "61",
@@ -953,283 +1163,189 @@
       "isPopular": false,
       "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/81v9cQmwTEL._UF1000,1000_QL80_.jpg",
-      "description": "Spanning centuries and continents, stories are tied together by an ancient text. Doerr celebrates the endurance of stories in times of crisis."
+      "description": "Anthony Doerr’s sweeping novel spans centuries and continents, weaving together the stories of children, dreamers, and survivors whose lives are all bound by an ancient Greek text. From Constantinople under siege to present-day Idaho and even a distant future in space, the novel celebrates storytelling’s power to endure. With lyrical prose and intricate connections, Doerr reminds readers how books preserve memory, ignite imagination, and offer hope in the darkest times, making stories truly timeless."
     },
     {
       "id": "62",
       "title": "Beautiful World, Where Are You",
       "author": "Sally Rooney",
       "isAvailable": true,
-      "isbn": [
-        "100336",
-        "100337",
-        "100338",
-        "100339",
-        "100340",
-        "100341"
-      ],
+      "isbn": ["100336","100337","100338","100339","100340","100341"],
       "rent": 6,
       "genre": "Literary Fiction",
       "isPopular": false,
       "rate": 4.7,
       "cover": "https://m.media-amazon.com/images/I/81SsxqwYwjL._UF1000,1000_QL80_.jpg",
-      "description": "Two best friends navigate love, friendship, and disillusionment in modern Ireland. Rooney writes with intimacy and sharp emotional detail."
+      "description": "Sally Rooney’s novel follows two best friends, Alice and Eileen, who navigate the complexities of love, friendship, and ambition in modern Ireland. Through their letters and encounters, Rooney explores themes of intimacy, politics, and identity with her signature emotional sharpness. It is a portrait of young adulthood caught between personal disillusionment and the search for beauty in a chaotic world."
     },
     {
       "id": "63",
       "title": "The Lincoln Highway",
       "author": "Amor Towles",
       "isAvailable": true,
-      "isbn": [
-        "100342",
-        "100343",
-        "100344",
-        "100345",
-        "100346"
-      ],
+      "isbn": ["100342","100343","100344","100345","100346"],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
       "rate": 4.6,
       "cover": "https://m.media-amazon.com/images/I/81es7RW3zQL._UF1000,1000_QL80_.jpg",
-      "description": "A young man, fresh from a juvenile work farm, sets out across 1950s America. Towles spins a road trip full of adventure, hope, and discovery."
+      "description": "Set in 1954, this sweeping road novel tells the story of Emmett Watson, an eighteen-year-old just released from a juvenile work farm. Planning to head west with his younger brother, his journey takes an unexpected turn when two fellow inmates secretly accompany him. Towles crafts a tale of adventure, self-discovery, and hope, weaving together multiple lives against the vast backdrop of mid-century America."
     },
     {
       "id": "64",
       "title": "Harlem Shuffle",
       "author": "Colson Whitehead",
       "isAvailable": false,
-      "isbn": [
-        "100347",
-        "100348",
-        "100349",
-        "100350",
-        "100351",
-        "100352"
-      ],
+      "isbn": ["100347","100348","100349","100350","100351","100352"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
       "rate": 4.6,
       "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3xBhlB8lCqFJS2Ury4PCl3cMkq1h2MDvoQ&s",
-      "description": "Ray Carney, a furniture salesman in 1960s Harlem, balances family life with criminal schemes. Whitehead mixes crime caper with social commentary."
+      "description": "Colson Whitehead’s novel transports readers to 1960s Harlem, where Ray Carney, a hardworking furniture salesman, balances respectability with a hidden criminal past. When he becomes entangled in a heist gone wrong, his world collides with Harlem’s underworld. The book is both a thrilling crime caper and a sharp social commentary on race, family, and the pursuit of the American Dream."
     },
     {
       "id": "65",
       "title": "The Paris Apartment",
       "author": "Lucy Foley",
       "isAvailable": true,
-      "isbn": [
-        "100353",
-        "100354",
-        "100355",
-        "100356",
-        "100357"
-      ],
+      "isbn": ["100353","100354","100355","100356","100357"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
       "rate": 4.6,
       "cover": "https://m.media-amazon.com/images/I/817JkWnWB3L._UF1000,1000_QL80_.jpg",
-      "description": "Jess arrives in Paris to stay with her brother—only to find him missing. A suspenseful locked-building mystery with dark secrets behind every door."
+      "description": "Jess arrives in Paris hoping to reconnect with her brother, only to find his apartment empty and neighbors suspiciously secretive. Trapped in a grand but unsettling building, Jess begins to piece together her brother’s mysterious disappearance. Lucy Foley delivers a claustrophobic and twisty mystery, filled with unreliable characters, hidden motives, and the dark secrets that lurk behind elegant walls."
     },
     {
       "id": "66",
       "title": "The Last Thing He Told Me",
       "author": "Laura Dave",
       "isAvailable": true,
-      "isbn": [
-        "100358",
-        "100359",
-        "100360",
-        "100361",
-        "100362",
-        "100363"
-      ],
+      "isbn": ["100358","100359","100360","100361","100362","100363"],
       "rent": 6,
       "genre": "Thriller",
       "isPopular": false,
       "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/81oZM1zeKtL.jpg",
-      "description": "Before vanishing, Hannah’s husband leaves her a note: 'Protect her.' She must uncover the truth to safeguard her stepdaughter in this suspenseful drama."
+      "description": "When Hannah’s husband mysteriously disappears, leaving behind only a note that says 'Protect her,' she finds herself racing to uncover his secrets. With her stepdaughter Bailey, she is thrust into a dangerous investigation that unravels a hidden past. Dave blends suspense, emotional depth, and family drama into a tense story about trust, resilience, and the lengths we go to for those we love."
     },
     {
       "id": "67",
       "title": "Once Upon a Time in Hollywood",
       "author": "Quentin Tarantino",
       "isAvailable": true,
-      "isbn": [
-        "100364",
-        "100365",
-        "100366",
-        "100367",
-        "100368"
-      ],
+      "isbn": ["100364","100365","100366","100367","100368"],
       "rent": 9,
       "genre": "Historical Fiction",
       "isPopular": false,
       "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/81IL4J6ZVIL._UF1000,1000_QL80_.jpg",
-      "description": "Tarantino reimagines 1969 Hollywood with humor, violence, and nostalgia. A playful blend of real history and fictional storytelling."
+      "description": "Tarantino’s novelization of his film reimagines 1969 Los Angeles with a mix of real and fictional characters. Through the eyes of fading TV star Rick Dalton and his stunt double Cliff Booth, the story captures the glamour, grit, and violence of Hollywood’s golden age. Both playful and brutal, it’s a nostalgic love letter to cinema and a meditation on fame, reinvention, and cultural change."
     },
     {
       "id": "68",
       "title": "The Maid",
       "author": "Nita Prose",
       "isAvailable": false,
-      "isbn": [
-        "100369",
-        "100370",
-        "100371",
-        "100372",
-        "100373",
-        "100374"
-      ],
+      "isbn": ["100369","100370","100371","100372","100373","100374"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
       "rate": 4.5,
       "cover": "https://m.media-amazon.com/images/I/71gwIWqzCPL._UF1000,1000_QL80_.jpg",
-      "description": "Molly, a quirky hotel maid, discovers a guest dead in his room. Her unique perspective makes her both a suspect and the key to solving the crime."
+      "description": "Molly Gray, a socially awkward but meticulous hotel maid, lives a structured life until she discovers a wealthy guest dead in his suite. Suddenly thrown into a murder investigation, Molly becomes both a prime suspect and an unlikely detective. With humor, heart, and suspense, Nita Prose delivers a charming yet gripping mystery about perception, belonging, and the hidden value of kindness."
     },
     {
       "id": "69",
       "title": "The House in the Cerulean Sea",
       "author": "TJ Klune",
       "isAvailable": true,
-      "isbn": [
-        "100375",
-        "100376",
-        "100377",
-        "100378",
-        "100379"
-      ],
+      "isbn": ["100375","100376","100377","100378","100379"],
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
       "rate": 4.3,
       "cover": "https://m.media-amazon.com/images/I/71bgrXZvbuS._UF1000,1000_QL80_.jpg",
-      "description": "A caseworker inspects a mysterious orphanage filled with magical children. Klune delivers a heartwarming fantasy about acceptance, kindness, and chosen family."
+      "description": "Linus Baker, a lonely caseworker for magical youth, is sent to evaluate a peculiar orphanage on a distant island. There he meets six extraordinary children and their enigmatic caretaker, Arthur Parnassus. As Linus grows close to them, he discovers a world of warmth, acceptance, and chosen family. Klune’s fantasy is both whimsical and profound, celebrating love, kindness, and the courage to be different."
     },
     {
       "id": "70",
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "isAvailable": true,
-      "isbn": [
-        "100380",
-        "100381",
-        "100382",
-        "100383",
-        "100384",
-        "100385"
-      ],
+      "isbn": ["100380","100381","100382","100383","100384","100385"],
       "rent": 9,
       "genre": "Fantasy",
       "isPopular": false,
       "rate": 4.4,
       "cover": "https://m.media-amazon.com/images/I/813s9Q0mszL._UF1000,1000_QL80_.jpg",
-      "description": "Addie LaRue makes a Faustian bargain to live forever—cursed to be forgotten by everyone she meets. A sweeping tale of love and memory across centuries."
+      "description": "In 1714 France, Addie LaRue makes a desperate bargain with a dark god: to live forever but be forgotten by everyone she meets. Spanning centuries and continents, her lonely existence changes when she meets a young man who remembers her name. Schwab’s lyrical novel is a haunting meditation on memory, love, identity, and the longing to leave a mark in a world that forgets us."
     },
     {
       "id": "71",
       "title": "The Four Winds",
       "author": "Kristin Hannah",
       "isAvailable": true,
-      "isbn": [
-        "100386",
-        "100387",
-        "100388",
-        "100389",
-        "100390",
-        "100391"
-      ],
+      "isbn": ["100386","100387","100388","100389","100390","100391"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
       "rate": 4.3,
       "cover": "https://m.media-amazon.com/images/I/81BvTRnoBoL.jpg",
-      "description": "During the Dust Bowl era, Elsa Martinelli fights for her family’s survival. Hannah paints a vivid portrait of resilience in one of America’s darkest times."
+      "description": "Amid the Dust Bowl and Great Depression, Elsa Martinelli struggles to protect her family as drought and poverty devastate the Texas plains. Forced to migrate west, she confronts prejudice and hardship while holding onto hope. Hannah delivers an epic tale of resilience, motherhood, and sacrifice, highlighting the enduring human spirit in one of America’s harshest chapters."
     },
     {
       "id": "72",
       "title": "The Sanatorium",
       "author": "Sarah Pearse",
       "isAvailable": false,
-      "isbn": [
-        "100392",
-        "100393",
-        "100394",
-        "100395",
-        "100396",
-        "100397"
-      ],
+      "isbn": ["100392","100393","100394","100395","100396","100397"],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/91zXBCFQSsL._UF1000,1000_QL80_.jpg",
-      "description": "A luxury hotel in the Swiss Alps turns sinister when guests go missing. A chilling locked-room thriller full of secrets and tension."
+      "description": "Detective Elin Warner visits a luxury hotel in the Swiss Alps, only to find it shadowed by sinister events. Guests go missing, and the building’s isolated setting heightens the tension. As snow traps everyone inside, Elin must untangle a web of secrets and lies before the killer strikes again. Pearse blends Gothic atmosphere with psychological suspense in this chilling locked-room thriller."
     },
     {
       "id": "73",
       "title": "One Last Stop",
       "author": "Casey McQuiston",
       "isAvailable": true,
-      "isbn": [
-        "100398",
-        "100399",
-        "100400",
-        "100401",
-        "100402",
-        "100403"
-      ],
+      "isbn": ["100398","100399","100400","100401","100402","100403"],
       "rent": 6,
       "genre": "Romance",
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/7125eYIFBxL.jpg",
-      "description": "August falls for Jane, a girl displaced in time and stuck on the subway. A witty, heartfelt romance blending mystery and magical realism."
+      "description": "August, a cynical twenty-something, moves to New York City searching for purpose and belonging. On the subway, she meets Jane, a magnetic girl stuck out of time and unable to leave the train. Their romance unfolds with humor, heart, and magical realism, blending themes of love, destiny, and queer identity. McQuiston delivers a vibrant and hopeful story of connection in unexpected places."
     },
     {
       "id": "74",
       "title": "Razorblade Tears",
       "author": "S.A. Cosby",
       "isAvailable": true,
-      "isbn": [
-        "100404",
-        "100405",
-        "100406",
-        "100407",
-        "100408",
-        "100409"
-      ],
+      "isbn": ["100404","100405","100406","100407","100408","100409"],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
       "rate": 4.1,
       "cover": "https://m.media-amazon.com/images/I/912xo84QXBL._UF1000,1000_QL80_.jpg",
-      "description": "Two ex-con fathers seek justice for their murdered sons. A gritty Southern noir about revenge, redemption, and confronting prejudice."
+      "description": "Two ex-convict fathers, Ike and Buddy Lee, set out on a relentless quest for justice after their married sons are brutally murdered. Bound by grief and guilt, the men confront racism, homophobia, and their own troubled pasts as they pursue vengeance. Cosby’s noir thriller is raw, violent, and deeply moving, offering both a heart-pounding ride and a poignant exploration of redemption and love."
     },
     {
       "id": "75",
       "title": "The Rose Code",
       "author": "Kate Quinn",
       "isAvailable": true,
-      "isbn": [
-        "100410",
-        "100411",
-        "100412",
-        "100413",
-        "100414",
-        "100415"
-      ],
+      "isbn": ["100410","100411","100412","100413","100414","100415"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
       "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91Nt5LU1auS._UF1000,1000_QL80_.jpg",
-      "description": "Three women codebreakers at Bletchley Park risk everything during WWII. Quinn combines history, espionage, and sisterhood in this gripping novel."
+      "description": "At the height of World War II, three brilliant women are recruited to work as codebreakers at Bletchley Park. As they crack enemy messages and guard secrets, their bond grows stronger—until betrayal tears them apart. Years later, they must reunite to expose a traitor. Quinn’s novel is a captivating mix of history, espionage, and sisterhood, celebrating the courage and sacrifice of unsung heroines."
     }
   ],
   "member": [
