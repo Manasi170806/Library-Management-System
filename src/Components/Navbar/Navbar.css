@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Css for App.jsx */
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #e3e5e7;
+  display: flex;
+}
+
+.navbar-section {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.routes-container {
+  margin-left: 20%;
+  width: 80%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* navbar.jsx */
+
+.navbar {
+  margin: 20px;
+}
+
+.navbar .nav-data {
+  margin: 20px 0;
+}
+
+.nav-data nav .navlink {
+  text-decoration: none;
+  font-size: 20px;
+  color: #a0a0a9;
+  margin: 10px 0;
+  padding: 10px 15px;
+  display: block;
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.nav-data nav .navlink.active {
+  color: #36a4ea;
+  background-color: #d8e2e8;
+  border-radius: 10px;
+}
+
+.nav-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

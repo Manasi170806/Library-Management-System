@@ -27,7 +27,7 @@ const BookList = () => {
 
   return (
     <>
-    <div className="navbar">
+    <div className="search">
       <CiSearch className="search-icon" />
       <input type="text" placeholder=" Search books..." />
     </div>
