@@ -1,21 +1,15 @@
 {
   "books": [
-    {
+     {
       "id": "1",
       "title": "Frankenstein",
       "author": "Mary Shelley",
       "isAvailable": true,
-      "isbn": [
-        "100001",
-        "100002",
-        "100003",
-        "100004",
-        "100005"
-      ],
+      "isbn": ["100001", "100002", "100003", "100004", "100005"],
       "rent": 8,
       "genre": "Gothic Fiction",
       "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg",
-      "description": "Frankenstein by Mary Shelley is a Gothic classic about Victor Frankenstein, a scientist obsessed with defying nature. He creates a living creature from corpses, but horrified by its appearance, he abandons it. The rejected creature longs for love yet finds only cruelty, turning to vengeance. This story explores ambition, responsibility, and humanity’s fear of the unknown. Both terrifying and tragic, it raises timeless questions about science, morality, and what it means to be truly human."
+      "description": "Mary Shelley's 'Frankenstein' is a haunting tale of ambition, creation, and consequence. Victor Frankenstein, a young scientist, defies nature by assembling a living being from corpses, only to be horrified by his own creation. Abandoned and shunned, the creature seeks love but meets only rejection, leading to vengeance and tragedy. The novel explores the dangers of unchecked ambition, the need for compassion, and the thin boundary between human and monster. A timeless Gothic masterpiece of fear and morality."
     },
     {
       "id": "2",
@@ -1170,7 +1164,14 @@
       "title": "Beautiful World, Where Are You",
       "author": "Sally Rooney",
       "isAvailable": true,
-      "isbn": ["100336","100337","100338","100339","100340","100341"],
+      "isbn": [
+        "100336",
+        "100337",
+        "100338",
+        "100339",
+        "100340",
+        "100341"
+      ],
       "rent": 6,
       "genre": "Literary Fiction",
       "isPopular": false,
@@ -1183,7 +1184,13 @@
       "title": "The Lincoln Highway",
       "author": "Amor Towles",
       "isAvailable": true,
-      "isbn": ["100342","100343","100344","100345","100346"],
+      "isbn": [
+        "100342",
+        "100343",
+        "100344",
+        "100345",
+        "100346"
+      ],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1196,7 +1203,14 @@
       "title": "Harlem Shuffle",
       "author": "Colson Whitehead",
       "isAvailable": false,
-      "isbn": ["100347","100348","100349","100350","100351","100352"],
+      "isbn": [
+        "100347",
+        "100348",
+        "100349",
+        "100350",
+        "100351",
+        "100352"
+      ],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1209,7 +1223,13 @@
       "title": "The Paris Apartment",
       "author": "Lucy Foley",
       "isAvailable": true,
-      "isbn": ["100353","100354","100355","100356","100357"],
+      "isbn": [
+        "100353",
+        "100354",
+        "100355",
+        "100356",
+        "100357"
+      ],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -1222,7 +1242,14 @@
       "title": "The Last Thing He Told Me",
       "author": "Laura Dave",
       "isAvailable": true,
-      "isbn": ["100358","100359","100360","100361","100362","100363"],
+      "isbn": [
+        "100358",
+        "100359",
+        "100360",
+        "100361",
+        "100362",
+        "100363"
+      ],
       "rent": 6,
       "genre": "Thriller",
       "isPopular": false,
@@ -1235,7 +1262,13 @@
       "title": "Once Upon a Time in Hollywood",
       "author": "Quentin Tarantino",
       "isAvailable": true,
-      "isbn": ["100364","100365","100366","100367","100368"],
+      "isbn": [
+        "100364",
+        "100365",
+        "100366",
+        "100367",
+        "100368"
+      ],
       "rent": 9,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1248,7 +1281,14 @@
       "title": "The Maid",
       "author": "Nita Prose",
       "isAvailable": false,
-      "isbn": ["100369","100370","100371","100372","100373","100374"],
+      "isbn": [
+        "100369",
+        "100370",
+        "100371",
+        "100372",
+        "100373",
+        "100374"
+      ],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -1261,7 +1301,13 @@
       "title": "The House in the Cerulean Sea",
       "author": "TJ Klune",
       "isAvailable": true,
-      "isbn": ["100375","100376","100377","100378","100379"],
+      "isbn": [
+        "100375",
+        "100376",
+        "100377",
+        "100378",
+        "100379"
+      ],
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
@@ -1274,7 +1320,14 @@
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "isAvailable": true,
-      "isbn": ["100380","100381","100382","100383","100384","100385"],
+      "isbn": [
+        "100380",
+        "100381",
+        "100382",
+        "100383",
+        "100384",
+        "100385"
+      ],
       "rent": 9,
       "genre": "Fantasy",
       "isPopular": false,
@@ -1287,7 +1340,14 @@
       "title": "The Four Winds",
       "author": "Kristin Hannah",
       "isAvailable": true,
-      "isbn": ["100386","100387","100388","100389","100390","100391"],
+      "isbn": [
+        "100386",
+        "100387",
+        "100388",
+        "100389",
+        "100390",
+        "100391"
+      ],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1300,7 +1360,14 @@
       "title": "The Sanatorium",
       "author": "Sarah Pearse",
       "isAvailable": false,
-      "isbn": ["100392","100393","100394","100395","100396","100397"],
+      "isbn": [
+        "100392",
+        "100393",
+        "100394",
+        "100395",
+        "100396",
+        "100397"
+      ],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
@@ -1313,7 +1380,14 @@
       "title": "One Last Stop",
       "author": "Casey McQuiston",
       "isAvailable": true,
-      "isbn": ["100398","100399","100400","100401","100402","100403"],
+      "isbn": [
+        "100398",
+        "100399",
+        "100400",
+        "100401",
+        "100402",
+        "100403"
+      ],
       "rent": 6,
       "genre": "Romance",
       "isPopular": false,
@@ -1326,7 +1400,14 @@
       "title": "Razorblade Tears",
       "author": "S.A. Cosby",
       "isAvailable": true,
-      "isbn": ["100404","100405","100406","100407","100408","100409"],
+      "isbn": [
+        "100404",
+        "100405",
+        "100406",
+        "100407",
+        "100408",
+        "100409"
+      ],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
@@ -1339,7 +1420,14 @@
       "title": "The Rose Code",
       "author": "Kate Quinn",
       "isAvailable": true,
-      "isbn": ["100410","100411","100412","100413","100414","100415"],
+      "isbn": [
+        "100410",
+        "100411",
+        "100412",
+        "100413",
+        "100414",
+        "100415"
+      ],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,

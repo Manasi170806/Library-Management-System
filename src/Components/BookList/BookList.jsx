@@ -3,6 +3,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { selectBooks, fetchBooks, deleteBook } from "../../features/booksSlice";
 import "./BookList.css";
 import { Link } from "react-router-dom";
+import { CiSearch } from "react-icons/ci";
+  import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 import Description from "../Description-section/Description";
 
 
@@ -17,7 +20,22 @@ const BookList = () => {
     if (status === "idle") dispatch(fetchBooks());
   }, [status, dispatch]);
 
+
+
+
+
+
   return (
+    <>
+    <div className="navbar">
+      <CiSearch className="search-icon" />
+      <input type="text" placeholder=" Search books..." />
+    </div>
+
+    <div className="dropdown">
+      
+    </div>
+    
     <div className="books-card">
       <div className="books-card__header">
         <h2> Book Library</h2>
@@ -113,6 +131,7 @@ const BookList = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

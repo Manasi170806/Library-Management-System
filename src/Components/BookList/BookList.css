@@ -91,3 +91,34 @@
   cursor: pointer;
   font-weight: bold;
 }
+.navbar {
+  position: relative;
+  width: 360px;
+}
+
+.navbar input {
+  width: 100%;
+  padding: 10px 30px;
+  margin-left: -5%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: -3%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #555;
+  pointer-events: none; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  background-color: wheat;
+}
