@@ -4,6 +4,7 @@ import { GoHome } from "react-icons/go";
 import { PiBooksLight } from "react-icons/pi";
 import { TiGroup } from "react-icons/ti";
 import { FiLogIn } from "react-icons/fi";
+import "./Navbar.css";
 
 const NavLinkData = [
   { id: 1, path: "/", icon: <GoHome />, text: "Home" },
