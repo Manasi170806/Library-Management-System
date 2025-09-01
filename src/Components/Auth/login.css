@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  height: auto;
+  width: 90%;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+}
+
+.info-login {
+  height: auto;
+  width: 50%;
+  padding: 2rem 3rem;
+}
+
+.login-headings {
+  margin: 20px 0;
+}
+
+.login-headings h2 {
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.login-headings p {
+  color: grey;
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  padding-top: 5px;
+}
+
+.login-w-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-methods {
+  padding: 10px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.login-methods button {
+  padding: 10px 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* right side */
+.login-image {
+  height: auto;
+  width: 50%;
+  background-color: #36a4ea;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

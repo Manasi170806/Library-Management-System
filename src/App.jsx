@@ -5,7 +5,8 @@ import DashBoard from "./Components/DashBoard/DashBoard";
 import BookList from "./Components/BookList/BookList";
 import MemberList from "./Components/Members/Members";
 import Description from "./Components/Description-section/Description";
-import Login from "./Components/LogInPg/Login";
+import Login from "./Components/Auth/Login";
+import SignUp from "./Components/Auth/SignUp";
 // import StartPage from "./Components/StartPage/StartPage";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/books" element={<BookList />} />
           <Route path="/members" element={<MemberList />} />
           <Route path="/logIn" element={<Login />} />
+          <Route path="/signUp" element={<SignUp />} />
           <Route path="/description/:id" element={<Description />} />
         </Routes>
       </div>
