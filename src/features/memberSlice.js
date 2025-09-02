@@ -1,20 +1,34 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// ✅ Members fetch karne ka thunk
+// Thunk for fetching members
 export const fetchMembers = createAsyncThunk("members/fetch", async () => {
-  const res = await axios.get("http://localhost:3000/member");
+  const res = await axios.get("http://localhost:3000/members");
   return res.data;
 });
+
+export const deleteMember = createAsyncThunk(
+  "members/delete",
+  async (id) => {
+    await axios.delete(`http://localhost:3000/members/${id}`);
+    return id; // id ko return karna hi hoga
+  }
+);
+
+
+
 
 const memberSlice = createSlice({
   name: "members",
   initialState: {
     list: [],
-    status: "idle", // idle | loading | succeeded | failed
+    status: "idle",
     error: null,
   },
-  reducers: {},
+  reducers: {
+
+  },
+
   extraReducers: (builder) => {
     builder
       .addCase(fetchMembers.pending, (state) => {
@@ -27,11 +41,16 @@ const memberSlice = createSlice({
       .addCase(fetchMembers.rejected, (state, action) => {
         state.status = "failed";
         state.error = action.error.message;
+      })
+      .addCase(deleteMember.fulfilled, (state, action) => {
+        state.list = state.list.filter((m) => m.id !== action.payload);
       });
+
   },
 });
 
-// ✅ Selector
+
+// ✅ selector
 export const selectMembers = (state) => state.members.list;
 
 export default memberSlice.reducer;

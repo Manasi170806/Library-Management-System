@@ -16,17 +16,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 
 
-// Gothic Fiction
-// Romance
-// Dystopian
-// Southern Gothic
-// Tragedy
-// Adventure
-// Historical Fiction
-// Psychological Fiction
-// Epic Poetry
-// Adventure Fiction
-// Modernist
-// Postmodernist
-// The Brothers Karamazov
-// Fyodor Dostoevsky

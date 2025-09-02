@@ -1,17 +1,18 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { selectMembers, fetchMembers } from "../../features/memberSlice";
+import { selectMembers, fetchMembers, deleteMember } from "../../features/memberSlice";
 import "./Members.css";
 
 const MemberList = () => {
   const dispatch = useDispatch();
-  const members = useSelector(selectMembers) || [];
+  const members = useSelector(selectMembers);
   const status = useSelector((s) => s.members.status);
   const error = useSelector((s) => s.members.error);
 
   useEffect(() => {
-    if (status === "idle") dispatch(fetchMembers());
-  }, [status, dispatch]);
+    dispatch(fetchMembers());
+  }, [dispatch]);
+
 
   return (
     <div className="members-card">
@@ -34,10 +35,9 @@ const MemberList = () => {
                 <th>Phone</th>
                 <th>Membership</th>
                 <th>Status</th>
-                {/* <th>Subscription</th> */}
                 <th>Joined</th>
                 <th>Last Active</th>
-                {/* <th>Action</th> */}
+                <th>Remove</th>
               </tr>
             </thead>
 
@@ -62,7 +62,12 @@ const MemberList = () => {
                     </td>
                     <td>{m.joined}</td>
                     <td>{m.lastActive}</td>
-                   
+                    <td>
+                      <button onClick={() => dispatch(deleteMember(m.id))}>
+                        Remove
+                      </button>
+                    </td>
+
                   </tr>
                 ))
               ) : (
