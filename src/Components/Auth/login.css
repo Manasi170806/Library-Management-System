@@ -59,11 +59,109 @@
   background-color: white;
 }
 
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  margin: auto;
+}
+
+.google-btn:hover {
+  background: #ffffff;
+  box-shadow: 2px 2px 10px #8caeff5e;
+}
+
+.login-w-email {
+  margin: 10px 0;
+}
+
+.login-w-email span {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #666;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.login-w-email span::before,
+.login-w-email span::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.login-w-email span::before {
+  margin-right: 10px;
+}
+
+.login-w-email span::after {
+  margin-left: 10px;
+}
+
 /* right side */
 .login-image {
   height: auto;
   width: 50%;
-  background-color: #36a4ea;
+  background-color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.login-image-cont {
+  height: 100%;
+  width: 100%;
+}
+
+.login-image-cont img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.login-w-email input {
+  height: 40px;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+  outline: 0;
+  letter-spacing: 0.5px;
+  display: flex;
+}
+
+.login-w-email .login-Btn {
+  height: 40px;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 20px;
+  border: 1.5px solid blue;
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+.login-Btn:hover {
+  background-color: white;
+  color: blue;
+}
+
+.login-w-email p {
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  margin: 10px 20px;
 }

@@ -1,10 +1,20 @@
 import React from "react";
 import "../Auth/login.css";
 import { Link } from "react-router-dom";
-import { FaGoogle } from "react-icons/fa6";
-import { ImFacebook } from "react-icons/im";
+import { FcGoogle } from "react-icons/fc";
+// import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 function Login() {
+  // const auth = getAuth();
+  // signInWithEmailAndPassword(auth, email, password)
+  //   .then((userCredential) => {
+  //     const user = userCredential.user;
+  //   })
+  //   .catch((error) => {
+  //     const errorCode = error.code;
+  //     const errorMessage = error.message;
+  //   });
+
   return (
     <div className="main-logIn">
       <div className="login-container">
@@ -16,13 +26,9 @@ function Login() {
           </div>
 
           <div className="login-methods">
-            <button>
-              <FaGoogle />
-              Google
-            </button>
-            <button>
-              <ImFacebook />
-              Facebook
+            <button className="google-btn">
+              <FcGoogle style={{ fontSize: "20px" }} />
+              Continue with Google
             </button>
           </div>
 
@@ -42,7 +48,7 @@ function Login() {
               />
             </label>
 
-            <button>Log in</button>
+            <button className="login-Btn">Log in</button>
             <p>
               don't have account? <Link to="/signup">Create Account</Link>
             </p>
@@ -50,10 +56,16 @@ function Login() {
         </div>
 
         {/* side image related to login */}
-        <div className="login-image"></div>
+        <div className="login-image">
+          <div className="login-image-cont">
+            <img src="src/assets/login-bg/login.jpg" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
 }
 
 export default Login;
+
+// Api key --> AIzaSyBKlhPox5WtqjApU1AwNdkjXUgLb4b87r4
