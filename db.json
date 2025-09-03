@@ -1,23 +1,6 @@
 {
   "books": [
     {
-      "id": "1",
-      "title": "Frankenstein",
-      "author": "Mary Shelley",
-      "isAvailable": true,
-      "isbn": [
-        "100001",
-        "100002",
-        "100003",
-        "100004",
-        "100005"
-      ],
-      "rent": 8,
-      "genre": "Gothic Fiction",
-      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg",
-      "description": "Mary Shelley's 'Frankenstein' is a haunting tale of ambition, creation, and consequence. Victor Frankenstein, a young scientist, defies nature by assembling a living being from corpses, only to be horrified by his own creation. Abandoned and shunned, the creature seeks love but meets only rejection, leading to vengeance and tragedy. The novel explores the dangers of unchecked ambition, the need for compassion, and the thin boundary between human and monster. A timeless Gothic masterpiece of fear and morality."
-    },
-    {
       "id": "2",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
@@ -1443,17 +1426,6 @@
     }
   ],
   "members": [
-    {
-      "id": "3",
-      "name": "Charlie Brown",
-      "email": "charlie.brown@example.com",
-      "phone": "345-678-9012",
-      "membershipType": "Public",
-      "status": "Active",
-      "joined": "16-10-2024",
-      "lastActive": "06-12-2024",
-      "photo": "https://i.pravatar.cc/50?img=3"
-    },
     {
       "id": "4",
       "name": "Diana Prince",
