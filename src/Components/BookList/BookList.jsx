@@ -35,11 +35,9 @@ function BookList() {
   return (
     <div className="books-card">
       <div className="books-card__header">
-    <h2>📚 Book Library</h2>
-    <span className="pill pill--muted">
-      {filteredBooks.length} items
-    </span>
-  </div>
+        <h2>📚 Book Library</h2>
+        <span className="pill pill--muted">{filteredBooks.length} items</span>
+      </div>
       {/* Search Bar */}
       <div className="search">
         <input
@@ -63,7 +61,6 @@ function BookList() {
               <th>&nbsp;&nbsp;&nbsp;Status</th>
               <th>Available</th>
               <th>&nbsp;&nbsp;&nbsp;&nbsp;View</th>
-              
             </tr>
           </thead>
           <tbody>
@@ -84,23 +81,24 @@ function BookList() {
                     )}
                   </td>
                   <td>
-                    &nbsp;&nbsp;&nbsp;{book.isAvailable
+                    &nbsp;&nbsp;&nbsp;
+                    {book.isAvailable
                       ? `${book.isbn.length}/${book.isbn.length}`
                       : `0/${book.isbn.length}`}
                   </td>
                   <td>
                     <div className="action-buttons">
-                    {/* 👇 View button */}
-                    <Link to={`/description/${book.id}`}>
-                      <button className="btn-view">View</button>
-                    </Link>
-                    {/* 👇 Remove button */}
-                    <button
-                      className="btn-del"
-                      onClick={() => handleDelete(book.id)}
-                    >
-                      Remove
-                    </button>
+                      {/* 👇 View button */}
+                      <Link to={`/description/${book.id}`}>
+                        <button className="btn-view">View</button>
+                      </Link>
+                      {/* 👇 Remove button */}
+                      <button
+                        className="btn-del"
+                        onClick={() => handleDelete(book.id)}
+                      >
+                        Remove
+                      </button>
                     </div>
                   </td>
                 </tr>

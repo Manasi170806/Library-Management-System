@@ -166,3 +166,14 @@
   font-weight: 400;
   margin: 10px 20px;
 }
+
+.welcome-text {
+  height: 200px;
+  width: 80%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.welcome-text h1 {
+  padding: 2rem 0;
+}
