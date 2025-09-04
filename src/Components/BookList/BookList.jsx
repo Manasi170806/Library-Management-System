@@ -51,18 +51,25 @@ function BookList() {
         <span className="search-icon">🔍</span>
       </div>
 
+      {/* Add Books */}
+      <div className="add-book">
+        <Link to="/AddBooks">
+          <button className="btn-add">+ Add New Book</button>
+        </Link>
+      </div>
+
       {/* Table */}
       <div className="table-responsive">
         <table className="books-table">
           <thead>
             <tr>
               <th>Book Cover</th>
-              <th>Book Title</th>
-              <th>Author</th>
-              <th>Genre</th>
-              <th>Status</th>
+              <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book Title</th>
+              <th>&nbsp;&nbsp;&nbsp;Author</th>
+              <th>&nbsp;&nbsp;Genre</th>
+              <th>&nbsp;&nbsp;&nbsp;Status</th>
               <th>Available</th>
-              <th>View</th>
+              <th>&nbsp;&nbsp;&nbsp;&nbsp;View</th>
               
             </tr>
           </thead>
@@ -84,7 +91,7 @@ function BookList() {
                     )}
                   </td>
                   <td>
-                    {book.isAvailable
+                    &nbsp;&nbsp;&nbsp;{book.isAvailable
                       ? `${book.isbn.length}/${book.isbn.length}`
                       : `0/${book.isbn.length}`}
                   </td>
