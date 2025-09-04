@@ -63,9 +63,7 @@ const MemberList = () => {
                     <td>{m.joined}</td>
                     <td>{m.lastActive}</td>
                     <td>
-                      <button onClick={() => dispatch(deleteMember(m.id))}>
-                        Remove
-                      </button>
+                    <button onClick={() => dispatch(deleteMember(m.id.toString()))}>Remove</button>
                     </td>
 
                   </tr>

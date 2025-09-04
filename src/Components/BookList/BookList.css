@@ -1,28 +1,99 @@
+/* Reset */
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* 🔍 Search bar (card ke bahar) */
+.search {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.search input {
+  width: 100%;
+  padding: 12px 40px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search input:focus {
+  border-color: #3498db;
+  box-shadow: 0px 0px 6px rgba(52, 152, 219, 0.3);
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #555;
+  pointer-events: none;
+}
+
+/* Add Books button */
+.add-book {
+  margin-top: -68px;
+  margin-bottom: 50px;
+  margin-left: 88%;
+}
+.btn-add {
+  background: #2ecc71;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+.btn-add:hover {
+  background: #27ae60;
+}
+
+
+/* 📚 Card container */
 .books-card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 16px 16px 8px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+/* Header */
 .books-card__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .books-card__header h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
+  color: #2c3e50;
 }
 
+.pill {
+  background: #ecf0f1;
+  color: #333;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* 📋 Table */
 .table-responsive {
   overflow-x: auto;
 }
@@ -33,93 +104,116 @@
 }
 
 .books-table thead th {
-  background: #f2f2f2;
-  padding: 10px;
+  background: #3498db;
+  color: white;
+  padding: 12px;
   text-align: left;
-  border: 1px solid #ddd;
+  font-size: 14px;
+  border: none;
 }
 
 .books-table tbody td {
-
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
 }
 
 .books-table tbody tr:hover {
-  background: #faf3f3;
-  cursor: pointer;
-  transition: 0.4s;
+  background: #f8faff;
+  transition: 0.3s;
 }
 
-/* Cover image */
+/* Book cover */
 .cover img {
-  width: 50px;
-  height: 65px;
+  width: 55px;
+  height: 75px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
 }
 
-/* Availability Status */
+/* ✅ Status chips */
 .status-green {
-  color: green;
+  color: #27ae60;
   font-weight: bold;
 }
 
 .status-red {
-  color: red;
+  color: #e74c3c;
   font-weight: bold;
 }
 
-/* Buttons */
-.btn-link {
-  background: none;
+/* ⚡ Buttons */
+.btn-view {
+  background: #3498db;
   border: none;
-  color: blue;
+  color: white;
   cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 13px;
 }
+
+.btn-view:hover {
+  background: #2980b9;
+}
+
+.btn-del {
+  background: #e74c3c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-left: 0px;
+  height: 35px;
+
+}
+
+.btn-del:hover {
+  background: #c0392b;
+}
+
 /* Empty message */
 .empty {
   text-align: center;
   padding: 20px;
-  color: gray;
+  font-size: 15px;
+  font-style: italic;
+  color: #7f8c8d;
 }
-.btn-del
-{
-  background: none;
-  border: none;
-  color: red;
-  cursor: pointer;
-  font-weight: bold;
-}
-.search {
-  position: relative;
-  width: 360px;
-  margin: 20px 0;
+/* Action buttons stacked vertically */
+.action-buttons {
+  display: flex;
+  flex-direction: column; /* column instead of row */
+  gap: 6px; /* space between buttons */
 }
 
-.search input {
-  width: 100%;
-  padding: 10px 30px;
-  margin-left: 5%;
-  font-size: 16px;
+/* Buttons full width inside cell */
+.action-buttons button {
+  width: 70px;
+  text-align: center;
+}
+/* Header actions (search + filter + items) */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Dropdown filter */
+.filter-dropdown {
+  padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  font-size: 14px;
   outline: none;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.search-icon {
-  position: absolute;
-  top: 50%;
-  left: 7%;
-  transform: translateY(-50%);
-  font-size: 20px;
-  color: #555;
-  pointer-events: none; 
+.filter-dropdown:hover {
+  border-color: #3498db;
 }
-
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-  margin-left: 20px;
-  background-color: wheat;
-} */

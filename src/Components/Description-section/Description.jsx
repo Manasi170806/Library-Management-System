@@ -22,7 +22,6 @@ function Description() {
   }
   return (
     <div>
-      <h2>{book.title}</h2>
       <div className="description-card">
         <img src={book.cover} alt="" />
         <div className="description-details">
