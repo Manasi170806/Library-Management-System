@@ -1,8 +1,6 @@
 {
   "books": [
     {
-<<<<<<< HEAD
-=======
       "id": "2",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
@@ -91,7 +89,7 @@
       "description": "Crime and Punishment by Fyodor Dostoevsky is a psychological novel about guilt, morality, and redemption. Raskolnikov, a poor student, convinces himself that murdering a pawnbroker will serve a greater good. But his conscience torments him, leading to paranoia, suffering, and inner conflict. Through his journey, Dostoevsky explores questions of morality, justice, and human nature. With suspenseful storytelling and philosophical depth, this masterpiece remains a timeless study of the battle between sin, conscience, and the possibility of salvation."
     },
     {
->>>>>>> 5212ef13318aab130b80a82a55b1a333156c0a0a
+
       "id": "9",
       "title": "The Odyssey",
       "author": "Homer",

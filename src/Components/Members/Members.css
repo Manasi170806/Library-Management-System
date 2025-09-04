@@ -1,92 +1,161 @@
-/* ===========================
-   Members Table Styling
-   =========================== */
-
-.members-container {
-  max-width: 1200px;
-  margin: 30px auto;
+.members-card {
+  background: #fff;
+  border-radius: 16px;
   padding: 20px;
-  font-family: "Segoe UI", sans-serif;
+  margin: 30px auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-.members-container h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-bottom: 20px;
+/* Header */
+.members-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.members-card__header h2 {
+  font-size: 24px;
+  font-weight: bold;
   color: #333;
+}
+
+.pill {
+  background: #eef4ff;
+  color: #444;
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+/* Add Button */
+.add-members {
+  margin-bottom: 20px;
+}
+
+.btn-add {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-add:hover {
+  background: #218838;
+}
+
+/* Search Bar */
+.search {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  border: 2px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.search input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
 }
 
 /* Table */
-.members-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 12px; /* row gap */
-  font-size: 15px;
+.table-responsive {
+  overflow-x: auto;
 }
 
-/* Table Header */
-.members-table thead {
-  background: #f4f4f4;
+.members-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.members-table th,
+.members-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .members-table th {
-  padding: 12px 15px;
-  text-align: center;
+  background: #f4f6fa;
   font-weight: 600;
-  color: #444;
-  /* border-radius: 8px; */
-}
-
-/* Table Rows */
-.members-table td {
-  padding: 14px 15px;
-  background: #fff;
-  text-align: center;
-  font-size: 14px;
   color: #333;
-  /* border-radius: 8px; */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* Row hover effect */
-.members-table tr:hover td {
-  background: #fafafa;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: 0.2s;
-}
-
-/* Status */
-.status-available {
-  color: #2e7d32;
-  font-weight: 600;
-}
-
-.status-not {
-  color: #c62828;
-  font-weight: 600;
-}
-
-/* Availability */
-.availability {
-  font-weight: 500;
-  color: #555;
-}
-
-/* Buttons or Links */
-.members-table a {
-  color: #1976d2;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.members-table a:hover {
-  text-decoration: underline;
-}
-
-/* Empty / Error State */
-.empty, .error {
+.empty {
   text-align: center;
+  font-style: italic;
+  color: #888;
   padding: 20px;
+}
+
+/* Remove Button */
+.btn-del {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-del:hover {
+  background: #c0392b;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.pagination .btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.pagination .btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination .btn:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.pagination span {
   font-size: 15px;
-  color: #777;
+  font-weight: 500;
+  color: #333;
 }
