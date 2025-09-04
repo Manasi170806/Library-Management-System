@@ -1,13 +1,11 @@
-import React from 'react'
-import './AddBooks.css'
-
+import React from "react";
+import "./AddBooks.css";
 
 export default function AddBooks() {
   return (
-      
     <div className="addbook-container">
-        <h2>Add New Book</h2>
-        {/* <form className="addbook-form">
+      <h2>Add New Book</h2>
+      {/* <form className="addbook-form">
             <label>
                 Title:
                 <input type="text" name="title" required />
@@ -35,5 +33,5 @@ export default function AddBooks() {
             <button type="submit">Add Book</button>
         </form> */}
     </div>
-  )
+  );
 }
