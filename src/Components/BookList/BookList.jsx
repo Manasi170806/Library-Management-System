@@ -51,13 +51,6 @@ function BookList() {
         <span className="search-icon">🔍</span>
       </div>
 
-      {/* Add Books */}
-      <div className="add-book">
-        <Link to="/AddBooks">
-          <button className="btn-add">+ Add New Book</button>
-        </Link>
-      </div>
-
       {/* Table */}
       <div className="table-responsive">
         <table className="books-table">
