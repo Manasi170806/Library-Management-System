@@ -175,14 +175,14 @@
   text-align: center;
 }
 /* Header actions (search + filter + items) */
-.header-actions {
+/* .header-actions {
   display: flex;
   align-items: center;
   gap: 15px;
-}
+} */
 
 /* Dropdown filter */
-.filter-dropdown {
+/* .filter-dropdown {
   padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -194,4 +194,4 @@
 
 .filter-dropdown:hover {
   border-color: #3498db;
-}
+} */
