@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { selectMembers, fetchMembers, deleteMember } from "../../features/memberSlice";
 import "./Members.css";
+import { Link } from "react-router-dom";
 
 const MemberList = () => {
   const dispatch = useDispatch();
@@ -19,6 +20,13 @@ const MemberList = () => {
       <div className="members-card__header">
         <h2>Library Members</h2>
         <span className="pill pill--muted">{members.length} members</span>
+      </div>
+
+      {/* Add members */}
+      <div className="add-members">
+        <Link to="/AddMembers">
+          <button className="btn-add">+ Add New Member</button>
+        </Link>
       </div>
 
       {status === "loading" && <div className="skeleton">Loading members…</div>}

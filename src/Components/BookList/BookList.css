@@ -96,6 +96,7 @@
 /* 📋 Table */
 .table-responsive {
   overflow-x: auto;
+  border-radius: 12px;
 }
 
 .books-table {
