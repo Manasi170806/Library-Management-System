@@ -1427,6 +1427,42 @@
   ],
   "members": [
     {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "123-456-7890",
+      "membershipType": "Student",
+      "status": "Active",
+      "subscription": "Subscriber",
+      "joined": "01-01-2024",
+      "lastActive": "15-02-2024",
+      "photo": "https://i.pravatar.cc/50?img=1"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "234-567-8901",
+      "membershipType": "Faculty",
+      "status": "Inactive",
+      "subscription": "Guest",
+      "joined": "10-02-2024",
+      "lastActive": "20-03-2024",
+      "photo": "https://i.pravatar.cc/50?img=2"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "phone": "345-678-9012",
+      "membershipType": "Public",
+      "status": "Active",
+      "subscription": "Subscriber",
+      "joined": "16-10-2024",
+      "lastActive": "06-12-2024",
+      "photo": "https://i.pravatar.cc/50?img=3"
+    },
+    {
       "id": "4",
       "name": "Diana Prince",
       "email": "diana.prince@example.com",
@@ -1689,6 +1725,18 @@
       "joined": "15-08-2024",
       "lastActive": "20-11-2024",
       "photo": "https://i.pravatar.cc/50?img=27"
+    },
+     {
+      "id": "28",
+      "name": "Bruce Wayne",
+      "email": "bruce.wayne@example.com",
+      "phone": "890-123-4569",
+      "membershipType": "Student",
+      "status": "Active",
+      "subscription": "Subscriber",
+      "joined": "20-08-2024",
+      "lastActive": "25-11-2024",
+      "photo": "https://i.pravatar.cc/50?img=28"
     },
     {
       "id": "29",

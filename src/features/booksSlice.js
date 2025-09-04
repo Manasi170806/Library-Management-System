@@ -5,12 +5,13 @@ export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
   const response = await axios.get("http://localhost:3000/books");
   return response.data;
 });
-export const deleteBook = (id) => async (dispatch) => {
-  await axios.delete(`http://localhost:3000/books/${id}`);
-  dispatch(removeBook(id)); // pehle server se delete, fir Redux state update
-};
-
-
+export const deleteBook = createAsyncThunk(
+  "books/deleteBook",
+  async (id) => {
+    await axios.delete(`http://localhost:3000/books/${id}`);
+    return id;
+  }
+);
 
 
 export const issuedBooks = createAsyncThunk("books/issuedBooks", async () => {
@@ -52,9 +53,7 @@ const booksSlice = createSlice({
     },
   },
   reducers: {
-  removeBook: (state, action) => {
-    state.total = state.total.filter((book) => book.id !== action.payload);
-  },
+  
 },
 
   
@@ -72,7 +71,10 @@ const booksSlice = createSlice({
       .addCase(fetchBooks.rejected, (state, action) => {
         state.status.total = "failed";
         state.error.total = action.error.message;
-      }); 
+      })
+      .addCase(deleteBook.fulfilled, (state, action) => {
+  state.total = state.total.filter((book) => book.id !== String(action.payload));
+});
 
     // issued
     builder

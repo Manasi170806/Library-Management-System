@@ -7,28 +7,24 @@ export const fetchMembers = createAsyncThunk("members/fetch", async () => {
   return res.data;
 });
 
+// Thunk for deleting a member
 export const deleteMember = createAsyncThunk(
   "members/delete",
   async (id) => {
-    await axios.delete(`http://localhost:3000/members/${id}`);
-    return id; // id ko return karna hi hoga
+    await axios.delete(`http://localhost:3000/members/${String(id)}`);
+
+    return id; // id ko wapas bhejna zaruri hai
   }
 );
 
-
-
-
 const memberSlice = createSlice({
   name: "members",
-  initialState: {
+  initialState: { 
     list: [],
     status: "idle",
     error: null,
   },
-  reducers: {
-
-  },
-
+  reducers: {},
   extraReducers: (builder) => {
     builder
       .addCase(fetchMembers.pending, (state) => {
@@ -43,12 +39,10 @@ const memberSlice = createSlice({
         state.error = action.error.message;
       })
       .addCase(deleteMember.fulfilled, (state, action) => {
-        state.list = state.list.filter((m) => m.id !== action.payload);
-      });
-
+    state.list = state.list.filter(m => m.id !== action.payload);
+  });
   },
 });
-
 
 // ✅ selector
 export const selectMembers = (state) => state.members.list;
