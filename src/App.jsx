@@ -7,10 +7,11 @@ import MemberList from "./Components/Members/Members";
 import Description from "./Components/Description-section/Description";
 import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/SignUp";
-// import StartPage from "./Components/StartPage/StartPage";
+import AddBooks from "./Components/AddBooks/AddBooks";
+import AddMembers from "./Components/AddMembers/AddMembers";
+import PrivateRoute from "./Components/Auth/PrivateRoute";
 
 function App() {
-  // const page = useSelector((state) => state.navigation.page);
   return (
     <div className="main-container">
       {/* Navbar Section */}
@@ -22,19 +23,29 @@ function App() {
       <div className="routes-container">
         <Routes>
           <Route path="/" element={<DashBoard />} />
-          <Route path="/books" element={<BookList />} />
-          <Route path="/members" element={<MemberList />} />
+          <Route
+            path="/books"
+            element={
+              <PrivateRoute>
+                <BookList />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/members"
+            element={
+              <PrivateRoute>
+                <MemberList />
+              </PrivateRoute>
+            }
+          />
           <Route path="/logIn" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
+          <Route path="/AddBooks" element={<AddBooks />} />
+          <Route path="/AddMembers" element={<AddMembers />} />
           <Route path="/description/:id" element={<Description />} />
         </Routes>
       </div>
-
-      {/* <div className="startPageRoutes">
-        <Routes>
-      <Route path="/" element={<StartPage />} />   {/* Default Page */}
-      {/* <Route path="/dashboard" element={<DashBoard />} />
-    // </Routes> */}
     </div>
   );
 }

@@ -1,0 +1,65 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+.addMemberForm
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.addMemberForm h2
+{
+    margin-bottom: 20px;
+    color: #333;
+}
+.addMemberForm form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.addMemberForm input
+{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.addMemberForm button
+{
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.addMemberForm button:hover
+{
+    background-color: #45a049;
+}
+.addMemberForm .error
+{
+    color: red;
+    margin-bottom: 15px;
+}
+.addMemberForm .success
+{
+    color: green;
+    margin-bottom: 15px;
+}
+

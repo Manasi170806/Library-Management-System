@@ -1,6 +1,97 @@
 {
   "books": [
     {
+<<<<<<< HEAD
+=======
+      "id": "2",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isAvailable": true,
+      "isbn": [
+        "100006",
+        "100007",
+        "100008",
+        "100009",
+        "100010",
+        "100011"
+      ],
+      "rent": 6,
+      "genre": "Romance",
+      "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg",
+      "description": "Jane Austen’s Pride and Prejudice is a witty romance exploring love, pride, and class in Regency England. The spirited Elizabeth Bennet clashes with the proud Mr. Darcy, whose aloofness masks deep integrity. Through family pressures, misunderstandings, and social expectations, they gradually learn humility, respect, and true affection. With sparkling dialogue and keen social insight, Austen critiques rigid class divisions while celebrating personal growth. This enduring classic continues to charm readers with its humor, wit, and timeless love story."
+    },
+    {
+      "id": "4",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isAvailable": true,
+      "isbn": [
+        "100017",
+        "100018",
+        "100019",
+        "100020",
+        "100021",
+        "100022"
+      ],
+      "rent": 5,
+      "genre": "Southern Gothic",
+      "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg",
+      "description": "To Kill a Mockingbird by Harper Lee is a moving exploration of justice, morality, and prejudice in the American South. Seen through the innocent eyes of Scout Finch, the story follows her father Atticus, a principled lawyer defending a Black man accused of raping a white woman. While Scout learns about compassion and courage, the town reveals deep racial divisions. Blending childhood innocence with profound moral lessons, this timeless classic remains a powerful call for empathy and justice."
+    },
+    {
+      "id": "5",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isAvailable": true,
+      "isbn": [
+        "100023",
+        "100024",
+        "100025",
+        "100026",
+        "100027"
+      ],
+      "rent": 6,
+      "genre": "Tragedy",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      "description": "The Great Gatsby by F. Scott Fitzgerald is a Jazz Age masterpiece about wealth, illusion, and tragic love. Through narrator Nick Carraway, we discover the enigmatic millionaire Jay Gatsby, whose extravagant parties hide his obsession with Daisy Buchanan. Set against the glamour of the 1920s, Gatsby’s dream of rekindled love ends in heartbreak and death. The novel exposes the emptiness of material success and the corruption of the American Dream, making it one of literature’s greatest tragedies."
+    },
+    {
+      "id": "7",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "isAvailable": true,
+      "isbn": [
+        "100034",
+        "100035",
+        "100036",
+        "100037",
+        "100038"
+      ],
+      "rent": 10,
+      "genre": "Historical Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg",
+      "description": "War and Peace by Leo Tolstoy is a sweeping epic set during the Napoleonic Wars. Interweaving the lives of noble families, soldiers, and peasants, it portrays love, loss, and destiny against the backdrop of history. Characters like Pierre, Natasha, and Andrei struggle with faith, duty, and identity as war reshapes their lives. Combining human drama with historical detail, Tolstoy explores free will, philosophy, and the nature of history itself. This monumental work is a cornerstone of world literature."
+    },
+    {
+      "id": "8",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "isAvailable": true,
+      "isbn": [
+        "100039",
+        "100040",
+        "100041",
+        "100042",
+        "100043",
+        "100044"
+      ],
+      "rent": 8,
+      "genre": "Psychological Fiction",
+      "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg",
+      "description": "Crime and Punishment by Fyodor Dostoevsky is a psychological novel about guilt, morality, and redemption. Raskolnikov, a poor student, convinces himself that murdering a pawnbroker will serve a greater good. But his conscience torments him, leading to paranoia, suffering, and inner conflict. Through his journey, Dostoevsky explores questions of morality, justice, and human nature. With suspenseful storytelling and philosophical depth, this masterpiece remains a timeless study of the battle between sin, conscience, and the possibility of salvation."
+    },
+    {
+>>>>>>> 5212ef13318aab130b80a82a55b1a333156c0a0a
       "id": "9",
       "title": "The Odyssey",
       "author": "Homer",
@@ -1333,18 +1424,6 @@
     }
   ],
   "members": [
-    {
-      "id": "1",
-      "name": "Alice Johnson",
-      "email": "alice.johnson@example.com",
-      "phone": "123-456-7890",
-      "membershipType": "Student",
-      "status": "Active",
-      "subscription": "Subscriber",
-      "joined": "01-01-2024",
-      "lastActive": "15-02-2024",
-      "photo": "https://i.pravatar.cc/50?img=1"
-    },
     {
       "id": "2",
       "name": "Bob Smith",

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Auth/login.css";
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
@@ -8,6 +8,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
   signOut,
+  onAuthStateChanged,
 } from "firebase/auth";
 import { app } from "../firebase/firebase";
 
@@ -17,6 +18,32 @@ const auth = getAuth(app);
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [user, setuser] = useState(null);
+  const [loading, setloading] = useState(true);
+
+  useEffect(() => {
+    // Adds an observer for changes to the user's sign-in state.
+    const authChange = onAuthStateChanged(auth, (currentUser) => {
+      setuser(currentUser);
+      setloading(false);
+    });
+    return () => authChange;
+  }, []);
+
+  if (loading) {
+    return (
+      <p
+        style={{
+          textAlign: "center",
+          margin: "5rem 0",
+          fontSize: "20px",
+          color: "blue",
+        }}
+      >
+        Loading...
+      </p>
+    );
+  }
 
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
@@ -46,7 +73,7 @@ function Login() {
     <div className="main-logIn">
       <div className="login-container">
         {/* input fields for log in */}
-        {!auth.currentUser ? (
+        {!user ? (
           <div className="info-login">
             <div className="login-headings">
               <h2>Log in to your Account</h2>
@@ -93,7 +120,7 @@ function Login() {
               <p
                 style={{ fontSize: "18px", color: "black", fontWeight: "400" }}
               >
-                {auth.currentUser.email}
+                {user.email}
               </p>
             </h3>
             <button onClick={handleSignOut}>Log Out</button>

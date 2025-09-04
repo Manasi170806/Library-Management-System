@@ -1,6 +1,11 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { selectMembers, fetchMembers, deleteMember } from "../../features/memberSlice";
+import { Link } from "react-router-dom";
+import {
+  selectMembers,
+  fetchMembers,
+  deleteMember,
+} from "../../features/memberSlice";
 import "./Members.css";
 
 const MemberList = () => {
@@ -13,16 +18,25 @@ const MemberList = () => {
     dispatch(fetchMembers());
   }, [dispatch]);
 
-
   return (
     <div className="members-card">
       <div className="members-card__header">
         <h2>Library Members</h2>
+
         <span className="pill pill--muted">{members.length} members</span>
       </div>
 
+      {/* Add members */}
+      <div className="add-members">
+        <Link to="/AddMembers">
+          <button className="btn-add">+ Add New Member</button>
+        </Link>
+      </div>
+
       {status === "loading" && <div className="skeleton">Loading members…</div>}
-      {status === "failed" && <div className="error">Failed to load: {error}</div>}
+      {status === "failed" && (
+        <div className="error">Failed to load: {error}</div>
+      )}
 
       {status === "succeeded" && (
         <div className="table-responsive">
@@ -57,15 +71,23 @@ const MemberList = () => {
                     <td>{m.email}</td>
                     <td>{m.phone}</td>
                     <td>{m.membershipType}</td>
-                    <td style={{ fontWeight: "bold", color: m.status === "Active" ? "green" : "red" }}>
+                    <td
+                      style={{
+                        fontWeight: "bold",
+                        color: m.status === "Active" ? "green" : "red",
+                      }}
+                    >
                       {m.status}
                     </td>
                     <td>{m.joined}</td>
                     <td>{m.lastActive}</td>
                     <td>
-                    <button onClick={() => dispatch(deleteMember(m.id.toString()))}>Remove</button>
+                      <button
+                        onClick={() => dispatch(deleteMember(m.id.toString()))}
+                      >
+                        Remove
+                      </button>
                     </td>
-
                   </tr>
                 ))
               ) : (

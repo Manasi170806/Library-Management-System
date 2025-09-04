@@ -39,6 +39,27 @@
   pointer-events: none;
 }
 
+/* Add Books button */
+.add-book {
+  margin-top: -68px;
+  margin-bottom: 50px;
+  margin-left: 88%;
+}
+.btn-add {
+  background: #2ecc71;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+.btn-add:hover {
+  background: #27ae60;
+}
+
+
 /* 📚 Card container */
 .books-card {
   background: #fff;
@@ -75,6 +96,7 @@
 /* 📋 Table */
 .table-responsive {
   overflow-x: auto;
+  border-radius: 12px;
 }
 
 .books-table {
@@ -147,6 +169,7 @@
   border-radius: 6px;
   font-size: 13px;
   margin-left: 0px;
+  height: 35px;
 
 }
 
