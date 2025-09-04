@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React from "react";
 import "./AddBooks.css";
 
