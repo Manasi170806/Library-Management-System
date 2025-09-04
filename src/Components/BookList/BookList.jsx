@@ -50,11 +50,6 @@ function BookList() {
       </div>
 
       {/* Add Books */}
-      <div className="add-book">
-        <Link to="/AddBooks">
-          <button className="btn-add">+ Add New Book</button>
-        </Link>
-      </div>
 
       <div className="add-book">
         <Link to="/AddBooks">

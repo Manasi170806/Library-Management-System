@@ -54,24 +54,6 @@
       "description": "The Great Gatsby by F. Scott Fitzgerald is a Jazz Age masterpiece about wealth, illusion, and tragic love. Through narrator Nick Carraway, we discover the enigmatic millionaire Jay Gatsby, whose extravagant parties hide his obsession with Daisy Buchanan. Set against the glamour of the 1920s, Gatsby’s dream of rekindled love ends in heartbreak and death. The novel exposes the emptiness of material success and the corruption of the American Dream, making it one of literature’s greatest tragedies."
     },
     {
-      "id": "6",
-      "title": "Moby Dick",
-      "author": "Herman Melville",
-      "isAvailable": false,
-      "isbn": [
-        "100028",
-        "100029",
-        "100030",
-        "100031",
-        "100032",
-        "100033"
-      ],
-      "rent": 9,
-      "genre": "Adventure",
-      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg",
-      "description": "Moby Dick by Herman Melville is an epic adventure of obsession and revenge at sea. Ishmael joins Captain Ahab aboard the whaling ship Pequod, only to witness Ahab’s relentless pursuit of the white whale that destroyed him. The voyage turns into a fatal struggle between man and nature, filled with peril and symbolism. Blending maritime detail, philosophy, and allegory, Melville creates a profound meditation on fate, obsession, and humanity’s place in the vast, indifferent universe of nature."
-    },
-    {
       "id": "7",
       "title": "War and Peace",
       "author": "Leo Tolstoy",
@@ -1406,21 +1388,59 @@
       "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91Nt5LU1auS._UF1000,1000_QL80_.jpg",
       "description": "At the height of World War II, three brilliant women are recruited to work as codebreakers at Bletchley Park. As they crack enemy messages and guard secrets, their bond grows stronger—until betrayal tears them apart. Years later, they must reunite to expose a traitor. Quinn’s novel is a captivating mix of history, espionage, and sisterhood, celebrating the courage and sacrifice of unsung heroines."
+    },
+    {
+      "title": "",
+      "author": "",
+      "gener": "",
+      "rent": null,
+      "isbn": [],
+      "cover": "img path",
+      "isAvailable": true,
+      "id": "jlceB1t"
+    },
+    {
+      "title": "",
+      "author": "",
+      "gener": "",
+      "rent": null,
+      "isbn": [],
+      "cover": "img path",
+      "isAvailable": true,
+      "id": "XRtprOc"
+    },
+    {
+      "title": "",
+      "author": "",
+      "gener": "",
+      "rent": null,
+      "isbn": [],
+      "cover": "img path",
+      "isAvailable": true,
+      "id": "8Xi3Dt6"
+    },
+    {
+      "title": "",
+      "author": "",
+      "gener": "",
+      "rent": null,
+      "isbn": [],
+      "cover": "img path",
+      "isAvailable": true,
+      "id": "GR6MkPQ"
+    },
+    {
+      "title": "manasi",
+      "author": "patel",
+      "gener": "250",
+      "rent": null,
+      "isbn": [],
+      "cover": "img path",
+      "isAvailable": true,
+      "id": "T0EjpLB"
     }
   ],
   "members": [
-    {
-      "id": "1",
-      "name": "Alice Johnson",
-      "email": "alice.johnson@example.com",
-      "phone": "123-456-7890",
-      "membershipType": "Student",
-      "status": "Active",
-      "subscription": "Subscriber",
-      "joined": "01-01-2024",
-      "lastActive": "15-02-2024",
-      "photo": "https://i.pravatar.cc/50?img=1"
-    },
     {
       "id": "2",
       "name": "Bob Smith",
@@ -1709,7 +1729,7 @@
       "lastActive": "20-11-2024",
       "photo": "https://i.pravatar.cc/50?img=27"
     },
-     {
+    {
       "id": "28",
       "name": "Bruce Wayne",
       "email": "bruce.wayne@example.com",
