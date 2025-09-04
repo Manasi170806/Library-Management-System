@@ -9,6 +9,7 @@ import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/SignUp";
 import AddBooks from "./Components/AddBooks/AddBooks";
 import AddMembers from "./Components/AddMembers/AddMembers";
+import PrivateRoute from "./Components/Auth/PrivateRoute";
 
 function App() {
   return (
@@ -22,8 +23,22 @@ function App() {
       <div className="routes-container">
         <Routes>
           <Route path="/" element={<DashBoard />} />
-          <Route path="/books" element={<BookList />} />
-          <Route path="/members" element={<MemberList />} />
+          <Route
+            path="/books"
+            element={
+              <PrivateRoute>
+                <BookList />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/members"
+            element={
+              <PrivateRoute>
+                <MemberList />
+              </PrivateRoute>
+            }
+          />
           <Route path="/logIn" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/AddBooks" element={<AddBooks />} />
@@ -31,7 +46,6 @@ function App() {
           <Route path="/description/:id" element={<Description />} />
         </Routes>
       </div>
-
     </div>
   );
 }

@@ -5,7 +5,7 @@
 }
 
 .main-logIn {
-  height: 100vh;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .login-headings {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .login-headings h2 {
@@ -46,7 +46,7 @@
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  padding-top: 5px;
+  padding: 8px 15px;
 }
 
 .login-w-email {
@@ -60,27 +60,12 @@
   gap: 20px;
 }
 
-.login-methods button {
+.login-methods .google-btn {
   padding: 10px 40px;
   border: 1px solid grey;
   border-radius: 5px;
   background-color: white;
-}
-
-.google-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 10px 16px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: white;
-  font-size: 14px;
-  letter-spacing: 0.2px;
-  cursor: pointer;
-  transition: 0.4s ease;
-  margin: auto;
+  margin: 2rem auto 0;
 }
 
 .google-btn:hover {
@@ -97,7 +82,7 @@
   align-items: center;
   text-align: center;
   color: #666;
-  margin: 20px 0;
+  padding: 40px 0;
   font-size: 15px;
 }
 
@@ -150,7 +135,7 @@
   font-family: "Albert Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  margin: 10px 20px;
+  margin: 20px 20px;
 }
 
 /* right side */
