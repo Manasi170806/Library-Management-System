@@ -16,7 +16,7 @@
 .info-login {
   height: auto;
   width: 50%;
-  padding: 2rem 3rem;
+  padding: 4rem 3rem;
 }
 
 .login-headings {
@@ -108,31 +108,10 @@
   margin-left: 10px;
 }
 
-/* right side */
-.login-image {
-  height: auto;
-  width: 50%;
-  background-color: white;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.login-image-cont {
-  height: 100%;
-  width: 100%;
-}
-
-.login-image-cont img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
 .login-w-email input {
   height: 40px;
   width: 90%;
-  margin: 10px auto;
+  margin: 14px auto;
   border-radius: 10px;
   border: 1px solid grey;
   padding: 10px;
@@ -144,7 +123,7 @@
 .login-w-email .login-Btn {
   height: 40px;
   width: 90%;
-  margin: 10px auto;
+  margin: 2rem auto;
   border-radius: 20px;
   border: 1.5px solid blue;
   background-color: blue;
@@ -166,6 +145,27 @@
   margin: 10px 20px;
 }
 
+/* right side */
+.login-image {
+  height: auto;
+  width: 50%;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.login-image-cont {
+  height: 100%;
+  width: 100%;
+}
+
+.login-image-cont img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
 /* Log-out */
 
 .log-Out {
@@ -182,12 +182,15 @@
   font-weight: 600;
   font-size: 28px;
   margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .log-Out button {
   height: 40px;
   width: 70%;
-  margin: 10px auto;
+  margin: 20px auto;
   border-radius: 20px;
   border: 1.5px solid blue;
   background-color: blue;
