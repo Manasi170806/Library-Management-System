@@ -7,7 +7,6 @@ import {
   deleteMember,
 } from "../../features/memberSlice";
 import "./Members.css";
-import { Link } from "react-router-dom";
 
 const MemberList = () => {
   const dispatch = useDispatch();
@@ -25,14 +24,6 @@ const MemberList = () => {
         <h2>Library Members</h2>
 
         <span className="pill pill--muted">{members.length} members</span>
-
-        {/* Add Books */}
-
-        <div className="add-book">
-          <Link to="/AddMembers">
-            <button className="btn-add">+ Add New Book</button>
-          </Link>
-        </div>
       </div>
 
       {/* Add members */}
