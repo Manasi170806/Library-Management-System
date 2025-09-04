@@ -8,6 +8,7 @@ import Description from "./Components/Description-section/Description";
 import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/SignUp";
 import AddBooks from "./Components/AddBooks/AddBooks";
+import AddMembers from "./Components/AddMembers/AddMembers";
 // import StartPage from "./Components/StartPage/StartPage";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/logIn" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/AddBooks" element={<AddBooks />} />
+          <Route path="/AddMembers" element={<AddMembers />} />
           <Route path="/description/:id" element={<Description />} />
         </Routes>
       </div>
