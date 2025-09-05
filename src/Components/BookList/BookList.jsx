@@ -4,19 +4,20 @@ import { Link } from "react-router-dom";
 import { fetchBooks, selectBooks, deleteBook } from "../../features/booksSlice";
 import "./BookList.css";
 
-
 function BookList() {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks);
   const [search, setSearch] = useState("");
   const [filteredBooks, setFilteredBooks] = useState([]);
+  const [page, setPage] = useState(1);
+  const booksPerPage = 10;
 
   // Fetch books on mount
   useEffect(() => {
     dispatch(fetchBooks());
   }, [dispatch]);
 
-  // Update filtered books when search or books change
+  // Filter search results
   useEffect(() => {
     if (search.trim() === "") {
       setFilteredBooks(books);
@@ -25,13 +26,20 @@ function BookList() {
         book.title.toLowerCase().includes(search.toLowerCase())
       );
       setFilteredBooks(result);
+      setPage(1);
     }
   }, [search, books]);
 
-  // Handle delete
+  // Delete handler
   const handleDelete = (id) => {
     dispatch(deleteBook(id));
   };
+
+  // Pagination logic
+  const indexOfLastBook = page * booksPerPage;
+  const indexOfFirstBook = indexOfLastBook - booksPerPage;
+  const currentBooks = filteredBooks.slice(indexOfFirstBook, indexOfLastBook);
+  const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
 
   return (
     <div className="books-card">
@@ -39,6 +47,14 @@ function BookList() {
         <h2>📚 Book Library</h2>
         <span className="pill pill--muted">{filteredBooks.length} items</span>
       </div>
+
+      {/* Add New Book button */}
+      <div className="add-books">
+        <Link to="/AddBook">
+          <button className="btn-add">+ Add New Book</button>
+        </Link>
+      </div>
+
       {/* Search Bar */}
       <div className="search">
         <input
@@ -50,30 +66,23 @@ function BookList() {
         <span className="search-icon">🔍</span>
       </div>
 
-      {/* Add Books */}
-      <div className="add-book">
-        <Link to="/AddBooks">
-          <button className="btn-add">+ Add New Book</button>
-        </Link>
-      </div>
-
       {/* Table */}
       <div className="table-responsive">
         <table className="books-table">
           <thead>
             <tr>
               <th>Book Cover</th>
-              <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book Title</th>
-              <th>&nbsp;&nbsp;&nbsp;Author</th>
-              <th>&nbsp;&nbsp;Genre</th>
-              <th>&nbsp;&nbsp;&nbsp;Status</th>
+              <th>Book Title</th>
+              <th>Author</th>
+              <th>Genre</th>
+              <th>Status</th>
               <th>Available</th>
-              <th>&nbsp;&nbsp;&nbsp;&nbsp;View</th>
+              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
-            {filteredBooks.length > 0 ? (
-              filteredBooks.map((book) => (
+            {currentBooks.length > 0 ? (
+              currentBooks.map((book) => (
                 <tr key={book.id}>
                   <td className="cover">
                     <img src={book.cover} alt={book.title} />
@@ -89,18 +98,15 @@ function BookList() {
                     )}
                   </td>
                   <td>
-                    &nbsp;&nbsp;&nbsp;
                     {book.isAvailable
                       ? `${book.isbn.length}/${book.isbn.length}`
                       : `0/${book.isbn.length}`}
                   </td>
                   <td>
                     <div className="action-buttons">
-                      {/* 👇 View button */}
                       <Link to={`/description/${book.id}`}>
                         <button className="btn-view">View</button>
                       </Link>
-                      {/* 👇 Remove button */}
                       <button
                         className="btn-del"
                         onClick={() => handleDelete(book.id)}
@@ -120,6 +126,27 @@ function BookList() {
             )}
           </tbody>
         </table>
+      </div>
+
+      {/* Pagination */}
+      <div className="pagination">
+        <button
+          className="btn"
+          onClick={() => setPage(page - 1)}
+          disabled={page === 1}
+        >
+          PREVIOUS
+        </button>
+        <span>
+          {page} / {totalPages}
+        </span>
+        <button
+          className="btn"
+          onClick={() => setPage(page + 1)}
+          disabled={page === totalPages}
+        >
+          NEXT
+        </button>
       </div>
     </div>
   );
