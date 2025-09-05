@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { fetchBooks, selectBooks, deleteBook } from "../../features/booksSlice";
+import { MdDelete } from "react-icons/md";
 import "./BookList.css";
 
 function BookList() {
@@ -111,7 +112,7 @@ function BookList() {
                         className="btn-del"
                         onClick={() => handleDelete(book.id)}
                       >
-                        Remove
+                        <MdDelete />
                       </button>
                     </div>
                   </td>

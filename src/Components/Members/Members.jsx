@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { MdDelete } from "react-icons/md";
+
 import {
   selectMembers,
   fetchMembers,
@@ -45,7 +47,9 @@ const MemberList = () => {
     <div className="members-card">
       <div className="members-card__header">
         <h2>👥 Library Members</h2>
-        <span className="pill pill--muted">{filteredMembers.length} members</span>
+        <span className="pill pill--muted">
+          {filteredMembers.length} members
+        </span>
       </div>
 
       {/* Add members */}
@@ -122,7 +126,7 @@ const MemberList = () => {
                             dispatch(deleteMember(m.id.toString()))
                           }
                         >
-                          Remove
+                          <MdDelete />
                         </button>
                       </td>
                     </tr>
