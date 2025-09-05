@@ -10,6 +10,7 @@ import SignUp from "./Components/Auth/SignUp";
 import AddBooks from "./Components/AddBooks/AddBooks";
 import AddMembers from "./Components/AddMembers/AddMembers";
 import PrivateRoute from "./Components/Auth/PrivateRoute";
+import EditBookDetails from "./Components/BookList/EditBookDetails";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/AddBooks" element={<AddBooks />} />
           <Route path="/AddMembers" element={<AddMembers />} />
           <Route path="/description/:id" element={<Description />} />
+          <Route path="/EditBook/:id" element={<EditBookDetails />} />
         </Routes>
       </div>
     </div>

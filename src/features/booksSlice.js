@@ -5,6 +5,7 @@ export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
   const response = await axios.get("http://localhost:3000/books");
   return response.data;
 });
+
 export const deleteBook = createAsyncThunk(
   "books/deleteBook",
   async (id) => {
@@ -55,8 +56,6 @@ const booksSlice = createSlice({
   reducers: {
   
 },
-
-  
 
   extraReducers: (builder) => {
     

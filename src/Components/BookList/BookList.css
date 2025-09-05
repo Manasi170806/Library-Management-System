@@ -38,11 +38,12 @@
   background: #28a745;
   color: white;
   border: none;
-  padding: 8px 16px;
   border-radius: 8px;
   font-size: 15px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  margin-left: 85%;
+  padding: 10px 20px;
+
 }
 
 .btn-add:hover {
@@ -51,17 +52,19 @@
 
 /* Search Bar */
 .search {
-  position: relative;
-  margin-bottom: 20px;
+  width: 40%;
+  margin-top: -2%;
 }
 
 .search input {
-  width: 100%;
-  padding: 10px 40px 10px 15px;
+  padding: 40px;
   border: 2px solid #dcdcdc;
   border-radius: 8px;
   font-size: 15px;
-  transition: all 0.3s ease;
+}
+.search input::placeholder {
+  color: #676565;
+  padding: 28px;
 }
 
 .search input:focus {
@@ -72,10 +75,8 @@
 
 .search-icon {
   position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 16px;
+  left: 8px;
+  /* font-size: 20px; */
 }
 
 /* Table */
@@ -134,7 +135,8 @@
 }
 
 .btn-view,
-.btn-del {
+.btn-del,
+.btn-edit {
   padding: 6px 12px;
   border-radius: 6px;
   border: none;

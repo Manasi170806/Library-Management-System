@@ -3,7 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { fetchBooks, selectBooks, deleteBook } from "../../features/booksSlice";
 import "./BookList.css";
+import { IoIosSearch } from "react-icons/io";
+import { MdDelete } from "react-icons/md";
+import { MdModeEdit } from "react-icons/md";
+import { MdOutlineRemoveRedEye } from "react-icons/md";
 
+import "./BookList.css";
 
 function BookList() {
   const dispatch = useDispatch();
@@ -24,7 +29,8 @@ function BookList() {
       setFilteredBooks(books);
     } else {
       const result = books.filter((book) =>
-        book.title.toLowerCase().includes(search.toLowerCase())
+        book.title.toLowerCase().includes(search.toLowerCase()) 
+        // book.author.toLowerCase().includes(search.toLowerCase())
       );
       setFilteredBooks(result);
       setPage(1);
@@ -58,13 +64,13 @@ function BookList() {
 
       {/* Search Bar */}
       <div className="search">
-        <input
+        <input        
           type="text"
           placeholder="Search books..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <span className="search-icon">🔍</span>
+        <span className="search-icon"><IoIosSearch style={{ fontSize: "22px", color: "#676565", position: "absolute", left: "8px", top: "50%", transform: "translateY(-50%)" }} /></span>
       </div>
 
       {/* Table */}
@@ -105,14 +111,24 @@ function BookList() {
                   </td>
                   <td>
                     <div className="action-buttons">
+                      {/* view Button */}
                       <Link to={`/description/${book.id}`}>
-                        <button className="btn-view">View</button>
+                        <button className="btn-view">
+                          <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
+                        </button>
                       </Link>
+                      {/* Edit Button */}
+                      <button className="btn-edit">
+                        <Link to={`/EditBook/${book.id}`}>
+                          <MdModeEdit style={{ fontSize: "18px" }} />
+                        </Link>
+                      </button>
+                      {/* Delete Button */}
                       <button
                         className="btn-del"
                         onClick={() => handleDelete(book.id)}
                       >
-                        Remove
+                        <MdDelete style={{ fontSize: "18px" }} />
                       </button>
                     </div>
                   </td>
