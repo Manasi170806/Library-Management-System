@@ -41,7 +41,6 @@ function Description() {
           <h4>$ {book.rent}</h4>
 
           <div className="purchase-btns">
-            <button className="cart">Add to cart</button>
             <button className="buyNow">Buy Now</button>
           </div>
         </div>

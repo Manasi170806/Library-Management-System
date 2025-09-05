@@ -1,42 +1,6 @@
 {
   "books": [
     {
-      "id": "2",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "isAvailable": true,
-      "isbn": [
-        "100006",
-        "100007",
-        "100008",
-        "100009",
-        "100010",
-        "100011"
-      ],
-      "rent": 6,
-      "genre": "Romance",
-      "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg",
-      "description": "Jane Austen’s Pride and Prejudice is a witty romance exploring love, pride, and class in Regency England. The spirited Elizabeth Bennet clashes with the proud Mr. Darcy, whose aloofness masks deep integrity. Through family pressures, misunderstandings, and social expectations, they gradually learn humility, respect, and true affection. With sparkling dialogue and keen social insight, Austen critiques rigid class divisions while celebrating personal growth. This enduring classic continues to charm readers with its humor, wit, and timeless love story."
-    },
-    {
-      "id": "4",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "isAvailable": true,
-      "isbn": [
-        "100017",
-        "100018",
-        "100019",
-        "100020",
-        "100021",
-        "100022"
-      ],
-      "rent": 5,
-      "genre": "Southern Gothic",
-      "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg",
-      "description": "To Kill a Mockingbird by Harper Lee is a moving exploration of justice, morality, and prejudice in the American South. Seen through the innocent eyes of Scout Finch, the story follows her father Atticus, a principled lawyer defending a Black man accused of raping a white woman. While Scout learns about compassion and courage, the town reveals deep racial divisions. Blending childhood innocence with profound moral lessons, this timeless classic remains a powerful call for empathy and justice."
-    },
-    {
       "id": "5",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
@@ -89,7 +53,6 @@
       "description": "Crime and Punishment by Fyodor Dostoevsky is a psychological novel about guilt, morality, and redemption. Raskolnikov, a poor student, convinces himself that murdering a pawnbroker will serve a greater good. But his conscience torments him, leading to paranoia, suffering, and inner conflict. Through his journey, Dostoevsky explores questions of morality, justice, and human nature. With suspenseful storytelling and philosophical depth, this masterpiece remains a timeless study of the battle between sin, conscience, and the possibility of salvation."
     },
     {
-
       "id": "9",
       "title": "The Odyssey",
       "author": "Homer",
@@ -1389,36 +1352,6 @@
       "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91Nt5LU1auS._UF1000,1000_QL80_.jpg",
       "description": "At the height of World War II, three brilliant women are recruited to work as codebreakers at Bletchley Park. As they crack enemy messages and guard secrets, their bond grows stronger—until betrayal tears them apart. Years later, they must reunite to expose a traitor. Quinn’s novel is a captivating mix of history, espionage, and sisterhood, celebrating the courage and sacrifice of unsung heroines."
-    },
-    {
-      "title": "bhghjjh",
-      "author": "gfgh",
-      "gener": "jhgyg",
-      "rent": null,
-      "isbn": [],
-      "cover": "img path",
-      "isAvailable": true,
-      "id": "vAyFi--"
-    },
-    {
-      "title": "jnlijrh",
-      "author": "tjylijy",
-      "gener": "rtjiltrjy",
-      "rent": null,
-      "isbn": [],
-      "cover": "img path",
-      "isAvailable": true,
-      "id": "SuMamxz"
-    },
-    {
-      "title": "thr odenry",
-      "author": "jyhetyyk",
-      "gener": "iyjitut",
-      "rent": null,
-      "isbn": [],
-      "cover": "img path",
-      "isAvailable": true,
-      "id": "JN2L24e"
     }
   ],
   "members": [

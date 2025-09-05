@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { fetchBooks, selectBooks, deleteBook } from "../../features/booksSlice";
 import "./BookList.css";
+import { IoIosSearch } from "react-icons/io";
+
 
 function BookList() {
   const dispatch = useDispatch();
@@ -49,22 +51,22 @@ function BookList() {
         <span className="pill pill--muted">{filteredBooks.length} items</span>
       </div>
 
-      {/* Add New Book button */}
-      <div className="add-books">
-        <Link to="/AddBook">
+      {/* Add New Book */}
+      <div className="add-book">
+        <Link to="/AddBooks">
           <button className="btn-add">+ Add New Book</button>
         </Link>
       </div>
 
       {/* Search Bar */}
       <div className="search">
-        <input
+        <input        
           type="text"
           placeholder="Search books..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <span className="search-icon">🔍</span>
+        <span className="search-icon"><IoIosSearch style={{ fontSize: "22px", color: "#676565", position: "absolute", left: "8px", top: "50%", transform: "translateY(-50%)" }} /></span>
       </div>
 
       {/* Table */}
