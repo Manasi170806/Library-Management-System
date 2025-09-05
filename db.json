@@ -1,24 +1,6 @@
 {
   "books": [
     {
-      "id": "2",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "isAvailable": true,
-      "isbn": [
-        "100006",
-        "100007",
-        "100008",
-        "100009",
-        "100010",
-        "100011"
-      ],
-      "rent": 6,
-      "genre": "Romance",
-      "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg",
-      "description": "Jane Austen’s Pride and Prejudice is a witty romance exploring love, pride, and class in Regency England. The spirited Elizabeth Bennet clashes with the proud Mr. Darcy, whose aloofness masks deep integrity. Through family pressures, misunderstandings, and social expectations, they gradually learn humility, respect, and true affection. With sparkling dialogue and keen social insight, Austen critiques rigid class divisions while celebrating personal growth. This enduring classic continues to charm readers with its humor, wit, and timeless love story."
-    },
-    {
       "id": "4",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
