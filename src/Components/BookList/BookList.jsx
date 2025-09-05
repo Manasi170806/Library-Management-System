@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { fetchBooks, selectBooks, deleteBook } from "../../features/booksSlice";
 import "./BookList.css";
 
+
 function BookList() {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks);
@@ -48,9 +49,9 @@ function BookList() {
         <span className="pill pill--muted">{filteredBooks.length} items</span>
       </div>
 
-      {/* Add New Book button */}
-      <div className="add-books">
-        <Link to="/AddBook">
+      {/* Add New Book */}
+      <div className="add-book">
+        <Link to="/AddBooks">
           <button className="btn-add">+ Add New Book</button>
         </Link>
       </div>
