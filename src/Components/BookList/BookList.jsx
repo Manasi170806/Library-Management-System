@@ -23,7 +23,8 @@ function BookList() {
       setFilteredBooks(books);
     } else {
       const result = books.filter((book) =>
-        book.title.toLowerCase().includes(search.toLowerCase())
+        book.title.toLowerCase().includes(search.toLowerCase()) 
+        // book.author.toLowerCase().includes(search.toLowerCase())
       );
       setFilteredBooks(result);
       setPage(1);
