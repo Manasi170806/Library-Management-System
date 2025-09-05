@@ -55,7 +55,7 @@ const MemberList = () => {
       {/* Add members */}
       <div className="add-members">
         <Link to="/AddMembers">
-          <button className="btn-add">+ Add New Member</button>
+          <button className="btn-add">Add Member</button>
         </Link>
       </div>
 

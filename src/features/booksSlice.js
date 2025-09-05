@@ -6,14 +6,10 @@ export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
   return response.data;
 });
 
-export const deleteBook = createAsyncThunk(
-  "books/deleteBook",
-  async (id) => {
-    await axios.delete(`http://localhost:3000/books/${id}`);
-    return id;
-  }
-);
-
+export const deleteBook = createAsyncThunk("books/deleteBook", async (id) => {
+  await axios.delete(`http://localhost:3000/books/${id}`);
+  return id;
+});
 
 export const issuedBooks = createAsyncThunk("books/issuedBooks", async () => {
   const response = await axios.get("http://localhost:3000/issued");
@@ -32,6 +28,24 @@ export const fines = createAsyncThunk("books/finesBooks", async () => {
   const response = await axios.get("http://localhost:3000/fines");
   return response.data;
 });
+
+// Add Books
+export const addBook = createAsyncThunk("books/addBook", async (newBook) => {
+  const response = await axios.post("http://localhost:3000/books", newBook);
+  return response.data;
+});
+
+// update book
+export const updateBook = createAsyncThunk(
+  "books/updateBook",
+  async (updatedBook) => {
+    const response = await axios.put(
+      `http://localhost:3000/books/${updatedBook.id}`,
+      updatedBook
+    );
+    return response.data;
+  }
+);
 
 const booksSlice = createSlice({
   name: "books",
@@ -53,12 +67,9 @@ const booksSlice = createSlice({
       fines: null,
     },
   },
-  reducers: {
-  
-},
+  reducers: {},
 
   extraReducers: (builder) => {
-    
     builder
       .addCase(fetchBooks.pending, (state) => {
         state.status.total = "loading";
@@ -72,8 +83,10 @@ const booksSlice = createSlice({
         state.error.total = action.error.message;
       })
       .addCase(deleteBook.fulfilled, (state, action) => {
-  state.total = state.total.filter((book) => book.id !== String(action.payload));
-});
+        state.total = state.total.filter(
+          (book) => book.id !== String(action.payload)
+        );
+      });
 
     // issued
     builder
@@ -116,6 +129,21 @@ const booksSlice = createSlice({
         state.status.fines = "failed";
         state.error.fines = action.error.message;
       });
+
+    // add book
+    builder.addCase(addBook.fulfilled, (state, action) => {
+      state.total.push(action.payload);
+    });
+
+    // update
+    builder.addCase(updateBook.fulfilled, (state, action) => {
+      const index = state.total.findIndex(
+        (book) => book.id === action.payload.id
+      );
+      if (index !== -1) {
+        state.total[index] = action.payload;
+      }
+    });
   },
 });
 
@@ -124,6 +152,5 @@ export const selectIssued = (state) => state.books.issued;
 export const selectReserved = (state) => state.books.reservation;
 export const selectFines = (state) => state.books.fines;
 export const { removeBook } = booksSlice.actions;
-
 
 export default booksSlice.reducer;
