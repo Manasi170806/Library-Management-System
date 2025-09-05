@@ -126,7 +126,7 @@ const MemberList = () => {
                             dispatch(deleteMember(m.id.toString()))
                           }
                         >
-                          <MdDelete />
+                          <MdDelete style={{ fontSize: "18px" }} />
                         </button>
                       </td>
                     </tr>
