@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 import { fetchBooks, selectBooks, deleteBook } from "../../features/booksSlice";
 import "./BookList.css";
 import { IoIosSearch } from "react-icons/io";
+import { MdDelete } from "react-icons/md";
+import { MdModeEdit } from "react-icons/md";
+import { MdOutlineRemoveRedEye } from "react-icons/md";
 
+import "./BookList.css";
 
 function BookList() {
   const dispatch = useDispatch();
@@ -107,14 +111,24 @@ function BookList() {
                   </td>
                   <td>
                     <div className="action-buttons">
+                      {/* view Button */}
                       <Link to={`/description/${book.id}`}>
-                        <button className="btn-view">View</button>
+                        <button className="btn-view">
+                          <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
+                        </button>
                       </Link>
+                      {/* Edit Button */}
+                      <button className="btn-edit">
+                        <Link to={`/EditBook/${book.id}`}>
+                          <MdModeEdit style={{ fontSize: "18px" }} />
+                        </Link>
+                      </button>
+                      {/* Delete Button */}
                       <button
                         className="btn-del"
                         onClick={() => handleDelete(book.id)}
                       >
-                        Remove
+                        <MdDelete style={{ fontSize: "18px" }} />
                       </button>
                     </div>
                   </td>

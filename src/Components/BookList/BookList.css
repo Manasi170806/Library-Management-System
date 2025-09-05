@@ -135,7 +135,8 @@
 }
 
 .btn-view,
-.btn-del {
+.btn-del,
+.btn-edit {
   padding: 6px 12px;
   border-radius: 6px;
   border: none;
