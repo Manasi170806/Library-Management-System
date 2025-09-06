@@ -2,7 +2,7 @@
   "books": [
     {
       "id": "5",
-      "title": "The Great ",
+      "title": "The ",
       "author": "F. Scott Fitz",
       "isAvailable": true,
       "isbn": [

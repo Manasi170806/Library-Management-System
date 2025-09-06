@@ -1,32 +1,117 @@
+/* Background blur */
 .books-card.blurred {
-  filter: blur(4px);
+  filter: blur(6px);
   pointer-events: none;
+  transition: filter 0.3s ease-in-out;
 }
 
+/* Overlay */
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(15, 15, 15, 0.65);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 2000;
+  animation: fadeIn 0.3s ease-in-out;
 }
 
+/* Modal Box */
 .modal-content {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: 400px;
+  background: #ffffff;
+  padding: 28px 32px;
+  border-radius: 16px;
+  width: 450px;
   max-width: 90%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+  font-family: "Segoe UI", Roboto, sans-serif;
+  animation: slideUp 0.35s ease;
 }
 
+/* Heading */
+.modal-content h2 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+/* Form Inputs */
+.modal-content form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.25s ease;
+  background: #fafafa;
+}
+
+.modal-content form input:focus {
+  border-color: #4cafef;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.25);
+}
+
+/* Button Container */
 .modal-buttons {
-  margin-top: 15px;
+  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+/* Buttons */
+.modal-buttons button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* Save Button */
+.modal-buttons button[type="submit"] {
+  background: #4caf50;
+  color: #fff;
+}
+
+.modal-buttons button[type="submit"]:hover {
+  background: #43a047;
+}
+
+/* Cancel Button */
+.modal-buttons button[type="button"] {
+  background: #f44336;
+  color: #fff;
+}
+
+.modal-buttons button[type="button"]:hover {
+  background: #e53935;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
