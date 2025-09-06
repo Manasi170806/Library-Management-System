@@ -2,8 +2,8 @@
   "books": [
     {
       "id": "5",
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
+      "title": "The Great ",
+      "author": "F. Scott Fitz",
       "isAvailable": true,
       "isbn": [
         "100023",

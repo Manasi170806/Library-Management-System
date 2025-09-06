@@ -38,7 +38,6 @@ function Description() {
 
           <span>{book.author}</span>
           <p>{book.description}</p>
-          <h4>$ {book.rent}</h4>
 
           <div className="purchase-btns">
             <button className="buyNow">Buy Now</button>

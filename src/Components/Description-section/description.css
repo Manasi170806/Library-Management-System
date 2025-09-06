@@ -1,65 +1,83 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body */
+body {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+  background-color: #e9ebee;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Main card */
 .description-card {
-  height: 400px;
   width: 90%;
   margin: 3rem auto;
   display: flex;
   align-items: flex-start;
-  /* align-items: center; */
-  padding: 0 20px;
   gap: 3rem;
+  padding: 0 20px;
 }
 
+/* Book image */
 .description-card img {
-  height: 400px;
-  width: 30%;
+  height: 550px; /* thoda bada */
+  width: 40%;
+  object-fit: cover;
+  margin-top: 2%;
+  margin-left: -5%;
+  background-color: aqua;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Book text details */
 .description-details {
-  height: 200px;
-  width: 80%;
+  flex: 1;
 }
 
+/* Title section */
 .title-sec {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .title-sec h2 {
-  font-size: 30px;
-  color: rgb(26, 26, 26);
+  font-size: 34px; /* thoda bada */
+  font-weight: 700;
+  color: #1a1a1a;
 }
 
 .description-details span {
-  margin-top: 50px;
-  color: grey;
+  display: block;
+  margin-top: 6px;
+  font-size: 17px;
+  color: #555;
 }
 
 .description-details p {
-  color: gray;
-  margin: 20px 0;
-  font-weight: 300;
-  word-spacing: 4px;
+  color: #666;
+  margin: 18px 0;
+  font-weight: 400;
+  font-size: 15px;
+  word-spacing: 3px;
+  line-height: 1.7;
+  text-align: justify;
 }
 
-.description-details h4 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
+/* Availability badge */
 .availability {
-  padding: 5px 10px;
+  padding: 6px 14px;
   border: none;
   border-radius: 20px;
-  font-size: 8px;
+  font-size: 13px;
   font-weight: bold;
-  color: white !important;
-  cursor: default;
+  color: #fff !important;
 }
 
 .available {
@@ -70,61 +88,70 @@
   background-color: crimson;
 }
 
-/* purchase btns */
-
+/* Buy buttons */
 .purchase-btns {
-  margin: 20px 0;
-  position: relative;
-  left: 0;
-  display: flex;
-  gap: 30px;
+  margin: 14px 0;
 }
 
 .purchase-btns .cart,
 .purchase-btns .buyNow {
-  padding: 12px 30px;
+  padding: 12px 28px;
   background-color: #2563eb;
   border: 1px solid #2563eb;
-  color: white;
+  color: #fff;
   border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
 
-/* Table */
-/* book details */
+.purchase-btns .cart:hover,
+.purchase-btns .buyNow:hover {
+  background-color: #1d4ed8;
+}
 
+/* Book Details Table */
 .book-details {
-  height: auto;
-  width: 100%;
+  margin-top: 1rem;
+  width: 60%;
+  margin-left: 40%;
+  margin-top: -20%;
 }
+
 .book-details table {
-  width: 80%;
-  margin: 2rem auto;
+  width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
 }
 
+/* Table header */
 .book-details thead th {
   background: #2196f3;
-  color: white;
+  color: #fff;
   padding: 12px 22px;
   text-align: left;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
+/* Table rows */
 .book-details tbody td {
-  background: #f9f9f9;
+  background: #fafafa;
   padding: 10px 22px;
   border-bottom: 1px solid #ddd;
-  font-size: 15px;
+  font-size: 14px;
+  color: #333;
 }
 
 .book-details tbody td:first-child {
   font-weight: 600;
 }
+
 .book-details tbody tr:nth-child(even) td {
   background: #f1f7ff;
 }
