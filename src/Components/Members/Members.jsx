@@ -29,15 +29,28 @@ const MemberList = () => {
 
   // Filter search results whenever members or search changes
   useEffect(() => {
-    if (search.trim() === "") {
+    const query = search.trim().toLowerCase();
+
+    if (query === "") {
       setFilteredMembers(members);
     } else {
-      const result = members.filter((m) =>
-        m.name.toLowerCase().includes(search.toLowerCase())
-      );
+      const result = members.filter((m) => {
+        const name = m.name?.toLowerCase() || "";
+        const email = m.email?.toLowerCase() || "";
+        const phone = m.phone?.toLowerCase() || "";
+        const membership = m.membershipType?.toLowerCase() || "";
+
+        return (
+          name.includes(query) ||
+          email.includes(query) ||
+          phone.includes(query) ||
+          membership.includes(query)
+        );
+      });
       setFilteredMembers(result);
-      setPage(1); // reset to first page when search changes
     }
+
+    setPage(1); // reset to first page on search change
   }, [search, members]);
 
   // Delete handler with immediate UI update
@@ -68,11 +81,11 @@ const MemberList = () => {
         </Link>
       </div>
 
-      {/* Search Bar (like BookList) */}
+      {/* Search Bar */}
       <div className="search">
         <input
           type="text"
-          placeholder="Search members..."
+          placeholder="Search members"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

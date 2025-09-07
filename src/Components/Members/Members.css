@@ -53,6 +53,7 @@
 .search {
   position: relative;
   margin-bottom: 20px;
+
 }
 
 .search input {
@@ -61,20 +62,23 @@
   border: 2px solid #dcdcdc;
   border-radius: 8px;
   font-size: 15px;
-  transition: all 0.3s ease;
+}
+.search input::placeholder {
+  color: #aaa;
+  padding: 20px;
+  /* background-color: #218838; */
 }
 
 .search input:focus {
   border-color: #007bff;
   outline: none;
-  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
 }
 
 .search-icon {
   position: absolute;
-  right: 12px;
   top: 50%;
-  transform: translateY(-50%);
+  left: -1%;
+  /* transform: translateY(-50%); */
   font-size: 16px;
 }
 
