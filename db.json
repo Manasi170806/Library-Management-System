@@ -1,27 +1,10 @@
 {
   "books": [
     {
-      "id": "5",
-      "title": "The Greate",
-      "author": "F. Scott Fitz",
-      "isAvailable": true,
-      "isbn": [
-        "100023",
-        "100024",
-        "100025",
-        "100026",
-        "100027"
-      ],
-      "rent": 6,
-      "genre": "Tragedy",
-      "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
-      "description": "The Great Gatsby by F. Scott Fitzgerald is a Jazz Age masterpiece about wealth, illusion, and tragic love. Through narrator Nick Carraway, we discover the enigmatic millionaire Jay Gatsby, whose extravagant parties hide his obsession with Daisy Buchanan. Set against the glamour of the 1920s, Gatsby’s dream of rekindled love ends in heartbreak and death. The novel exposes the emptiness of material success and the corruption of the American Dream, making it one of literature’s greatest tragedies."
-    },
-    {
       "id": "7",
       "title": "War and Peace",
       "author": "Leo Tolstoy",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100034",
         "100035",
@@ -35,28 +18,10 @@
       "description": "War and Peace by Leo Tolstoy is a sweeping epic set during the Napoleonic Wars. Interweaving the lives of noble families, soldiers, and peasants, it portrays love, loss, and destiny against the backdrop of history. Characters like Pierre, Natasha, and Andrei struggle with faith, duty, and identity as war reshapes their lives. Combining human drama with historical detail, Tolstoy explores free will, philosophy, and the nature of history itself. This monumental work is a cornerstone of world literature."
     },
     {
-      "id": "8",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "isAvailable": true,
-      "isbn": [
-        "100039",
-        "100040",
-        "100041",
-        "100042",
-        "100043",
-        "100044"
-      ],
-      "rent": 8,
-      "genre": "Psychological Fiction",
-      "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg",
-      "description": "Crime and Punishment by Fyodor Dostoevsky is a psychological novel about guilt, morality, and redemption. Raskolnikov, a poor student, convinces himself that murdering a pawnbroker will serve a greater good. But his conscience torments him, leading to paranoia, suffering, and inner conflict. Through his journey, Dostoevsky explores questions of morality, justice, and human nature. With suspenseful storytelling and philosophical depth, this masterpiece remains a timeless study of the battle between sin, conscience, and the possibility of salvation."
-    },
-    {
       "id": "9",
       "title": "The Odyssey",
       "author": "Homer",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100045",
         "100046",
@@ -126,7 +91,7 @@
       "id": "13",
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100067",
         "100068",
@@ -1345,7 +1310,8 @@
       "subscription": "Guest",
       "joined": "10-02-2024",
       "lastActive": "20-03-2024",
-      "photo": "https://i.pravatar.cc/50?img=2"
+      "photo": "https://i.pravatar.cc/50?img=2",
+      "issuedBooks": []
     },
     {
       "id": "3",
@@ -1357,7 +1323,8 @@
       "subscription": "Subscriber",
       "joined": "16-10-2024",
       "lastActive": "06-12-2024",
-      "photo": "https://i.pravatar.cc/50?img=3"
+      "photo": "https://i.pravatar.cc/50?img=3",
+      "issuedBooks": []
     },
     {
       "id": "4",
@@ -1368,7 +1335,8 @@
       "status": "Active",
       "joined": "05-01-2024",
       "lastActive": "11-03-2024",
-      "photo": "https://i.pravatar.cc/50?img=4"
+      "photo": "https://i.pravatar.cc/50?img=4",
+      "issuedBooks": []
     },
     {
       "id": "5",
@@ -1379,7 +1347,8 @@
       "status": "Inactive",
       "joined": "20-01-2024",
       "lastActive": "05-04-2024",
-      "photo": "https://i.pravatar.cc/50?img=5"
+      "photo": "https://i.pravatar.cc/50?img=5",
+      "issuedBooks": []
     },
     {
       "id": "6",
@@ -1390,7 +1359,8 @@
       "status": "Active",
       "joined": "12-02-2024",
       "lastActive": "22-05-2024",
-      "photo": "https://i.pravatar.cc/50?img=6"
+      "photo": "https://i.pravatar.cc/50?img=6",
+      "issuedBooks": []
     },
     {
       "id": "7",
@@ -1401,7 +1371,8 @@
       "status": "Active",
       "joined": "15-03-2024",
       "lastActive": "30-05-2024",
-      "photo": "https://i.pravatar.cc/50?img=7"
+      "photo": "https://i.pravatar.cc/50?img=7",
+      "issuedBooks": []
     },
     {
       "id": "8",
@@ -1412,7 +1383,8 @@
       "status": "Inactive",
       "joined": "20-03-2024",
       "lastActive": "01-06-2024",
-      "photo": "https://i.pravatar.cc/50?img=8"
+      "photo": "https://i.pravatar.cc/50?img=8",
+      "issuedBooks": []
     },
     {
       "id": "9",
@@ -1423,7 +1395,8 @@
       "status": "Active",
       "joined": "10-04-2024",
       "lastActive": "18-06-2024",
-      "photo": "https://i.pravatar.cc/50?img=9"
+      "photo": "https://i.pravatar.cc/50?img=9",
+      "issuedBooks": []
     },
     {
       "id": "10",
@@ -1434,7 +1407,8 @@
       "status": "Active",
       "joined": "15-04-2024",
       "lastActive": "22-07-2024",
-      "photo": "https://i.pravatar.cc/50?img=10"
+      "photo": "https://i.pravatar.cc/50?img=10",
+      "issuedBooks": []
     },
     {
       "id": "11",
@@ -1445,7 +1419,8 @@
       "status": "Inactive",
       "joined": "05-05-2024",
       "lastActive": "10-08-2024",
-      "photo": "https://i.pravatar.cc/50?img=11"
+      "photo": "https://i.pravatar.cc/50?img=11",
+      "issuedBooks": []
     },
     {
       "id": "12",
@@ -1456,7 +1431,8 @@
       "status": "Active",
       "joined": "10-05-2024",
       "lastActive": "19-08-2024",
-      "photo": "https://i.pravatar.cc/50?img=12"
+      "photo": "https://i.pravatar.cc/50?img=12",
+      "issuedBooks": []
     },
     {
       "id": "13",
@@ -1467,7 +1443,8 @@
       "status": "Active",
       "joined": "15-05-2024",
       "lastActive": "01-09-2024",
-      "photo": "https://i.pravatar.cc/50?img=13"
+      "photo": "https://i.pravatar.cc/50?img=13",
+      "issuedBooks": []
     },
     {
       "id": "14",
@@ -1478,7 +1455,8 @@
       "status": "Inactive",
       "joined": "20-05-2024",
       "lastActive": "05-09-2024",
-      "photo": "https://i.pravatar.cc/50?img=14"
+      "photo": "https://i.pravatar.cc/50?img=14",
+      "issuedBooks": []
     },
     {
       "id": "15",
@@ -1489,7 +1467,8 @@
       "status": "Active",
       "joined": "25-05-2024",
       "lastActive": "10-09-2024",
-      "photo": "https://i.pravatar.cc/50?img=15"
+      "photo": "https://i.pravatar.cc/50?img=15",
+      "issuedBooks": []
     },
     {
       "id": "16",
@@ -1500,7 +1479,8 @@
       "status": "Active",
       "joined": "01-06-2024",
       "lastActive": "15-09-2024",
-      "photo": "https://i.pravatar.cc/50?img=16"
+      "photo": "https://i.pravatar.cc/50?img=16",
+      "issuedBooks": []
     },
     {
       "id": "17",
@@ -1511,7 +1491,8 @@
       "status": "Inactive",
       "joined": "10-06-2024",
       "lastActive": "20-09-2024",
-      "photo": "https://i.pravatar.cc/50?img=17"
+      "photo": "https://i.pravatar.cc/50?img=17",
+      "issuedBooks": []
     },
     {
       "id": "18",
@@ -1522,7 +1503,8 @@
       "status": "Active",
       "joined": "20-06-2024",
       "lastActive": "01-10-2024",
-      "photo": "https://i.pravatar.cc/50?img=18"
+      "photo": "https://i.pravatar.cc/50?img=18",
+      "issuedBooks": []
     },
     {
       "id": "19",
@@ -1533,7 +1515,8 @@
       "status": "Active",
       "joined": "25-06-2024",
       "lastActive": "10-10-2024",
-      "photo": "https://i.pravatar.cc/50?img=19"
+      "photo": "https://i.pravatar.cc/50?img=19",
+      "issuedBooks": []
     },
     {
       "id": "20",
@@ -1544,7 +1527,8 @@
       "status": "Inactive",
       "joined": "01-07-2024",
       "lastActive": "15-10-2024",
-      "photo": "https://i.pravatar.cc/50?img=20"
+      "photo": "https://i.pravatar.cc/50?img=20",
+      "issuedBooks": []
     },
     {
       "id": "21",
@@ -1555,7 +1539,8 @@
       "status": "Active",
       "joined": "10-07-2024",
       "lastActive": "20-10-2024",
-      "photo": "https://i.pravatar.cc/50?img=21"
+      "photo": "https://i.pravatar.cc/50?img=21",
+      "issuedBooks": []
     },
     {
       "id": "22",
@@ -1566,7 +1551,8 @@
       "status": "Active",
       "joined": "15-07-2024",
       "lastActive": "25-10-2024",
-      "photo": "https://i.pravatar.cc/50?img=22"
+      "photo": "https://i.pravatar.cc/50?img=22",
+      "issuedBooks": []
     },
     {
       "id": "23",
@@ -1577,7 +1563,8 @@
       "status": "Inactive",
       "joined": "20-07-2024",
       "lastActive": "01-11-2024",
-      "photo": "https://i.pravatar.cc/50?img=23"
+      "photo": "https://i.pravatar.cc/50?img=23",
+      "issuedBooks": []
     },
     {
       "id": "24",
@@ -1588,7 +1575,8 @@
       "status": "Active",
       "joined": "25-07-2024",
       "lastActive": "05-11-2024",
-      "photo": "https://i.pravatar.cc/50?img=24"
+      "photo": "https://i.pravatar.cc/50?img=24",
+      "issuedBooks": []
     },
     {
       "id": "25",
@@ -1599,7 +1587,8 @@
       "status": "Active",
       "joined": "01-08-2024",
       "lastActive": "10-11-2024",
-      "photo": "https://i.pravatar.cc/50?img=25"
+      "photo": "https://i.pravatar.cc/50?img=25",
+      "issuedBooks": []
     },
     {
       "id": "26",
@@ -1610,7 +1599,8 @@
       "status": "Inactive",
       "joined": "10-08-2024",
       "lastActive": "15-11-2024",
-      "photo": "https://i.pravatar.cc/50?img=26"
+      "photo": "https://i.pravatar.cc/50?img=26",
+      "issuedBooks": []
     },
     {
       "id": "27",
@@ -1621,7 +1611,8 @@
       "status": "Active",
       "joined": "15-08-2024",
       "lastActive": "20-11-2024",
-      "photo": "https://i.pravatar.cc/50?img=27"
+      "photo": "https://i.pravatar.cc/50?img=27",
+      "issuedBooks": []
     },
     {
       "id": "28",
@@ -1633,7 +1624,8 @@
       "subscription": "Subscriber",
       "joined": "20-08-2024",
       "lastActive": "25-11-2024",
-      "photo": "https://i.pravatar.cc/50?img=28"
+      "photo": "https://i.pravatar.cc/50?img=28",
+      "issuedBooks": []
     },
     {
       "id": "29",
@@ -1644,7 +1636,8 @@
       "status": "Inactive",
       "joined": "25-08-2024",
       "lastActive": "30-11-2024",
-      "photo": "https://i.pravatar.cc/50?img=29"
+      "photo": "https://i.pravatar.cc/50?img=29",
+      "issuedBooks": []
     },
     {
       "id": "30",
@@ -1655,7 +1648,8 @@
       "status": "Active",
       "joined": "01-09-2024",
       "lastActive": "05-12-2024",
-      "photo": "https://i.pravatar.cc/50?img=30"
+      "photo": "https://i.pravatar.cc/50?img=30",
+      "issuedBooks": []
     },
     {
       "id": "1757221068913",
@@ -1667,7 +1661,8 @@
       "subscription": "Guest",
       "joined": "2025-09-18",
       "lastActive": "2025-09-30",
-      "photo": "data:image/jpeg;base64,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"
+      "photo": "data:image/jpeg;base64,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",
+      "issuedBooks": []
     }
   ],
   "issued": [
@@ -1742,6 +1737,16 @@
       "dueDate": "2023-11-13",
       "returnDate": null,
       "status": "Issued"
+    },
+    {
+      "memberId": 2,
+      "bookId": 7,
+      "id": "FqOzkLf"
+    },
+    {
+      "memberId": "26",
+      "bookId": "73",
+      "id": "9SzjsZD"
     }
   ],
   "fines": [

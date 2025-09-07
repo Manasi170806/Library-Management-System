@@ -11,6 +11,7 @@ import AddBooks from "./Components/AddBooks/AddBooks";
 import AddMembers from "./Components/AddMembers/AddMembers";
 import PrivateRoute from "./Components/Auth/PrivateRoute";
 import EditBookDetails from "./Components/BookList/EditBookDetails";
+import Issue_Return from "./Components/Issue&Return/Issue&Return";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/AddMembers" element={<AddMembers />} />
           <Route path="/description/:id" element={<Description />} />
           <Route path="/EditBook/:id" element={<EditBookDetails />} />
+          <Route path="/Issue_Return" element={<Issue_Return />} />
         </Routes>
       </div>
     </div>
