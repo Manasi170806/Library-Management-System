@@ -5,7 +5,6 @@
 }
 
 /* navbar.jsx */
-
 .navbar {
   margin: 20px;
 }
@@ -20,11 +19,10 @@
   color: #a0a0a9;
   margin: 10px 0;
   padding: 10px 15px;
-  display: block;
+  display: flex;
+  flex-direction: row;
   font-family: "Albert Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
 }
 
 .nav-data nav .navlink.active {
@@ -38,4 +36,46 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+/* Media Query */
+
+/* Small mobile (320px – 480px) → Navbar on top */
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar {
+    margin: 0;
+    padding: 12px 16px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .nav-data {
+    margin: 0;
+  }
+
+  .nav-data nav {
+    display: flex;
+    gap: 8px;
+  }
+
+  .nav-data nav .navlink {
+    font-size: 16px;
+    padding: 6px 10px;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .nav-details {
+    flex-direction: row;
+    gap: 8px;
+  }
 }
