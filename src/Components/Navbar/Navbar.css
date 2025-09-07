@@ -37,7 +37,8 @@
 
 .navbar img {
   max-width: 100%;
-  height: auto;
+  height: 100px;
+  width: 100px;
 }
 
 .navbar .nav-data {
