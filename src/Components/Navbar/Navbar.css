@@ -39,3 +39,54 @@
   align-items: center;
   gap: 10px;
 }
+/* -------------------  Mobile (320px - 480px) ------------------- */
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar {
+    margin: 10px;
+  }
+
+  .nav-data nav .navlink {
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 6px 0;
+  }
+
+  .nav-details {
+    gap: 6px;
+    flex-direction: column; /* stack items */
+    align-items: flex-start;
+  }
+}
+
+/* -------------------  Tablet (481px - 780px) ------------------- */
+@media (min-width: 481px) and (max-width: 780px) {
+  .navbar {
+    margin: 15px;
+  }
+
+  .nav-data nav .navlink {
+    font-size: 18px;
+    padding: 9px 14px;
+    margin: 8px 0;
+  }
+
+  .nav-details {
+    gap: 8px;
+  }
+}
+
+/* -------------------  Laptop (790px - 1100px) ------------------- */
+@media (min-width: 790px) and (max-width: 1100px) {
+  .navbar {
+    margin: 18px;
+  }
+
+  .nav-data nav .navlink {
+    font-size: 19px;
+    padding: 10px 15px;
+  }
+
+  .nav-details {
+    gap: 10px;
+  }
+}

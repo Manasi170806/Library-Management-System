@@ -159,3 +159,147 @@
   font-weight: 500;
   color: #333;
 }
+/* Responsive */
+/* -------------------  Mobile (320px - 480px) ------------------- */
+@media (min-width: 320px) and (max-width: 480px) {
+  .members-card {
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 95%;
+  }
+
+  .members-card__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .members-card__header h2 {
+    font-size: 18px;
+  }
+
+  .pill {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  .btn-add {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
+
+  .search input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .members-table th,
+  .members-table td {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .btn-del {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .pagination {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* -------------------  Tablet (481px - 780px) ------------------- */
+@media (min-width: 481px) and (max-width: 780px) {
+  .members-card {
+    padding: 18px;
+    margin: 20px auto;
+    max-width: 95%;
+  }
+
+  .members-card__header h2 {
+    font-size: 20px;
+  }
+
+  .btn-add {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .search {
+    width: 70%;
+    margin: 10px 0;
+  }
+
+  .search input {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .members-table th,
+  .members-table td {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .btn-del {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .pagination .btn {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+
+/* -------------------  Laptop (790px - 1100px) ------------------- */
+@media (min-width: 790px) and (max-width: 1100px) {
+  .members-card {
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 95%;
+  }
+
+  .members-card__header h2 {
+    font-size: 22px;
+  }
+
+  .btn-add {
+    font-size: 15px;
+    padding: 10px 18px;
+  }
+
+  .search {
+    width: 50%;
+  }
+
+  .search input {
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .members-table th,
+  .members-table td {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+
+  .btn-del {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .pagination .btn {
+    padding: 8px 18px;
+    font-size: 15px;
+  }
+}
+
