@@ -21,7 +21,7 @@ function BookList() {
     dispatch(fetchBooks());
   }, [dispatch]);
 
-  // Filter search results
+  // Filter search results whenever books or search changes
   useEffect(() => {
     if (search.trim() === "") {
       setFilteredBooks(books);
@@ -32,11 +32,13 @@ function BookList() {
       setFilteredBooks(result);
       setPage(1);
     }
-  }, [search, books]);
+  }, [books, search]);
 
   // Delete handler
   const handleDelete = (id) => {
     dispatch(deleteBook(id));
+    // Immediately remove the book from filteredBooks so UI updates instantly
+    setFilteredBooks((prev) => prev.filter((book) => book.id !== id));
   };
 
   // Pagination logic
@@ -115,20 +117,16 @@ function BookList() {
                     </td>
                     <td>
                       {book.isAvailable
-                        ? `${book.isbn ? book.isbn.length : 0}/${
-                            book.isbn ? book.isbn.length : 0
-                          }`
+                        ? `${book.isbn ? book.isbn.length : 0}/${book.isbn ? book.isbn.length : 0}`
                         : `0/${book.isbn ? book.isbn.length : 0}`}
                     </td>
 
                     <td>
                       <div className="action-buttons">
-                        {/* view Button */}
+                        {/* View Button */}
                         <Link to={`/description/${book.id}`}>
                           <button className="btn-view">
-                            <MdOutlineRemoveRedEye
-                              style={{ fontSize: "18px" }}
-                            />
+                            <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
                           </button>
                         </Link>
                         {/* Edit Button */}
@@ -175,7 +173,7 @@ function BookList() {
           <button
             className="btn"
             onClick={() => setPage(page + 1)}
-            disabled={page === totalPages}
+            disabled={page === totalPages || totalPages === 0}
           >
             NEXT
           </button>

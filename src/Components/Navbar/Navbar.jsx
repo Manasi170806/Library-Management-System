@@ -18,7 +18,7 @@ const NavLinkData = [
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1>Logo.</h1>
+      <img src="src/assets/logo/logo.jpeg" alt="Logo" />
 
       <div className="nav-data">
         {NavLinkData.map((el, i) => (

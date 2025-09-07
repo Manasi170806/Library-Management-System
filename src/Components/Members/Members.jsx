@@ -21,10 +21,12 @@ const MemberList = () => {
   const [page, setPage] = useState(1);
   const membersPerPage = 10;
 
+  // Fetch members on mount
   useEffect(() => {
     dispatch(fetchMembers());
   }, [dispatch]);
 
+  // Filter search results whenever members or search changes
   useEffect(() => {
     if (search.trim() === "") {
       setFilteredMembers(members);
@@ -33,11 +35,17 @@ const MemberList = () => {
         m.name.toLowerCase().includes(search.toLowerCase())
       );
       setFilteredMembers(result);
-      setPage(1);
+      setPage(1); // reset to first page when search changes
     }
   }, [search, members]);
 
-  // pagination logic
+  // Delete handler with immediate UI update
+  const handleDelete = (id) => {
+    dispatch(deleteMember(id.toString()));
+    setFilteredMembers((prev) => prev.filter((m) => m.id !== id));
+  };
+
+  // Pagination logic
   const indexOfLast = page * membersPerPage;
   const indexOfFirst = indexOfLast - membersPerPage;
   const currentMembers = filteredMembers.slice(indexOfFirst, indexOfLast);
@@ -47,19 +55,17 @@ const MemberList = () => {
     <div className="members-card">
       <div className="members-card__header">
         <h2>👥 Library Members</h2>
-        <span className="pill pill--muted">
-          {filteredMembers.length} members
-        </span>
+        <span className="pill pill--muted">{filteredMembers.length} members</span>
       </div>
 
-      {/* Add members */}
+      {/* Add Member */}
       <div className="add-members">
         <Link to="/AddMembers">
           <button className="btn-add">Add Member</button>
         </Link>
       </div>
 
-      {/* Search Bar */}
+      {/* Search Bar (like BookList) */}
       <div className="search">
         <input
           type="text"
@@ -67,13 +73,23 @@ const MemberList = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <span className="search-icon">🔍</span>
+        <span
+          className="search-icon"
+          style={{
+            position: "absolute",
+            left: "8px",
+            top: "50%",
+            transform: "translateY(-50%)",
+            fontSize: "22px",
+            color: "#676565",
+          }}
+        >
+          🔍
+        </span>
       </div>
 
       {status === "loading" && <div className="skeleton">Loading members…</div>}
-      {status === "failed" && (
-        <div className="error">Failed to load: {error}</div>
-      )}
+      {status === "failed" && <div className="error">Failed to load: {error}</div>}
 
       {status === "succeeded" && (
         <>
@@ -92,7 +108,6 @@ const MemberList = () => {
                   <th>Remove</th>
                 </tr>
               </thead>
-
               <tbody>
                 {currentMembers.length > 0 ? (
                   currentMembers.map((m) => (
@@ -122,9 +137,7 @@ const MemberList = () => {
                       <td>
                         <button
                           className="btn-del"
-                          onClick={() =>
-                            dispatch(deleteMember(m.id.toString()))
-                          }
+                          onClick={() => handleDelete(m.id)}
                         >
                           <MdDelete style={{ fontSize: "18px" }} />
                         </button>
@@ -157,7 +170,7 @@ const MemberList = () => {
             <button
               className="btn"
               onClick={() => setPage(page + 1)}
-              disabled={page === totalPages}
+              disabled={page === totalPages || totalPages === 0}
             >
               NEXT
             </button>

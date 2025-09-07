@@ -35,6 +35,11 @@
   margin: 20px;
 }
 
+.navbar img {
+  max-width: 100%;
+  height: auto;
+}
+
 .navbar .nav-data {
   margin: 20px 0;
 }
