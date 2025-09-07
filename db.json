@@ -1,23 +1,6 @@
 {
   "books": [
     {
-      "id": "7",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "isAvailable": false,
-      "isbn": [
-        "100034",
-        "100035",
-        "100036",
-        "100037",
-        "100038"
-      ],
-      "rent": 10,
-      "genre": "Historical Fiction",
-      "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg",
-      "description": "War and Peace by Leo Tolstoy is a sweeping epic set during the Napoleonic Wars. Interweaving the lives of noble families, soldiers, and peasants, it portrays love, loss, and destiny against the backdrop of history. Characters like Pierre, Natasha, and Andrei struggle with faith, duty, and identity as war reshapes their lives. Combining human drama with historical detail, Tolstoy explores free will, philosophy, and the nature of history itself. This monumental work is a cornerstone of world literature."
-    },
-    {
       "id": "9",
       "title": "The Odyssey",
       "author": "Homer",
@@ -1297,6 +1280,18 @@
       "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91Nt5LU1auS._UF1000,1000_QL80_.jpg",
       "description": "At the height of World War II, three brilliant women are recruited to work as codebreakers at Bletchley Park. As they crack enemy messages and guard secrets, their bond grows stronger—until betrayal tears them apart. Years later, they must reunite to expose a traitor. Quinn’s novel is a captivating mix of history, espionage, and sisterhood, celebrating the courage and sacrifice of unsung heroines."
+    },
+    {
+      "id": "1757259678737",
+      "title": "mnjnm ",
+      "author": " nm ",
+      "genre": "njn,m",
+      "cover": "bhbjnm ",
+      "rent": 423,
+      "isAvailable": true,
+      "isbn": [
+        "56523"
+      ]
     }
   ],
   "members": [
