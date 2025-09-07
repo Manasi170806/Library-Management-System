@@ -117,7 +117,9 @@ function BookList() {
                     </td>
                     <td>
                       {book.isAvailable
-                        ? `${book.isbn ? book.isbn.length : 0}/${book.isbn ? book.isbn.length : 0}`
+                        ? `${book.isbn ? book.isbn.length : 0}/${
+                            book.isbn ? book.isbn.length : 0
+                          }`
                         : `0/${book.isbn ? book.isbn.length : 0}`}
                     </td>
 
@@ -126,7 +128,9 @@ function BookList() {
                         {/* View Button */}
                         <Link to={`/description/${book.id}`}>
                           <button className="btn-view">
-                            <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
+                            <MdOutlineRemoveRedEye
+                              style={{ fontSize: "18px" }}
+                            />
                           </button>
                         </Link>
                         {/* Edit Button */}
