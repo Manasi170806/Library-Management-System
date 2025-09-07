@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { MdDelete } from "react-icons/md";
+import { IoIosSearch } from "react-icons/io";
 
 import {
   selectMembers,
@@ -55,7 +56,9 @@ const MemberList = () => {
     <div className="members-card">
       <div className="members-card__header">
         <h2>👥 Library Members</h2>
-        <span className="pill pill--muted">{filteredMembers.length} members</span>
+        <span className="pill pill--muted">
+          {filteredMembers.length} members
+        </span>
       </div>
 
       {/* Add Member */}
@@ -84,12 +87,14 @@ const MemberList = () => {
             color: "#676565",
           }}
         >
-          🔍
+          <IoIosSearch />
         </span>
       </div>
 
       {status === "loading" && <div className="skeleton">Loading members…</div>}
-      {status === "failed" && <div className="error">Failed to load: {error}</div>}
+      {status === "failed" && (
+        <div className="error">Failed to load: {error}</div>
+      )}
 
       {status === "succeeded" && (
         <>
