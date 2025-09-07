@@ -183,6 +183,7 @@
   transition: all 0.2s ease;
 }
 
+
 .pagination .btn:disabled {
   background: #ccc;
   cursor: not-allowed;
