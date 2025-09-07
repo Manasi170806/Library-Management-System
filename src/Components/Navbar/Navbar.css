@@ -38,7 +38,13 @@
   gap: 10px;
 }
 
-/* Media Query */
-
-@media (min-width: 320px) and (min-width: 320px) {
+.menu-button {
+  display: none;
+  background: #36a4ea;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
 }
