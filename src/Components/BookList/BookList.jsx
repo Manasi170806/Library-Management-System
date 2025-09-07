@@ -48,7 +48,7 @@ function BookList() {
   const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
 
   return (
-    <>
+    < >
       <div className={`books-card ${selectedBook ? "blurred" : ""}`}>
         <div className="books-card__header">
           <h2>📚 Book Library</h2>

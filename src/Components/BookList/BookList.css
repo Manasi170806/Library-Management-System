@@ -1,3 +1,9 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 .books-card {
   background: #fff;
   border-radius: 16px;
@@ -43,7 +49,6 @@
   cursor: pointer;
   margin-left: 85%;
   padding: 10px 20px;
-
 }
 
 .btn-add:hover {
@@ -62,6 +67,7 @@
   border-radius: 8px;
   font-size: 15px;
 }
+
 .search input::placeholder {
   color: #676565;
   padding: 28px;
@@ -183,8 +189,6 @@
   transition: all 0.2s ease;
 }
 
-
-
 .pagination .btn:disabled {
   background: #ccc;
   cursor: not-allowed;
@@ -200,158 +204,210 @@
   color: #333;
 }
 
-/* Responsive */
-/* -------------------  Mobile (320px - 480px) ------------------- */
-@media (min-width: 320px) and (max-width: 480px) {
+/* ------------------- Base (Desktop First) ------------------- */
+.books-card {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Table default */
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.books-table th,
+.books-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+/* ------------------- Mobile (320px - 600px) ------------------- */
+@media (min-width: 320px) and (max-width: 600px) {
   .books-card {
-    padding: 15px;
+    width: 95%;
+    max-width: 500px;
     margin: 15px auto;
-    max-width: 95%;
+    padding: 15px;
   }
 
   .books-card__header {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .books-card__header h2 {
-    font-size: 18px;
-  }
-
-  .pill {
-    font-size: 12px;
-    padding: 4px 10px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
   }
 
   .btn-add {
-    margin-left: 0;
     width: 100%;
-    text-align: center;
+    padding: 12px;
+    font-size: 15px;
   }
 
   .search {
     width: 100%;
-    margin-top: 10px;
+    margin: 10px 0;
   }
 
   .search input {
     width: 100%;
     padding: 12px;
+    font-size: 15px;
+  }
+
+  /* Table → Card */
+  .books-table,
+  .books-table thead,
+  .books-table tbody,
+  .books-table th,
+  .books-table td,
+  .books-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .books-table thead {
+    display: none;
+  }
+
+  .books-table tr {
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fff;
+  }
+
+  .books-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: none;
     font-size: 14px;
   }
 
-  .books-table th,
-  .books-table td {
-    padding: 8px 10px;
-    font-size: 13px;
+  .books-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #333;
   }
 
   .books-table td img {
-    width: 40px;
-    height: 55px;
+    width: 70px;
+    height: 95px;
+    border-radius: 6px;
   }
 
   .action-buttons {
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
+    width: 100%;
   }
 
   .pagination {
     flex-direction: column;
     gap: 8px;
+    margin-top: 10px;
   }
 }
 
-/* -------------------  Tablet (481px - 780px) ------------------- */
-@media (min-width: 481px) and (max-width: 780px) {
+/* ------------------- Tablet (601px - 1024px) ------------------- */
+@media (min-width: 601px) and (max-width: 1024px) {
   .books-card {
-    padding: 18px;
+    width: 90%;
+    max-width: 900px;
     margin: 20px auto;
-    max-width: 95%;
+    padding: 18px;
   }
 
-  .books-card__header h2 {
-    font-size: 20px;
+  .books-card__header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
   }
 
   .btn-add {
-    margin-left: auto;
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 10px 18px;
+    font-size: 15px;
   }
 
   .search {
     width: 70%;
-    margin: 10px 0;
   }
 
   .search input {
-    padding: 14px;
+    width: 100%;
+    padding: 10px;
     font-size: 14px;
   }
 
   .books-table th,
   .books-table td {
-    padding: 10px 12px;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 15px;
   }
 
   .books-table td img {
-    width: 45px;
-    height: 65px;
+    width: 80px;
+    height: 105px;
   }
 
-  .action-buttons {
-    gap: 6px;
-  }
-
-  .pagination .btn {
-    padding: 7px 15px;
-    font-size: 14px;
+  .pagination {
+    justify-content: center;
+    margin-top: 15px;
   }
 }
 
-/* -------------------  Laptop (790px - 1100px) ------------------- */
-@media (min-width: 790px) and (max-width: 1100px) {
+/* ------------------- Laptop/Desktop (1025px+) ------------------- */
+@media (min-width: 1025px) {
   .books-card {
-    padding: 20px;
-    margin: 25px auto;
-    max-width: 95%;
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 25px;
   }
 
-  .books-card__header h2 {
-    font-size: 22px;
+  .books-card__header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .btn-add {
-    margin-left: auto;
-    font-size: 15px;
-    padding: 10px 18px;
+    padding: 12px 22px;
+    font-size: 16px;
   }
 
   .search {
-    width: 50%;
+    width: 40%;
   }
 
   .search input {
-    padding: 16px;
+    width: 100%;
+    padding: 12px;
     font-size: 15px;
   }
 
   .books-table th,
   .books-table td {
-    padding: 12px 14px;
-    font-size: 15px;
+    padding: 14px;
+    font-size: 16px;
   }
 
   .books-table td img {
-    width: 50px;
-    height: 70px;
+    width: 90px;
+    height: 120px;
   }
 
-  .pagination .btn {
-    padding: 8px 18px;
-    font-size: 15px;
+  .pagination {
+    justify-content: flex-end;
+    margin-top: 20px;
   }
 }
