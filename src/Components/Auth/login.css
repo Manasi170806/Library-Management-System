@@ -14,7 +14,7 @@
 
 .login-container {
   height: auto;
-  width: 90%;
+  width: 96%;
   margin: 2rem auto;
   background-color: white;
   border-radius: 10px;
@@ -196,4 +196,107 @@
 .log-Out button:hover {
   background-color: white;
   color: blue;
+}
+
+/* 📱 Small screens (320px - 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .info-login,
+  .login-image {
+    width: 100%;
+  }
+
+  .login-image {
+    order: 2;
+    margin-top: 1rem;
+  }
+
+  .info-login {
+    order: 1;
+    padding: 2rem 1rem;
+  }
+
+  .login-headings h2 {
+    font-size: 22px; /* smaller text */
+  }
+
+  .login-w-email input,
+  .login-w-email .login-Btn {
+    width: 100%; /* full width buttons */
+  }
+  .log-Out {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px; /* keeps it neat */
+    text-align: center;
+  }
+
+  .log-Out button {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+/* 📱 Tablets / Medium screens (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .info-login,
+  .login-image {
+    width: 100%;
+  }
+
+  .login-image {
+    order: 2;
+    margin: 0.5rem auto;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .login-image-cont {
+    height: 100%;
+    width: 100%;
+  }
+
+  .login-image-cont img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .info-login {
+    order: 1;
+    padding: 3rem 2rem;
+  }
+
+  .login-headings h2 {
+    font-size: 26px;
+  }
+
+  .login-w-email input,
+  .login-w-email .login-Btn {
+    width: 90%;
+  }
+
+  .log-Out {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px; /* keeps it neat */
+    text-align: center;
+  }
+
+  .log-Out button {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 20px auto;
+  }
 }

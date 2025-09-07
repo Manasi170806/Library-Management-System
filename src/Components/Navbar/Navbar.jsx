@@ -19,7 +19,6 @@ const Navbar = () => {
       <h1>Logo.</h1>
 
       <div className="nav-data">
-        <button className="menu-button">☰</button>
         {NavLinkData.map((el, i) => (
           <nav key={el.id}>
             <NavLink

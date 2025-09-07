@@ -179,3 +179,66 @@
 .welcome-text h1 {
   padding: 2rem 0;
 }
+
+/* 📱 Small screens (320px - 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .signUp-container {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .info-signUp,
+  .signUp-image {
+    width: 100%;
+  }
+
+  .signUp-image {
+    order: 2; /* image goes below */
+    margin-top: 1rem;
+  }
+
+  .info-signUp {
+    order: 1;
+    padding: 1.5rem 1rem;
+  }
+
+  .signUp-headings h2 {
+    font-size: 22px;
+  }
+
+  .signUp-w-email input,
+  .signUp-w-email .signUp-Btn {
+    width: 100%;
+  }
+}
+
+/* 📱 Tablets / Medium screens (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .signUp-container {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .info-signUp,
+  .signUp-image {
+    width: 100%;
+  }
+
+  .signUp-image {
+    order: 2;
+  }
+
+  .info-signUp {
+    order: 1;
+    padding: 2rem 2rem;
+  }
+
+  .signUp-headings h2 {
+    font-size: 26px;
+  }
+
+  .signUp-w-email input,
+  .signUp-w-email .signUp-Btn {
+    width: 95%;
+  }
+}
