@@ -197,3 +197,159 @@
   font-weight: 500;
   color: #333;
 }
+
+/* Responsive */
+/* -------------------  Mobile (320px - 480px) ------------------- */
+@media (min-width: 320px) and (max-width: 480px) {
+  .books-card {
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 95%;
+  }
+
+  .books-card__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .books-card__header h2 {
+    font-size: 18px;
+  }
+
+  .pill {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  .btn-add {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .search {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .search input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .books-table th,
+  .books-table td {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .books-table td img {
+    width: 40px;
+    height: 55px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .pagination {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* -------------------  Tablet (481px - 780px) ------------------- */
+@media (min-width: 481px) and (max-width: 780px) {
+  .books-card {
+    padding: 18px;
+    margin: 20px auto;
+    max-width: 95%;
+  }
+
+  .books-card__header h2 {
+    font-size: 20px;
+  }
+
+  .btn-add {
+    margin-left: auto;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .search {
+    width: 70%;
+    margin: 10px 0;
+  }
+
+  .search input {
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  .books-table th,
+  .books-table td {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .books-table td img {
+    width: 45px;
+    height: 65px;
+  }
+
+  .action-buttons {
+    gap: 6px;
+  }
+
+  .pagination .btn {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+
+/* -------------------  Laptop (790px - 1100px) ------------------- */
+@media (min-width: 790px) and (max-width: 1100px) {
+  .books-card {
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 95%;
+  }
+
+  .books-card__header h2 {
+    font-size: 22px;
+  }
+
+  .btn-add {
+    margin-left: auto;
+    font-size: 15px;
+    padding: 10px 18px;
+  }
+
+  .search {
+    width: 50%;
+  }
+
+  .search input {
+    padding: 16px;
+    font-size: 15px;
+  }
+
+  .books-table th,
+  .books-table td {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+
+  .books-table td img {
+    width: 50px;
+    height: 70px;
+  }
+
+  .pagination .btn {
+    padding: 8px 18px;
+    font-size: 15px;
+  }
+}
