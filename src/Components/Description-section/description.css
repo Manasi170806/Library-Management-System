@@ -113,10 +113,9 @@ body {
 
 /* Book Details Table */
 .book-details {
-  margin-top: 1rem;
   width: 60%;
   margin-left: 40%;
-  margin-top: -20%;
+  margin-top: -27%;
 }
 
 .book-details table {
