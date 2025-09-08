@@ -26,8 +26,12 @@ function BookList() {
     if (search.trim() === "") {
       setFilteredBooks(books);
     } else {
-      const result = books.filter((book) =>
-        book.title.toLowerCase().includes(search.toLowerCase())
+      const lowerSearch = search.toLowerCase();
+      const result = books.filter(
+        (book) =>
+          book.title.toLowerCase().includes(lowerSearch) ||
+          book.author.toLowerCase().includes(lowerSearch) ||
+          book.genre.toLowerCase().includes(lowerSearch)
       );
       setFilteredBooks(result);
       setPage(1);
