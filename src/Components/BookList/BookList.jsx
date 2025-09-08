@@ -26,8 +26,12 @@ function BookList() {
     if (search.trim() === "") {
       setFilteredBooks(books);
     } else {
-      const result = books.filter((book) =>
-        book.title.toLowerCase().includes(search.toLowerCase())
+      const lowerSearch = search.toLowerCase();
+      const result = books.filter(
+        (book) =>
+          book.title.toLowerCase().includes(lowerSearch) ||
+          book.author.toLowerCase().includes(lowerSearch) ||
+          book.genre.toLowerCase().includes(lowerSearch)
       );
       setFilteredBooks(result);
       setPage(1);
@@ -48,8 +52,11 @@ function BookList() {
   const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
 
   return (
+
     < >
       <div className={`books-card ${selectedBook ? "blurred" : ""}`} style={{ padding: "20px" ,width:"100%"}}>
+    
+      <div className={`books-card ${selectedBook ? "blurred" : ""}`} style={{ padding: "20px", width: "98%", margin: "auto", marginTop: "20px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)", borderRadius: "8px", backgroundColor: "#fff" }}>
         <div className="books-card__header">
           <h2>📚 Book Library</h2>
           <span className="pill pill--muted">{filteredBooks.length} items</span>

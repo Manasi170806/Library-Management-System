@@ -3,7 +3,6 @@
 .dashBoard {
   padding: 20px;
   font-family: "Arial", sans-serif;
-  background-color: #f8f9fa;
   min-height: 100vh;
 }
 
@@ -29,6 +28,7 @@
 
 .overview-section:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(204, 215, 239);
 }
 
 .overview-section h3 {

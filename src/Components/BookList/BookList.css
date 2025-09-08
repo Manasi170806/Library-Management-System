@@ -44,11 +44,17 @@
   border-radius: 50px;
   font-size: 14px;
 }
-
 /* Add Book Button */
 .add-book {
   margin-bottom: 15px;
   margin-left: 87%;
+
+/* Add New Book Button */
+.add-books {
+  margin-bottom: 50px;
+  background-color: red;
+  height: 200px;
+  width: 50%;
 }
 
 .btn-add {
@@ -60,6 +66,8 @@
   cursor: pointer;
   padding: 10px 20px;
   transition: 0.2s ease-in-out;
+  margin-left: 85%;
+  padding: 5rem 20px;
 }
 
 .btn-add:hover {
@@ -84,6 +92,12 @@
 
 .search input::placeholder {
   color: #676565;
+  padding: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .search input:focus {
@@ -93,10 +107,13 @@
 }
 
 .search-icon {
+
   position: absolute;
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
+  margin-left: 90%;
+
 }
 
 /* Table */
@@ -326,4 +343,40 @@ View 👁️
   .books-card {
     width: 85%;
   }
-}
+
+  .books-card__header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn-add {
+    padding: 12px 22px;
+    font-size: 16px;
+  }
+
+  .search {
+    width: 40%;
+  }
+
+  .search input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .books-table th,
+  .books-table td {
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .books-table td img {
+    width: 90px;
+    height: 120px;
+  }
+
+  .pagination {
+    justify-content: flex-end;
+    margin-top: 20px;
+  }

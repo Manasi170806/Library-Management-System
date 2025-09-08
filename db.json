@@ -39,7 +39,7 @@
       "id": "11",
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100056",
         "100057",
@@ -132,7 +132,7 @@
       "id": "16",
       "title": "The Iliad",
       "author": "Homer",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100083",
         "100084",
@@ -1284,19 +1284,6 @@
   ],
   "members": [
     {
-      "id": "2",
-      "name": "Bob Smith",
-      "email": "bob.smith@example.com",
-      "phone": "234-567-8901",
-      "membershipType": "Faculty",
-      "status": "Inactive",
-      "subscription": "Guest",
-      "joined": "10-02-2024",
-      "lastActive": "20-03-2024",
-      "photo": "https://i.pravatar.cc/50?img=2",
-      "issuedBooks": []
-    },
-    {
       "id": "3",
       "name": "Charlie Brown",
       "email": "charlie.brown@example.com",
@@ -1307,19 +1294,10 @@
       "joined": "16-10-2024",
       "lastActive": "06-12-2024",
       "photo": "https://i.pravatar.cc/50?img=3",
-      "issuedBooks": []
-    },
-    {
-      "id": "4",
-      "name": "Diana Prince",
-      "email": "diana.prince@example.com",
-      "phone": "456-789-0123",
-      "membershipType": "Student",
-      "status": "Active",
-      "joined": "05-01-2024",
-      "lastActive": "11-03-2024",
-      "photo": "https://i.pravatar.cc/50?img=4",
-      "issuedBooks": []
+      "issuedBooks": [
+        "11",
+        "16"
+      ]
     },
     {
       "id": "5",
