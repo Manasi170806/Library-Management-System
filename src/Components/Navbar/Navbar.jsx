@@ -12,7 +12,8 @@ const NavLinkData = [
   { id: 2, path: "/books", icon: <PiBooksLight />, text: "books" },
   { id: 3, path: "/members", icon: <TiGroup />, text: "members" },
   { id: 4, path: "/Issue_Return", icon: <GiBookshelf />, text: "Issue/Return" },
-  { id: 5, path: "/logIn", icon: <FiLogIn />, text: "LogIn" },
+  { id: 5, path: "/fines", icon: <GiBookshelf />, text: "Fines" },
+  { id: 6, path: "/logIn", icon: <FiLogIn />, text: "LogIn" },
 ];
 
 const Navbar = () => {
