@@ -85,7 +85,7 @@ const MemberList = () => {
       <div className="search">
         <input
           type="text"
-          placeholder="Search members"
+          placeholder="Search members..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

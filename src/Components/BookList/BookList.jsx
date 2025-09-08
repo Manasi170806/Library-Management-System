@@ -69,7 +69,7 @@ function BookList() {
             placeholder="Search books..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-          />
+          />  
           <span className="search-icon">
             <IoIosSearch
               style={{
@@ -81,7 +81,7 @@ function BookList() {
                 transform: "translateY(-50%)",
               }}
             />
-          </span>
+          </span> 
         </div>
 
         {/* Table */}
