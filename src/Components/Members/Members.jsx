@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { MdDelete } from "react-icons/md";
 import { IoIosSearch } from "react-icons/io";
+import { MdOutlineRemoveRedEye } from "react-icons/md"; 
 
 import {
   selectMembers,
@@ -123,7 +124,7 @@ const MemberList = () => {
                   <th>Status</th>
                   <th>Joined</th>
                   <th>Last Active</th>
-                  <th>Remove</th>
+                  <th>Actions</th> {/* 👈 Actions column */}
                 </tr>
               </thead>
               <tbody>
@@ -152,13 +153,24 @@ const MemberList = () => {
                       </td>
                       <td>{m.joined}</td>
                       <td>{m.lastActive}</td>
+
                       <td>
-                        <button
-                          className="btn-del"
-                          onClick={() => handleDelete(m.id)}
-                        >
-                          <MdDelete style={{ fontSize: "18px" }} />
-                        </button>
+                        <div className="view-delete-buttons">
+                          {/* 👁️ View Button */}
+                          <Link to={`/member/${m.id}`}>
+                            <button className="btn-view">
+                              <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
+                            </button>
+                          </Link>
+
+                          {/* 🗑️ Delete Button */}
+                          <button
+                            className="btn-del"
+                            onClick={() => handleDelete(m.id)}
+                          >
+                            <MdDelete style={{ fontSize: "18px" }} />
+                          </button>
+                        </div>
                       </td>
                     </tr>
                   ))

@@ -49,7 +49,7 @@ function BookList() {
 
   return (
     < >
-      <div className={`books-card ${selectedBook ? "blurred" : ""}`}>
+      <div className={`books-card ${selectedBook ? "blurred" : ""}`} style={{ padding: "20px" ,width:"100%"}}>
         <div className="books-card__header">
           <h2>📚 Book Library</h2>
           <span className="pill pill--muted">{filteredBooks.length} items</span>

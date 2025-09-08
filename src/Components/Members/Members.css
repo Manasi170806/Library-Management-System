@@ -1,10 +1,19 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+/* Card container */
 .members-card {
   background: #fff;
   border-radius: 16px;
   padding: 20px;
-  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   max-width: 1200px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  margin: 30px auto;
 }
 
 /* Header */
@@ -12,74 +21,70 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .members-card__header h2 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   color: #333;
 }
 
 .pill {
-  background: #eef4ff;
-  color: #444;
-  padding: 5px 12px;
+  padding: 6px 12px;
   border-radius: 50px;
   font-size: 14px;
 }
 
-/* Add Button */
+.pill--muted {
+  background: #f0f0f0;
+  color: #555;
+}
+
+/* Add Member button */
 .add-members {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-left: 87%;
 }
 
 .btn-add {
-  background: #28a745;
-  color: white;
+  padding: 10px 18px;
   border: none;
-  padding: 8px 16px;
   border-radius: 8px;
+  background: #4cafef;
   font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .btn-add:hover {
-  background: #218838;
+  background: #3a96d8;
 }
 
-/* Search Bar */
+/* Search bar */
 .search {
   position: relative;
   margin-bottom: 20px;
-
+  margin-top: -5%;
 }
 
 .search input {
   width: 100%;
-  padding: 10px 40px 10px 15px;
-  border: 2px solid #dcdcdc;
+  padding: 10px 10px 12px 35px;
   border-radius: 8px;
+  border: 1px solid #ccc;
   font-size: 15px;
-}
-.search input::placeholder {
-  color: #aaa;
-  padding: 20px;
-  /* background-color: #218838; */
+  transition: 0.2s;
 }
 
 .search input:focus {
-  border-color: #007bff;
   outline: none;
+  border-color: #4cafef;
+  box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
 }
-
-.search-icon {
-  position: absolute;
-  top: 50%;
-  left: -1%;
-  /* transform: translateY(-50%); */
-  font-size: 16px;
+.search ::placeholder {
+    color: #aaa;
 }
 
 /* Table */
@@ -93,41 +98,72 @@
   margin-bottom: 20px;
 }
 
+.members-table thead {
+  background: #f7f9fb;
+}
+
 .members-table th,
 .members-table td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
 }
 
 .members-table th {
-  background: #f4f6fa;
+  color: #555;
   font-weight: 600;
-  color: #333;
 }
 
+.members-table tbody tr:hover {
+  background: #f9f9f9;
+  transition: 0.2s;
+}
+
+.members-table img {
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+/* Empty state */
 .empty {
   text-align: center;
-  font-style: italic;
-  color: #888;
   padding: 20px;
+  color: #888;
 }
 
-/* Remove Button */
+/* Buttons (View + Delete) */
+.view-delete-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-view,
 .btn-del {
-  background: #e74c3c;
-  color: white;
-  border: none;
-  padding: 6px 12px;
+  padding: 6px 10px;
   border-radius: 6px;
+  border: none;
   cursor: pointer;
-  font-size: 14px;
-  transition: all 0.2s ease-in-out;
+  transition: 0.2s;
+}
+
+/* .btn-view {
+  background: #4cafef;
+  color: white;
+}
+
+.btn-view:hover {
+  background: #3a96d8;
+}
+
+.btn-del {
+  background: #f44336;
+  color: white;
 }
 
 .btn-del:hover {
-  background: #c0392b;
-}
+  background: #d9362a;
+} */
 
 /* Pagination */
 .pagination {
@@ -135,190 +171,61 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
-  margin-top: 15px;
 }
 
 .pagination .btn {
-  padding: 8px 18px;
+  padding: 8px 14px;
+  border-radius: 6px;
   border: none;
-  border-radius: 8px;
-  background: #007bff;
-  color: white;
+  background: #eee;
   cursor: pointer;
   font-weight: 500;
-  transition: all 0.2s ease;
-}
-
-.pagination .btn:disabled {
-  background: #ccc;
-  cursor: not-allowed;
+  transition: 0.2s;
 }
 
 .pagination .btn:hover:not(:disabled) {
-  background: #0056b3;
+  background: #4cafef;
+  color: white;
 }
 
 .pagination span {
   font-size: 15px;
-  font-weight: 500;
-  color: #333;
+  font-weight: 600;
+  color: #555;
 }
+
+.pagination .btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Skeleton + Error */
+.skeleton {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
 /* Responsive */
-/* -------------------  Mobile (320px - 480px) ------------------- */
-@media (min-width: 320px) and (max-width: 480px) {
-  .books-card {
+@media (max-width: 768px) {
+  .members-card {
     padding: 15px;
-    margin: 15px auto;
-    max-width: 95%;
   }
 
-  .books-card__header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .books-card__header h2 {
-    font-size: 18px;
-  }
-
-  .pill {
-    font-size: 12px;
-    padding: 4px 10px;
-  }
-
-  .btn-add {
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .search {
-    margin-top: 10px;
-    width: 100%;
-  }
-
-  .search input {
-    padding: 10px;
-    font-size: 14px;
-    width: 100%;
-  }
-
-  .books-table th,
-  .books-table td {
-    padding: 8px 10px;
-    font-size: 13px;
-  }
-
-  .books-table td img {
-    width: 60px;
-    height: 85px;
-  }
-
-  .pagination {
-    flex-direction: column;
-    gap: 8px;
-  }
-}
-
-/* -------------------  Tablet (481px - 780px) ------------------- */
-@media (min-width: 481px) and (max-width: 780px) {
-  .books-card {
-    padding: 18px;
-    margin: 20px auto;
-    max-width: 95%;
-  }
-
-  .books-card__header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .books-card__header h2 {
+  .members-card__header h2 {
     font-size: 20px;
   }
 
-  .btn-add {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
-
-  .search {
-    width: 70%;
-    margin: 10px 0;
-  }
-
-  .search input {
-    padding: 12px;
-    font-size: 14px;
-    width: 100%;
-  }
-
-  .books-table th,
-  .books-table td {
-    padding: 10px 12px;
-    font-size: 14px;
-  }
-
-  .books-table td img {
-    width: 70px;
-    height: 95px;
-  }
-
-  .pagination .btn {
-    padding: 7px 15px;
-    font-size: 14px;
-  }
-}
-
-/* -------------------  Laptop (790px - 1100px) ------------------- */
-@media (min-width: 790px) and (max-width: 1100px) {
-  .books-card {
-    padding: 20px;
-    margin: 25px auto;
-    max-width: 95%;
-  }
-
-  .books-card__header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .books-card__header h2 {
-    font-size: 22px;
-  }
-
-  .btn-add {
-    font-size: 15px;
-    padding: 10px 18px;
-  }
-
-  .search {
-    width: 50%;
-  }
-
-  .search input {
-    padding: 14px;
-    font-size: 15px;
-    width: 100%;
-  }
-
-  .books-table th,
-  .books-table td {
-    padding: 12px 14px;
-    font-size: 15px;
-  }
-
-  .books-table td img {
-    width: 80px;
-    height: 110px;
-  }
-
-  .pagination .btn {
-    padding: 8px 18px;
-    font-size: 15px;
+  .members-table th,
+  .members-table td {
+    padding: 10px;
+    font-size: 13px;
   }
 }

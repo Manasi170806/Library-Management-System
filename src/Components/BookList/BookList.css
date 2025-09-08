@@ -1,9 +1,12 @@
+/* Reset */
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, sans-serif;
 }
 
+/* Card Container */
 .books-card {
   background: #fff;
   border-radius: 16px;
@@ -13,31 +16,39 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
+/* Blur effect when modal opens */
+.blurred {
+  filter: blur(2px);
+  pointer-events: none;
+  user-select: none;
+}
+
 /* Header */
 .books-card__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .books-card__header h2 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   color: #333;
 }
 
 .pill {
   background: #eef4ff;
   color: #444;
-  padding: 5px 12px;
+  padding: 6px 12px;
   border-radius: 50px;
   font-size: 14px;
 }
 
-/* Add New Book Button */
-.add-books {
-  margin-bottom: 20px;
+/* Add Book Button */
+.add-book {
+  margin-bottom: 15px;
+  margin-left: 87%;
 }
 
 .btn-add {
@@ -47,8 +58,8 @@
   border-radius: 8px;
   font-size: 15px;
   cursor: pointer;
-  margin-left: 85%;
   padding: 10px 20px;
+  transition: 0.2s ease-in-out;
 }
 
 .btn-add:hover {
@@ -57,32 +68,35 @@
 
 /* Search Bar */
 .search {
+  position: relative;
+  margin-bottom: 20px;
   width: 40%;
-  margin-top: -2%;
 }
 
 .search input {
-  padding: 40px;
-  border: 2px solid #dcdcdc;
+  width: 100%;
+  padding: 15px 10px 12px 35px;
+  border: 2px solid #ddd;
   border-radius: 8px;
   font-size: 15px;
+  transition: 0.2s;
 }
 
 .search input::placeholder {
   color: #676565;
-  padding: 28px;
 }
 
 .search input:focus {
   border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
   outline: none;
-  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
 }
 
 .search-icon {
   position: absolute;
-  left: 8px;
-  /* font-size: 20px; */
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
 }
 
 /* Table */
@@ -100,7 +114,8 @@
 .books-table td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
 }
 
 .books-table th {
@@ -109,28 +124,34 @@
   color: #333;
 }
 
+.books-table tr:hover {
+  background: #f9f9f9;
+}
+
 .books-table td img {
-  width: 50px;
-  height: 70px;
+  width: 55px;
+  height: 75px;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Status */
 .status-green {
   color: #2ecc71;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .status-red {
   color: #e74c3c;
-  font-weight: bold;
+  font-weight: 600;
 }
 
+/* Empty State */
 .empty {
   text-align: center;
-  font-style: italic;
   color: #888;
+  font-style: italic;
   padding: 20px;
 }
 
@@ -141,33 +162,48 @@
 }
 
 .btn-view,
-.btn-del,
-.btn-edit {
-  padding: 6px 12px;
+.btn-edit,
+.btn-del {
+  padding: 6px 10px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
   font-size: 14px;
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.2s ease-in-out; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn-view {
+View 👁️
+/* .btn-view {
   background: #007bff;
   color: white;
 }
 
 .btn-view:hover {
   background: #0056b3;
+} */
+
+/* Edit ✏️ */
+/* .btn-edit {
+  background: #ffc107;
+  color: white;
 }
 
-.btn-del {
+.btn-edit:hover {
+  background: #e0a800;
+} */
+
+/* Delete 🗑 */
+/* .btn-del {
   background: #e74c3c;
   color: white;
 }
 
 .btn-del:hover {
   background: #c0392b;
-}
+} */
 
 /* Pagination */
 .pagination {
@@ -175,18 +211,17 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
-  margin-top: 15px;
 }
 
 .pagination .btn {
-  padding: 8px 18px;
+  padding: 8px 16px;
   border: none;
   border-radius: 8px;
   background: #007bff;
   color: white;
   cursor: pointer;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: 0.2s;
 }
 
 .pagination .btn:disabled {
@@ -200,68 +235,27 @@
 
 .pagination span {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #333;
 }
 
-/* ------------------- Base (Desktop First) ------------------- */
-.books-card {
-  width: 80%;
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-/* Table default */
-.books-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.books-table th,
-.books-table td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid #eee;
-}
-
-/* ------------------- Mobile (320px - 600px) ------------------- */
-@media (min-width: 320px) and (max-width: 600px) {
+/* ---------------- Mobile (320px - 600px) ---------------- */
+@media (max-width: 600px) {
   .books-card {
     width: 95%;
-    max-width: 500px;
-    margin: 15px auto;
     padding: 15px;
   }
 
   .books-card__header {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     gap: 10px;
-  }
-
-  .btn-add {
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
+    text-align: center;
   }
 
   .search {
     width: 100%;
-    margin: 10px 0;
   }
 
-  .search input {
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
-  }
-
-  /* Table → Card */
   .books-table,
   .books-table thead,
   .books-table tbody,
@@ -294,120 +288,41 @@
 
   .books-table td::before {
     content: attr(data-label);
-    font-weight: bold;
-    color: #333;
+    font-weight: 600;
+    color: #444;
   }
 
   .books-table td img {
     width: 70px;
     height: 95px;
-    border-radius: 6px;
   }
 
   .action-buttons {
     flex-direction: column;
     gap: 6px;
-    width: 100%;
   }
 
   .pagination {
     flex-direction: column;
     gap: 8px;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 }
 
-/* ------------------- Tablet (601px - 1024px) ------------------- */
+/* ---------------- Tablet (601px - 1024px) ---------------- */
 @media (min-width: 601px) and (max-width: 1024px) {
   .books-card {
     width: 90%;
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 18px;
-  }
-
-  .books-card__header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .btn-add {
-    padding: 10px 18px;
-    font-size: 15px;
   }
 
   .search {
     width: 70%;
   }
-
-  .search input {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .books-table th,
-  .books-table td {
-    padding: 10px;
-    font-size: 15px;
-  }
-
-  .books-table td img {
-    width: 80px;
-    height: 105px;
-  }
-
-  .pagination {
-    justify-content: center;
-    margin-top: 15px;
-  }
 }
 
-/* ------------------- Laptop/Desktop (1025px+) ------------------- */
+/* ---------------- Laptop/Desktop (1025px+) ---------------- */
 @media (min-width: 1025px) {
   .books-card {
     width: 85%;
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 25px;
-  }
-
-  .books-card__header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .btn-add {
-    padding: 12px 22px;
-    font-size: 16px;
-  }
-
-  .search {
-    width: 40%;
-  }
-
-  .search input {
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
-  }
-
-  .books-table th,
-  .books-table td {
-    padding: 14px;
-    font-size: 16px;
-  }
-
-  .books-table td img {
-    width: 90px;
-    height: 120px;
-  }
-
-  .pagination {
-    justify-content: flex-end;
-    margin-top: 20px;
   }
 }
