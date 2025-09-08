@@ -183,11 +183,6 @@
   transition: 0.2s;
 }
 
-.pagination .btn:hover:not(:disabled) {
-  background: #4cafef;
-  color: white;
-}
-
 .pagination span {
   font-size: 15px;
   font-weight: 600;

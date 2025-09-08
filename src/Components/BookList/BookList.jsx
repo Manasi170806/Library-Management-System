@@ -54,7 +54,7 @@ function BookList() {
   return (
 
     < >
-      <div className={`books-card ${selectedBook ? "blurred" : ""}`} style={{ padding: "20px" ,width:"100%"}}>
+      {/* <div className={`books-card ${selectedBook ? "blurred" : ""}`} style={{ padding: "20px" ,width:"100%"}}> */}
     
       <div className={`books-card ${selectedBook ? "blurred" : ""}`} style={{ padding: "20px", width: "98%", margin: "auto", marginTop: "20px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)", borderRadius: "8px", backgroundColor: "#fff" }}>
         <div className="books-card__header">

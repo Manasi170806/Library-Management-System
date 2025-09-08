@@ -1,4 +1,4 @@
-/* Reset */
+/* 🔹 Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: "Segoe UI", Roboto, sans-serif;
 }
 
-/* Card Container */
+/* 🔹 Card Container */
 .books-card {
   background: #fff;
   border-radius: 16px;
@@ -16,14 +16,14 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-/* Blur effect when modal opens */
+/* Blur when modal opens */
 .blurred {
   filter: blur(2px);
   pointer-events: none;
   user-select: none;
 }
 
-/* Header */
+/* 🔹 Header */
 .books-card__header {
   display: flex;
   justify-content: space-between;
@@ -43,18 +43,13 @@
   padding: 6px 12px;
   border-radius: 50px;
   font-size: 14px;
+  font-weight: 500;
 }
-/* Add Book Button */
+
+/* 🔹 Add Book Button */
 .add-book {
   margin-bottom: 15px;
-  margin-left: 87%;
-
-/* Add New Book Button */
-.add-books {
-  margin-bottom: 50px;
-  background-color: red;
-  height: 200px;
-  width: 50%;
+  text-align: right;
 }
 
 .btn-add {
@@ -66,57 +61,37 @@
   cursor: pointer;
   padding: 10px 20px;
   transition: 0.2s ease-in-out;
-  margin-left: 85%;
-  padding: 5rem 20px;
 }
 
 .btn-add:hover {
   background: #218838;
 }
 
-/* Search Bar */
+/* 🔹 Search Bar */
 .search {
   position: relative;
   margin-bottom: 20px;
-  width: 40%;
+  margin-top: -5%;
 }
 
 .search input {
   width: 100%;
-  padding: 15px 10px 12px 35px;
-  border: 2px solid #ddd;
+  padding: 10px 10px 12px 35px;
   border-radius: 8px;
+  border: 1px solid #ccc;
   font-size: 15px;
   transition: 0.2s;
 }
 
-.search input::placeholder {
-  color: #676565;
-  padding: 28px;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: capitalize;
-  letter-spacing: 0.5px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .search input:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
   outline: none;
+  border-color: #4cafef;
+  box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
 }
-
-.search-icon {
-
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  margin-left: 90%;
-
+.search ::placeholder {
+    color: #aaa;
 }
-
-/* Table */
+/* 🔹 Table */
 .table-responsive {
   overflow-x: auto;
 }
@@ -139,10 +114,11 @@
   background: #f4f6fa;
   font-weight: 600;
   color: #333;
+  text-transform: uppercase;
 }
 
 .books-table tr:hover {
-  background: #f9f9f9;
+  background: #fafafa;
 }
 
 .books-table td img {
@@ -153,7 +129,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Status */
+/* 🔹 Status */
 .status-green {
   color: #2ecc71;
   font-weight: 600;
@@ -164,7 +140,7 @@
   font-weight: 600;
 }
 
-/* Empty State */
+/* 🔹 Empty State */
 .empty {
   text-align: center;
   color: #888;
@@ -172,10 +148,10 @@
   padding: 20px;
 }
 
-/* Action Buttons */
+/* 🔹 Action Buttons */
 .action-buttons {
   display: flex;
-  gap: 8px;
+  gap: 6px;
 }
 
 .btn-view,
@@ -185,49 +161,47 @@
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  font-size: 14px;
-  /* transition: all 0.2s ease-in-out; */
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease;
 }
 
-View 👁️
+/* 👁 View */
 /* .btn-view {
   background: #007bff;
   color: white;
 }
-
 .btn-view:hover {
   background: #0056b3;
 } */
 
-/* Edit ✏️ */
+/* ✏ Edit */
 /* .btn-edit {
   background: #ffc107;
   color: white;
 }
-
 .btn-edit:hover {
   background: #e0a800;
 } */
 
-/* Delete 🗑 */
+/* 🗑 Delete */
 /* .btn-del {
   background: #e74c3c;
   color: white;
 }
-
 .btn-del:hover {
   background: #c0392b;
 } */
 
-/* Pagination */
+/* 🔹 Pagination */
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 12px;
+  margin-top: 15px;
 }
 
 .pagination .btn {
@@ -244,10 +218,6 @@ View 👁️
 .pagination .btn:disabled {
   background: #ccc;
   cursor: not-allowed;
-}
-
-.pagination .btn:hover:not(:disabled) {
-  background: #0056b3;
 }
 
 .pagination span {
@@ -272,8 +242,8 @@ View 👁️
   .search {
     width: 100%;
   }
-  
 
+  /* Table → Card View */
   .books-table,
   .books-table thead,
   .books-table tbody,
@@ -344,12 +314,6 @@ View 👁️
     width: 85%;
   }
 
-  .books-card__header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .btn-add {
     padding: 12px 22px;
     font-size: 16px;
@@ -357,12 +321,6 @@ View 👁️
 
   .search {
     width: 40%;
-  }
-
-  .search input {
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
   }
 
   .books-table th,
@@ -380,3 +338,4 @@ View 👁️
     justify-content: flex-end;
     margin-top: 20px;
   }
+}
