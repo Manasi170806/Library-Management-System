@@ -46,9 +46,14 @@ export default function Issue_Return() {
 
   const makeAddedIssuedBooks = (member, bookId, bookTitle) => {
     const prev = member.issuedBooks || [];
-    const isObjectList = prev.length > 0 && typeof prev[0] === "object" && prev[0].hasOwnProperty("bookId");
+    const isObjectList =
+      prev.length > 0 &&
+      typeof prev[0] === "object" &&
+      prev[0].hasOwnProperty("bookId");
     if (isObjectList) {
-      const dueDate = new Date(Date.now() + 14 * 24 * 3600 * 1000).toISOString().slice(0, 10);
+      const dueDate = new Date(Date.now() + 14 * 24 * 3600 * 1000)
+        .toISOString()
+        .slice(0, 10);
       return [...prev, { bookId: String(bookId), title: bookTitle, dueDate }];
     } else {
       return [...prev, String(bookId)];
@@ -57,7 +62,10 @@ export default function Issue_Return() {
 
   const makeRemovedIssuedBooks = (member, bookId) => {
     const prev = member.issuedBooks || [];
-    const isObjectList = prev.length > 0 && typeof prev[0] === "object" && prev[0].hasOwnProperty("bookId");
+    const isObjectList =
+      prev.length > 0 &&
+      typeof prev[0] === "object" &&
+      prev[0].hasOwnProperty("bookId");
     if (isObjectList) {
       return prev.filter((ib) => String(ib.bookId) !== String(bookId));
     } else {
@@ -109,8 +117,16 @@ export default function Issue_Return() {
       if (!resBook.ok) throw new Error("Failed to update book");
 
       // update state
-      setMembers((prev) => prev.map((m) => (String(m.id) === memberId ? { ...m, issuedBooks: newIssued } : m)));
-      setBooks((prev) => prev.map((b) => (String(b.id) === bookId ? { ...b, isAvailable: false } : b)));
+      setMembers((prev) =>
+        prev.map((m) =>
+          String(m.id) === memberId ? { ...m, issuedBooks: newIssued } : m
+        )
+      );
+      setBooks((prev) =>
+        prev.map((b) =>
+          String(b.id) === bookId ? { ...b, isAvailable: false } : b
+        )
+      );
 
       setMessage("✅ Book issued successfully.");
       setSelectedBookIssue("");
@@ -158,8 +174,16 @@ export default function Issue_Return() {
       });
       if (!resBook.ok) throw new Error("Failed to update book");
 
-      setMembers((prev) => prev.map((m) => (String(m.id) === memberId ? { ...m, issuedBooks: newIssued } : m)));
-      setBooks((prev) => prev.map((b) => (String(b.id) === bookId ? { ...b, isAvailable: true } : b)));
+      setMembers((prev) =>
+        prev.map((m) =>
+          String(m.id) === memberId ? { ...m, issuedBooks: newIssued } : m
+        )
+      );
+      setBooks((prev) =>
+        prev.map((b) =>
+          String(b.id) === bookId ? { ...b, isAvailable: true } : b
+        )
+      );
 
       setMessage("✅ Book returned successfully.");
       setSelectedBookReturn("");
@@ -173,8 +197,12 @@ export default function Issue_Return() {
   // Pagination logic
   const indexOfLastBook = currentPage * booksPerPage;
   const indexOfFirstBook = indexOfLastBook - booksPerPage;
-  const currentBooks = books.filter((b) => b.isAvailable).slice(indexOfFirstBook, indexOfLastBook);
-  const totalPages = Math.ceil(books.filter((b) => b.isAvailable).length / booksPerPage);
+  const currentBooks = books
+    .filter((b) => b.isAvailable)
+    .slice(indexOfFirstBook, indexOfLastBook);
+  const totalPages = Math.ceil(
+    books.filter((b) => b.isAvailable).length / booksPerPage
+  );
 
   return (
     <div className="container">
@@ -185,17 +213,29 @@ export default function Issue_Return() {
       <div className="issue-return-card">
         <h2>📕 Issue Book</h2>
         <div className="form-group">
-          <select value={selectedMemberIssue} onChange={(e) => setSelectedMemberIssue(e.target.value)}>
+          <select
+            value={selectedMemberIssue}
+            onChange={(e) => setSelectedMemberIssue(e.target.value)}
+          >
             <option value="">Select Member</option>
             {members.map((m) => (
-              <option key={m.id} value={m.id}>{m.name}</option>
+              <option key={m.id} value={m.id}>
+                {m.name}
+              </option>
             ))}
           </select>
-          <select value={selectedBookIssue} onChange={(e) => setSelectedBookIssue(e.target.value)}>
+          <select
+            value={selectedBookIssue}
+            onChange={(e) => setSelectedBookIssue(e.target.value)}
+          >
             <option value="">Select Book</option>
-            {books.filter((b) => b.isAvailable).map((b) => (
-              <option key={b.id} value={b.id}>{b.title}</option>
-            ))}
+            {books
+              .filter((b) => b.isAvailable)
+              .map((b) => (
+                <option key={b.id} value={b.id}>
+                  {b.title}
+                </option>
+              ))}
           </select>
           <button onClick={issueBook}>Issue Book</button>
         </div>
@@ -205,25 +245,43 @@ export default function Issue_Return() {
       <div className="issue-return-card">
         <h2>📗 Return Book</h2>
         <div className="form-group">
-          <select value={selectedMemberReturn} onChange={(e) => setSelectedMemberReturn(e.target.value)}>
+          <select
+            value={selectedMemberReturn}
+            onChange={(e) => setSelectedMemberReturn(e.target.value)}
+          >
             <option value="">Select Member</option>
             {members.map((m) => (
-              <option key={m.id} value={m.id}>{m.name}</option>
+              <option key={m.id} value={m.id}>
+                {m.name}
+              </option>
             ))}
           </select>
 
           {selectedMemberReturn && (
-            <select value={selectedBookReturn} onChange={(e) => setSelectedBookReturn(e.target.value)}>
+            <select
+              value={selectedBookReturn}
+              onChange={(e) => setSelectedBookReturn(e.target.value)}
+            >
               <option value="">Select Issued Book</option>
               {(() => {
-                const member = members.find((m) => String(m.id) === String(selectedMemberReturn));
+                const member = members.find(
+                  (m) => String(m.id) === String(selectedMemberReturn)
+                );
                 if (!member || !member.issuedBooks) return null;
                 return member.issuedBooks.map((ib) => {
                   if (typeof ib === "object" && ib.bookId) {
-                    return <option key={ib.bookId} value={ib.bookId}>{ib.title || `Book ${ib.bookId}`}</option>;
+                    return (
+                      <option key={ib.bookId} value={ib.bookId}>
+                        {ib.title || `Book ${ib.bookId}`}
+                      </option>
+                    );
                   } else {
                     const book = books.find((b) => String(b.id) === String(ib));
-                    return <option key={ib} value={ib}>{book ? book.title : `Book ${ib}`}</option>;
+                    return (
+                      <option key={ib} value={ib}>
+                        {book ? book.title : `Book ${ib}`}
+                      </option>
+                    );
                   }
                 });
               })()}
@@ -240,7 +298,11 @@ export default function Issue_Return() {
         <div className="book-grid">
           {currentBooks.map((book) => (
             <div key={book.id} className="book-card">
-              <img src={book.cover || "https://via.placeholder.com/200x260"} alt={book.title} className="book-cover" />
+              <img
+                src={book.cover || "https://via.placeholder.com/200x260"}
+                alt={book.title}
+                className="book-cover"
+              />
               <div className="book-info">
                 <h3>{book.title}</h3>
                 <p className="author">✍️ {book.author}</p>
@@ -253,7 +315,12 @@ export default function Issue_Return() {
 
         {/* Pagination */}
         <div className="pagination">
-          <button disabled={currentPage === 1} onClick={() => setCurrentPage((p) => p - 1)}>Prev</button>
+          <button
+            disabled={currentPage === 1}
+            onClick={() => setCurrentPage((p) => p - 1)}
+          >
+            Prev
+          </button>
           {Array.from({ length: totalPages }, (_, i) => (
             <button
               key={i + 1}
@@ -263,12 +330,14 @@ export default function Issue_Return() {
               {i + 1}
             </button>
           ))}
-          <button disabled={currentPage === totalPages} onClick={() => setCurrentPage((p) => p + 1)}>Next</button>
+          <button
+            disabled={currentPage === totalPages}
+            onClick={() => setCurrentPage((p) => p + 1)}
+          >
+            Next
+          </button>
         </div>
       </div>
     </div>
   );
 }
-
-
-
