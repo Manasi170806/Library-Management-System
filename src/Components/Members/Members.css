@@ -22,12 +22,14 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .members-card__header h2 {
   font-size: 24px;
   font-weight: 600;
   color: #333;
+  background-color: white;
 }
 
 .pill {
@@ -45,6 +47,7 @@
 .add-members {
   margin-bottom: 15px;
   margin-left: 87%;
+  background-color: white;
 }
 
 .btn-add {

@@ -43,10 +43,10 @@ const MemberDescription = () => {
       </div>
 
       <div className="member-details">
-        <p><strong>Email:</strong> {member.email}</p>
-        <p><strong>Phone:</strong> {member.phone}</p>
-        <p><strong>Joined:</strong> {member.joined}</p>
-        <p><strong>Last Active:</strong> {member.lastActive}</p>
+        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Email:</strong> {member.email}</p>
+        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Phone:</strong> {member.phone}</p>
+        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Joined:</strong> {member.joined}</p>
+        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Last Active:</strong> {member.lastActive}</p>
       </div>
 
     

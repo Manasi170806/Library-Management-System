@@ -1,138 +1,6 @@
 {
   "books": [
     {
-      "id": "1",
-      "title": "Frankenstein",
-      "author": "Mary Shelley",
-      "isAvailable": true,
-      "isbn": [
-        "100001",
-        "100002",
-        "100003",
-        "100004",
-        "100005"
-      ],
-      "rent": 8,
-      "genre": "Gothic Fiction",
-      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146177/frankenstein-9781982146177_hr.jpg"
-    },
-    {
-      "id": "2",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "isAvailable": true,
-      "isbn": [
-        "100006",
-        "100007",
-        "100008",
-        "100009",
-        "100010",
-        "100011"
-      ],
-      "rent": 6,
-      "genre": "Romance",
-      "cover": "https://m.media-amazon.com/images/I/81Scutrtj4L._UF1000,1000_QL80_.jpg"
-    },
-    {
-      "id": "3",
-      "title": "1984",
-      "author": "George Orwell",
-      "isAvailable": false,
-      "isbn": [
-        "100012",
-        "100013",
-        "100014",
-        "100015",
-        "100016"
-      ],
-      "rent": 7,
-      "genre": "Dystopian",
-      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327144697i/3744438.jpg"
-    },
-    {
-      "id": "4",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "isAvailable": true,
-      "isbn": [
-        "100017",
-        "100018",
-        "100019",
-        "100020",
-        "100021",
-        "100022"
-      ],
-      "rent": 5,
-      "genre": "Southern Gothic",
-      "cover": "https://m.media-amazon.com/images/I/91HTy0hJmvL._UF1000,1000_QL80_.jpg"
-    },
-    {
-      "id": "5",
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "isAvailable": true,
-      "isbn": [
-        "100023",
-        "100024",
-        "100025",
-        "100026",
-        "100027"
-      ],
-      "rent": 6,
-      "genre": "Tragedy",
-      "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
-    },
-    {
-      "id": "6",
-      "title": "Moby Dick",
-      "author": "Herman Melville",
-      "isAvailable": false,
-      "isbn": [
-        "100028",
-        "100029",
-        "100030",
-        "100031",
-        "100032",
-        "100033"
-      ],
-      "rent": 9,
-      "genre": "Adventure",
-      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg"
-    },
-    {
-      "id": "7",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "isAvailable": true,
-      "isbn": [
-        "100034",
-        "100035",
-        "100036",
-        "100037",
-        "100038"
-      ],
-      "rent": 10,
-      "genre": "Historical Fiction",
-      "cover": "https://m.media-amazon.com/images/I/71lPZpwz0HL._UF1000,1000_QL80_.jpg"
-    },
-    {
-      "id": "8",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "isAvailable": true,
-      "isbn": [
-        "100039",
-        "100040",
-        "100041",
-        "100042",
-        "100043",
-        "100044"
-      ],
-      "rent": 8,
-      "genre": "Psychological Fiction",
-      "cover": "https://m.media-amazon.com/images/I/71O2XIytdqL.jpg"
-    },
-    {
       "id": "9",
       "title": "The Odyssey",
       "author": "Homer",
@@ -144,7 +12,7 @@
         "100048",
         "100049"
       ],
-      "rent": 7,
+      "rent": "5",
       "genre": "Epic Poetry",
       "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg",
       "description": "The Odyssey by Homer is a foundational epic poem of ancient Greece. It tells the story of Odysseus, who struggles for years to return home after the Trojan War. Facing gods, monsters, and perilous adventures, Odysseus must rely on wit, courage, and resilience. Meanwhile, his wife Penelope and son Telemachus await his return. The poem explores loyalty, perseverance, and the power of destiny. Rich with mythology and timeless themes, it remains one of literature’s greatest heroic journeys."
