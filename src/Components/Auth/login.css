@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 3.5%;
 }
 
 .login-container {
@@ -75,6 +76,7 @@
   border-radius: 5px;
   background-color: white;
   margin: 2rem auto 0;
+  margin-top: 5px;
 }
 
 .google-btn:hover {
@@ -90,6 +92,7 @@
   padding: 40px 0;
   background-color: white;
   font-size: 15px;
+  font-family: "Albert Sans", sans-serif;
 }
 
 .login-w-email span::before,
@@ -169,6 +172,9 @@
   object-fit: contain;
   border-radius: 10px;
   background-color: white;
+}
+label{
+  background-color: #ffffff;
 }
 
 /* Log-out */

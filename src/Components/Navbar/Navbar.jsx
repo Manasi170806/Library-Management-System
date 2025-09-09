@@ -5,6 +5,7 @@ import { PiBooksLight } from "react-icons/pi";
 import { TiGroup } from "react-icons/ti";
 import { FiLogIn } from "react-icons/fi";
 import { GiBookshelf } from "react-icons/gi";
+import { LuCircleDollarSign } from "react-icons/lu";
 import "./Navbar.css";
 
 const NavLinkData = [
@@ -12,7 +13,7 @@ const NavLinkData = [
   { id: 2, path: "/books", icon: <PiBooksLight />, text: "books" },
   { id: 3, path: "/members", icon: <TiGroup />, text: "members" },
   { id: 4, path: "/Issue_Return", icon: <GiBookshelf />, text: "Issue/Return" },
-  { id: 5, path: "/fines", icon: <GiBookshelf />, text: "Fines" },
+  { id: 5, path: "/fines", icon: <LuCircleDollarSign />, text: "Fines" },
   { id: 6, path: "/logIn", icon: <FiLogIn />, text: "LogIn" },
 ];
 

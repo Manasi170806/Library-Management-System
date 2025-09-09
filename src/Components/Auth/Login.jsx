@@ -82,8 +82,7 @@ function Login() {
 
             <div className="login-methods">
               <button className="google-btn" onClick={handleSignInWithGoogle}>
-                <FcGoogle style={{ fontSize: "20px" }} />
-                Continue with Google
+                <FcGoogle style={{ fontSize: "20px" , marginRight: "8px",marginTop: "5px"}} /> Continue with Google
               </button>
             </div>
 
