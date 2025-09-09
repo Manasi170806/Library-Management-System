@@ -142,28 +142,29 @@
 .btn-del {
   padding: 6px 10px;
   border-radius: 6px;
+  /* font-size: 19px; */
   border: none;
   cursor: pointer;
   transition: 0.2s;
 }
 
-/* .btn-view {
-  background: #4cafef;
-  color: white;
+.btn-view {
+  /* background: #4cafef; */
+  color: rgb(13, 13, 13);
 }
 
 .btn-view:hover {
-  background: #3a96d8;
+  /* background: #3a96d8; */
 }
 
 .btn-del {
-  background: #f44336;
-  color: white;
+  /* background: #f44336; */
+  color: rgb(12, 11, 11);
 }
 
 .btn-del:hover {
-  background: #d9362a;
-} */
+  /* background: #d9362a; */
+}
 
 /* Pagination */
 .pagination {
@@ -177,7 +178,7 @@
   padding: 8px 14px;
   border-radius: 6px;
   border: none;
-  background: #eee;
+  background: #4a8cde;
   cursor: pointer;
   font-weight: 500;
   transition: 0.2s;

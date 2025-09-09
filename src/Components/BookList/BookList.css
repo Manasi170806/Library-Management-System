@@ -89,7 +89,7 @@
   box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
 }
 .search ::placeholder {
-  color: #aaa;
+    color: #aaa;
 }
 /* 🔹 Table */
 .table-responsive {
@@ -131,7 +131,7 @@
 
 /* 🔹 Status */
 .status-green {
-  /* color: #2ecc71; */
+  color: #2ecc71;
   font-weight: 600;
 }
 
@@ -157,11 +157,11 @@
 .btn-view,
 .btn-edit,
 .btn-del {
-  padding: 6px 10px;
+  padding: 6px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 19px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,31 +169,31 @@
 }
 
 /* 👁 View */
-/* .btn-view {
-  background: #007bff;
-  color: white;
+.btn-view {
+  background: #ffffff;
+  color: rgb(57, 121, 199);
 }
 .btn-view:hover {
-  background: #0056b3;
-} */
+  background: #ffffff;
+}
 
 /* ✏ Edit */
-/* .btn-edit {
-  background: #ffc107;
-  color: white;
+.btn-edit {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 .btn-edit:hover {
-  background: #e0a800;
-} */
+  background: #ffffff;
+}
 
 /* 🗑 Delete */
-/* .btn-del {
-  background: #e74c3c;
-  color: white;
+.btn-del {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 .btn-del:hover {
-  background: #c0392b;
-} */
+  background: #f1f1f1;
+}
 
 /* 🔹 Pagination */
 .pagination {

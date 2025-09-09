@@ -156,7 +156,7 @@ const MemberList = () => {
 
                       <td>
                         <div className="view-delete-buttons">
-                          {/* 👁️ View Button */}
+                          {/*  View Button */}
                           <Link to={`/member/${m.id}`}>
                             <button className="btn-view">
                               <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
