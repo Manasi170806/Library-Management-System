@@ -8,12 +8,13 @@
 
 /* Card container */
 .members-card {
-  background: #fff;
+  background-color: white;
   border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  max-width: 1200px;
-  margin: 30px auto;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;             
+  margin: 20px 0;
+  /* background-color: rgb(255, 255, 255); */
 }
 
 /* Header */
@@ -21,79 +22,105 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  width: 100%;    
+  background-color: white;          
 }
 
 .members-card__header h2 {
   font-size: 24px;
   font-weight: 600;
-  color: #333;
+  color: #2c3e50;
+  background-color: white;
 }
 
+/* Pill (Members count) */
 .pill {
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 50px;
   font-size: 14px;
-}
-
-.pill--muted {
   background: #f0f0f0;
   color: #555;
+  font-weight: 500;
+}
+
+/* Controls row (Search + Filter + Add Button) */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+  width: 100%;              /* 🔹 Full width */
+}
+
+/* Search bar */
+.search-members {
+  flex: 1;                  
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.search-members input {
+  width: 100%;              /* 🔹 Full width */
+  padding: 10px 10px 12px 35px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  width: 50%;
+  transition: 0.2s;
+  background-color: rgb(255, 255, 255);
+}
+
+.search-members input:focus {
+  outline: none;
+  border-color: #4cafef;
+  box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
+}
+
+/* Filter dropdown */
+.filter-dropdown {
+  padding: 9px 12px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-dropdown:hover {
+  border-color: #4cafef;
 }
 
 /* Add Member button */
-.add-members {
-  margin-bottom: 15px;
-  margin-left: 87%;
-}
-
 .btn-add {
   padding: 10px 18px;
   border: none;
   border-radius: 8px;
   background: #4cafef;
+  color: #fff;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
+  white-space: nowrap;
 }
 
 .btn-add:hover {
   background: #3a96d8;
-}
-
-/* Search bar */
-.search {
-  position: relative;
-  margin-bottom: 20px;
-  margin-top: -5%;
-}
-
-.search input {
-  width: 100%;
-  padding: 10px 10px 12px 35px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 15px;
-  transition: 0.2s;
-}
-
-.search input:focus {
-  outline: none;
-  border-color: #4cafef;
-  box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
-}
-.search ::placeholder {
-    color: #aaa;
+  transform: translateY(-1px);
 }
 
 /* Table */
 .table-responsive {
   overflow-x: auto;
+  width: 100%;
 }
 
 .members-table {
-  width: 100%;
+  width: 100%;              /* 🔹 Full width */
   border-collapse: collapse;
   margin-bottom: 20px;
 }
@@ -111,13 +138,14 @@
 }
 
 .members-table th {
-  color: #555;
+  color: #444;
   font-weight: 600;
+  font-size: 15px;
 }
 
 .members-table tbody tr:hover {
   background: #f9f9f9;
-  transition: 0.2s;
+  transition: background 0.2s;
 }
 
 .members-table img {
@@ -130,40 +158,49 @@
   text-align: center;
   padding: 20px;
   color: #888;
+  font-size: 15px;
 }
 
-/* Buttons (View + Delete) */
+/* View + Delete Buttons */
 .view-delete-buttons {
   display: flex;
   gap: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-view,
 .btn-del {
-  padding: 6px 10px;
-  border-radius: 6px;
-  /* font-size: 19px; */
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
-  transition: 0.2s;
+  font-size: 18px;
+  background: #ffffff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+/* 👁 View Button */
 .btn-view {
-  /* background: #4cafef; */
-  color: rgb(13, 13, 13);
+  color: #3979c7;
 }
-
 .btn-view:hover {
-  /* background: #3a96d8; */
+  background: rgba(57, 121, 199, 0.1);
+  transform: scale(1.08);
 }
 
+/* 🗑 Delete Button */
 .btn-del {
-  /* background: #f44336; */
-  color: rgb(12, 11, 11);
+  color: #d9534f;
 }
-
 .btn-del:hover {
-  /* background: #d9362a; */
+  background: rgba(217, 83, 79, 0.12);
+  transform: scale(1.08);
 }
 
 /* Pagination */
@@ -172,6 +209,7 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+  width: 100%;
 }
 
 .pagination .btn {
@@ -179,9 +217,14 @@
   border-radius: 6px;
   border: none;
   background: #4a8cde;
+  color: #fff;
   cursor: pointer;
   font-weight: 500;
   transition: 0.2s;
+}
+
+.pagination .btn:hover:not(:disabled) {
+  background: #3a78c1;
 }
 
 .pagination span {
@@ -195,33 +238,13 @@
   cursor: not-allowed;
 }
 
-/* Skeleton + Error */
-.skeleton {
-  text-align: center;
-  padding: 20px;
-  color: #777;
-}
-
-.error {
-  text-align: center;
-  color: red;
-  font-weight: 600;
-  margin: 10px 0;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
-  .members-card {
-    padding: 15px;
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
   }
-
-  .members-card__header h2 {
-    font-size: 20px;
-  }
-
-  .members-table th,
-  .members-table td {
-    padding: 10px;
-    font-size: 13px;
+  .btn-add {
+    width: 100%;
   }
 }

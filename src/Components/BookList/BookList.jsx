@@ -64,7 +64,7 @@ function BookList() {
           marginTop: "20px",
           boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
           borderRadius: "8px",
-          backgroundColor: "#fff",
+          backgroundColor: "#ffffffff",
         }}
       >
         <div className="books-card__header">
@@ -80,7 +80,7 @@ function BookList() {
         </div>
 
         {/* Search Bar */}
-        <div className="search">
+        <div className="search-books">
           <input
             type="text"
             placeholder="Search books..."
@@ -127,9 +127,9 @@ function BookList() {
                     <td>{book.genre}</td>
                     <td>
                       {book.isAvailable ? (
-                        <span className="status-green">Available</span>
+                        <span className="status-green" style={{ backgroundColor: "#F0F0F0" }}>Available</span>
                       ) : (
-                        <span className="status-red">Not Available</span>
+                        <span className="status-red" style={{ backgroundColor: "#F0F0F0" }} >Not Available</span>
                       )}
                     </td>
                     <td>

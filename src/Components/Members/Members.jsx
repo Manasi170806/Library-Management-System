@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { MdDelete } from "react-icons/md";
-import { IoIosSearch } from "react-icons/io";
+// import { IoIosSearch } from "react-icons/io";
 import { MdOutlineRemoveRedEye } from "react-icons/md"; 
 
 import {
@@ -19,6 +19,7 @@ const MemberList = () => {
   const error = useSelector((s) => s.members.error);
 
   const [search, setSearch] = useState("");
+  const [filter, setFilter] = useState("All"); // 🔹 membership filter state
   const [filteredMembers, setFilteredMembers] = useState([]);
   const [page, setPage] = useState(1);
   const membersPerPage = 10;
@@ -28,14 +29,15 @@ const MemberList = () => {
     dispatch(fetchMembers());
   }, [dispatch]);
 
-  // Filter search results whenever members or search changes
+  // Filter search + membership whenever search/filter/members change
   useEffect(() => {
+    let result = members;
+
     const query = search.trim().toLowerCase();
 
-    if (query === "") {
-      setFilteredMembers(members);
-    } else {
-      const result = members.filter((m) => {
+    // 🔍 Search
+    if (query !== "") {
+      result = result.filter((m) => {
         const name = m.name?.toLowerCase() || "";
         const email = m.email?.toLowerCase() || "";
         const phone = m.phone?.toLowerCase() || "";
@@ -48,13 +50,18 @@ const MemberList = () => {
           membership.includes(query)
         );
       });
-      setFilteredMembers(result);
     }
 
-    setPage(1); // reset to first page on search change
-  }, [search, members]);
+    // 🎯 Membership Filter
+    if (filter !== "All") {
+      result = result.filter((m) => m.membershipType === filter);
+    }
 
-  // Delete handler with immediate UI update
+    setFilteredMembers(result);
+    setPage(1); // reset to page 1 on filter/search
+  }, [search, filter, members]);
+
+  // Delete handler
   const handleDelete = (id) => {
     dispatch(deleteMember(id.toString()));
     setFilteredMembers((prev) => prev.filter((m) => m.id !== id));
@@ -67,7 +74,7 @@ const MemberList = () => {
   const totalPages = Math.ceil(filteredMembers.length / membersPerPage);
 
   return (
-    <div className="members-card">
+    <div className="members-card" style={{backgroundColor:"white" ,width:"100%"}}>
       <div className="members-card__header">
         <h2>👥 Library Members</h2>
         <span className="pill pill--muted">
@@ -75,34 +82,47 @@ const MemberList = () => {
         </span>
       </div>
 
-      {/* Add Member */}
-      <div className="add-members">
+      {/* Top Controls */}
+      <div className="controls">
+        {/* Search Bar */}
+        <div className="search-members">
+          <input
+            type="text"
+            placeholder="Search members..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+          {/* <span
+            className="search-icon"
+            style={{
+              position: "absolute",
+              left: "9px",
+              top: "52%",
+              transform: "translateY(-50%)",
+              fontSize: "22px",
+              color: "#000000ff",
+            }}
+          >
+            <IoIosSearch />
+          </span> */}
+        </div>
+
+        {/* 🔹 Membership Filter */}
+        <select
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+          className="filter-dropdown"
+        >
+          <option value="All">All</option>
+          <option value="Public">Public</option>
+          <option value="Faculty">Faculty</option>
+          <option value="Student">Student</option>
+        </select>
+
+        {/* Add Member */}
         <Link to="/AddMembers">
           <button className="btn-add">Add Member</button>
         </Link>
-      </div>
-
-      {/* Search Bar */}
-      <div className="search">
-        <input
-          type="text"
-          placeholder="Search members..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-        <span
-          className="search-icon"
-          style={{
-            position: "absolute",
-            left: "8px",
-            top: "50%",
-            transform: "translateY(-50%)",
-            fontSize: "22px",
-            color: "#676565",
-          }}
-        >
-          <IoIosSearch />
-        </span>
       </div>
 
       {status === "loading" && <div className="skeleton">Loading members…</div>}
@@ -124,7 +144,7 @@ const MemberList = () => {
                   <th>Status</th>
                   <th>Joined</th>
                   <th>Last Active</th>
-                  <th>Actions</th> {/* 👈 Actions column */}
+                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -156,14 +176,12 @@ const MemberList = () => {
 
                       <td>
                         <div className="view-delete-buttons">
-                          {/*  View Button */}
                           <Link to={`/member/${m.id}`}>
                             <button className="btn-view">
                               <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
                             </button>
                           </Link>
 
-                          {/* 🗑️ Delete Button */}
                           <button
                             className="btn-del"
                             onClick={() => handleDelete(m.id)}
