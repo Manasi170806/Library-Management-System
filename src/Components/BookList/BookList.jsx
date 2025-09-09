@@ -146,7 +146,7 @@ function BookList() {
                         <Link to={`/description/${book.id}`}>
                           <button className="btn-view">
                             <MdOutlineRemoveRedEye
-                              style={{ fontSize: "18px" }}
+                              style={{ fontSize: "18px"}}
                             />
                           </button>
                         </Link>
