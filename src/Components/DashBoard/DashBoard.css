@@ -16,7 +16,7 @@
 }
 
 .overview-section {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   flex: 1 1 200px;
   min-width: 200px;
   padding: 25px;
@@ -35,12 +35,14 @@
   font-size: 32px;
   margin: 0;
   color: #2c3e50;
+  background-color: #FFFFFF;
 }
 
 .overview-section p {
   margin: 8px 0 0 0;
   font-size: 16px;
   color: #7f8c8d;
+  background-color: #FFFFFF;
 }
 
 /* Popular Books Section */
@@ -95,12 +97,14 @@
   font-size: 18px;
   margin: 0;
   color: #2c3e50;
+  background-color: #FFFFFF;
 }
 
 .book-card p {
   margin-top: 5px;
   color: #7f8c8d;
   font-size: 14px;
+  background-color: #FFFFFF;
 }
 
 /* Responsive Adjustments */
