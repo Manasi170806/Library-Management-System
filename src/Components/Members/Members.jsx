@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { MdDelete } from "react-icons/md";
 // import { IoIosSearch } from "react-icons/io";
-import { MdOutlineRemoveRedEye } from "react-icons/md"; 
+import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 import {
   selectMembers,
@@ -74,7 +74,7 @@ const MemberList = () => {
   const totalPages = Math.ceil(filteredMembers.length / membersPerPage);
 
   return (
-    <div className="members-card" style={{backgroundColor:"white" ,width:"100%"}}>
+    <div className="members-card">
       <div className="members-card__header">
         <h2>👥 Library Members</h2>
         <span className="pill pill--muted">
@@ -178,7 +178,9 @@ const MemberList = () => {
                         <div className="view-delete-buttons">
                           <Link to={`/member/${m.id}`}>
                             <button className="btn-view">
-                              <MdOutlineRemoveRedEye style={{ fontSize: "18px" }} />
+                              <MdOutlineRemoveRedEye
+                                style={{ fontSize: "18px" }}
+                              />
                             </button>
                           </Link>
 

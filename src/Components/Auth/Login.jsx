@@ -93,7 +93,7 @@ function Login() {
                   style={{
                     fontSize: "20px",
                     marginRight: "8px",
-                    marginTop: "5px",
+                    marginTop: "2px",
                   }}
                 />
                 Continue with Google

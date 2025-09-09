@@ -1,98 +1,84 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Main container */
 .main-logIn {
-  height: auto;
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-left: 3.5%;
 }
 
 .login-container {
-  height: auto;
   width: 96%;
   margin: 2rem auto;
-  background-color: white;
-  border-radius: 10px;
   display: flex;
+  background-color: #fff;
+  border-radius: 10px;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Left side: login info */
 .info-login {
-  background-color: white;
-  height: auto;
   width: 50%;
   padding: 4rem 3rem;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.login-headings {
-  margin: 15px 0;
+  border-radius: 10px 0 0 10px;
+  background-color: #fff;
 }
 
 .login-headings h2 {
   font-family: "Albert Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-size: 30px;
-  font-style: normal;
-  background-color: white;
 }
 
 .login-headings p {
-  color: grey;
   font-family: "Albert Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-size: 14px;
-  font-style: normal;
-  padding: 8px 15px;
-  background-color: white;
+  color: grey;
 }
 
 .login-w-email {
   display: flex;
   flex-direction: column;
-  background-color: white !important;
 }
 
 .login-methods {
-  padding: 10px 0;
   display: flex;
   gap: 20px;
-  background-color: white;
   margin: 10px 0;
 }
 
-.login-methods .google-btn {
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding: 10px 40px;
   border: 1px solid grey;
   border-radius: 5px;
-  background-color: white;
-  margin: 2rem auto 0;
-  margin-top: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 20px auto;
+  transition: 0.2s ease;
 }
 
 .google-btn:hover {
-  background: #ffffff;
   box-shadow: 2px 2px 10px #8caeff5e;
 }
 
+/* OR separator */
 .login-w-email span {
   display: flex;
   align-items: center;
   text-align: center;
   color: #666;
-  padding: 40px 0;
-  background-color: white;
   font-size: 15px;
-  font-family: "Albert Sans", sans-serif;
+  margin: 20px 0;
 }
 
 .login-w-email span::before,
@@ -110,29 +96,27 @@
   margin-left: 10px;
 }
 
+/* Input & button */
 .login-w-email input {
-  height: 40px;
   width: 90%;
-  margin: 14px auto;
+  height: 40px;
+  margin: 14px 20px;
   border-radius: 10px;
   border: 1px solid grey;
   padding: 10px;
-  outline: 0;
-  letter-spacing: 0.5px;
-  display: flex;
-  background-color: white;
+  outline: none;
 }
 
 .login-w-email .login-Btn {
-  height: 40px;
   width: 90%;
-  margin: 2rem auto;
+  height: 40px;
+  margin: 2rem 20px;
   border-radius: 20px;
   border: 1.5px solid blue;
   background-color: blue;
-  cursor: pointer;
   color: white;
   font-size: 16px;
+  cursor: pointer;
   transition: 0.2s ease;
 }
 
@@ -141,76 +125,46 @@
   color: blue;
 }
 
-.login-w-email p {
-  font-family: "Albert Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  margin: 20px 20px;
-  background-color: white;
-}
-
-/* right side */
+/* Right side: image */
 .login-image {
-  height: auto;
   width: 50%;
-  background-color: white;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.login-image-cont {
-  height: 100%;
-  width: 100%;
-  background-color: white;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
 }
 
 .login-image-cont img {
-  height: 100%;
   width: 100%;
-  object-fit: contain;
-  border-radius: 10px;
-  background-color: white;
-}
-label {
-  background-color: #ffffff;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Log-out */
-
 .log-Out {
-  margin: 20px;
-  text-align: center;
+  margin: 20px auto;
   width: 50%;
+  text-align: center;
   align-content: center;
-  background-color: white;
 }
 
 .log-Out h3 {
-  color: #405684;
   font-family: "Albert Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
-  font-size: 28px;
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #3362cc;
 }
 
 .log-Out button {
-  height: 40px;
   width: 70%;
-  margin: 20px auto;
+  height: 40px;
   border-radius: 20px;
   border: 1.5px solid blue;
   background-color: blue;
-  cursor: pointer;
   color: white;
+  cursor: pointer;
   font-size: 16px;
-  transition: 0.2s ease;
+  transition: 0.5s ease;
+  margin-top: 20px;
 }
 
 .log-Out button:hover {
@@ -218,8 +172,10 @@ label {
   color: blue;
 }
 
-/* 📱 Small screens (320px - 480px) */
-@media (min-width: 320px) and (max-width: 480px) {
+/* Responsive */
+
+/* Small screens: 320px - 480px */
+@media (max-width: 480px) {
   .login-container {
     flex-direction: column;
   }
@@ -240,29 +196,26 @@ label {
   }
 
   .login-headings h2 {
-    font-size: 22px; /* smaller text */
+    font-size: 22px;
   }
 
   .login-w-email input,
   .login-w-email .login-Btn {
-    width: 100%; /* full width buttons */
-  }
-  .log-Out {
-    margin: 20px auto;
     width: 100%;
-    max-width: 400px; /* keeps it neat */
-    text-align: center;
+  }
+
+  .log-Out {
+    width: 100%;
+    max-width: 400px;
   }
 
   .log-Out button {
     width: 100%;
     max-width: 250px;
-    display: block;
-    margin: 20px auto;
   }
 }
 
-/* 📱 Tablets / Medium screens (481px - 768px) */
+/* Tablets: 481px - 768px */
 @media (min-width: 481px) and (max-width: 768px) {
   .login-container {
     flex-direction: column;
@@ -277,19 +230,6 @@ label {
     order: 2;
     margin: 0.5rem auto;
     height: 300px;
-    object-fit: cover;
-  }
-
-  .login-image-cont {
-    height: 100%;
-    width: 100%;
-  }
-
-  .login-image-cont img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    border-radius: 10px;
   }
 
   .info-login {
@@ -307,16 +247,12 @@ label {
   }
 
   .log-Out {
-    margin: 20px auto;
     width: 100%;
-    max-width: 400px; /* keeps it neat */
-    text-align: center;
+    max-width: 400px;
   }
 
   .log-Out button {
     width: 100%;
     max-width: 250px;
-    display: block;
-    margin: 20px auto;
   }
 }
