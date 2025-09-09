@@ -7,14 +7,14 @@
 }
 
 /* Card container */
+
 .members-card {
   background-color: white;
   border-radius: 16px;
   padding: 24px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  width: 100%;             
-  margin: 20px 0;
-  /* background-color: rgb(255, 255, 255); */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  width: 96%;
 }
 
 /* Header */
@@ -23,10 +23,14 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 18px;
+<<<<<<< HEAD
   width: 100%;    
   background-color: white;          
   margin-bottom: 20px;
   background-color: white;
+=======
+  width: 100%;
+>>>>>>> cb055fadb0bd233f5c86e6c4b92e1f45daa2afd9
 }
 
 .members-card__header h2 {
@@ -54,18 +58,18 @@
   gap: 12px;
   margin-bottom: 18px;
   flex-wrap: wrap;
-  width: 100%;              /* 🔹 Full width */
+  width: 100%; /* 🔹 Full width */
 }
 
 /* Search bar */
 .search-members {
-  flex: 1;                  
+  flex: 1;
   position: relative;
   background-color: rgb(255, 255, 255);
 }
 
 .search-members input {
-  width: 100%;              /* 🔹 Full width */
+  width: 100%; /* 🔹 Full width */
   padding: 10px 10px 12px 35px;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -127,7 +131,7 @@
 }
 
 .members-table {
-  width: 100%;              /* 🔹 Full width */
+  width: 100%; /* 🔹 Full width */
   border-collapse: collapse;
   margin-bottom: 20px;
 }

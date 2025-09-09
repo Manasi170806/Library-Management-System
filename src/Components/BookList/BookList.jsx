@@ -127,9 +127,19 @@ function BookList() {
                     <td>{book.genre}</td>
                     <td>
                       {book.isAvailable ? (
-                        <span className="status-green" style={{ backgroundColor: "#F0F0F0" }}>Available</span>
+                        <span
+                          className="status-green"
+                          style={{ backgroundColor: "#F0F0F0" }}
+                        >
+                          Available
+                        </span>
                       ) : (
-                        <span className="status-red" style={{ backgroundColor: "#F0F0F0" }} >Not Available</span>
+                        <span
+                          className="status-red"
+                          style={{ backgroundColor: "#F0F0F0" }}
+                        >
+                          Not Available
+                        </span>
                       )}
                     </td>
                     <td>
@@ -146,7 +156,7 @@ function BookList() {
                         <Link to={`/description/${book.id}`}>
                           <button className="btn-view">
                             <MdOutlineRemoveRedEye
-                              style={{ fontSize: "18px"}}
+                              style={{ fontSize: "18px" }}
                             />
                           </button>
                         </Link>

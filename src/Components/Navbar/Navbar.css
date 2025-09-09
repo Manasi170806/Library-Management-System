@@ -8,8 +8,7 @@
 
 .main-container {
   height: 100vh;
-  width: 96%;
-  background-color: #ffffff;
+  width: 100%;
   display: flex;
 }
 

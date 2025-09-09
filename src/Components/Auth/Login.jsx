@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../Auth/login.css";
-import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import {
   getAuth,
@@ -15,19 +14,29 @@ import { app } from "../firebase/firebase";
 const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 
+const ADMIN_EMAIL = "8438tanvipatel@gmail.com"; //password:8438tanvipatel
+
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [user, setuser] = useState(null);
-  const [loading, setloading] = useState(true);
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Adds an observer for changes to the user's sign-in state.
     const authChange = onAuthStateChanged(auth, (currentUser) => {
-      setuser(currentUser);
-      setloading(false);
+      if (currentUser && currentUser.email === ADMIN_EMAIL) {
+        setUser(currentUser);
+      } else {
+        if (currentUser) {
+          alert("You are not authorized to access this app.");
+          signOut(auth);
+        }
+        setUser(null);
+      }
+      setLoading(false);
     });
-    return () => authChange;
+
+    return () => authChange();
   }, []);
 
   if (loading) {
@@ -47,32 +56,30 @@ function Login() {
 
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
-      .then(() => alert("user login successful !!"))
-      .catch((err) => alert("user login failed ! " + err));
+      .then(() => alert("Login successful"))
+      .catch((err) => alert("Login failed: " + err));
   };
 
   const handleSignOut = () => {
     signOut(auth)
-      .then(() => {
-        alert("Sign-out successful");
-      })
-      .catch((error) => {
-        alert("An error happened." + error);
-      });
+      .then(() => alert("Sign-out successful"))
+      .catch((error) => alert("Error: " + error));
   };
 
   const handleSignInWithGoogle = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
-        console.log(result.user.displayName);
+        if (result.user.email !== ADMIN_EMAIL) {
+          alert("Only admin can login with Google.");
+          signOut(auth);
+        }
       })
-      .catch((err) => console.log("sign in failed " + err));
+      .catch((err) => console.log("Google sign in failed: " + err));
   };
 
   return (
     <div className="main-logIn">
       <div className="login-container">
-        {/* input fields for log in */}
         {!user ? (
           <div className="info-login">
             <div className="login-headings">
@@ -82,7 +89,14 @@ function Login() {
 
             <div className="login-methods">
               <button className="google-btn" onClick={handleSignInWithGoogle}>
-                <FcGoogle style={{ fontSize: "20px" , marginRight: "8px",marginTop: "5px"}} /> Continue with Google
+                <FcGoogle
+                  style={{
+                    fontSize: "20px",
+                    marginRight: "8px",
+                    marginTop: "2px",
+                  }}
+                />
+                Continue with Google
               </button>
             </div>
 
@@ -112,7 +126,7 @@ function Login() {
         ) : (
           <div className="log-Out">
             <h3>
-              Welcome!
+              Welcome Admin!
               <p
                 style={{
                   fontSize: "18px",
@@ -128,10 +142,9 @@ function Login() {
           </div>
         )}
 
-        {/* side image related to login */}
         <div className="login-image">
           <div className="login-image-cont">
-            <img src="src/assets/login-bg/login.jpg" alt="" />
+            <img src="src/assets/login-bg/login.jpg" alt="login-bg" />
           </div>
         </div>
       </div>

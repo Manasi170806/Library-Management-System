@@ -6,7 +6,6 @@ import {
   selectBooks,
   selectIssued,
   selectReserved,
-  selectFines,
   fetchBooks,
   issuedBooks,
   reservedBooks,
@@ -18,18 +17,15 @@ function DashBoard() {
   const books = useSelector(selectBooks);
   const issued = useSelector(selectIssued);
   const reserved = useSelector(selectReserved);
-  const bookFines = useSelector(selectFines);
-
-  const pendingFinesOfBook =
-    bookFines?.filter((fine) => fine.paymentStatus === "Unpaid")?.length || 0;
 
   const popularBooks = books?.filter((book) => book.isPopular);
+  const availableBooks = books?.filter((book) => book.isAvailable)?.length || 0;
 
   const overView = [
     { name: "Total Books", value: books.length },
+    { name: " Available Books", value: availableBooks },
     { name: "Issued Books", value: issued.length },
     { name: "Reserved Books", value: reserved.length },
-    { name: "Pending Fines", value: pendingFinesOfBook },
   ];
   // console.log({ books, issued, reserved, bookFines  // To check whether count is fetch or not});
 

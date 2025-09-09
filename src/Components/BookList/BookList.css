@@ -21,7 +21,6 @@
   filter: blur(2px);
   pointer-events: none;
   user-select: none;
-  
 }
 
 /* 🔹 Header */
@@ -79,7 +78,10 @@
   margin-top: -5%;
   background-color: rgb(255, 255, 255);
   width: 60%;
+<<<<<<< HEAD
   background-color: white;
+=======
+>>>>>>> cb055fadb0bd233f5c86e6c4b92e1f45daa2afd9
 }
 
 .search-books input {
@@ -98,7 +100,7 @@
   box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
 }
 .search-books ::placeholder {
-    color: #aaa;
+  color: #aaa;
 }
 /* 🔹 Table */
 .table-responsive {
@@ -209,8 +211,6 @@
   gap: 10px;
   justify-content: center;
 }
-
-
 
 /* 🔹 Pagination */
 .pagination {

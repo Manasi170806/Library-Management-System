@@ -74,6 +74,7 @@ const MemberDescription = () => {
           onClose={() => setSelectedMember(null)}
         />
       )}
+<<<<<<< HEAD
     
       <div className="member-details">
         <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Email:</strong> {member.email}</p>
@@ -84,6 +85,8 @@ const MemberDescription = () => {
 
     
     
+=======
+>>>>>>> cb055fadb0bd233f5c86e6c4b92e1f45daa2afd9
     </>
   );
 };
