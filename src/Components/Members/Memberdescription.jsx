@@ -67,7 +67,6 @@ const MemberDescription = () => {
         </div>
       </div>
 
-<<<<<<< HEAD
       {/* Modal */}
       {selectedMember && (
         <EditMemberModal
@@ -75,8 +74,7 @@ const MemberDescription = () => {
           onClose={() => setSelectedMember(null)}
         />
       )}
-    </>
-=======
+    
       <div className="member-details">
         <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Email:</strong> {member.email}</p>
         <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Phone:</strong> {member.phone}</p>
@@ -85,8 +83,8 @@ const MemberDescription = () => {
       </div>
 
     
-    </div>
->>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
+    
+    </>
   );
 };
 
