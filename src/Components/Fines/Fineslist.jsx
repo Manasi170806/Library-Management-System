@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchFines, markPaid } from "../../features/finesSlice.js";
+import { fetchFines, markPaid } from "../../features/finesSlice";
 import "./Fines.css";
 
 function FinesList() {
@@ -8,6 +8,7 @@ function FinesList() {
   const { items: fines, status, error } = useSelector((state) => state.fines);
   const [search, setSearch] = useState("");
   const [sortAsc, setSortAsc] = useState(true);
+  const [selectedMember, setSelectedMember] = useState(null);
 
   useEffect(() => {
     if (status === "idle") {
@@ -30,6 +31,10 @@ function FinesList() {
         ? new Date(a.dueDate) - new Date(b.dueDate)
         : new Date(b.dueDate) - new Date(a.dueDate)
     );
+
+  const memberHistory = selectedMember
+    ? fines.filter((f) => f.memberId === selectedMember)
+    : [];
 
   return (
     <div className="card">
@@ -81,9 +86,13 @@ function FinesList() {
                 </span>
               </td>
               <td>
-                {f.paymentStatus === "Unpaid" && (
+                {f.paymentStatus === "Unpaid" ? (
                   <button onClick={() => dispatch(markPaid(f.id))}>
                     Mark Paid
+                  </button>
+                ) : (
+                  <button onClick={() => setSelectedMember(f.memberId)}>
+                    View History
                   </button>
                 )}
               </td>
@@ -91,6 +100,20 @@ function FinesList() {
           ))}
         </tbody>
       </table>
+
+      {selectedMember && (
+        <div className="history">
+          <h3>Fine History for Member {selectedMember}</h3>
+          <ul>
+            {memberHistory.map((h) => (
+              <li key={h.id}>
+                Book {h.bookId} → Fine: ₹{h.fineAmount} ({h.paymentStatus})
+              </li>
+            ))}
+          </ul>
+          <button onClick={() => setSelectedMember(null)}>Close</button>
+        </div>
+      )}
     </div>
   );
 }
