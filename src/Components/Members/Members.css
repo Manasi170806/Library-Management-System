@@ -22,15 +22,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   margin-bottom: 18px;
   width: 100%;    
   background-color: white;          
+=======
+  margin-bottom: 20px;
+  background-color: white;
+>>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 }
 
 .members-card__header h2 {
   font-size: 24px;
   font-weight: 600;
+<<<<<<< HEAD
   color: #2c3e50;
+=======
+  color: #333;
+>>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
   background-color: white;
 }
 
@@ -95,6 +104,15 @@
 }
 
 /* Add Member button */
+<<<<<<< HEAD
+=======
+.add-members {
+  margin-bottom: 15px;
+  margin-left: 87%;
+  background-color: white;
+}
+
+>>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 .btn-add {
   padding: 10px 18px;
   border: none;

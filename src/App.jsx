@@ -11,7 +11,6 @@ import AddMembers from "./Components/AddMembers/AddMembers";
 import PrivateRoute from "./Components/Auth/PrivateRoute";
 import EditBookDetails from "./Components/BookList/EditBookDetails";
 import Issue_Return from "./Components/Issue&Return/Issue&Return";
-import Fineslist from "./Components/Fines/Fineslist";
 import MemberDescription from "./Components/Members/Memberdescription";
 
 function App() {
@@ -51,7 +50,7 @@ function App() {
           <Route path="/description/:id" element={<Description />} />
           <Route path="/EditBook/:id" element={<EditBookDetails />} />
           <Route path="/Issue_Return" element={<Issue_Return />} />
-          <Route path="/fines" element={<Fineslist />} />
+          {/* <Route path="/fines" element={<Fineslist />} /> */}
           {/* <Route path="/members" element={<MemberList />} /> */}
           <Route path="/member/:id" element={<MemberDescription />} />
         </Routes>

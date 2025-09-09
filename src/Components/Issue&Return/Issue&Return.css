@@ -100,7 +100,7 @@
   margin: 2rem auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
-  width: 110%;
+  width: 105%;
   margin-bottom: 20px;
 }
 
@@ -149,12 +149,14 @@ background-color: #FFFFFF;
 
 .book-info {
   padding: 0.5rem 0.4rem;
+  background-color: #FFFFFF;
 }
 
 .book-info h3 {
   font-size: 0.95rem;
   margin: 0.3rem 0;
   color: #2c3e50;
+  background-color: #FFFFFF;
 }
 
 .author,
@@ -185,7 +187,6 @@ background-color: #FFFFFF;
   margin-top: 1.2rem;
   gap: 0.4rem;
   background-color: #FFFFFF;
-  margin-bottom:10px;
 }
 
 .pagination button {

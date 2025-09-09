@@ -77,8 +77,12 @@
   position: relative;
   margin-bottom: 20px;
   margin-top: -5%;
+<<<<<<< HEAD
   background-color: rgb(255, 255, 255);
   width: 60%;
+=======
+  background-color: white;
+>>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 }
 
 .search-books input {
