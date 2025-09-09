@@ -23,14 +23,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 18px;
-<<<<<<< HEAD
   width: 100%;    
   background-color: white;          
   margin-bottom: 20px;
   background-color: white;
-=======
   width: 100%;
->>>>>>> cb055fadb0bd233f5c86e6c4b92e1f45daa2afd9
+
 }
 
 .members-card__header h2 {
