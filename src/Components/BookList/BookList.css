@@ -89,7 +89,7 @@
   box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
 }
 .search ::placeholder {
-    color: #aaa;
+  color: #aaa;
 }
 /* 🔹 Table */
 .table-responsive {
@@ -131,7 +131,7 @@
 
 /* 🔹 Status */
 .status-green {
-  color: #2ecc71;
+  /* color: #2ecc71; */
   font-weight: 600;
 }
 

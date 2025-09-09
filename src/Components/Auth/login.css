@@ -19,12 +19,16 @@
   background-color: white;
   border-radius: 10px;
   display: flex;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
 }
 
 .info-login {
+  background-color: white;
   height: auto;
   width: 50%;
   padding: 4rem 3rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .login-headings {
@@ -37,6 +41,7 @@
   font-weight: 700;
   font-size: 30px;
   font-style: normal;
+  background-color: white;
 }
 
 .login-headings p {
@@ -47,17 +52,21 @@
   font-size: 14px;
   font-style: normal;
   padding: 8px 15px;
+  background-color: white;
 }
 
 .login-w-email {
   display: flex;
   flex-direction: column;
+  background-color: white !important;
 }
 
 .login-methods {
   padding: 10px 0;
   display: flex;
   gap: 20px;
+  background-color: white;
+  margin: 10px 0;
 }
 
 .login-methods .google-btn {
@@ -73,16 +82,13 @@
   box-shadow: 2px 2px 10px #8caeff5e;
 }
 
-.login-w-email {
-  margin: 10px 0;
-}
-
 .login-w-email span {
   display: flex;
   align-items: center;
   text-align: center;
   color: #666;
   padding: 40px 0;
+  background-color: white;
   font-size: 15px;
 }
 
@@ -111,6 +117,7 @@
   outline: 0;
   letter-spacing: 0.5px;
   display: flex;
+  background-color: white;
 }
 
 .login-w-email .login-Btn {
@@ -136,6 +143,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   margin: 20px 20px;
+  background-color: white;
 }
 
 /* right side */
@@ -150,6 +158,9 @@
 .login-image-cont {
   height: 100%;
   width: 100%;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .login-image-cont img {
@@ -157,6 +168,7 @@
   width: 100%;
   object-fit: contain;
   border-radius: 10px;
+  background-color: white;
 }
 
 /* Log-out */
@@ -166,6 +178,7 @@
   text-align: center;
   width: 50%;
   align-content: center;
+  background-color: white;
 }
 
 .log-Out h3 {
@@ -178,6 +191,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background-color: white;
 }
 
 .log-Out button {

@@ -108,9 +108,6 @@ function Login() {
               <button className="login-Btn" onClick={handleSignIn}>
                 Log in
               </button>
-              <p>
-                don’t have account? <Link to="/signup">Create Account</Link>
-              </p>
             </div>
           </div>
         ) : (
@@ -118,7 +115,12 @@ function Login() {
             <h3>
               Welcome!
               <p
-                style={{ fontSize: "18px", color: "black", fontWeight: "400" }}
+                style={{
+                  fontSize: "18px",
+                  color: "black",
+                  fontWeight: "400",
+                  backgroundColor: "white",
+                }}
               >
                 {user.email}
               </p>

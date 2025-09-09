@@ -6,7 +6,6 @@ import BookList from "./Components/BookList/BookList";
 import MemberList from "./Components/Members/Members";
 import Description from "./Components/Description-section/Description";
 import Login from "./Components/Auth/Login";
-import SignUp from "./Components/Auth/SignUp";
 import AddBooks from "./Components/AddBooks/AddBooks";
 import AddMembers from "./Components/AddMembers/AddMembers";
 import PrivateRoute from "./Components/Auth/PrivateRoute";
@@ -22,7 +21,7 @@ function App() {
       <div className="navbar-section">
         <Navbar />
       </div>
-       {/* <div>
+      {/* <div>
       <finesList />
     </div> */}
 
@@ -47,7 +46,6 @@ function App() {
             }
           />
           <Route path="/logIn" element={<Login />} />
-          <Route path="/signUp" element={<SignUp />} />
           <Route path="/AddBooks" element={<AddBooks />} />
           <Route path="/AddMembers" element={<AddMembers />} />
           <Route path="/description/:id" element={<Description />} />
@@ -55,12 +53,10 @@ function App() {
           <Route path="/Issue_Return" element={<Issue_Return />} />
           <Route path="/fines" element={<Fineslist />} />
           {/* <Route path="/members" element={<MemberList />} /> */}
-        <Route path="/member/:id" element={<MemberDescription />} />
-
+          <Route path="/member/:id" element={<MemberDescription />} />
         </Routes>
       </div>
     </div>
-    
   );
 }
 

@@ -9,7 +9,7 @@
 .main-container {
   height: 100vh;
   width: 96%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
 }
 
@@ -33,7 +33,7 @@
 /* navbar.jsx */
 .navbar {
   margin: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .navbar img {
@@ -41,7 +41,6 @@
   height: 100px;
   width: 100px;
 }
-
 
 .navbar .nav-data {
   margin: 20px 0;
@@ -56,7 +55,7 @@
   flex-direction: row;
   font-family: "Albert Sans", sans-serif;
   font-weight: 400;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .nav-data nav .navlink.active {
@@ -64,24 +63,22 @@
   background-color: #d8e2e8;
   border-radius: 10px;
   font-weight: 500;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-svg
-{
-  background-color: #FFFFFF;
+svg {
+  background-color: #ffffff;
 }
 
-span
-{
-  background-color: #FFFFFF;
+span {
+  background-color: #ffffff;
 }
 
 .nav-details {
   display: flex;
   align-items: center;
   gap: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* 📱 Mobile screens: 320px – 480px */
