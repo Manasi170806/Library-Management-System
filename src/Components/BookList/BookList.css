@@ -3,17 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Roboto, sans-serif;
 }
 
 /* 🔹 Card Container */
 .books-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 16px;
   padding: 20px;
   margin: 30px auto;
   max-width: 1200px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  /* background-color: white; */
 }
 
 /* Blur when modal opens */
@@ -46,6 +46,7 @@
   border-radius: 50px;
   font-size: 14px;
   font-weight: 500;
+  /* background-color: white; */
 }
 
 /* 🔹 Add Book Button */
@@ -71,15 +72,17 @@
 }
 
 /* 🔹 Search Bar */
-.search {
+.search-books {
   position: relative;
   margin-bottom: 20px;
   margin-top: -5%;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
   background-color: white;
 }
 
-.search input {
-  width: 100%;
+.search-books input {
+  width: 60%;
   padding: 10px 10px 12px 35px;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -88,13 +91,13 @@
   background-color: white;
 }
 
-.search input:focus {
+.search-books input:focus {
   outline: none;
   border-color: #4cafef;
   box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
 }
-.search ::placeholder {
-    color: #aaa;
+.search-books ::placeholder {
+  color: #aaa;
 }
 /* 🔹 Table */
 .table-responsive {
@@ -154,50 +157,56 @@
 }
 
 /* 🔹 Action Buttons */
-.action-buttons {
-  display: flex;
-  gap: 6px;
-}
-
+/* Base style for all action buttons */
 .btn-view,
 .btn-edit,
 .btn-del {
-  padding: 6px;
-  border-radius: 6px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
-  font-size: 19px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.2s ease;
+  background: #ffffff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 /* 👁 View */
 .btn-view {
-  background: #ffffff;
-  color: rgb(57, 121, 199);
+  color: #3979c7;
 }
 .btn-view:hover {
-  background: #ffffff;
+  background: rgba(57, 121, 199, 0.1);
+  transform: scale(1.05);
 }
 
 /* ✏ Edit */
 .btn-edit {
-  background: #ffffff;
-  color: rgb(0, 0, 0);
+  color: #a71e1e;
 }
 .btn-edit:hover {
-  background: #ffffff;
+  background: rgba(0, 0, 0, 0.05);
+  transform: scale(1.05);
 }
 
 /* 🗑 Delete */
 .btn-del {
-  background: #ffffff;
-  color: rgb(0, 0, 0);
+  color: #d9534f;
 }
 .btn-del:hover {
-  background: #f1f1f1;
+  background: rgba(217, 83, 79, 0.1);
+  transform: scale(1.05);
+}
+
+/* Container spacing */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 /* 🔹 Pagination */

@@ -5,13 +5,7 @@
       "title": "The Odyssey",
       "author": "Homer",
       "isAvailable": false,
-      "isbn": [
-        "100045",
-        "100046",
-        "100047",
-        "100048",
-        "100049"
-      ],
+      "isbn": ["100045", "100046", "100047", "100048", "100049"],
       "rent": "5",
       "genre": "Epic Poetry",
       "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg",
@@ -22,14 +16,7 @@
       "title": "Ulysses",
       "author": "James Joyce",
       "isAvailable": false,
-      "isbn": [
-        "100050",
-        "100051",
-        "100052",
-        "100053",
-        "100054",
-        "100055"
-      ],
+      "isbn": ["100050", "100051", "100052", "100053", "100054", "100055"],
       "rent": 12,
       "genre": "Modernist",
       "cover": "https://m.media-amazon.com/images/I/7104w1aKFmL._UF1000,1000_QL80_.jpg",
@@ -40,6 +27,7 @@
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
       "isAvailable": false,
+<<<<<<< HEAD
       "isbn": [
         "100056",
         "100057",
@@ -48,6 +36,10 @@
         "100060"
       ],
       "rent": "8",
+=======
+      "isbn": ["100056", "100057", "100058", "100059", "100060"],
+      "rent": 9,
+>>>>>>> 16437d670dad32aa8176c0de22d735fb6176b156
       "genre": "Epic Poetry",
       "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg",
       "description": "The Divine Comedy by Dante Alighieri is a monumental epic poem tracing the soul’s journey through Hell, Purgatory, and Heaven. Guided first by the poet Virgil and later by Beatrice, Dante encounters sinners, penitents, and the blessed, each revealing moral and spiritual truths. With vivid imagery and deep symbolism, the poem blends theology, philosophy, and politics. It explores justice, salvation, and the human quest for divine love, remaining one of the greatest achievements in world literature."
@@ -57,14 +49,7 @@
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
       "isAvailable": true,
-      "isbn": [
-        "100061",
-        "100062",
-        "100063",
-        "100064",
-        "100065",
-        "100066"
-      ],
+      "isbn": ["100061", "100062", "100063", "100064", "100065", "100066"],
       "rent": 7,
       "genre": "Picaresque",
       "cover": "https://m.media-amazon.com/images/I/61NlxaWjCYL._UF1000,1000_QL80_.jpg",
@@ -75,13 +60,7 @@
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
       "isAvailable": false,
-      "isbn": [
-        "100067",
-        "100068",
-        "100069",
-        "100070",
-        "100071"
-      ],
+      "isbn": ["100067", "100068"],
       "rent": 10,
       "genre": "Philosophical Fiction",
       "isPopular": false,
@@ -94,14 +73,7 @@
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
       "isAvailable": false,
-      "isbn": [
-        "100072",
-        "100073",
-        "100074",
-        "100075",
-        "100076",
-        "100077"
-      ],
+      "isbn": ["100072", "100076", "100077"],
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": false,
@@ -114,13 +86,7 @@
       "title": "Madame Bovary",
       "author": "Gustave Flaubert",
       "isAvailable": false,
-      "isbn": [
-        "100078",
-        "100079",
-        "100080",
-        "100081",
-        "100082"
-      ],
+      "isbn": ["100078", "100079", "100080", "100081", "100082"],
       "rent": 7,
       "genre": "Realism",
       "isPopular": false,
@@ -133,14 +99,7 @@
       "title": "The Iliad",
       "author": "Homer",
       "isAvailable": false,
-      "isbn": [
-        "100083",
-        "100084",
-        "100085",
-        "100086",
-        "100087",
-        "100088"
-      ],
+      "isbn": ["100083", "100084", "100085", "100086", "100087", "100088"],
       "rent": 8,
       "genre": "Epic Poetry",
       "isPopular": false,
@@ -153,13 +112,7 @@
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
       "isAvailable": true,
-      "isbn": [
-        "100089",
-        "100090",
-        "100091",
-        "100092",
-        "100093"
-      ],
+      "isbn": ["100089", "100090", "100091", "100092", "100093"],
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": false,
@@ -172,14 +125,7 @@
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
       "isAvailable": false,
-      "isbn": [
-        "100094",
-        "100095",
-        "100096",
-        "100097",
-        "100098",
-        "100099"
-      ],
+      "isbn": ["100094", "100095", "100096", "100097", "100098", "100099"],
       "rent": 9,
       "genre": "Magical Realism",
       "isPopular": false,
@@ -192,13 +138,7 @@
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
       "isAvailable": true,
-      "isbn": [
-        "100100",
-        "100101",
-        "100102",
-        "100103",
-        "100104"
-      ],
+      "isbn": ["100100", "100101", "100102", "100103", "100104"],
       "rent": 8,
       "genre": "Realist Novel",
       "isPopular": true,
@@ -211,14 +151,7 @@
       "title": "Les Misérables",
       "author": "Victor Hugo",
       "isAvailable": true,
-      "isbn": [
-        "100105",
-        "100106",
-        "100107",
-        "100108",
-        "100109",
-        "100110"
-      ],
+      "isbn": ["100105", "100106", "100107", "100108", "100109", "100110"],
       "rent": 12,
       "genre": "Historical Fiction",
       "isPopular": true,
@@ -231,13 +164,7 @@
       "title": "The Count of Monte Cristo",
       "author": "Alexandre Dumas",
       "isAvailable": true,
-      "isbn": [
-        "100111",
-        "100112",
-        "100113",
-        "100114",
-        "100115"
-      ],
+      "isbn": ["100111", "100112", "100113", "100114", "100115"],
       "rent": 9,
       "genre": "Adventure",
       "isPopular": false,
@@ -250,14 +177,7 @@
       "title": "Jane Eyre",
       "author": "Charlotte Brontë",
       "isAvailable": false,
-      "isbn": [
-        "100116",
-        "100117",
-        "100118",
-        "100119",
-        "100120",
-        "100121"
-      ],
+      "isbn": ["100116", "100117", "100118", "100119", "100120", "100121"],
       "rent": 6,
       "genre": "Gothic Fiction",
       "isPopular": true,
@@ -270,13 +190,7 @@
       "title": "The Stranger",
       "author": "Albert Camus",
       "isAvailable": false,
-      "isbn": [
-        "100122",
-        "100123",
-        "100124",
-        "100125",
-        "100126"
-      ],
+      "isbn": ["100122", "100123"],
       "rent": 7,
       "genre": "Existential Fiction",
       "isPopular": false,
@@ -289,14 +203,7 @@
       "title": "Great Expectations",
       "author": "Charles Dickens",
       "isAvailable": true,
-      "isbn": [
-        "100127",
-        "100128",
-        "100129",
-        "100130",
-        "100131",
-        "100132"
-      ],
+      "isbn": ["100127", "100128", "100129", "100130", "100131", "100132"],
       "rent": 5,
       "genre": "Bildungsroman",
       "isPopular": false,
@@ -309,13 +216,7 @@
       "title": "Brave New World",
       "author": "Aldous Huxley",
       "isAvailable": true,
-      "isbn": [
-        "100133",
-        "100134",
-        "100135",
-        "100136",
-        "100137"
-      ],
+      "isbn": ["100133", "100134", "100135", "100136", "100137"],
       "rent": 8,
       "genre": "Dystopian",
       "isPopular": true,
@@ -328,14 +229,7 @@
       "title": "Middlemarch",
       "author": "George Eliot",
       "isAvailable": false,
-      "isbn": [
-        "100138",
-        "100139",
-        "100140",
-        "100141",
-        "100142",
-        "100143"
-      ],
+      "isbn": ["100138", "100139", "100140", "100141", "100142", "100143"],
       "rent": 7,
       "genre": "Realist Novel",
       "isPopular": false,
@@ -348,13 +242,7 @@
       "title": "In Search of Lost Time",
       "author": "Marcel Proust",
       "isAvailable": true,
-      "isbn": [
-        "100144",
-        "100145",
-        "100146",
-        "100147",
-        "100148"
-      ],
+      "isbn": ["100147", "100148"],
       "rent": 15,
       "genre": "Modernist",
       "isPopular": false,
@@ -367,14 +255,7 @@
       "title": "The Trial",
       "author": "Franz Kafka",
       "isAvailable": true,
-      "isbn": [
-        "100149",
-        "100150",
-        "100151",
-        "100152",
-        "100153",
-        "100154"
-      ],
+      "isbn": ["100154"],
       "rent": 9,
       "genre": "Absurdist Fiction",
       "isPopular": false,
@@ -387,13 +268,7 @@
       "title": "The Sound and the Fury",
       "author": "William Faulkner",
       "isAvailable": true,
-      "isbn": [
-        "100155",
-        "100156",
-        "100157",
-        "100158",
-        "100159"
-      ],
+      "isbn": ["100155", "100156", "100157", "100158", "100159"],
       "rent": 10,
       "genre": "Southern Gothic",
       "isPopular": false,
@@ -406,14 +281,7 @@
       "title": "Hamlet",
       "author": "William Shakespeare",
       "isAvailable": false,
-      "isbn": [
-        "100160",
-        "100161",
-        "100162",
-        "100163",
-        "100164",
-        "100165"
-      ],
+      "isbn": ["100160", "100161", "100162", "100163", "100164", "100165"],
       "rent": 5,
       "genre": "Tragedy",
       "isPopular": false,
@@ -426,13 +294,7 @@
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "isAvailable": true,
-      "isbn": [
-        "100166",
-        "100167",
-        "100168",
-        "100169",
-        "100170"
-      ],
+      "isbn": ["100166", "100167", "100168", "100169", "100170"],
       "rent": 6,
       "genre": "Bildungsroman",
       "isPopular": true,
@@ -445,14 +307,7 @@
       "title": "Beloved",
       "author": "Toni Morrison",
       "isAvailable": true,
-      "isbn": [
-        "100171",
-        "100172",
-        "100173",
-        "100174",
-        "100175",
-        "100176"
-      ],
+      "isbn": ["100174", "100175", "100176"],
       "rent": 8,
       "genre": "Magical Realism",
       "isPopular": false,
@@ -465,13 +320,7 @@
       "title": "Heart of Darkness",
       "author": "Joseph Conrad",
       "isAvailable": true,
-      "isbn": [
-        "100177",
-        "100178",
-        "100179",
-        "100180",
-        "100181"
-      ],
+      "isbn": ["100177", "100178", "100179", "100180", "100181"],
       "rent": 7,
       "genre": "Adventure",
       "isPopular": false,
@@ -484,14 +333,7 @@
       "title": "The Grapes of Wrath",
       "author": "John Steinbeck",
       "isAvailable": false,
-      "isbn": [
-        "100182",
-        "100183",
-        "100184",
-        "100185",
-        "100186",
-        "100187"
-      ],
+      "isbn": ["100182", "100183", "100184", "100185", "100186", "100187"],
       "rent": 6,
       "genre": "Realist Novel",
       "isPopular": false,
@@ -504,13 +346,7 @@
       "title": "Lolita",
       "author": "Vladimir Nabokov",
       "isAvailable": true,
-      "isbn": [
-        "100188",
-        "100189",
-        "100190",
-        "100191",
-        "100192"
-      ],
+      "isbn": ["100188", "100189", "100190", "100191", "100192"],
       "rent": 9,
       "genre": "Psychological Fiction",
       "isPopular": false,
@@ -523,14 +359,7 @@
       "title": "The Sun Also Rises",
       "author": "Ernest Hemingway",
       "isAvailable": true,
-      "isbn": [
-        "100193",
-        "100194",
-        "100195",
-        "100196",
-        "100197",
-        "100198"
-      ],
+      "isbn": ["100193", "100194", "100195", "100196", "100197", "100198"],
       "rent": 7,
       "genre": "Modernist",
       "isPopular": false,
@@ -543,13 +372,7 @@
       "title": "Catch-22",
       "author": "Joseph Heller",
       "isAvailable": true,
-      "isbn": [
-        "100199",
-        "100200",
-        "100201",
-        "100202",
-        "100203"
-      ],
+      "isbn": ["100199", "100200", "100201", "100202", "100203"],
       "rent": 8,
       "genre": "Satire",
       "isPopular": false,
@@ -562,14 +385,7 @@
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "isAvailable": false,
-      "isbn": [
-        "100204",
-        "100205",
-        "100206",
-        "100207",
-        "100208",
-        "100209"
-      ],
+      "isbn": ["100208", "100209"],
       "rent": 5,
       "genre": "Fantasy",
       "isPopular": true,
@@ -582,13 +398,7 @@
       "title": "Fahrenheit 451",
       "author": "Ray Bradbury",
       "isAvailable": true,
-      "isbn": [
-        "100210",
-        "100211",
-        "100212",
-        "100213",
-        "100214"
-      ],
+      "isbn": ["100210", "100211", "100212", "100213", "100214"],
       "rent": 7,
       "genre": "Dystopian",
       "isPopular": true,
@@ -601,14 +411,7 @@
       "title": "Slaughterhouse-Five",
       "author": "Kurt Vonnegut",
       "isAvailable": true,
-      "isbn": [
-        "100215",
-        "100216",
-        "100217",
-        "100218",
-        "100219",
-        "100220"
-      ],
+      "isbn": ["100215", "100216", "100217", "100218", "100219", "100220"],
       "rent": 8,
       "genre": "Satire",
       "isPopular": false,
@@ -621,13 +424,7 @@
       "title": "The Bell Jar",
       "author": "Sylvia Plath",
       "isAvailable": true,
-      "isbn": [
-        "100221",
-        "100222",
-        "100223",
-        "100224",
-        "100225"
-      ],
+      "isbn": ["100221", "100222"],
       "rent": 7,
       "genre": "Psychological Fiction",
       "isPopular": false,
@@ -640,14 +437,7 @@
       "title": "The Handmaid's Tale",
       "author": "Margaret Atwood",
       "isAvailable": false,
-      "isbn": [
-        "100226",
-        "100227",
-        "100228",
-        "100229",
-        "100230",
-        "100231"
-      ],
+      "isbn": ["100226", "100227", "100228", "100229", "100230", "100231"],
       "rent": 9,
       "genre": "Dystopian",
       "isPopular": false,
@@ -660,13 +450,7 @@
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "isAvailable": true,
-      "isbn": [
-        "100232",
-        "100233",
-        "100234",
-        "100235",
-        "100236"
-      ],
+      "isbn": ["100232", "100233", "100234", "100235", "100236"],
       "rent": 12,
       "genre": "Fantasy",
       "isPopular": true,
@@ -679,14 +463,7 @@
       "title": "Moby Dick",
       "author": "Herman Melville",
       "isAvailable": true,
-      "isbn": [
-        "100237",
-        "100238",
-        "100239",
-        "100240",
-        "100241",
-        "100242"
-      ],
+      "isbn": ["100237", "100238", "100239", "100240", "100241", "100242"],
       "rent": 9,
       "genre": "Adventure",
       "isPopular": false,
@@ -699,13 +476,7 @@
       "title": "Dracula",
       "author": "Bram Stoker",
       "isAvailable": true,
-      "isbn": [
-        "100243",
-        "100244",
-        "100245",
-        "100246",
-        "100247"
-      ],
+      "isbn": ["100243", "100244", "100245", "100246", "100247"],
       "rent": 7,
       "genre": "Gothic Fiction",
       "isPopular": false,
@@ -718,14 +489,7 @@
       "title": "The Metamorphosis",
       "author": "Franz Kafka",
       "isAvailable": false,
-      "isbn": [
-        "100248",
-        "100249",
-        "100250",
-        "100251",
-        "100252",
-        "100253"
-      ],
+      "isbn": ["100248", "100249", "100250"],
       "rent": 6,
       "genre": "Absurdist Fiction",
       "isPopular": false,
@@ -738,13 +502,7 @@
       "title": "Of Mice and Men",
       "author": "John Steinbeck",
       "isAvailable": true,
-      "isbn": [
-        "100254",
-        "100255",
-        "100256",
-        "100257",
-        "100258"
-      ],
+      "isbn": ["100254"],
       "rent": 5,
       "genre": "Tragedy",
       "isPopular": false,
@@ -757,14 +515,7 @@
       "title": "The Scarlet Letter",
       "author": "Nathaniel Hawthorne",
       "isAvailable": true,
-      "isbn": [
-        "100259",
-        "100260",
-        "100261",
-        "100262",
-        "100263",
-        "100264"
-      ],
+      "isbn": ["100259", "100260", "100261", "100262", "100263", "100264"],
       "rent": 6,
       "genre": "Historical Fiction",
       "isPopular": true,
@@ -777,13 +528,7 @@
       "title": "A Tale of Two Cities",
       "author": "Charles Dickens",
       "isAvailable": true,
-      "isbn": [
-        "100265",
-        "100266",
-        "100267",
-        "100268",
-        "100269"
-      ],
+      "isbn": ["100265", "100266"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": true,
@@ -796,14 +541,7 @@
       "title": "Native Son",
       "author": "Richard Wright",
       "isAvailable": true,
-      "isbn": [
-        "100270",
-        "100271",
-        "100272",
-        "100273",
-        "100274",
-        "100275"
-      ],
+      "isbn": ["100270", "100271", "100272", "100273", "100274", "100275"],
       "rent": 8,
       "genre": "Social Realism",
       "isPopular": false,
@@ -816,13 +554,7 @@
       "title": "The Silent Patient",
       "author": "Alex Michaelides",
       "isAvailable": true,
-      "isbn": [
-        "100276",
-        "100277",
-        "100278",
-        "100279",
-        "100280"
-      ],
+      "isbn": ["100276", "100277", "100278", "100279", "100280"],
       "rent": 9,
       "genre": "Psychological Thriller",
       "isPopular": false,
@@ -835,14 +567,7 @@
       "title": "Where the Crawdads Sing",
       "author": "Delia Owens",
       "isAvailable": true,
-      "isbn": [
-        "100281",
-        "100282",
-        "100283",
-        "100284",
-        "100285",
-        "100286"
-      ],
+      "isbn": ["100281", "100282", "100283", "100284", "100285", "100286"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -855,13 +580,7 @@
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "isAvailable": false,
-      "isbn": [
-        "100287",
-        "100288",
-        "100289",
-        "100290",
-        "100291"
-      ],
+      "isbn": ["100287", "100288", "100289", "100290", "100291"],
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
@@ -874,14 +593,7 @@
       "title": "Project Hail Mary",
       "author": "Andy Weir",
       "isAvailable": true,
-      "isbn": [
-        "100292",
-        "100293",
-        "100294",
-        "100295",
-        "100296",
-        "100297"
-      ],
+      "isbn": ["100292", "100293", "100294", "100295", "100296", "100297"],
       "rent": 10,
       "genre": "Science Fiction",
       "isPopular": false,
@@ -894,13 +606,7 @@
       "title": "Malibu Rising",
       "author": "Taylor Jenkins Reid",
       "isAvailable": true,
-      "isbn": [
-        "100298",
-        "100299",
-        "100300",
-        "100301",
-        "100302"
-      ],
+      "isbn": ["100298", "100299", "100300", "100301", "100302"],
       "rent": 6,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -913,14 +619,7 @@
       "title": "The Seven Husbands of Evelyn Hugo",
       "author": "Taylor Jenkins Reid",
       "isAvailable": false,
-      "isbn": [
-        "100303",
-        "100304",
-        "100305",
-        "100306",
-        "100307",
-        "100308"
-      ],
+      "isbn": ["100303", "100304", "100305", "100306", "100307", "100308"],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -933,13 +632,7 @@
       "title": "The Vanishing Half",
       "author": "Brit Bennett",
       "isAvailable": true,
-      "isbn": [
-        "100309",
-        "100310",
-        "100311",
-        "100312",
-        "100313"
-      ],
+      "isbn": ["100309", "100310", "100311", "100312", "100313"],
       "rent": 7,
       "genre": "Literary Fiction",
       "isPopular": false,
@@ -952,14 +645,7 @@
       "title": "Klara and the Sun",
       "author": "Kazuo Ishiguro",
       "isAvailable": true,
-      "isbn": [
-        "100314",
-        "100315",
-        "100316",
-        "100317",
-        "100318",
-        "100319"
-      ],
+      "isbn": ["100314", "100315", "100316", "100317", "100318", "100319"],
       "rent": 9,
       "genre": "Science Fiction",
       "isPopular": false,
@@ -972,13 +658,7 @@
       "title": "The Push",
       "author": "Ashley Audrain",
       "isAvailable": true,
-      "isbn": [
-        "100320",
-        "100321",
-        "100322",
-        "100323",
-        "100324"
-      ],
+      "isbn": ["100320", "100321", "100322", "100323", "100324"],
       "rent": 7,
       "genre": "Psychological Thriller",
       "isPopular": false,
@@ -991,14 +671,7 @@
       "title": "Matrix",
       "author": "Lauren Groff",
       "isAvailable": false,
-      "isbn": [
-        "100325",
-        "100326",
-        "100327",
-        "100328",
-        "100329",
-        "100330"
-      ],
+      "isbn": ["100325", "100326", "100327", "100328", "100329", "100330"],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1011,13 +684,7 @@
       "title": "Cloud Cuckoo Land",
       "author": "Anthony Doerr",
       "isAvailable": true,
-      "isbn": [
-        "100331",
-        "100332",
-        "100333",
-        "100334",
-        "100335"
-      ],
+      "isbn": ["100331", "100332", "100333", "100334", "100335"],
       "rent": 10,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1030,14 +697,7 @@
       "title": "Beautiful World, Where Are You",
       "author": "Sally Rooney",
       "isAvailable": true,
-      "isbn": [
-        "100336",
-        "100337",
-        "100338",
-        "100339",
-        "100340",
-        "100341"
-      ],
+      "isbn": ["100336", "100337", "100338", "100339", "100340", "100341"],
       "rent": 6,
       "genre": "Literary Fiction",
       "isPopular": false,
@@ -1050,13 +710,7 @@
       "title": "The Lincoln Highway",
       "author": "Amor Towles",
       "isAvailable": true,
-      "isbn": [
-        "100342",
-        "100343",
-        "100344",
-        "100345",
-        "100346"
-      ],
+      "isbn": ["100342", "100343", "100344", "100345", "100346"],
       "rent": 8,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1069,14 +723,7 @@
       "title": "Harlem Shuffle",
       "author": "Colson Whitehead",
       "isAvailable": false,
-      "isbn": [
-        "100347",
-        "100348",
-        "100349",
-        "100350",
-        "100351",
-        "100352"
-      ],
+      "isbn": ["100347", "100348", "100349", "100350", "100351", "100352"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1089,13 +736,7 @@
       "title": "The Paris Apartment",
       "author": "Lucy Foley",
       "isAvailable": true,
-      "isbn": [
-        "100353",
-        "100354",
-        "100355",
-        "100356",
-        "100357"
-      ],
+      "isbn": ["100353", "100354", "100355", "100356", "100357"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -1108,13 +749,7 @@
       "title": "Once Upon a Time in Hollywood",
       "author": "Quentin Tarantino",
       "isAvailable": true,
-      "isbn": [
-        "100364",
-        "100365",
-        "100366",
-        "100367",
-        "100368"
-      ],
+      "isbn": ["100364", "100365", "100366", "100367", "100368"],
       "rent": 9,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1127,14 +762,7 @@
       "title": "The Maid",
       "author": "Nita Prose",
       "isAvailable": false,
-      "isbn": [
-        "100369",
-        "100370",
-        "100371",
-        "100372",
-        "100373",
-        "100374"
-      ],
+      "isbn": ["100369", "100370", "100371", "100372", "100373", "100374"],
       "rent": 7,
       "genre": "Mystery",
       "isPopular": false,
@@ -1147,13 +775,7 @@
       "title": "The House in the Cerulean Sea",
       "author": "TJ Klune",
       "isAvailable": true,
-      "isbn": [
-        "100375",
-        "100376",
-        "100377",
-        "100378",
-        "100379"
-      ],
+      "isbn": ["100375", "100376", "100377", "100378", "100379"],
       "rent": 8,
       "genre": "Fantasy",
       "isPopular": false,
@@ -1166,14 +788,7 @@
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "isAvailable": true,
-      "isbn": [
-        "100380",
-        "100381",
-        "100382",
-        "100383",
-        "100384",
-        "100385"
-      ],
+      "isbn": ["100380", "100381", "100382", "100383", "100384", "100385"],
       "rent": 9,
       "genre": "Fantasy",
       "isPopular": false,
@@ -1186,14 +801,7 @@
       "title": "The Four Winds",
       "author": "Kristin Hannah",
       "isAvailable": true,
-      "isbn": [
-        "100386",
-        "100387",
-        "100388",
-        "100389",
-        "100390",
-        "100391"
-      ],
+      "isbn": ["100386", "100387", "100388", "100389", "100390", "100391"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1206,14 +814,7 @@
       "title": "The Sanatorium",
       "author": "Sarah Pearse",
       "isAvailable": false,
-      "isbn": [
-        "100392",
-        "100393",
-        "100394",
-        "100395",
-        "100396",
-        "100397"
-      ],
+      "isbn": ["100392", "100393", "100394", "100395", "100396", "100397"],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
@@ -1226,14 +827,7 @@
       "title": "One Last Stop",
       "author": "Casey McQuiston",
       "isAvailable": true,
-      "isbn": [
-        "100398",
-        "100399",
-        "100400",
-        "100401",
-        "100402",
-        "100403"
-      ],
+      "isbn": ["100398", "100399", "100400", "100401", "100402", "100403"],
       "rent": 6,
       "genre": "Romance",
       "isPopular": false,
@@ -1246,14 +840,7 @@
       "title": "Razorblade Tears",
       "author": "S.A. Cosby",
       "isAvailable": true,
-      "isbn": [
-        "100404",
-        "100405",
-        "100406",
-        "100407",
-        "100408",
-        "100409"
-      ],
+      "isbn": ["100404", "100405", "100406", "100407", "100408", "100409"],
       "rent": 8,
       "genre": "Thriller",
       "isPopular": false,
@@ -1266,14 +853,7 @@
       "title": "The Rose Code",
       "author": "Kate Quinn",
       "isAvailable": true,
-      "isbn": [
-        "100410",
-        "100411",
-        "100412",
-        "100413",
-        "100414",
-        "100415"
-      ],
+      "isbn": ["100410", "100411", "100412", "100413", "100414", "100415"],
       "rent": 7,
       "genre": "Historical Fiction",
       "isPopular": false,
@@ -1286,7 +866,7 @@
     {
       "id": "3",
       "name": "Charlie Brown",
-      "email": "charlie.brown@example.com",
+      "email": "charlie.brown@example",
       "phone": "345-678-9012",
       "membershipType": "Public",
       "status": "Active",
@@ -1294,10 +874,7 @@
       "joined": "16-10-2024",
       "lastActive": "06-12-2024",
       "photo": "https://i.pravatar.cc/50?img=3",
-      "issuedBooks": [
-        "11",
-        "16"
-      ]
+      "issuedBooks": ["11", "16"]
     },
     {
       "id": "5",
@@ -1321,9 +898,7 @@
       "joined": "12-02-2024",
       "lastActive": "22-05-2024",
       "photo": "https://i.pravatar.cc/50?img=6",
-      "issuedBooks": [
-        "23"
-      ]
+      "issuedBooks": ["23"]
     },
     {
       "id": "7",
@@ -1347,9 +922,7 @@
       "joined": "20-03-2024",
       "lastActive": "01-06-2024",
       "photo": "https://i.pravatar.cc/50?img=8",
-      "issuedBooks": [
-        "15"
-      ]
+      "issuedBooks": ["15"]
     },
     {
       "id": "9",
@@ -1615,6 +1188,18 @@
       "lastActive": "05-12-2024",
       "photo": "https://i.pravatar.cc/50?img=30",
       "issuedBooks": []
+    },
+    {
+      "id": "1757406752021",
+      "name": "saloni",
+      "email": "gha23@gmail.com",
+      "phone": "23456789023",
+      "membershipType": "Faculty",
+      "status": "Inactive",
+      "subscription": "Premium",
+      "joined": "2025-09-27",
+      "lastActive": "2025-04-01",
+      "photo": "data:image/jpeg;base64,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"
     }
   ],
   "issued": [
