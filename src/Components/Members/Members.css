@@ -16,13 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
   margin-bottom: 20px;
-=======
-  margin-bottom: 18px;
-  width: 100%;
-  background-color: white;
->>>>>>> 7d46c189e6e4046f177919680916d6d775280f77
 }
 
 .members-card__header h2 {
@@ -30,83 +24,8 @@
   color: #333;
 }
 
-<<<<<<< HEAD
 .members-card__header .pill {
   background-color: #007bff;
-=======
-/* Pill (Members count) */
-.pill {
-  padding: 6px 14px;
-  border-radius: 50px;
-  font-size: 14px;
-  background: #f0f0f0;
-  color: #555;
-  font-weight: 500;
-}
-
-/* Controls row (Search + Filter + Add Button) */
-.controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 18px;
-  flex-wrap: wrap;
-  width: 100%;
-  background-color: white;
-}
-
-/* Search bar */
-.search-members {
-  flex: 1;
-  position: relative;
-  background-color: rgb(255, 255, 255);
-}
-
-.search-members input {
-  width: 100%; /* 🔹 Full width */
-  padding: 10px 10px 12px 35px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 15px;
-  width: 50%;
-  transition: 0.2s;
-  background-color: rgb(255, 255, 255);
-}
-
-.search-members input:focus {
-  outline: none;
-  border-color: #4cafef;
-  box-shadow: 0 0 0 3px rgba(76, 175, 239, 0.2);
-}
-
-/* Filter dropdown */
-.filter-dropdown {
-  padding: 9px 12px;
-  border-radius: 8px;
-  border: 1px solid #000000;
-  font-size: 14px;
-  background-color: #fff;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.filter-dropdown:hover {
-  border-color: #4cafef;
-}
-
-/* Add Member button */
-.add-members {
-  margin-bottom: 15px;
-  margin-left: 87%;
-  background-color: white;
-}
-.btn-add {
-  padding: 10px 18px;
-  border: none;
-  border-radius: 8px;
-  background: #4cafef;
->>>>>>> 7d46c189e6e4046f177919680916d6d775280f77
   color: #fff;
   padding: 5px 15px;
   border-radius: 50px;
