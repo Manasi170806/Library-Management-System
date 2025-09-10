@@ -56,7 +56,7 @@
       "id": "12",
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
-      "isAvailable": false,
+      "isAvailable": true,
       "isbn": [
         "100061",
         "100062",
@@ -126,7 +126,7 @@
       "id": "16",
       "title": "The Iliad",
       "author": "Homer",
-      "isAvailable": false,
+      "isAvailable": true,
       "isbn": [
         "100083",
         "100084",
@@ -146,7 +146,7 @@
       "id": "17",
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100089",
         "100090",
@@ -224,7 +224,7 @@
       "id": "21",
       "title": "The Count of Monte Cristo",
       "author": "Alexandre Dumas",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100111",
         "100112",
@@ -299,7 +299,7 @@
       "id": "25",
       "title": "Brave New World",
       "author": "Aldous Huxley",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100133",
         "100134",
@@ -1258,21 +1258,9 @@
       "lastActive": "06-12-2024",
       "photo": "https://i.pravatar.cc/50?img=3",
       "issuedBooks": [
-        "16",
-        "12"
+        "25",
+        "21"
       ]
-    },
-    {
-      "id": "5",
-      "name": "Edward Elric",
-      "email": "edward.elric@example.com",
-      "phone": "567-890-1234",
-      "membershipType": "Faculty",
-      "status": "Inactive",
-      "joined": "20-01-2024",
-      "lastActive": "05-04-2024",
-      "photo": "https://i.pravatar.cc/50?img=5",
-      "issuedBooks": []
     },
     {
       "id": "6",
@@ -1289,18 +1277,6 @@
       ]
     },
     {
-      "id": "7",
-      "name": "George Washington",
-      "email": "george.washington@example.com",
-      "phone": "789-012-3456",
-      "membershipType": "Student",
-      "status": "Active",
-      "joined": "15-03-2024",
-      "lastActive": "30-05-2024",
-      "photo": "https://i.pravatar.cc/50?img=7",
-      "issuedBooks": []
-    },
-    {
       "id": "8",
       "name": "Hannah Montana",
       "email": "hannah.montana@example.com",
@@ -1315,18 +1291,6 @@
       ]
     },
     {
-      "id": "9",
-      "name": "Ian Malcolm",
-      "email": "ian.malcolm@example.com",
-      "phone": "901-234-5678",
-      "membershipType": "Public",
-      "status": "Active",
-      "joined": "10-04-2024",
-      "lastActive": "18-06-2024",
-      "photo": "https://i.pravatar.cc/50?img=9",
-      "issuedBooks": []
-    },
-    {
       "id": "10",
       "name": "Jack Sparrow",
       "email": "jack.sparrow@example.com",
@@ -1336,7 +1300,9 @@
       "joined": "15-04-2024",
       "lastActive": "22-07-2024",
       "photo": "https://i.pravatar.cc/50?img=10",
-      "issuedBooks": []
+      "issuedBooks": [
+        "17"
+      ]
     },
     {
       "id": "11",
