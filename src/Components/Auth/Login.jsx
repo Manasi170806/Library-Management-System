@@ -14,7 +14,8 @@ import { app } from "../firebase/firebase";
 const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 
-const ADMIN_EMAIL = "8438tanvipatel@gmail.com"; //password:8438tanvipatel
+// Only this email is allowed
+const ADMIN_EMAIL = "8438tanvipatel@gmail.com";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -23,12 +24,12 @@ function Login() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const authChange = onAuthStateChanged(auth, (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser && currentUser.email === ADMIN_EMAIL) {
         setUser(currentUser);
       } else {
         if (currentUser) {
-          alert("You are not authorized to access this app.");
+          alert("❌ You are not authorized to access this app.");
           signOut(auth);
         }
         setUser(null);
@@ -36,7 +37,7 @@ function Login() {
       setLoading(false);
     });
 
-    return () => authChange();
+    return () => unsubscribe();
   }, []);
 
   if (loading) {
@@ -54,27 +55,34 @@ function Login() {
     );
   }
 
+  // Email login only for admin
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
-      .then(() => alert("Login successful"))
-      .catch((err) => alert("Login failed: " + err));
+      .then((result) => {
+        if (result.user.email !== ADMIN_EMAIL) {
+          alert("❌ Only admin can log in.");
+          signOut(auth);
+        } else {
+          alert("✅ Login successful, Welcome Admin!");
+        }
+      })
+      .catch((err) => alert("Login failed: " + err.message));
   };
 
-  const handleSignOut = () => {
-    signOut(auth)
-      .then(() => alert("Sign-out successful"))
-      .catch((error) => alert("Error: " + error));
-  };
-
+  // Google login only for admin
   const handleSignInWithGoogle = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         if (result.user.email !== ADMIN_EMAIL) {
-          alert("Only admin can login with Google.");
+          alert("❌ Only admin can log in with Google.");
           signOut(auth);
         }
       })
-      .catch((err) => console.log("Google sign in failed: " + err));
+      .catch((err) => console.log("Google sign in failed: " + err.message));
+  };
+
+  const handleSignOut = () => {
+    signOut(auth).then(() => alert("You have been logged out"));
   };
 
   return (
@@ -83,41 +91,31 @@ function Login() {
         {!user ? (
           <div className="info-login">
             <div className="login-headings">
-              <h2>Log in to your Account</h2>
-              <p>Welcome back! Select method to log in:</p>
+              <h2>Admin Login</h2>
+              <p>Only admin can access this panel.</p>
             </div>
 
             <div className="login-methods">
               <button className="google-btn" onClick={handleSignInWithGoogle}>
-                <FcGoogle
-                  style={{
-                    fontSize: "20px",
-                    marginRight: "8px",
-                    marginTop: "2px",
-                  }}
-                />
+                <FcGoogle style={{ fontSize: "20px", marginRight: "8px" }} />
                 Continue with Google
               </button>
             </div>
 
             <div className="login-w-email">
-              <span>or continue with email</span>
-              <label htmlFor="email">
-                <input
-                  type="email"
-                  id="emailInput"
-                  placeholder="Email"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </label>
-              <label htmlFor="password">
-                <input
-                  type="password"
-                  id="passwordInput"
-                  placeholder="Password"
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </label>
+              <span>or login with email</span>
+              <input
+                type="email"
+                placeholder="Admin Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
               <button className="login-Btn" onClick={handleSignIn}>
                 Log in
               </button>
@@ -127,16 +125,7 @@ function Login() {
           <div className="log-Out">
             <h3>
               Welcome Admin!
-              <p
-                style={{
-                  fontSize: "18px",
-                  color: "black",
-                  fontWeight: "400",
-                  backgroundColor: "white",
-                }}
-              >
-                {user.email}
-              </p>
+              <p style={{ fontSize: "18px", color: "black" }}>{user.email}</p>
             </h3>
             <button onClick={handleSignOut}>Log Out</button>
           </div>
