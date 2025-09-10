@@ -76,7 +76,7 @@ const MemberList = () => {
   return (
     <div className="members-card">
       <div className="members-card__header">
-        <h2>👥 Members</h2>
+        <h2>👥 Library Members</h2>
         <span className="pill pill--muted">
           {filteredMembers.length} members
         </span>

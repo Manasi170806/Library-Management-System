@@ -74,16 +74,6 @@ const MemberDescription = () => {
           onClose={() => setSelectedMember(null)}
         />
       )}
-
-    
-      <div className="member-details">
-        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Email:</strong> {member.email}</p>
-        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Phone:</strong> {member.phone}</p>
-        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Joined:</strong> {member.joined}</p>
-        <p><strong style={{ color: "#333" ,backgroundColor: "white"}}>Last Active:</strong> {member.lastActive}</p>
-      </div>
-
-  
     </>
   );
 };
