@@ -24,6 +24,7 @@
   align-items: center;
   margin-bottom: 18px;
   width: 100%;
+  background-color: white;
 }
 
 .members-card__header h2 {
@@ -51,7 +52,8 @@
   gap: 12px;
   margin-bottom: 18px;
   flex-wrap: wrap;
-  width: 100%; /* 🔹 Full width */
+  width: 100%;
+  background-color: white;
 }
 
 /* Search bar */
