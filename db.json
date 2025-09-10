@@ -1305,18 +1305,6 @@
       ]
     },
     {
-      "id": "11",
-      "name": "Katherine Johnson",
-      "email": "katherine.johnson@example.com",
-      "phone": "123-456-7891",
-      "membershipType": "Faculty",
-      "status": "Inactive",
-      "joined": "05-05-2024",
-      "lastActive": "10-08-2024",
-      "photo": "https://i.pravatar.cc/50?img=11",
-      "issuedBooks": []
-    },
-    {
       "id": "12",
       "name": "Leonardo DiCaprio",
       "email": "leonardo.dicaprio@example.com",
