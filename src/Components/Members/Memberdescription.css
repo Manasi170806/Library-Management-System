@@ -1,29 +1,9 @@
-<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f0f0;
-=======
-*
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
-}
-.member-desc-card {
-  background: #fff;
-
-  padding: 25px;
-  margin: 30px auto;
-  max-width: 600px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-align: center;
->>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 }
 
 .member-desc-card {
@@ -41,16 +21,10 @@
 .member-header {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   gap: 24px;
   margin-bottom: 25px;
   justify-content: center;
   flex-wrap: wrap;
-=======
-  gap: 20px;
-  margin-bottom: 20px;
-  background-color: white;
->>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 }
 
 .member-photo {
@@ -64,7 +38,6 @@
 
 .member-header h2 {
   margin: 0;
-<<<<<<< HEAD
   font-size: 26px;
   font-weight: 600;
   color: #222;
@@ -74,29 +47,12 @@
   font-size: 15px;
   color: #666;
   margin-top: 4px;
-=======
-  font-size: 22px;
-  color: #333;
-  background-color: white;
-}
-
-.member-type {
-  font-size: 14px;
-  color: #777;
-  background-color: white;
->>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 }
 
 .member-status {
   font-weight: bold;
-<<<<<<< HEAD
   font-size: 15px;
   margin-top: 6px;
-=======
-  font-size: 14px;
-  background-color: white;
-
->>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 }
 
 .member-status.active {
@@ -111,12 +67,7 @@
 .member-details {
   margin-top: 25px;
   text-align: left;
-<<<<<<< HEAD
   line-height: 1.6;
-=======
-  background-color: white;
-
->>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
 }
 
 .member-details p {
@@ -136,22 +87,12 @@
   background: #28a745;
   color: rgb(0, 0, 0);
   font-size: 15px;
-<<<<<<< HEAD
   font-weight: 500;
   width: 100px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
 }
-=======
-  color: #444;
-  background-color: white;
-
-}
-
->>>>>>> f51e8487492eb86bd8776392e9711bcec66120ad
-
-
 
 /* Responsive */
 @media (max-width: 600px) {
