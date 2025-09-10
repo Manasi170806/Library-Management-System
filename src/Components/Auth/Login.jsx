@@ -125,7 +125,7 @@ function Login() {
           <div className="log-Out">
             <h3>
               Welcome Admin!
-              <p style={{ fontSize: "18px", color: "black" }}>{user.email}</p>
+              <p style={{ fontSize: "18px", color: "black", backgroundColor: "white" }}>{user.email}</p>
             </h3>
             <button onClick={handleSignOut}>Log Out</button>
           </div>

@@ -155,9 +155,9 @@ function BookList() {
                         {/* View Button */}
                         <Link to={`/description/${book.id}`}>
                           <button className="btn-view">
-                            <MdOutlineRemoveRedEye
-                              style={{ fontSize: "18px" }}
-                            />
+                            {/* <MdOutlineRemoveRedEye
+                            
+                            /> */}View
                           </button>
                         </Link>
                         {/* Edit Button */}
@@ -165,14 +165,14 @@ function BookList() {
                           className="btn-edit"
                           onClick={() => setSelectedBook(book)}
                         >
-                          <MdModeEdit style={{ fontSize: "18px" }} />
+                          <MdModeEdit/>
                         </button>
                         {/* Delete Button */}
                         <button
                           className="btn-del"
                           onClick={() => handleDelete(book.id)}
                         >
-                          <MdDelete style={{ fontSize: "18px" }} />
+                          {/* <MdDelete/> */}Delete
                         </button>
                       </div>
                     </td>

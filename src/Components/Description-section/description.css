@@ -51,6 +51,7 @@ body {
   font-size: 34px; /* thoda bada */
   font-weight: 700;
   color: #1a1a1a;
+  background-color: #F0F0F0;
 }
 
 .description-details span {
@@ -58,7 +59,7 @@ body {
   margin-top: 6px;
   font-size: 17px;
   color: #555;
-  background-color: #F9F9F9;
+  background-color: #F0F0F0;
 }
 
 .description-details p {
@@ -89,34 +90,12 @@ body {
   background-color: crimson;
 }
 
-/* Buy buttons */
-.purchase-btns {
-  margin: 14px 0;
-}
-
-.purchase-btns .cart,
-.purchase-btns .buyNow {
-  padding: 12px 28px;
-  background-color: #2563eb;
-  border: 1px solid #2563eb;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 500;
-  transition: 0.3s ease;
-}
-
-.purchase-btns .cart:hover,
-.purchase-btns .buyNow:hover {
-  background-color: #1d4ed8;
-}
 
 /* Book Details Table */
 .book-details {
   width: 60%;
   margin-left: 40%;
-  margin-top: -27%;
+  margin-top: -26%;
 }
 
 .book-details table {

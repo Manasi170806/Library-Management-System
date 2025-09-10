@@ -12,6 +12,17 @@ export default function Members() {
   const [currentPage, setCurrentPage] = useState(1);
   const [membersPerPage] = useState(5);
 
+  const [showAddModal, setShowAddModal] = useState(false);
+  const [newMember, setNewMember] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    status: "active",
+    category: "student",
+    photo: "",
+    issuedBooks: [],
+  });
+
   useEffect(() => {
     fetchMembers();
     fetchBooks();
@@ -47,6 +58,35 @@ export default function Members() {
     }
   };
 
+  const addMember = async () => {
+    if (!newMember.name || !newMember.email || !newMember.phone) {
+      alert("Please fill in all required fields!");
+      return;
+    }
+
+    try {
+      const res = await fetch(`${API}/members`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newMember),
+      });
+      const addedMember = await res.json();
+      setMembers((prev) => [...prev, addedMember]);
+      setShowAddModal(false);
+      setNewMember({
+        name: "",
+        email: "",
+        phone: "",
+        status: "active",
+        category: "student",
+        photo: "",
+        issuedBooks: [],
+      });
+    } catch (err) {
+      console.error("Error adding member:", err);
+    }
+  };
+
   // Filter & Search
   const filteredMembers = members.filter((m) => {
     const matchesSearch =
@@ -77,9 +117,10 @@ export default function Members() {
       <div className="members-card__header">
         <h2>👥 Members</h2>
         <span className="pill">{filteredMembers.length} Total</span>
+        <button className="btn-add" onClick={() => setShowAddModal(true)}>
+          ➕ Add Member
+        </button>
       </div>
-
-
 
       {/* Search */}
       <div className="members-filters">
@@ -185,24 +226,17 @@ export default function Members() {
         <div className="modal-overlay">
           <div className="modal-content">
             <h2>{selectedMember.name} – Issued Books</h2>
-
             {selectedMember.issuedBooks && selectedMember.issuedBooks.length > 0 ? (
               <ul>
                 {selectedMember.issuedBooks.map((ib, i) => {
                   if (typeof ib === "object" && ib.bookId) {
-                    // If issuedBooks has bookId object
                     return (
                       <li key={i}>
                         {ib.title || getBookTitle(ib.bookId)}{" "}
-                        {ib.dueDate && (
-                          <span style={{ color: "red" }}>
-                            (Due: {ib.dueDate})
-                          </span>
-                        )}
+                        {ib.dueDate && <span style={{ color: "red" }}>(Due: {ib.dueDate})</span>}
                       </li>
                     );
                   } else {
-                    // If issuedBooks is just bookId
                     return <li key={i}>{getBookTitle(ib)}</li>;
                   }
                 })}
@@ -210,14 +244,80 @@ export default function Members() {
             ) : (
               <p>No books issued.</p>
             )}
-
-            <button
-              className="btn-add"
-              onClick={() => setSelectedMember(null)}
-              style={{ marginTop: "15px" }}
-            >
+            <button className="btn-add" onClick={() => setSelectedMember(null)}>
               Close
             </button>
+          </div>
+        </div>
+      )}
+
+      {/* Modal for Add Member */}
+      {showAddModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h2>Add New Member</h2>
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                addMember();
+              }}
+            >
+              <input
+                type="text"
+                placeholder="Name"
+                value={newMember.name}
+                onChange={(e) => setNewMember({ ...newMember, name: e.target.value })}
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                value={newMember.email}
+                onChange={(e) => setNewMember({ ...newMember, email: e.target.value })}
+                required
+              />
+              <input
+                type="text"
+                placeholder="Phone"
+                value={newMember.phone}
+                onChange={(e) => setNewMember({ ...newMember, phone: e.target.value })}
+                required
+              />
+              <select
+                value={newMember.status}
+                onChange={(e) => setNewMember({ ...newMember, status: e.target.value })}
+              >
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+              </select>
+              <select
+                value={newMember.category}
+                onChange={(e) => setNewMember({ ...newMember, category: e.target.value })}
+              >
+                <option value="student">Student</option>
+                <option value="faculty">Faculty</option>
+                <option value="public">Public</option>
+              </select>
+              <input
+                type="text"
+                placeholder="Photo URL"
+                value={newMember.photo}
+                onChange={(e) => setNewMember({ ...newMember, photo: e.target.value })}
+              />
+              <div style={{ marginTop: "10px" }}>
+                <button type="submit" className="btn-add">
+                  Add Member
+                </button>
+                <button
+                  type="button"
+                  className="btn-del"
+                  onClick={() => setShowAddModal(false)}
+                  style={{ marginLeft: "150px" }}
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       )}

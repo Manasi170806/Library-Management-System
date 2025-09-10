@@ -12,34 +12,16 @@
         "100048",
         "100049"
       ],
-      "rent": "5",
+      "rent": "3",
       "genre": "Epic Poetry",
       "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg",
       "description": "The Odyssey by Homer is a foundational epic poem of ancient Greece. It tells the story of Odysseus, who struggles for years to return home after the Trojan War. Facing gods, monsters, and perilous adventures, Odysseus must rely on wit, courage, and resilience. Meanwhile, his wife Penelope and son Telemachus await his return. The poem explores loyalty, perseverance, and the power of destiny. Rich with mythology and timeless themes, it remains one of literature’s greatest heroic journeys."
     },
     {
-      "id": "10",
-      "title": "Ulysses",
-      "author": "James Joyce",
-      "isAvailable": false,
-      "isbn": [
-        "100050",
-        "100051",
-        "100052",
-        "100053",
-        "100054",
-        "100055"
-      ],
-      "rent": 12,
-      "genre": "Modernist",
-      "cover": "https://m.media-amazon.com/images/I/7104w1aKFmL._UF1000,1000_QL80_.jpg",
-      "description": "Ulysses by James Joyce is a revolutionary modernist novel set in Dublin, unfolding over a single day. It follows Leopold Bloom, Stephen Dedalus, and others in a narrative paralleling Homer’s Odyssey. Using stream-of-consciousness and experimental prose, Joyce captures ordinary moments with extraordinary depth. The novel explores identity, history, and human experience while pushing the boundaries of language. Though complex and challenging, Ulysses remains one of the most influential works of twentieth-century literature, redefining the art of storytelling."
-    },
-    {
       "id": "11",
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100056",
         "100057",
@@ -185,7 +167,7 @@
       "id": "19",
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100100",
         "100101",
@@ -338,7 +320,7 @@
       "id": "27",
       "title": "In Search of Lost Time",
       "author": "Marcel Proust",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100147",
         "100148"
@@ -950,26 +932,6 @@
       "description": "Blythe Connor wants to be the mother she never had, but when her daughter Violet is born, she struggles to connect. As disturbing behaviors emerge, Blythe begins to question whether Violet is simply difficult or something darker. This chilling psychological thriller explores generational trauma, the complexities of motherhood, and the haunting fear of being unheard. Ashley Audrain crafts a raw, gripping tale of maternal doubt, fractured families, and the devastating weight of secrets left unspoken."
     },
     {
-      "id": "60",
-      "title": "Matrix",
-      "author": "Lauren Groff",
-      "isAvailable": false,
-      "isbn": [
-        "100325",
-        "100326",
-        "100327",
-        "100328",
-        "100329",
-        "100330"
-      ],
-      "rent": 8,
-      "genre": "Historical Fiction",
-      "isPopular": false,
-      "rate": 4.8,
-      "cover": "https://m.media-amazon.com/images/I/71R4p7BzWAL._UF1000,1000_QL80_.jpg",
-      "description": "Set in the 12th century, 'Matrix' follows Marie de France, a cast-out noblewoman sent to live in an impoverished abbey. Rising from rejection, she transforms the abbey into a thriving community, reshaping the lives of women around her. Groff’s lyrical storytelling blends history and imagination, creating a portrait of spiritual devotion, leadership, and power. This is a bold, visionary novel about resilience, female solidarity, and the pursuit of purpose against the constraints of society."
-    },
-    {
       "id": "61",
       "title": "Cloud Cuckoo Land",
       "author": "Anthony Doerr",
@@ -982,7 +944,7 @@
         "100335"
       ],
       "rent": 10,
-      "genre": "Historical Fiction",
+      "genre": "Historical ",
       "isPopular": false,
       "rate": 4.8,
       "cover": "https://m.media-amazon.com/images/I/81v9cQmwTEL._UF1000,1000_QL80_.jpg",
@@ -1125,26 +1087,6 @@
       "description": "Linus Baker, a lonely caseworker for magical youth, is sent to evaluate a peculiar orphanage on a distant island. There he meets six extraordinary children and their enigmatic caretaker, Arthur Parnassus. As Linus grows close to them, he discovers a world of warmth, acceptance, and chosen family. Klune’s fantasy is both whimsical and profound, celebrating love, kindness, and the courage to be different."
     },
     {
-      "id": "70",
-      "title": "The Invisible Life of Addie LaRue",
-      "author": "V.E. Schwab",
-      "isAvailable": true,
-      "isbn": [
-        "100380",
-        "100381",
-        "100382",
-        "100383",
-        "100384",
-        "100385"
-      ],
-      "rent": 9,
-      "genre": "Fantasy",
-      "isPopular": false,
-      "rate": 4.4,
-      "cover": "https://m.media-amazon.com/images/I/813s9Q0mszL._UF1000,1000_QL80_.jpg",
-      "description": "In 1714 France, Addie LaRue makes a desperate bargain with a dark god: to live forever but be forgotten by everyone she meets. Spanning centuries and continents, her lonely existence changes when she meets a young man who remembers her name. Schwab’s lyrical novel is a haunting meditation on memory, love, identity, and the longing to leave a mark in a world that forgets us."
-    },
-    {
       "id": "71",
       "title": "The Four Winds",
       "author": "Kristin Hannah",
@@ -1243,39 +1185,22 @@
       "rate": 4.2,
       "cover": "https://m.media-amazon.com/images/I/91Nt5LU1auS._UF1000,1000_QL80_.jpg",
       "description": "At the height of World War II, three brilliant women are recruited to work as codebreakers at Bletchley Park. As they crack enemy messages and guard secrets, their bond grows stronger—until betrayal tears them apart. Years later, they must reunite to expose a traitor. Quinn’s novel is a captivating mix of history, espionage, and sisterhood, celebrating the courage and sacrifice of unsung heroines."
+    },
+    {
+      "id": "1757479866105",
+      "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+      "author": " Morgan Housel",
+      "genre": "Business & Economics",
+      "cover": "https://images.meesho.com/images/products/564734646/lfwp7_512.avif?width=512",
+      "rent": 5,
+      "isAvailable": true,
+      "isbn": [
+        "D45",
+        "D47"
+      ]
     }
   ],
   "members": [
-    {
-      "id": "3",
-      "name": "Charlie Brown",
-      "email": "charlie.brown@example",
-      "phone": "345-678-9012",
-      "membershipType": "Public",
-      "status": "Active",
-      "subscription": "Subscriber",
-      "joined": "16-10-2024",
-      "lastActive": "06-12-2024",
-      "photo": "https://i.pravatar.cc/50?img=3",
-      "issuedBooks": [
-        "25",
-        "21"
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Fiona Gallagher",
-      "email": "fiona.gallagher@example.com",
-      "phone": "678-901-2345",
-      "membershipType": "Public",
-      "status": "Active",
-      "joined": "12-02-2024",
-      "lastActive": "22-05-2024",
-      "photo": "https://i.pravatar.cc/50?img=6",
-      "issuedBooks": [
-        "23"
-      ]
-    },
     {
       "id": "8",
       "name": "Hannah Montana",
@@ -1287,7 +1212,8 @@
       "lastActive": "01-06-2024",
       "photo": "https://i.pravatar.cc/50?img=8",
       "issuedBooks": [
-        "15"
+        "15",
+        "11"
       ]
     },
     {
@@ -1305,18 +1231,6 @@
       ]
     },
     {
-      "id": "12",
-      "name": "Leonardo DiCaprio",
-      "email": "leonardo.dicaprio@example.com",
-      "phone": "234-567-8902",
-      "membershipType": "Public",
-      "status": "Active",
-      "joined": "10-05-2024",
-      "lastActive": "19-08-2024",
-      "photo": "https://i.pravatar.cc/50?img=12",
-      "issuedBooks": []
-    },
-    {
       "id": "13",
       "name": "Mia Wallace",
       "email": "mia.wallace@example.com",
@@ -1326,7 +1240,9 @@
       "joined": "15-05-2024",
       "lastActive": "01-09-2024",
       "photo": "https://i.pravatar.cc/50?img=13",
-      "issuedBooks": []
+      "issuedBooks": [
+        "27"
+      ]
     },
     {
       "id": "14",
