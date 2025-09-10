@@ -27,7 +27,6 @@
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
       "isAvailable": false,
-<<<<<<< HEAD
       "isbn": [
         "100056",
         "100057",
@@ -36,10 +35,8 @@
         "100060"
       ],
       "rent": "8",
-=======
       "isbn": ["100056", "100057", "100058", "100059", "100060"],
       "rent": 9,
->>>>>>> 16437d670dad32aa8176c0de22d735fb6176b156
       "genre": "Epic Poetry",
       "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg",
       "description": "The Divine Comedy by Dante Alighieri is a monumental epic poem tracing the soul’s journey through Hell, Purgatory, and Heaven. Guided first by the poet Virgil and later by Beatrice, Dante encounters sinners, penitents, and the blessed, each revealing moral and spiritual truths. With vivid imagery and deep symbolism, the poem blends theology, philosophy, and politics. It explores justice, salvation, and the human quest for divine love, remaining one of the greatest achievements in world literature."
