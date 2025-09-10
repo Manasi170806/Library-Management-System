@@ -21,7 +21,7 @@ function EditBookModal({ book, onClose }) {
     <div className="modal-overlay">
       <div className="modal-content">
         <h2>Edit Book</h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} style={{backgroundColor: "white"}}>
           <input value={title} onChange={(e) => setTitle(e.target.value)} />
           <input value={author} onChange={(e) => setAuthor(e.target.value)} />
           <input value={genre} onChange={(e) => setGenre(e.target.value)} />
