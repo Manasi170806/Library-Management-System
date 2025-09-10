@@ -127,20 +127,18 @@ function BookList() {
                     <td>{book.genre}</td>
                     <td>
                       {book.isAvailable ? (
-                        <span
-                          className="status-green"
-                          style={{ backgroundColor: "#F0F0F0" }}
-                        >
-                          Available
-                        </span>
+
+                        <span className="status-green" style={{backgroundColor: "#F9F9F9"}}>Available</span>
                       ) : (
-                        <span
-                          className="status-red"
-                          style={{ backgroundColor: "#F0F0F0" }}
-                        >
-                          Not Available
-                        </span>
+                        <span className="status-red" style={{ backgroundColor: "#F9F9F9" }}>Not Available</span>
                       )}
+                    </td>
+                    <td>
+                      {book.isAvailable
+                        ? `${book.isbn ? book.isbn.length : 0}/${
+                            book.isbn ? book.isbn.length : 0
+                          }`
+                        : `0/${book.isbn ? book.isbn.length : 0}`}
                     </td>
                     <td>
                       {book.isAvailable

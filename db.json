@@ -27,6 +27,14 @@
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
       "isAvailable": false,
+      "isbn": [
+        "100056",
+        "100057",
+        "100058",
+        "100059",
+        "100060"
+      ],
+      "rent": "8",
       "isbn": ["100056", "100057", "100058", "100059", "100060"],
       "rent": 9,
       "genre": "Epic Poetry",

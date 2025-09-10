@@ -3,6 +3,7 @@
   filter: blur(6px);
   pointer-events: none;
   transition: filter 0.3s ease-in-out;
+  
 }
 
 /* Overlay */
@@ -39,6 +40,7 @@
   font-weight: 600;
   color: #333;
   text-align: center;
+  background-color: white;
 }
 
 /* Form Inputs */
@@ -51,8 +53,7 @@
   font-size: 15px;
   outline: none;
   transition: all 0.25s ease;
-  background: #fafafa;
-}
+ background-color: white;}
 
 .modal-content form input:focus {
   border-color: #4cafef;
@@ -66,6 +67,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 12px;
+  background-color: white;
 }
 
 /* Buttons */
