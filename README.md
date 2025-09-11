@@ -1,54 +1,85 @@
-<h1>📚 Library Management System</h1>
+<h1>🏛️ Library Management System</h1>
 
-**🔑 Core Features**
+A comprehensive, modern, and user-friendly system to digitize and streamline all library operations.
 
-**1️⃣ Books Management**
+**📖 #BookManagement**
 
-Add, update, delete books
+Effortlessly manage the entire library catalog.
 
-Search & filter (title, author, genre)
+**➕ Add New Books:** Input full details (Title, Author, ISBN, Genre, Publisher, Year).
 
-Track availability (available, issued, reserved)
+**✏️ Update & Edit:** Modify book information with ease.
 
-**2️⃣ Member Management**
+**🗑️ Delete Books:** Remove books from the catalog with confirmation.
 
-Add, update, delete members
+**🔍 Advanced Search & Filter:** Find books by Title, Author, Genre, ISBN, or status.
 
-Search by name or ID
+**📊 Availability Status:** Real-time tracking (✅ Available, 📤 Issued, ⏳ Reserved).
 
-Membership types (student, faculty, public)
+**👥 #MemberManagemen**
+t
+Manage library members and their privileges.
 
-**3️⃣ Issue & Return**
+**➕ Register New Members:** Capture details (Name, ID, Contact, Type).
 
-Issue/return books with due dates
+**👤 Membership Tiers:**
 
-Auto status update (available/issued)
+🎓 Student (Longer borrowing periods)
 
-Prevent double issue
+👨‍🏫 Faculty (Higher book limits)
 
-Multiple books per member
+🌐 Public (Standard access)
 
-**4️⃣ Fine Management**
+**🔍 Search Members:** Find by Name, Member ID, or Contact.
 
-Auto fine calculation for late returns
+**✏️ Update Profiles:** Edit member information and status.
 
-Fine history per member
+**🗑️ Deactivate Members:** Remove members after clearing dues.
 
-Update after payment
+**🔄 #Transactions**
 
-**5️⃣ Reports & History**
+Seamless and controlled book lending and returns.
 
-Issued books (current & past)
+**📘 Issue Books:**
 
-Member-wise history
+Scan Member ID & Book ID.
 
-Popular books report
+Set smart due dates based on member type.
 
-Availability report
+🚫 Prevent issuing already issued/reserved books.
 
-**6️⃣ Admin Controls**
+**📗 Return Books:**
 
-Admin login (basic authentication)
+Automatic availability status update.
 
-Full CRUD on records
+⚠️ Flag late returns for fine calculation.
 
+🧾 Multi-Book Policy: Members can have multiple books issued at once.
+
+**📈 #Reports & #Analytics**
+
+Data-driven insights for better library management.
+
+**📚 Current Issued Books:** See all active transactions.
+
+**🕰️ Historical Records:** Archive of all past issues and returns.
+
+**👤 Member Activity Report:** View borrowing history of any member.
+
+**🔥 Popularity Report:** Top books by genre, author, and overall.
+
+**📉 Availability Report:** Stats on available vs. issued books.
+
+**🛡️ #Admin & #Security**
+
+Secure access and full control for administrators.
+
+**🔐 Admin Login:** Secure authentication system.
+
+**👨‍💼 Role-Based Access:** Different permissions for Librarians vs. Admins.
+
+**⚙️ Full CRUD Operations:** Create, Read, Update, Delete all records.
+
+**💾 Data Backup & Restore:** Safeguard all library data.
+
+**Output Video :** https://drive.google.com/file/d/1dceSznuKcQNYH4FwmkACOyiI1aQwGV43/view?usp=sharing
