@@ -1,40 +1,6 @@
 {
   "books": [
     {
-      "id": "9",
-      "title": "The Odyssey",
-      "author": "Homer",
-      "isAvailable": false,
-      "isbn": [
-        "100045",
-        "100046",
-        "100047",
-        "100048",
-        "100049"
-      ],
-      "rent": "3",
-      "genre": "Epic Poetry",
-      "cover": "https://m.media-amazon.com/images/I/81kLSHHjn-L._UF1000,1000_QL80_.jpg",
-      "description": "The Odyssey by Homer is a foundational epic poem of ancient Greece. It tells the story of Odysseus, who struggles for years to return home after the Trojan War. Facing gods, monsters, and perilous adventures, Odysseus must rely on wit, courage, and resilience. Meanwhile, his wife Penelope and son Telemachus await his return. The poem explores loyalty, perseverance, and the power of destiny. Rich with mythology and timeless themes, it remains one of literature’s greatest heroic journeys."
-    },
-    {
-      "id": "11",
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "isAvailable": false,
-      "isbn": [
-        "100056",
-        "100057",
-        "100058",
-        "100059",
-        "100060"
-      ],
-      "rent": 9,
-      "genre": "Epic Poetry",
-      "cover": "https://m.media-amazon.com/images/I/51i-9SGWr-L._UF894,1000_QL80_.jpg",
-      "description": "The Divine Comedy by Dante Alighieri is a monumental epic poem tracing the soul’s journey through Hell, Purgatory, and Heaven. Guided first by the poet Virgil and later by Beatrice, Dante encounters sinners, penitents, and the blessed, each revealing moral and spiritual truths. With vivid imagery and deep symbolism, the poem blends theology, philosophy, and politics. It explores justice, salvation, and the human quest for divine love, remaining one of the greatest achievements in world literature."
-    },
-    {
       "id": "12",
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
@@ -108,7 +74,7 @@
       "id": "16",
       "title": "The Iliad",
       "author": "Homer",
-      "isAvailable": true,
+      "isAvailable": false,
       "isbn": [
         "100083",
         "100084",
@@ -128,7 +94,7 @@
       "id": "17",
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
-      "isAvailable": false,
+      "isAvailable": true,
       "isbn": [
         "100089",
         "100090",
@@ -1227,7 +1193,7 @@
       "lastActive": "22-07-2024",
       "photo": "https://i.pravatar.cc/50?img=10",
       "issuedBooks": [
-        "17"
+        "16"
       ]
     },
     {
