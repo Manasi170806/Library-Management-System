@@ -16,8 +16,9 @@ Effortlessly manage the entire library catalog.
 
 **📊 Availability Status:** Real-time tracking (✅ Available, 📤 Issued, ⏳ Reserved).
 
-**👥 #MemberManagemen**
-t
+**👥 #MemberManagement**
+
+
 Manage library members and their privileges.
 
 **➕ Register New Members:** Capture details (Name, ID, Contact, Type).
@@ -38,9 +39,11 @@ Manage library members and their privileges.
 
 **🔄 #Transactions**
 
+
 Seamless and controlled book lending and returns.
 
 **📘 Issue Books:**
+
 
 Scan Member ID & Book ID.
 
@@ -50,6 +53,7 @@ Set smart due dates based on member type.
 
 **📗 Return Books:**
 
+
 Automatic availability status update.
 
 ⚠️ Flag late returns for fine calculation.
@@ -57,6 +61,7 @@ Automatic availability status update.
 🧾 Multi-Book Policy: Members can have multiple books issued at once.
 
 **📈 #Reports & #Analytics**
+
 
 Data-driven insights for better library management.
 
@@ -71,6 +76,7 @@ Data-driven insights for better library management.
 **📉 Availability Report:** Stats on available vs. issued books.
 
 **🛡️ #Admin & #Security**
+
 
 Secure access and full control for administrators.
 
