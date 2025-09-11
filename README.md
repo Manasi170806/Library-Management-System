@@ -16,12 +16,14 @@ Effortlessly manage the entire library catalog.
 
 **📊 Availability Status:** Real-time tracking (✅ Available, 📤 Issued, ⏳ Reserved).
 
+
 **👥 #MemberManagement**
 
 
 Manage library members and their privileges.
 
 **➕ Register New Members:** Capture details (Name, ID, Contact, Type).
+
 
 **👤 Membership Tiers:**
 
@@ -37,6 +39,7 @@ Manage library members and their privileges.
 
 **🗑️ Deactivate Members:** Remove members after clearing dues.
 
+
 **🔄 #Transactions**
 
 
@@ -50,6 +53,7 @@ Scan Member ID & Book ID.
 Set smart due dates based on member type.
 
 🚫 Prevent issuing already issued/reserved books.
+
 
 **📗 Return Books:**
 
@@ -65,6 +69,7 @@ Automatic availability status update.
 
 Data-driven insights for better library management.
 
+
 **📚 Current Issued Books:** See all active transactions.
 
 **🕰️ Historical Records:** Archive of all past issues and returns.
@@ -74,6 +79,7 @@ Data-driven insights for better library management.
 **🔥 Popularity Report:** Top books by genre, author, and overall.
 
 **📉 Availability Report:** Stats on available vs. issued books.
+
 
 **🛡️ #Admin & #Security**
 
